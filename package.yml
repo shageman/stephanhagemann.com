@@ -9,3 +9,8 @@ enforce_dependencies: true
 # Note that packages in this list require their own `package.yml` file
 # dependencies:
 # - "packages/billing"
+
+dependencies:
+- packs/root
+- packs/speaking
+- packs/books
