@@ -1,0 +1,26 @@
+<%-
+    @containerClass = "content-margin-top"
+    @activeSection = 'books'
+    @header = 'Books'
+    @title = "Stephan Hagemann's Books"
+    @descriptionLink = "<a href='/contact/?subject=Books'>Talk to me about books!</a>"
+    @pageClass = "dark-theme theme-blue"
+    @containerClass = "content-margin-top"
+-%>
+
+{%- for item in collections.books | sortByDate | reverse -%}
+  <div style="display:flex; flex-direction: row">
+    <div style="flex: 1">
+      <img style="width: auto; height: 100px; padding-right: 20px; padding-top: 10px; display: inline-block;" src="{{ item.data.cover_image }}" />
+    </div>
+    <div style="flex: 4;">
+      <h2 style="margin-top: 12px; padding-top: 0; margin-bottom: 0; font-size: 20px">
+        <a href="{{ item.url }}">
+          {{ item.data.title | orphanWrap | safe }}
+        </a>
+      </h2>
+      {{item.data.date | dateDisplay("year")}}
+    </div>
+  </div>
+{%- endfor -%}
+jajaj
