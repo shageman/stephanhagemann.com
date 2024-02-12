@@ -10,6 +10,7 @@ gem "packwerk"
 gem "puma"
 gem "rails"
 gem "slim-rails"
+gem 'sass-rails'
 gem "sprockets-rails"
 gem "sqlite3"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
