@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="{{ pageClass }}">
   <head>
-    <title>StephanhagemannCom</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-  </head>
 
+    <link rel="preload" href="/fonts/placardmtstd-cond-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    {% if imageCarousel %}
+    <script src="js/main.js"></script>
+    {% endif %}
+    <link rel="stylesheet" href="/css/main.css"/>
+
+    <title>{%- if title -%}{{ title }} - {%- endif -%}{{metadata.domain}}</title>
+
+    <meta name="description" content="{{metadata.summary}}"/>
+
+    <link rel="alternate" href="/feed.xml" title="{{metadata.domain}} blog feed, by Stephan Hagemann" type="application/atom+xml" />
+    <link rel="webmention" href="https://webmention.io/stephanhagemann.com/webmention" />
+    <link rel="pingback" href="https://webmention.io/stephanhagemann.com/xmlrpc" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content=https://twitter.com/shageman />
+    <meta name="twitter:title" content="{{ cardTitle if cardTitle else title }}" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="{{metadata.domain}}" />
+    <meta name="twitter:image" content="{{metadata.url}}/images/favicon_io/apple-touch-icon.png" />
+
+    <meta property="og:url" content="{{metadata.url}}{{page.url}}" />
+    <meta property="og:title" content="{{ cardTitle if cardTitle else title }}" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="{{metadata.url}}/images/favicon_io/apple-touch-icon.png" />
+
+    <link rel="shortcut icon" href="/images/favicon_io/favicon.ico">
+  </head>
   <body>
-    <%= yield %>
+    <div id="sidebar" class="sidebar">
+      <header>
+        <div class="sidebar-container">
+          <ul class="nav">
+            <li {% if page.url | activeSection == 'root' %} aria-current="page"{% endif %}>
+              <a href="/" class="home">Stephan Hagemann</a>
+            </li>
+            <li {% if page.url | activeSection == 'posts' %} aria-current="page"{% endif %}>
+              <a href="/posts">posts</a>
+            </li>
+            <li {% if page.url | activeSection == 'books' %} aria-current="page"{% endif %}>
+              <a href="/books">books</a>
+            </li>
+            <li {% if page.url | activeSection == 'speaking' %} aria-current="page"{% endif %}>
+              <a href="/speaking/">speaking</a>
+            </li>
+            <a href="/more/">..and more</a>
+          </ul>
+          <div class="page-details">
+          {% block sidebar %}
+          {% endblock %}
+          </div>
+        </div>
+      </header>
+      <div class="image-credits">
+		    <p id="image-credits"></p>
+	    </div>
+    </div>
+    <div class="main">
+      <div class="container {{ containerClass }}">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
+
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_lAAi1bGHg6ClcmypMmFEy8jmtjA8btvi7ui9KDlHeIh',{api_host:'https://app.posthog.com'})
+</script>
