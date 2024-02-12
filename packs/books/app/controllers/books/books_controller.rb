@@ -9,8 +9,6 @@ class Books::BooksController < ApplicationController
 
   def show
     @book = Books::Book.find(params[:id])
-
-    render layout: 'layouts/books/book'
   end
 
   private
