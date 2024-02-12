@@ -19,7 +19,7 @@
     <a class="btn" href="/contact/?subject=Speaking+Inquiry">Ask me to speak at your event</a>
   </p>
 
-  <%= render partial: 'speaking/youtube', locals: { video_id: 'EypRSLfKvak', title: 'Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann' } %>
+  <%= render partial: 'speaking/speaking/youtube', locals: { video_id: 'EypRSLfKvak', title: 'Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann' } %>
 </section>
 
 <section>
@@ -28,7 +28,7 @@
   <div id="upcomingEvents" class="card-list">
     <% if @upcoming_talks.size > 0 %>
       <% @upcoming_talks.each do |talk| %>
-        <%= render partial: 'speaking/talk', locals: { talk: talk } %>
+        <%= render partial: 'speaking/speaking/talk', locals: { talk: talk } %>
       <% end %>
     <% else %>
       <p>Stay tuned for future talks!</p>
@@ -42,7 +42,7 @@
   <div id="pastEvents" class="card-list">
     <% if @past_talks.size > 0 %>
       <% @past_talks.each do |talk| %>
-        <%= render partial: 'speaking/talk', locals: { talk: talk } %>
+        <%= render partial: 'speaking/speaking/talk', locals: { talk: talk } %>
       <% end %>
     <% else %>
       <p>Nothing ever happened.</p>

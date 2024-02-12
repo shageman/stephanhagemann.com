@@ -1,1 +1,1 @@
-resources :speaking, only: [:index]
+resources :speaking, only: [:index], controller: 'speaking/speaking'

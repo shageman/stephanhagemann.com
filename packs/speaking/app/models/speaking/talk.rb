@@ -1,7 +1,7 @@
-class Talk < ActiveHash::Base
+class Speaking::Talk < ActiveHash::Base
   include ActiveHash::Associations
-  belongs_to :deck
-  belongs_to :event
+  belongs_to :deck, class_name: "Speaking::Deck"
+  belongs_to :event, class_name: "Speaking::Event"
 
   self.data = [
     {

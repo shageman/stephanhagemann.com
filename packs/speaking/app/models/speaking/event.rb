@@ -1,7 +1,4 @@
-class Event < ActiveHash::Base
-  include ActiveHash::Associations
-  has_one :talk
-
+class Speaking::Event < ActiveHash::Base
   self.data = [
     {
       id: 1,

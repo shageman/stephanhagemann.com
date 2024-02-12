@@ -1,4 +1,4 @@
-class Book < ActiveHash::Base
+class Books::Book < ActiveHash::Base
   self.data = [
     {
       id: 1,

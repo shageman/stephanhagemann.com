@@ -1,7 +1,4 @@
-class Deck < ActiveHash::Base
-  include ActiveHash::Associations
-  has_one :talk
-
+class Speaking::Deck < ActiveHash::Base
   self.data = [
     {
       id: 1,

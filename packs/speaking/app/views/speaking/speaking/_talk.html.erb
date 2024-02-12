@@ -19,7 +19,7 @@
       <%= raw talk.deck.description  %>
 
       <% if talk.video_id %>
-        <%= render partial: 'speaking/youtube', locals: { video_id: talk.video_id, title: talk.video_title } %>
+        <%= render partial: 'speaking/speaking/youtube', locals: { video_id: talk.video_id, title: talk.video_title } %>
       <% end %>
     </p>
 
