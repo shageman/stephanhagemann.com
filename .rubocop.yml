@@ -1,0 +1,10 @@
+AllCops:
+  DisabledByDefault: true
+  SuggestExtensions: false
+
+require:
+  - rubocop-packs
+
+inherit_gem:
+  rubocop-packs:
+    - config/default.yml

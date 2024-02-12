@@ -18,6 +18,8 @@ gem 'tzinfo-data', platforms: %i[ windows jruby ]
 
 group :development do
   gem 'web-console'
+  gem 'rubocop-packs', require: false
+  gem 'rubocop', require: false
 end
 
 gem 'redcarpet', '~> 3.6'
