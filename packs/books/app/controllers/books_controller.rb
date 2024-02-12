@@ -16,6 +16,6 @@ class BooksController < ApplicationController
   private
 
   def set_section
-    @activeSection = 'books'
+    @active_section = 'books'
   end
 end
