@@ -1,0 +1,1 @@
+resources :speaking, only: [:index]

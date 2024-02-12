@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   draw(:root)
 
   draw(:books)
+  draw(:speaking)
 end

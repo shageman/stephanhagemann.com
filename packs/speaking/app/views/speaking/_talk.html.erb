@@ -1,0 +1,33 @@
+<article class="event-item">
+  <h3><a href="<%= talk.event.conference_url  %>"><%= talk.event.conference  %></a></h3>
+  <div class="event-location">
+    <img src="/images/map-marker-alt.svg" width="12" height="16" alt=""><%= talk.event.location  %>
+  </div>
+
+  <details>
+    <summary>
+      <span class="event-date">
+        <% if talk.date %>
+          <%= Date.parse(talk.date).strftime("%B %d, %Y")  %>
+        <% else %>
+          Date: TBD
+        <% end %>
+      </span>
+      <%= talk.deck.title  %>
+    </summary>
+    <p>
+      <%= raw talk.deck.description  %>
+
+      <% if talk.video_id %>
+        <%= render partial: 'speaking/youtube', locals: { video_id: talk.video_id, title: talk.video_title } %>
+      <% end %>
+    </p>
+
+    <% if talk.deck.speakerdeck_slide_link %>
+    <p>
+      <a href="https://speakerdeck.com/shagemann/<%= talk.deck.speakerdeck_slide_link  %>">slides on speakerdeck</a>
+      <%= raw talk.deck.speakerdeck_slide_embed %>
+    </p>
+    <% end %>
+  </details>
+</article>

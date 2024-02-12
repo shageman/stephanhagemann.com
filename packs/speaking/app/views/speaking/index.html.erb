@@ -1,0 +1,51 @@
+<%
+  @title = "Stephan Hagemann's speaking history and schedule"
+  @header = "Speaking"
+  @description = "Occasionally."
+  @description_link = "<a href='/contact/?subject=Speaking+Inquiry'>Ask me to speak at your event</a>"
+  @page_description = "Covereage of Stephan Hagemann's previous conference talks, and listing of where he will be speaking next."
+  @page_class = "dark-theme theme-blue"
+  @layout = "layouts/page.njk"
+%>
+
+<script src="/js/lite-yt-embed.js"></script>
+
+<section>
+  <p>I speak about technical stuff that I believe to have a unique contribution to.</p>
+
+  <p>Want me to speak at one of your events? <a href="/contact/?subject=Speaking+Inquiry">Send me a message</a>!</p>
+
+  <p style="text-align: center;">
+    <a class="btn" href="/contact/?subject=Speaking+Inquiry">Ask me to speak at your event</a>
+  </p>
+
+  <%= render partial: 'speaking/youtube', locals: { video_id: 'EypRSLfKvak', title: 'Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann' } %>
+</section>
+
+<section>
+  <h2>Upcoming Events</h2>
+
+  <div id="upcomingEvents" class="card-list">
+    <% if @upcoming_talks.size > 0 %>
+      <% @upcoming_talks.each do |talk| %>
+        <%= render partial: 'speaking/talk', locals: { talk: talk } %>
+      <% end %>
+    <% else %>
+      <p>Stay tuned for future talks!</p>
+    <% end %>
+  </div>
+</section>
+
+<section>
+  <h2>Past Events</h2>
+
+  <div id="pastEvents" class="card-list">
+    <% if @past_talks.size > 0 %>
+      <% @past_talks.each do |talk| %>
+        <%= render partial: 'speaking/talk', locals: { talk: talk } %>
+      <% end %>
+    <% else %>
+      <p>Nothing ever happened.</p>
+    <% end %>
+  </div>
+</section>
