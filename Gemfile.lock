@@ -335,14 +335,13 @@ DEPENDENCIES
   packwerk-extensions
   puma
   rails
-  redcarpet (~> 3.6)
+  redcarpet
   rubocop
   rubocop-packs
   sass-rails
   slim-rails
   sprockets-rails
   sqlite3
-  tzinfo-data
   web-console
 
 RUBY VERSION

@@ -10,16 +10,11 @@ gem 'packwerk-extensions'
 gem 'packwerk'
 gem 'puma'
 gem 'rails'
+gem 'redcarpet'
+gem 'rubocop-packs', require: false, group: %w(development test)
+gem 'rubocop', require: false, group: %w(development test)
 gem 'sass-rails'
 gem 'slim-rails'
 gem 'sprockets-rails'
 gem 'sqlite3'
-gem 'tzinfo-data', platforms: %i[ windows jruby ]
-
-group :development do
-  gem 'web-console'
-  gem 'rubocop-packs', require: false
-  gem 'rubocop', require: false
-end
-
-gem 'redcarpet', '~> 3.6'
+gem 'web-console', group: %w(development)
