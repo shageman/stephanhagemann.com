@@ -1,3 +1,4 @@
 enforce_dependencies: strict
 dependencies:
 - packs/rails_shims
+enforce_privacy: strict
