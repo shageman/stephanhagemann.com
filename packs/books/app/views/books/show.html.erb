@@ -1,0 +1,33 @@
+<%-
+  @containerClass = "content-margin-top"
+-%>
+
+<% content_for :sidebar do %>
+  <h1><%= @book.title %></h1>
+  <p><%= raw @book.description %></p>
+
+  <%- if @book.load_stripe -%>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+    <%- @book.payment_links.each do |button| -%>
+      <div style="margin-top:16px">
+        <stripe-buy-button
+          buy-button-id="<%= button[:id] %>"
+          publishable-key="<%= button[:key] %>"
+        >
+        </stripe-buy-button>
+        <br>
+        <%= raw button[:notes] %>
+      </div>
+    <%- end -%>
+  <%- end -%>
+<% end %>
+
+<div class="blog-list-item">
+  <h2><a href="<%= @book.amazon_link %>" target="_blank"><%= @book.title %></a></h2>
+  <h3><%= @book.authors %></h3>
+  <p class="by-line"><%= Date.parse(@book.date).strftime("%B %d, %Y") %></p>
+  <img style="width: 200px; height: auto; float: left; padding-right: 20px; padding-top: 10px;" src="<%= @book.cover_image %>" />
+  <div class="grab">
+    <%= raw @markdown.render(@book.content) %>
+  </div>
+</div>
