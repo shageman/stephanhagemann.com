@@ -1,0 +1,11 @@
+<% content_for :sidebar do -%>
+  <%- if @header -%>
+    <h1><%= @header %></h1>
+  <%- elsif @title -%>
+    <h1><%= @title %></h1>
+  <%- end -%>
+  <p><%= raw @description %></p>
+  <p><%= raw @descriptionLink %></p>
+<% end -%>
+
+<%= render template: "layouts/application" %>
