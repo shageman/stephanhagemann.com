@@ -39,19 +39,21 @@
       <header>
         <div class="sidebar-container">
           <ul class="nav">
-            <li {% if page.url | activeSection == 'root' %} aria-current="page"{% endif %}>
+            <li <% if @activeSection == 'root' %> aria-current="page"<% end %>>
               <a href="/" class="home">Stephan Hagemann</a>
             </li>
-            <li {% if page.url | activeSection == 'posts' %} aria-current="page"{% endif %}>
+            <li <% if @activeSection == 'posts' %> aria-current="page"<% end %>>
               <a href="/posts">posts</a>
             </li>
-            <li {% if page.url | activeSection == 'books' %} aria-current="page"{% endif %}>
+            <li <% if @activeSection == 'books' %> aria-current="page"<% end %>>
               <a href="/books">books</a>
             </li>
-            <li {% if page.url | activeSection == 'speaking' %} aria-current="page"{% endif %}>
+            <li <% if @activeSection == 'speaking' %> aria-current="page"<% end %>>
               <a href="/speaking/">speaking</a>
             </li>
-            <a href="/more/">..and more</a>
+            <li <% if @activeSection == 'more' %> aria-current="page"<% end %>>
+              <a href="/more/">..and more</a>
+            </li>
           </ul>
           <div class="page-details">
           <%= yield :sidebar %>
