@@ -29,3 +29,7 @@ require:
   - packwerk/visibility/checker
   - packwerk/folder_visibility/checker
   - packwerk/architecture/checker
+
+architecture_layers:
+  - user-facing
+  - utility

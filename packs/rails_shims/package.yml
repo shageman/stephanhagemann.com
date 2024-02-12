@@ -1,2 +1,4 @@
 enforce_dependencies: strict
 enforce_privacy: strict
+enforce_architecture: strict
+layer: utility
