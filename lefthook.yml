@@ -8,7 +8,8 @@ pre-commit:
     structure-check:
       run: bin/packwerk check
     structure-visualize:
-      run: visualize_packs > packs.dot && dot packs.dot -Tpng -o packs.png && git add packs.dot
+      run: visualize_packs > packs.dot && dot packs.dot -Tpng -o packs.png
+      stage_fixed: true
     backend-linter:
       files: bin/rubocop
     console-works:
