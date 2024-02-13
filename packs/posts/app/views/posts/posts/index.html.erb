@@ -1,0 +1,20 @@
+<%
+  @title = "Stephan Hagemann's posts"
+  @header = "Posts"
+  @description = "Rarely."
+  @description_link = '<a href="/contact/?subject=Ask me anything">Ask me anything</a>'
+  @page_class = "dark-theme theme-blue"
+  @container_class = "content-margin-top"
+%>
+
+<% @posts.each do |post| %>
+<div class="blog-list-item">
+
+  <h2><%= link_to(post.header || post.title, post_path(post)) %></h2>
+
+  <div class="grab">
+  <%= raw @markdown.render(post.teaser) %>
+  </div>
+  <p class="by-line"><%= post.date %></p>
+</div>
+<% end %>

@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   draw(Books::Config::ROUTE_FILE_NAME)
   draw(Contact::Config::ROUTE_FILE_NAME)
+  draw(Posts::Config::ROUTE_FILE_NAME)
   draw(Speaking::Config::ROUTE_FILE_NAME)
 end
