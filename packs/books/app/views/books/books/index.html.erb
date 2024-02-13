@@ -13,9 +13,7 @@
     </div>
     <div style="flex: 4;">
       <h2 style="margin-top: 12px; padding-top: 0; margin-bottom: 0; font-size: 20px">
-        <a href="<%=  book_path(book) %>">
-          <%= book.title %>
-        </a>
+        <%= link_to book.title, book_path(book)%>
       </h2>
       <%= Date.parse(book.date).year %>
     </div>

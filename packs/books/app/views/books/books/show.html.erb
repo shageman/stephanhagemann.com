@@ -23,9 +23,10 @@
 <% end %>
 
 <div class="blog-list-item">
-  <h2><a href="<%= @book.amazon_link %>" target="_blank"><%= @book.title %></a></h2>
+  <h2><%= @book.title %></h2>
   <h3><%= @book.authors %></h3>
   <p class="by-line"><%= Date.parse(@book.date).strftime("%B %d, %Y") %></p>
+  <p><%= link_to "Buy it!", @book.amazon_link, target: "_blank" %>
   <img style="width: 200px; height: auto; float: left; padding-right: 20px; padding-top: 10px;" src="<%= @book.cover_image %>" />
   <div class="grab">
     <%= raw @markdown.render(@book.content) %>
