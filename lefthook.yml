@@ -2,6 +2,7 @@ pre-push:
   parallel: true
 
 pre-commit:
+  parallel: true
   commands:
     structure-validate-config:
       run: bin/packwerk validate
