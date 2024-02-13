@@ -1,19 +1,30 @@
 pre-push:
   parallel: true
 
+skip_output:
+  - empty_summary
+  - execution
+  - execution_out
+  - execution_info
+
 pre-commit:
   parallel: true
   commands:
     structure-validate-config:
+      glob: '{**/*,*}'
       run: bin/packwerk validate
     structure-check:
+      glob: '{**/*,*}'
       run: bin/packwerk check
     structure-visualize:
+      glob: '{**/*,*}'
       run: visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
       stage_fixed: true
     backend-linter:
-      files: bin/rubocop --autocorrect --force-exclusion
+      run: bin/rubocop --autocorrect --force-exclusion
     tests:
-      files: bin/rspec
+      glob: '{**/*,*}'
+      run: bin/rspec {files} --format documentation && exit 1
     console-works:
-      files: echo "puts Speaking::Talk.count" | bin/rails c 
+      glob: '{**/*,*}'
+      run: echo "puts Speaking::Talk.count" | bin/rails c 

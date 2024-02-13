@@ -11,14 +11,6 @@ lefthook install
 bin/rails s
 ```
 
-## Before Commits
-
-Before commit run the following to validate you have no issues:
-
-```
-lefthook run pre-commit --force
-```
-
 ## Visualize Structure
 
 ```
