@@ -39,21 +39,11 @@
       <header>
         <div class="sidebar-container">
           <ul class="nav">
-            <li <% if @layout_params.active_section == 'root' %> aria-current="page"<% end %>>
-              <a href="/" class="home">Stephan Hagemann</a>
-            </li>
-            <li <% if @layout_params.active_section == 'posts' %> aria-current="page"<% end %>>
-              <a href="/posts">posts</a>
-            </li>
-            <li <% if @layout_params.active_section == 'books' %> aria-current="page"<% end %>>
-              <%= link_to('books', Books::Config.entrypoint_path) %>
-            </li>
-            <li <% if @layout_params.active_section == 'speaking' %> aria-current="page"<% end %>>
-              <a href="/speaking/">speaking</a>
-            </li>
-            <li <% if @layout_params.active_section == 'more' %> aria-current="page"<% end %>>
-              <a href="/more/">..and more</a>
-            </li>
+            <% RailsShims::MenuItems.instance.each do |mi| %>
+              <li <% if @layout_params.active_section == mi.section %> aria-current="page"<% end %>>
+                <%= link_to mi.text, mi.path.(), class: mi.class_name %>
+              </li>
+            <% end %>
           </ul>
           <div class="page-details">
           <%= yield :sidebar %>
