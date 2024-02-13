@@ -19,10 +19,10 @@ pre-commit:
     structure-visualize:
       glob: '*'
       run: echo {all_files} > /dev/null && visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
-      stage_fixed: true
     backend-linter:
       glob: "*.rb"
-      run: bin/rubocop {all_files}
+      run: bin/rubocop {all_files} --autocorrect
+      stage_fixed: true
     tests:
       glob: '*'
       run: echo {all_files} > /dev/null && bin/rspec
