@@ -1,0 +1,61 @@
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'root',
+    title: "Stephan Hagemann's services",
+    header: "Services",
+    description: "Let's talk about what's possible!",
+    description_link: link_to('Send me a note about your project!', Contact::Config.entrypoint_path('Services Inquiry')),
+    container_class: 'centered-container',
+    page_class: "dark-theme theme-blue",
+  )
+%>
+
+<section>
+
+<h2>Book Clubs for Gradual Modularization for Ruby and Rails</h2>
+
+<p>
+  <a href="/books/gradual-modularization">Let's read the book together, discuss its themes, and their applicability for your organization!</a>
+</p>
+
+<h2>Software Modularization Talks and Consulting</h2>
+
+<p>
+  Software components are a great way to make your applications more maintainable. They aren’t just
+  a step on the path towards services. You can and should use them together. As part of my work on
+  component- and package-based architectures, I have developed <a href="https://speakerdeck.com/shagemann">quite a few
+  talks</a> on the subject. This can be combined well with consulting specific to the situation you are in right now.
+</p>
+<p>
+  <a href="/contact/?subject=Services+Inquiry">Ask me to talk to your team!</a>
+</p>
+
+<h3>Some testimonials</h3>
+<ul class="testimonials">
+  <li>
+    <blockquote>Stephan helped us take the leap from ‘what is Packwerk’ to ‘how do we implement Packwerk’ to ‘how can we make a difference with this, organizationally.’</blockquote>
+  </li>
+  <li>
+    <blockquote>It was great to hear real stories of how the ideas and practices to decouple in context of an organization that is continually shipping and growing.</blockquote>
+  </li>
+</ul>
+
+<h3>Companies</h3>
+<ul class="connected-companies">
+  <li><a href="https://18f.gsa.gov/">18F / USCIS</a></li>
+  <li><a href="https://www.procaresoftware.com/">Procare Solutions</a></li>
+  <li><a href="https://www.procore.com/">Procore</a></li>
+  <li><a href="https://www.shopify.com/">Shopify</a></li>
+</ul>
+
+<h2>Rails Application Architecture Review</h2>
+<p>
+  Rails applications that have grown for a number of years often
+  exhibit similar symptoms of fatigue. The good news is that diligent engineering work will be able to
+  fix this over time. Let’s dig in to the details of your application and find a way forward!
+</p>
+<p>
+  <a href="/contact/?subject=Services+Inquiry">Let's take an honest look at your application together!</a>
+</p>
+
+</section>

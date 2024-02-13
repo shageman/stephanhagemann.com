@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   draw(Contact::Config::ROUTE_FILE_NAME)
   draw(Posts::Config::ROUTE_FILE_NAME)
   draw(Speaking::Config::ROUTE_FILE_NAME)
+  draw(Services::Config::ROUTE_FILE_NAME)
 end

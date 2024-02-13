@@ -81,6 +81,18 @@ digraph package_diagram {
               >
           ]
         
+        "packs/services" [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> packs/services </td> </tr>
+                  </table>
+                  </td></tr>
+                  </table>
+              >
+          ]
+        
         "packs/speaking" [
             fontsize=12.0
             label= <
@@ -118,6 +130,7 @@ digraph package_diagram {
               "packs/contact" -> "packs/rails_shims" [ style=invis ]
               "packs/posts" -> "packs/rails_shims" [ style=invis ]
               "packs/root" -> "packs/rails_shims" [ style=invis ]
+              "packs/services" -> "packs/rails_shims" [ style=invis ]
               "packs/speaking" -> "packs/rails_shims" [ style=invis ]
     subgraph NotInLayer {
       shape=box
@@ -134,6 +147,8 @@ digraph package_diagram {
           "packs/root" -> "packs/books" [ color=darkgreen ]
           "packs/root" -> "packs/contact" [ color=darkgreen ]
           "packs/root" -> "packs/rails_shims" [ color=darkgreen ]
+          "packs/services" -> "packs/contact" [ color=darkgreen ]
+          "packs/services" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/speaking" -> "packs/contact" [ color=darkgreen ]
           "packs/speaking" -> "packs/rails_shims" [ color=darkgreen ]
     subgraph cluster_legend {
