@@ -1,1 +1,1 @@
-resources :posts, only: [:index, :show], controller: 'posts/posts'
+resources :posts, only: [:index, :show], controller: "posts/posts"

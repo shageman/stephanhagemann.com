@@ -1,4 +1,4 @@
-require 'singleton'
+require "singleton"
 
 class RailsShims::MenuItems
   include Singleton

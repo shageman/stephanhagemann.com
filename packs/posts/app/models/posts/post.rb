@@ -1,4 +1,4 @@
-require 'yaml'
+require "yaml"
 
 class Posts::Post < ActiveFile::Base
   def self.load_file
@@ -17,10 +17,10 @@ class Posts::Post < ActiveFile::Base
         filename: fn,
         date: fn.match(/\b(\d{4}-\d{2}-\d{2})\b/)[1],
         header: nil,
-        title: header_info['title'],
-        teaser: markdown_content.split('<!--more-->')[0],
+        title: header_info["title"],
+        teaser: markdown_content.split("<!--more-->")[0],
         content: markdown_content,
-        tags: header_info['tags'],
+        tags: header_info["tags"],
       }
       puts entry
       result << entry
@@ -34,7 +34,7 @@ class Posts::Post < ActiveFile::Base
   end
 
   use_multiple_files
-  set_filenames *Dir.glob(File.expand_path(File.join(__FILE__, '../data/*.md'))).sort.select { |f| File.file?(f) }
+  set_filenames *Dir.glob(File.expand_path(File.join(__FILE__, "../data/*.md"))).sort.select { |f| File.file?(f) }
 
   def reading_time
     wpm = 265

@@ -1,1 +1,1 @@
-resources :contact, only: [:index], controller: 'contact/contact'
+resources :contact, only: [:index], controller: "contact/contact"

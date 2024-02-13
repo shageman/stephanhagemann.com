@@ -1,2 +1,2 @@
 
-resources :books, only: [:index, :show], controller: 'books/books'
+resources :books, only: [:index, :show], controller: "books/books"
