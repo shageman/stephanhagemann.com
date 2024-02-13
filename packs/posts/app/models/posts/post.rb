@@ -22,7 +22,7 @@ class Posts::Post < ActiveFile::Base
         content: markdown_content,
         tags: header_info["tags"],
       }
-      puts entry
+
       result << entry
     end
 

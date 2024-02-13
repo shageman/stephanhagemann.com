@@ -2,4 +2,7 @@ enforce_dependencies: strict
 enforce_privacy: strict
 enforce_architecture: strict
 
+dependencies:
+- packs/nav_bar
+
 layer: utility

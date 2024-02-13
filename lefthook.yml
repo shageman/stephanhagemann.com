@@ -13,5 +13,7 @@ pre-commit:
       stage_fixed: true
     backend-linter:
       files: bin/rubocop
+    tests:
+      files: bin/rspec
     console-works:
       files: echo "puts Speaking::Talk.count" | bin/rails c 
