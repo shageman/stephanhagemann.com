@@ -46,7 +46,7 @@
               <a href="/posts">posts</a>
             </li>
             <li <% if @active_section == 'books' %> aria-current="page"<% end %>>
-              <a href="/books">books</a>
+              <%= link_to('books', Books::Config.entrypoint_path) %>
             </li>
             <li <% if @active_section == 'speaking' %> aria-current="page"<% end %>>
               <a href="/speaking/">speaking</a>
