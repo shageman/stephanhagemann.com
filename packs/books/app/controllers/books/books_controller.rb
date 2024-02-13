@@ -8,7 +8,7 @@ class Books::BooksController < ApplicationController
   end
 
   def show
-    @book = Books::Book.find(params[:id])
+    @book = Books::Book.find_by_slug(params[:id])
   end
 
   private

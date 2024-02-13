@@ -1,7 +1,12 @@
 class Books::Book < ActiveHash::Base
+  def to_param
+    slug
+  end
+
   self.data = [
     {
       id: 1,
+      slug: "web20",
       title: "Unleashing Web 2.0: From Concepts to Creativity",
       authors: "Gottfried Vossen and Stephan Hagemann",
       cover_image: "/images/books/web20.jpg",
@@ -23,6 +28,7 @@ class Books::Book < ActiveHash::Base
     },
     {
       id: 2,
+      slug: "masszahlen",
       title: "Maßzahlen für die Assoziationsanalyse im Data Mining: Fundierung, Analyse und Test",
       authors: "Stephan Hagemann",
       cover_image: "/images/books/diplom.jpg",
@@ -34,6 +40,7 @@ class Books::Book < ActiveHash::Base
       TEXT
     },    {
       id: 3,
+      slug: "tag-based-mashups",
       title: "A Framework for the Consistent Usage of Tag-Based Mashups - Volume 105 Dissertations in Database and Information Systems",
       authors: "Stephan Hagemann",
       cover_image: "/images/books/doctor.jpg",
@@ -46,6 +53,7 @@ class Books::Book < ActiveHash::Base
     },
     {
       id: 4, 
+      slug: "cbra",
       title: "Component-Based Rails Applications: Large Domains Under Control",
       authors: "Stephan Hagemann",
       cover_image: "/images/books/components.jpg",
@@ -80,6 +88,7 @@ class Books::Book < ActiveHash::Base
     },
     {
       id: 5, 
+      slug: "gradual-modularization",
       title: "Gradual Modularization for Ruby and Rails",
       description: "Improve collaboration, system design, and flexibility",
       authors: "Stephan Hagemann",
