@@ -31,5 +31,5 @@ require:
   - packwerk/architecture/checker
 
 architecture_layers:
-  - user-facing
+  - userfacing
   - utility
