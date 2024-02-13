@@ -16,3 +16,6 @@ Packs/RootNamespaceIsPackName:
   Enabled: true
   Exclude:
   - packs/rails_shims/**/*
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
