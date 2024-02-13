@@ -1,7 +1,7 @@
 <%
   @header = 'Books'
   @title = "Stephan Hagemann's Books"
-  @description_link = "<a href='/contact/?subject=Books'>Talk to me about books!</a>"
+  @description_link = link_to('Talk to me about books!', Contact::Config.entrypoint_path('Books'))
   @page_class = "dark-theme theme-blue"
   @container_class = "content-margin-top"
 %>

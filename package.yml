@@ -14,3 +14,5 @@ dependencies:
 - packs/root
 - packs/speaking
 - packs/books
+- packs/posts
+- packs/contact

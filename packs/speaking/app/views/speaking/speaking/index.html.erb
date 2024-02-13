@@ -2,7 +2,7 @@
   @title = "Stephan Hagemann's speaking history and schedule"
   @header = "Speaking"
   @description = "Occasionally."
-  @description_link = "<a href='/contact/?subject=Speaking+Inquiry'>Ask me to speak at your event</a>"
+  @description_link = link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry'))
   @page_description = "Covereage of Stephan Hagemann's previous conference talks, and listing of where he will be speaking next."
   @page_class = "dark-theme theme-blue"
   @layout = "layouts/page.njk"
@@ -13,10 +13,9 @@
 <section>
   <p>I speak about technical stuff that I believe to have a unique contribution to.</p>
 
-  <p>Want me to speak at one of your events? <a href="/contact/?subject=Speaking+Inquiry">Send me a message</a>!</p>
-
+  <p>Want me to speak at one of your events? <%= link_to('Send me a message', Contact::Config.entrypoint_path('Speaking Inquiry')) %>!</p>
   <p style="text-align: center;">
-    <a class="btn" href="/contact/?subject=Speaking+Inquiry">Ask me to speak at your event</a>
+    <%= link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry'), class: 'btn') %>
   </p>
 
   <%= render partial: 'speaking/speaking/youtube', locals: { video_id: 'EypRSLfKvak', title: 'Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann' } %>

@@ -2,7 +2,7 @@
   @title = "Stephan Hagemann's posts"
   @header = "Posts"
   @description = "Rarely."
-  @description_link = '<a href="/contact/?subject=Ask me anything">Ask me anything</a>'
+  @description_link = link_to('Ask me anything!', Contact::Config.entrypoint_path('Ask me anything'))
   @page_class = "dark-theme theme-blue"
   @container_class = "content-margin-top"
 %>
