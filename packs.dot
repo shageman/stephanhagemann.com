@@ -93,7 +93,19 @@ digraph package_diagram {
       style=filled
         label="utility"
         cluster=true
-        rank = 1        "packs/rails_shims" [
+        rank = 1        "packs/nav_bar" [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> packs/nav_bar </td> </tr>
+                  </table>
+                  </td></tr>
+                  </table>
+              >
+          ]
+        
+        "packs/rails_shims" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
@@ -106,6 +118,11 @@ digraph package_diagram {
           ]
         
     }
+              "packs/books" -> "packs/nav_bar" [ style=invis ]
+              "packs/contact" -> "packs/nav_bar" [ style=invis ]
+              "packs/posts" -> "packs/nav_bar" [ style=invis ]
+              "packs/root" -> "packs/nav_bar" [ style=invis ]
+              "packs/speaking" -> "packs/nav_bar" [ style=invis ]
               "packs/books" -> "packs/rails_shims" [ style=invis ]
               "packs/contact" -> "packs/rails_shims" [ style=invis ]
               "packs/posts" -> "packs/rails_shims" [ style=invis ]
@@ -117,17 +134,7 @@ digraph package_diagram {
       fillcolor=lightblue
       style=filled
         cluster=false
-        "packs/nav_bar" [
-            fontsize=12.0
-            label= <
-                <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                  <tr> <td align='left'> packs/nav_bar </td> </tr>
-                </table>
-              >
-          ]
-        
     }
-              "packs/rails_shims" -> "packs/nav_bar" [ style=invis ]
           "packs/books" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/books" -> "packs/contact" [ color=darkgreen ]
           "packs/contact" -> "packs/rails_shims" [ color=darkgreen ]

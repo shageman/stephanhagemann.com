@@ -1,6 +1,6 @@
 require "singleton"
 
-class RailsShims::MenuItems
+class NavBar::MenuItems
   include Singleton
   include Enumerable
 
