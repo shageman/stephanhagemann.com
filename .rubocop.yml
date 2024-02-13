@@ -19,3 +19,9 @@ Packs/RootNamespaceIsPackName:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Layout/EndOfLine:
+  Enabled: true
+
+Layout/TrailingEmptyLines:
+  Enabled: true

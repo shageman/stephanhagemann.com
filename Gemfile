@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
-gem 'capybara', group: %w(test)
-gem 'rspec-rails', group: %w(test)
+gem "capybara", group: %w(test)
+gem "rspec-rails", group: %w(test)
 gem "active_hash"
 gem "bootsnap"
 gem "importmap-rails"

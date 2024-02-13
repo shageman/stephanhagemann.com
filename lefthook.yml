@@ -12,7 +12,7 @@ pre-commit:
       run: visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
       stage_fixed: true
     backend-linter:
-      files: bin/rubocop
+      files: bin/rubocop --autocorrect --force-exclusion
     tests:
       files: bin/rspec
     console-works:
