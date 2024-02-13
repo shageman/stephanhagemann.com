@@ -6,6 +6,6 @@ class Posts::PostsController < ApplicationController
   end
 
   def show
-    @post = Posts::Post.find(params[:id])
+    @post = Posts::Post.find_by_slug(params[:id])
   end
 end
