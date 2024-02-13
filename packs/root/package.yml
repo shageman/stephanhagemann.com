@@ -1,6 +1,7 @@
 enforce_dependencies: strict
 dependencies:
 - packs/rails_shims
+- packs/books
 - packs/contact
 enforce_privacy: strict
 enforce_architecture: strict
