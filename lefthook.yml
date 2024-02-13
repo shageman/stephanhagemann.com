@@ -1,0 +1,15 @@
+pre-push:
+  parallel: true
+
+pre-commit:
+  commands:
+    structure-validate-config:
+      run: bin/packwerk validate
+    structure-check:
+      run: bin/packwerk check
+    structure-visualize:
+      run: visualize_packs > packs.dot && dot packs.dot -Tpng -o packs.png && git add packs.dot
+    backend-linter:
+      files: bin/rubocop
+    console-works:
+      files: echo "puts Speaking::Talk.count" | bin/rails c 
