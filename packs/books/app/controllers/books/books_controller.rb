@@ -1,6 +1,4 @@
 class Books::BooksController < ApplicationController
-  before_action :set_section
-
   def index
     @books = Books::Book.all.sort_by { Date.parse(_1.date) }.reverse
 
@@ -9,11 +7,5 @@ class Books::BooksController < ApplicationController
 
   def show
     @book = Books::Book.find_by_slug(params[:id])
-  end
-
-  private
-
-  def set_section
-    @active_section = 'books'
   end
 end

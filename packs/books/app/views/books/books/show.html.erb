@@ -1,6 +1,10 @@
-<%-
-  @container_class = "content-margin-top"
--%>
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'books',
+    container_class: "content-margin-top",
+  )
+%>
+
 
 <% content_for :sidebar do %>
   <h1><%= @book.title %></h1>

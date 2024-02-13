@@ -1,6 +1,8 @@
 <%-
-    @container_class = "centered-container"
-    @active_section = 'root'
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'root',
+    container_class: "centered-container"
+    )
 -%>
 
 <h1>Stephan Hagemann</h1>

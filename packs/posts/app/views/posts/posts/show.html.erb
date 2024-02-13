@@ -1,5 +1,7 @@
 <%
-  @container_class = "content-margin-top"
+  @layout_params = RailsShims::LayoutParams.new(
+    container_class: "content-margin-top",
+  )
 %>
 
 <% content_for :sidebar do %>

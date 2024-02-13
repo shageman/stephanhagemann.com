@@ -1,11 +1,11 @@
 <% content_for :sidebar do -%>
-  <%- if @header -%>
-    <h1><%= @header %></h1>
-  <%- elsif @title -%>
-    <h1><%= @title %></h1>
+  <%- if @layout_params.header -%>
+    <h1><%= @layout_params.header %></h1>
+  <%- elsif @layout_params.title -%>
+    <h1><%= @layout_params.title %></h1>
   <%- end -%>
-  <p><%= raw @description %></p>
-  <p><%= raw @description_link %></p>
+  <p><%= raw @layout_params.description %></p>
+  <p><%= raw @layout_params.description_link %></p>
 <% end -%>
 
 <%= render template: "layouts/application" %>

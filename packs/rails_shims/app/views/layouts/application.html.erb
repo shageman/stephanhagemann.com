@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="<%= @page_class %>">
+<html lang="en" class="<%= @layout_params.page_class %>">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 
     <link rel="preload" href="/fonts/placardmtstd-cond-webfont.woff2" as="font" type="font/woff2" crossorigin>
 
-    <title><%- if @title -%><%= @title %> - <%- end -%>stephanhagemann.com</title>
+    <title><%- if @title -%><%= @layout_params.title %> - <%- end -%>stephanhagemann.com</title>
 
     <meta name="description" content="Stephan Hagemann's home on the web. Read his blog, ask questions, and find coverage of his recent conference talks about web development."/>
 
@@ -22,13 +22,13 @@
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content=https://twitter.com/shageman />
-    <meta name="twitter:title" content="{{ cardTitle if cardTitle else title }}" />
+    <meta name="twitter:title" content="<%= @layout_params.title %>%" />
     <meta name="twitter:description" content="" />
     <meta name="twitter:site" content="stephanhagemann.com" />
     <meta name="twitter:image" content="https://stephanhagemann.com/images/favicon_io/apple-touch-icon.png" />
 
     <meta property="og:url" content="https://stephanhagemann.com{{page.url}}" />
-    <meta property="og:title" content="{{ cardTitle if cardTitle else title }}" />
+    <meta property="og:title" content="<%= @layout_params.title %>%" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="https://stephanhagemann.com/images/favicon_io/apple-touch-icon.png" />
 
@@ -39,19 +39,19 @@
       <header>
         <div class="sidebar-container">
           <ul class="nav">
-            <li <% if @active_section == 'root' %> aria-current="page"<% end %>>
+            <li <% if @layout_params.active_section == 'root' %> aria-current="page"<% end %>>
               <a href="/" class="home">Stephan Hagemann</a>
             </li>
-            <li <% if @active_section == 'posts' %> aria-current="page"<% end %>>
+            <li <% if @layout_params.active_section == 'posts' %> aria-current="page"<% end %>>
               <a href="/posts">posts</a>
             </li>
-            <li <% if @active_section == 'books' %> aria-current="page"<% end %>>
+            <li <% if @layout_params.active_section == 'books' %> aria-current="page"<% end %>>
               <%= link_to('books', Books::Config.entrypoint_path) %>
             </li>
-            <li <% if @active_section == 'speaking' %> aria-current="page"<% end %>>
+            <li <% if @layout_params.active_section == 'speaking' %> aria-current="page"<% end %>>
               <a href="/speaking/">speaking</a>
             </li>
-            <li <% if @active_section == 'more' %> aria-current="page"<% end %>>
+            <li <% if @layout_params.active_section == 'more' %> aria-current="page"<% end %>>
               <a href="/more/">..and more</a>
             </li>
           </ul>
@@ -65,7 +65,7 @@
 	    </div>
     </div>
     <div class="main">
-      <div class="container <%= @container_class %>">
+      <div class="container <%= @layout_params.container_class %>">
         <%= yield %>
       </div>
     </div>

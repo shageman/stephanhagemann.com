@@ -1,6 +1,9 @@
 <%
-@title = 'Contact'
-@container_class = 'centered-container'
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'root',
+    title: 'Contact',
+    container_class: 'centered-container',
+  )
 %>
 
 <section>

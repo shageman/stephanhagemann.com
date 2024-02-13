@@ -1,10 +1,13 @@
 <%
-  @title = "Stephan Hagemann's posts"
-  @header = "Posts"
-  @description = "Rarely."
-  @description_link = link_to('Ask me anything!', Contact::Config.entrypoint_path('Ask me anything'))
-  @page_class = "dark-theme theme-blue"
-  @container_class = "content-margin-top"
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'posts',
+    container_class: "content-margin-top",
+    description_link: link_to('Ask me anything!', Contact::Config.entrypoint_path('Ask me anything')),
+    description: "Rarely.",
+    header: "Posts",
+    page_class: "dark-theme theme-blue",
+    title: "Stephan Hagemann's posts",
+  )
 %>
 
 <% @posts.each do |post| %>

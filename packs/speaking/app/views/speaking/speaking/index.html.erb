@@ -1,11 +1,12 @@
 <%
-  @title = "Stephan Hagemann's speaking history and schedule"
-  @header = "Speaking"
-  @description = "Occasionally."
-  @description_link = link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry'))
-  @page_description = "Covereage of Stephan Hagemann's previous conference talks, and listing of where he will be speaking next."
-  @page_class = "dark-theme theme-blue"
-  @layout = "layouts/page.njk"
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'speaking',
+    description_link: link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry')),
+    description: "Occasionally.",
+    header: "Speaking",
+    page_class: "dark-theme theme-blue",
+    title: "Stephan Hagemann's speaking history and schedule",
+  )
 %>
 
 <script src="/js/lite-yt-embed.js"></script>
