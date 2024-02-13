@@ -5,6 +5,7 @@ ruby '3.2.2'
 gem 'active_hash'
 gem 'bootsnap'
 gem 'importmap-rails'
+gem 'lefthook'
 gem 'packs-rails'
 gem 'packwerk-extensions'
 gem 'packwerk'
@@ -18,3 +19,4 @@ gem 'slim-rails'
 gem 'sprockets-rails'
 gem 'sqlite3'
 gem 'web-console', group: %w(development)
+gem "visualize_packs", group: %w(development)

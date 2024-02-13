@@ -120,6 +120,7 @@ GEM
       reline (>= 0.4.2)
     json (2.7.1)
     language_server-protocol (3.17.0.3)
+    lefthook (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -309,6 +310,10 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
+    visualize_packs (0.5.23)
+      packs-specification
+      parse_packwerk (>= 0.20.0)
+      sorbet-runtime
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -330,6 +335,7 @@ DEPENDENCIES
   active_hash
   bootsnap
   importmap-rails
+  lefthook
   packs-rails
   packwerk
   packwerk-extensions
@@ -342,6 +348,7 @@ DEPENDENCIES
   slim-rails
   sprockets-rails
   sqlite3
+  visualize_packs
   web-console
 
 RUBY VERSION
