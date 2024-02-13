@@ -1,0 +1,14 @@
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'more',
+    container_class: 'centered-container',
+  )
+%>
+
+<h1>But wait there’s more!</h1>
+
+<ul>
+  <% NavBar::MenuItems.instance.more_each do |mi| %>
+    <li><%= link_to mi.text, mi.path.() %></li>
+  <% end %>
+</ul>

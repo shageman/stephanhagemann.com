@@ -5,7 +5,6 @@ enforce_privacy: strict
 dependencies:
 - packs/books
 - packs/contact
-- packs/nav_bar
 - packs/posts
 - packs/rails_shims
 - packs/root

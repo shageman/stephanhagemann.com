@@ -11,20 +11,21 @@ pre-commit:
   parallel: true
   commands:
     structure-validate-config:
-      glob: '{**/*,*}'
-      run: bin/packwerk validate
+      glob: '*'
+      run: echo {all_files} > /dev/null && bin/packwerk validate
     structure-check:
-      glob: '{**/*,*}'
-      run: bin/packwerk check
+      glob: '*'
+      run: echo {all_files} > /dev/null && bin/packwerk check
     structure-visualize:
-      glob: '{**/*,*}'
-      run: visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
+      glob: '*'
+      run: echo {all_files} > /dev/null && visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
       stage_fixed: true
     backend-linter:
-      run: bin/rubocop --autocorrect --force-exclusion
+      glob: "*.rb"
+      run: bin/rubocop {all_files}
     tests:
-      glob: '{**/*,*}'
-      run: bin/rspec {files} --format documentation && exit 1
+      glob: '*'
+      run: echo {all_files} > /dev/null && bin/rspec
     console-works:
-      glob: '{**/*,*}'
-      run: echo "puts Speaking::Talk.count" | bin/rails c 
+      glob: '*'
+      run: echo {all_files} > /dev/null && echo "puts Speaking::Talk.count" | bin/rails c 
