@@ -18,6 +18,14 @@ digraph package_diagram {
     style=filled
     shape=plain
   ]
+    subgraph application_harness {
+      shape=box
+      color=darkgrey
+      fillcolor=lightblue
+      style=filled
+        label="application_harness"
+        cluster=true
+        rank = 0    }
     subgraph userfacing {
       shape=box
       color=darkgrey
@@ -25,7 +33,7 @@ digraph package_diagram {
       style=filled
         label="userfacing"
         cluster=true
-        rank = 0        "packs/books" [
+        rank = 1        "packs/books" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
@@ -93,7 +101,7 @@ digraph package_diagram {
       style=filled
         label="utility"
         cluster=true
-        rank = 1        "packs/nav_bar" [
+        rank = 2        "packs/nav_bar" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>

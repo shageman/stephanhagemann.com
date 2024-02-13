@@ -31,5 +31,6 @@ require:
   - packwerk/architecture/checker
 
 architecture_layers:
+  - application_harness
   - userfacing
   - utility
