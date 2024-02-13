@@ -13,6 +13,7 @@ class Posts::Post < ActiveFile::Base
 
       entry = {
         id: id,
+        slug: File.basename(fn, ".*"),
         filename: fn,
         date: fn.match(/\b(\d{4}-\d{2}-\d{2})\b/)[1],
         header: nil,
@@ -48,6 +49,10 @@ class Posts::Post < ActiveFile::Base
 
   def tag_tally
     Posts::Post.all.flat_map(&:tags).tally
+  end
+
+  def to_param
+    slug
   end
 
   def backlinks
