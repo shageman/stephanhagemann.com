@@ -9,7 +9,7 @@ pre-commit:
     structure-check:
       run: bin/packwerk check
     structure-visualize:
-      run: visualize_packs > packs.dot && dot packs.dot -Tpng -o packs.png
+      run: visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
       stage_fixed: true
     backend-linter:
       files: bin/rubocop
