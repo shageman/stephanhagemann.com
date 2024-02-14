@@ -1,0 +1,22 @@
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'tags',
+    container_class: "content-margin-top",
+    description: "How I thought things could be categorized",
+    header: "Tags",
+    page_class: "dark-theme theme-blue",
+    title: "Stephan Hagemann's tags",
+  )
+%>
+
+<% @tags.each do |post| %>
+<div class="blog-list-item">
+
+  <h2><%= link_to(post.header || post.title, post_path(post)) %></h2>
+
+  <div class="grab">
+  <%= raw @markdown.render(post.teaser) %>
+  </div>
+  <p class="by-line"><%= post.date %></p>
+</div>
+<% end %>

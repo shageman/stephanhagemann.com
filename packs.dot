@@ -105,6 +105,18 @@ digraph package_diagram {
               >
           ]
         
+        "packs/tags" [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> packs/tags </td> </tr>
+                  </table>
+                  </td></tr>
+                  </table>
+              >
+          ]
+        
     }
     subgraph utility {
       shape=box
@@ -132,6 +144,7 @@ digraph package_diagram {
               "packs/root" -> "packs/rails_shims" [ style=invis ]
               "packs/services" -> "packs/rails_shims" [ style=invis ]
               "packs/speaking" -> "packs/rails_shims" [ style=invis ]
+              "packs/tags" -> "packs/rails_shims" [ style=invis ]
     subgraph NotInLayer {
       shape=box
       color=darkgrey
@@ -151,6 +164,7 @@ digraph package_diagram {
           "packs/services" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/speaking" -> "packs/contact" [ color=darkgreen ]
           "packs/speaking" -> "packs/rails_shims" [ color=darkgreen ]
+          "packs/tags" -> "packs/rails_shims" [ color=darkgreen ]
     subgraph cluster_legend {
       fontsize=16
       label="Edges Styles and Arrow Heads"

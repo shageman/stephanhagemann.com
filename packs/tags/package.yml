@@ -1,0 +1,8 @@
+enforce_architecture: strict
+enforce_dependencies: strict
+enforce_privacy: strict
+
+dependencies:
+- packs/rails_shims
+
+layer: userfacing

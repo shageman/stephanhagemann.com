@@ -10,5 +10,6 @@ dependencies:
 - packs/root
 - packs/services
 - packs/speaking
+- packs/tags
 
 layer: application_harness
