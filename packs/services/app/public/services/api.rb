@@ -1,4 +1,4 @@
-class Services::Config
+class Services::Api
   ROUTE_FILE_NAME = "services"
 
   # Entrypoint helper

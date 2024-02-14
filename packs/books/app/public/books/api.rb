@@ -1,4 +1,4 @@
-class Books::Config
+class Books::Api
   ROUTE_FILE_NAME = "books"
 
   # Without a param, exposes path helper to root of books pages. You can pass in the name of a book as a param.

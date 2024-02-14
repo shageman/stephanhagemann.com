@@ -24,9 +24,9 @@ class NavBar::MenuItems
   end
 
   def each(&block)
-    if @items.size > NavBar::Config.max_menu_items_before_more
-      items = @items.first(NavBar::Config.max_menu_items_before_more)
-      items << MenuItem.new( section: "more", path: -> { NavBar::Config.entrypoint_path }, text: "...and more")
+    if @items.size > NavBar::Api.max_menu_items_before_more
+      items = @items.first(NavBar::Api.max_menu_items_before_more)
+      items << MenuItem.new( section: "more", path: -> { NavBar::Api.entrypoint_path }, text: "...and more")
     else
       items = @items
     end
@@ -34,8 +34,8 @@ class NavBar::MenuItems
   end
 
   def more_each(&block)
-    if @items.size > NavBar::Config.max_menu_items_before_more
-      items = @items.drop(NavBar::Config.max_menu_items_before_more)
+    if @items.size > NavBar::Api.max_menu_items_before_more
+      items = @items.drop(NavBar::Api.max_menu_items_before_more)
     else
       items = []
     end

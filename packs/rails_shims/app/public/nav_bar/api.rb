@@ -1,4 +1,4 @@
-class NavBar::Config
+class NavBar::Api
   ROUTE_FILE_NAME = "nav_bar"
 
   @@max_menu_items_before_more ||= 4

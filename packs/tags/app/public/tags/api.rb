@@ -1,4 +1,4 @@
-class Tags::Config
+class Tags::Api
   ROUTE_FILE_NAME = "tags"
 
   # Entrypoint helper for tags: With tag param, get link to the tag's page. Otherwise, get list of all

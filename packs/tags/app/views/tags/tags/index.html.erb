@@ -15,7 +15,7 @@
 <ul class="tag-cloud">
   <% @tag_summaries.each do |tag_summary| %>
     <li>
-      <%= link_to tag_summary.name, ::Tags::Config.entrypoint_path(tag_summary.name), "data-weight" => ::Tags::Tag.tagged_count_frequency(tag_summary.name) %>
+      <%= link_to tag_summary.name, ::Tags::Api.entrypoint_path(tag_summary.name), "data-weight" => ::Tags::Tag.tagged_count_frequency(tag_summary.name) %>
     </li>
   <% end %>
 </ul>

@@ -1,4 +1,4 @@
-class Contact::Config
+class Contact::Api
   ROUTE_FILE_NAME = "contact"
 
   # Exposes path helper to root of contact page. You can pass in a subject as a param

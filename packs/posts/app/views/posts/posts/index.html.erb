@@ -2,7 +2,7 @@
   @layout_params = RailsShims::LayoutParams.new(
     active_section: 'posts',
     container_class: "content-margin-top",
-    description_link: link_to('Ask me anything!', Contact::Config.entrypoint_path('Ask me anything')),
+    description_link: link_to('Ask me anything!', Contact::Api.entrypoint_path('Ask me anything')),
     description: "Rarely.",
     header: "Posts",
     page_class: "dark-theme theme-blue",

@@ -1,4 +1,4 @@
-class Speaking::Config
+class Speaking::Api
   ROUTE_FILE_NAME = "speaking"
 
   # Entrypoint helper for speaking

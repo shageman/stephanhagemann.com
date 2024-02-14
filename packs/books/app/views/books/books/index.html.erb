@@ -2,7 +2,7 @@
   @layout_params = RailsShims::LayoutParams.new(
     active_section: 'books',
     container_class: "content-margin-top",
-    description_link: link_to('Talk to me about books!', Contact::Config.entrypoint_path('Books')),
+    description_link: link_to('Talk to me about books!', Contact::Api.entrypoint_path('Books')),
     header: 'Books',
     page_class: "dark-theme theme-blue",
     title: "Stephan Hagemann's Books",

@@ -1,7 +1,7 @@
 <%
   @layout_params = RailsShims::LayoutParams.new(
     active_section: 'speaking',
-    description_link: link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry')),
+    description_link: link_to('Ask me to speak at your event!', Contact::Api.entrypoint_path('Speaking Inquiry')),
     description: "Occasionally.",
     header: "Speaking",
     page_class: "dark-theme theme-blue",
@@ -14,9 +14,9 @@
 <section>
   <p>I speak about technical stuff that I believe to have a unique contribution to.</p>
 
-  <p>Want me to speak at one of your events? <%= link_to('Send me a message', Contact::Config.entrypoint_path('Speaking Inquiry')) %>!</p>
+  <p>Want me to speak at one of your events? <%= link_to('Send me a message', Contact::Api.entrypoint_path('Speaking Inquiry')) %>!</p>
   <p style="text-align: center;">
-    <%= link_to('Ask me to speak at your event!', Contact::Config.entrypoint_path('Speaking Inquiry'), class: 'btn') %>
+    <%= link_to('Ask me to speak at your event!', Contact::Api.entrypoint_path('Speaking Inquiry'), class: 'btn') %>
   </p>
 
   <%= render partial: 'speaking/speaking/youtube', locals: { video_id: 'EypRSLfKvak', title: 'Birmingham on Rails 2020 - Morning Keynote by Stephan Hagemann' } %>

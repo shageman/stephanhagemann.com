@@ -1,4 +1,4 @@
-class Posts::Config
+class Posts::Api
   ROUTE_FILE_NAME = "posts"
 
   # Entrypoint helper for posts. Get index of all posts or, wtih param, get post page
