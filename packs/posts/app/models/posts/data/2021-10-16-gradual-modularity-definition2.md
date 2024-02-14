@@ -10,7 +10,7 @@ Yesterday's attempt at a concise description of what Gradual Modularity is[^1] f
 
 ## "Classic" Modularity
 
-> Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each **contains everything necessary** to execute only one aspect of the desired functionality. [^2] (my emphasis)
+> Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each **contains everything necessary** to execute only one aspect of the desired functionality (my emphasis) [^2] 
 
 ## Gradual Modularity
 

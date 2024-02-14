@@ -12,7 +12,7 @@ I recently came across a very practical application of the analysis of agile vs 
 
 ## The need for a definition of done in agile
 
-The *definition of done* is a foundational artifact of agile practices[^2] (as differentiated from pre-agile and post-agile).
+The *definition of done* is a foundational artifact of agile practices (as differentiated from pre-agile and post-agile). [^2]
 
 It is the focus on **velocity** in agile that creates the need for a counter-balance to the desire to "go fast." How do you make sure you apply a similar yard stick to velocity? You create a definition of done. For example, "a story isn't done until it is merged into the main branch, has unit and integration tests, has been validated by QA, and is marked as done in the backlog."
 

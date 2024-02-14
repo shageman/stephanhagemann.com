@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   draw(Posts::Config::ROUTE_FILE_NAME)
   draw(Speaking::Config::ROUTE_FILE_NAME)
   draw(Services::Config::ROUTE_FILE_NAME)
+  draw(Tags::Config::ROUTE_FILE_NAME)
 end

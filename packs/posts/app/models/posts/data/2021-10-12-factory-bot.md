@@ -13,7 +13,7 @@ I believe that factory_bot adoption has a net negative effect in large code base
 
 ## Stop using factory_bot. Make your own ObjectMother
 Using factory_bot makes the wrong thing easy: It makes tests easy that need to work with a complex AR object graph. You should keep that graph as simple as possible, not make it easier to grow and let it get out of control.
-Writing your own ObjectMother[^2] (a factory class that can generate the objects you need for your tests) doesn't immediately stop the problem of proliferating AR, but it points you in the right direction to reduce complexity in your app. I will show you how to try this out in any codebase - in three steps.
+Writing your own ObjectMother (a factory class that can generate the objects you need for your tests)[^2]  doesn't immediately stop the problem of proliferating AR, but it points you in the right direction to reduce complexity in your app. I will show you how to try this out in any codebase - in three steps.
 
 ## #1. Start an ObjectMother class
 Change just one class to use your own ObjectMother and prove that it's possible. Check out the class in[^3] as a starting point.
