@@ -12,7 +12,7 @@ class Books::Book < ActiveHash::Base
       cover_image: "/images/books/web20.jpg",
       date: "2007-07-28T12:00:00Z",
       amazon_link: "https://www.amazon.com/gp/product/B00BMEZQRK/ref=dbs_a_def_rwt_bibl_vppi_i1",
-      tags: "web2",
+      tags: ["web2", "mashups"],
       content: <<~TEXT
         The emergence of Web 2.0 is provoking challenging questions for developers: What products and services can our company provide to customers and employees using Rich Internet Applications, mash-ups, Web feeds or Ajax? Which business models are appropriate and how do we implement them? What are best practices and how do we apply them?
 
@@ -34,7 +34,7 @@ class Books::Book < ActiveHash::Base
       cover_image: "/images/books/diplom.jpg",
       date: "2008-12-04T12:00:00Z",
       amazon_link: "https://www.amazon.com/gp/product/383665718X/ref=dbs_a_def_rwt_bibl_vppi_i3",
-      tags: "",
+      tags: ["data mining", "association measures"],
       content: <<~TEXT
         Die Assoziationsanalyse ist innerhalb des Data Mining eine sehr populäre Methode zur Gewinnung von Wissen aus großen Datenmengen. Ihr Ziel ist die Gewinnung von wenn-dann-Regeln zwischen verschiedenen Objekten. Eine solche Regel bedeutet z.B. bei der Warenkorbanalyse, dass ein bestimmter Artikel häufig gekauft wird, wenn auch ein anderer Artikel häufig gekauft wird. Über die Zeit sind viele Maße zur Messung dieser Assoziation vorgeschlagen worden. Es fehlt im Data Mining jedoch an einer allgemeinen Definition wünschenswerter Eigenschaften für Assoziationsmaße. Eine solche Definition erlaubt aber erst den Vergleich verschiedener Maße unabhängig von konkreten Daten. In dieser Arbeit werden Ergebnisse aus früheren Arbeiten zu Assoziations- und Korrelationsmaßen als Grundlage für die Entwicklung einer Axiomatisierung für Maße in der Assoziationsanalyse genutzt. Die im Data Mining verwendeten Maße werden vorgestellt und auf die Erfüllung der neu definierten Eigenschaften hin untersucht. So werden die Maße im Hinblick auf ihre Anwendung in der Assoziationsnalyse fundiert. Mit Hilfe von Testdatenbanken wird untersucht, in wie fern sich die Erfüllung oder Nicht-Erfüllung der Eigenschaften in den Ergebnissen von Assoziationsanalysen niederschlägt. Dazu wird eine Reihe von sowohl qualitativen als auch quantitativen Beobachtungen verglichen. Es zeigt sich, dass sehr viele der in der Praxis verwendeten Assoziationsmaße einer theoretischen Untersuchung nicht standhalten.
       TEXT
@@ -46,7 +46,7 @@ class Books::Book < ActiveHash::Base
       cover_image: "/images/books/doctor.jpg",
       date: "2010-01-15T12:00:00Z",
       amazon_link: "https://www.amazon.com/gp/product/1607500795/ref=dbs_a_def_rwt_bibl_vppi_i2",
-      tags: "web2",
+      tags: ["web2", "mashups"],
       content: <<~TEXT
         Mashups and social tagging are two of many aspects of recent developments on the Web and both are essential to this work. Mashups are Web applications that integrate data and functions from multiple Web sources. Social tagging is a form of free labeling, which is often used to annotate multimedia content on Web platforms. These two aspects are combined by showing how conventions in the usage of social tagging have created the possibility of controlling mashups with tags. In this work the development of an application for the creation and distribution of tag-based mashups is described. The application hooks into a Web browser and augments the Web surfing process with mashups based on the tags of the page on the fly. It thus adds relevant content to an original Web page. Application scenarios for the prototype are developed and it is examined how the underlying idea can be carried over into other contexts.
       TEXT
@@ -59,7 +59,7 @@ class Books::Book < ActiveHash::Base
       cover_image: "/images/books/components.jpg",
       date: "2018-06-22T12:00:00Z",
       amazon_link: "https://www.amazon.com/gp/product/B07DGK261T/ref=dbs_a_def_rwt_bibl_vppi_i0",
-      tags: "",
+      tags: ["ruby", "components", "architecture"],
       content: <<~TEXT
         Use Components to Improve Maintainability, Reduce Complexity, and Accelerate Testing in Large Rails Applications
 
@@ -95,7 +95,7 @@ class Books::Book < ActiveHash::Base
       cover_image: "/images/books/packages.png",
       date: "2021-01-01T12:00:00Z",
       amazon_link: "https://leanpub.com/package-based-rails-applications",
-      tags: "",
+      tags: ["ruby", "gradual modularization", "components", "architecture"],
       load_stripe: true,
       payment_links: [
         {
