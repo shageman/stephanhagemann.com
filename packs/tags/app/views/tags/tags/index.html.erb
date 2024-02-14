@@ -5,18 +5,17 @@
     description: "How I thought things could be categorized",
     header: "Tags",
     page_class: "dark-theme theme-blue",
-    title: "Stephan Hagemann's tags",
+    title: "Tags. Really?",
   )
 %>
 
-<% @tags.each do |post| %>
-<div class="blog-list-item">
+<h1>Tags</h1>
+<p>See more writing by topic area:</p>
 
-  <h2><%= link_to(post.header || post.title, post_path(post)) %></h2>
-
-  <div class="grab">
-  <%= raw @markdown.render(post.teaser) %>
-  </div>
-  <p class="by-line"><%= post.date %></p>
-</div>
-<% end %>
+<ul class="tag-cloud">
+  <% @tag_summaries.each do |tag_summary| %>
+    <li>
+      <%= link_to tag_summary.name, ::Tags::Config.entrypoint_path(tag_summary.name), "data-weight" => ::Tags::Tag.tagged_count_frequency(tag_summary.name) %>
+    </li>
+  <% end %>
+</ul>

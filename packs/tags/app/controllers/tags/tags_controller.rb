@@ -1,11 +1,11 @@
 class Tags::TagsController < ApplicationController
   def index
-    @tags = Tags::Tag.all.sort_by { Date.parse(_1.date) }.reverse
+    @tag_summaries = Tags::Tag.tag_summary_all.sort_by(&:name)
 
     render layout: "page"
   end
 
   def show
-    @post = Tags::Tag.find_by_slug(params[:id])
+    @tags = Tags::Tag.where(name: params[:id]).sort_by{ Date.parse(_1.date) }.reverse
   end
 end
