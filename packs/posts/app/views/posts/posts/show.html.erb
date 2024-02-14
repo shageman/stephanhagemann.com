@@ -16,7 +16,7 @@
 <section class="tags">
   <p>
     <% @post.filtered_tags.each do |tag| %>
-      <%#= link_to "#{tag} (#{@post.tag_tally[tag]})", "/tags/#{tag}" %>
+      <%= link_to "#{tag} (#{@post.tag_tally[tag]})", "/tags/#{tag}" %>
     <% end %>
   </p>
 </section>
