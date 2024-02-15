@@ -5,5 +5,6 @@ enforce_privacy: strict
 dependencies:
 - packs/contact
 - packs/rails_shims
+- packs/tags
 
 layer: userfacing

@@ -20,4 +20,9 @@ class Tags::Api
     tag.date = date
     tag.save!
   end
+
+  # How many things have been registered as tagged with the given tag
+  def self.tag_tally(tag_name)
+    Tags::Tag.tag_tally[tag_name]
+  end
 end

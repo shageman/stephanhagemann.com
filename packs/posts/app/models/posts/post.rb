@@ -42,15 +42,6 @@ class Posts::Post < ActiveFile::Base
     (word_count.to_f / wpm).round
   end
 
-  def filtered_tags
-    excluded_tags = ["all", "nav", "post", "posts"]
-    tags.reject { excluded_tags.include?(_1) }
-  end
-
-  def tag_tally
-    Posts::Post.all.flat_map(&:tags).tally
-  end
-
   def to_param
     slug
   end

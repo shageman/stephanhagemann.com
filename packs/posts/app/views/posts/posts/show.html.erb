@@ -15,8 +15,8 @@
 
 <section class="tags">
   <p>
-    <% @post.filtered_tags.each do |tag| %>
-      <%= link_to "#{tag} (#{@post.tag_tally[tag]})", "/tags/#{tag}" %>
+    <% @post.tags.each do |tag| %>
+      <%= link_to "#{tag} (#{::Tags::Api.tag_tally(tag)})", ::Tags::Api.entrypoint_path(tag) %>
     <% end %>
   </p>
 </section>
