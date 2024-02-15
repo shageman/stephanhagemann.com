@@ -1,0 +1,1733 @@
+{
+  "lastFetchedId": "110305680218238468",
+  "children": [
+    {
+      "id": "110305680218238468",
+      "created_at": "2023-05-03T16:25:06.838Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110305680218238468",
+      "url": "https://ruby.social/@shageman/110305680218238468",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 2,
+      "edited_at": "2023-05-03T16:31:04.638Z",
+      "content": "<p>I uploaded a new version of the Gradual Modularization book: It contains a boatload of copy-editing. Moral of the story: Could&#39;ve done this months ago! Feels good to do some spring cleaning.</p><p><a href=\"https://leanpub.com/package-based-rails-applications\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">leanpub.com/package-based-rail</span><span class=\"invisible\">s-applications</span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://leanpub.com/package-based-rails-applications",
+        "title": "Gradual Modularization for Ruby and Rails",
+        "description": "Get yourself a new tool to manage your Rails application and your growing engineering organization! Prevent the ball-of-mud (and fix it!). Go for microservices or SOA if it makes sense not just because you don't have any other tool. Do all this through a low-overhead tool: packages. Enable better conversations to make practical changes today.",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Leanpub",
+        "provider_url": "",
+        "html": "",
+        "width": 200,
+        "height": 259,
+        "image": "https://cdn.masto.host/rubysocial/cache/preview_cards/images/003/457/888/original/613807687b5ac594.png",
+        "embed_url": "",
+        "blurhash": "U58bKPkVugkWQTaepHf6VFf6kWkCjukVaef6"
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110271823253765750",
+      "created_at": "2023-04-27T16:54:50.566Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110271823253765750",
+      "url": "https://ruby.social/@shageman/110271823253765750",
+      "replies_count": 2,
+      "reblogs_count": 6,
+      "favourites_count": 15,
+      "edited_at": "2023-04-27T16:55:26.844Z",
+      "content": "<p>After taking in a lot of new ideas and connecting with colleagues across my industry at <span class=\"h-card\"><a href=\"https://ruby.social/@railsconf\" class=\"u-url mention\">@<span>railsconf</span></a></span> this week, today, I signed up to become a member of <span class=\"h-card\"><a href=\"https://ruby.social/@rubycentral\" class=\"u-url mention\">@<span>rubycentral</span></a></span> . Things like rubygems, RubyConf, and RailsConf would not be possible without them and I support this work. </p><p>Will you join me? <a href=\"https://rubycentral.org/#/portal/signin\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">rubycentral.org/#/portal/signi</span><span class=\"invisible\">n</span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [
+        {
+          "id": "109355345507882807",
+          "username": "railsconf",
+          "url": "https://ruby.social/@railsconf",
+          "acct": "railsconf"
+        },
+        {
+          "id": "109355324935120416",
+          "username": "rubycentral",
+          "url": "https://ruby.social/@rubycentral",
+          "acct": "rubycentral"
+        }
+      ],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://rubycentral.org/",
+        "title": "Ruby Central",
+        "description": "Supporting the Ruby Community Since 2001",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Ruby Central",
+        "provider_url": "",
+        "html": "",
+        "width": 0,
+        "height": 0,
+        "image": null,
+        "embed_url": "",
+        "blurhash": null
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": [
+          {
+            "id": "110272039080815918",
+            "created_at": "2023-04-27T17:49:43.822Z",
+            "in_reply_to_id": "110271823253765750",
+            "in_reply_to_account_id": "109523806417662780",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/kaspth/statuses/110272039080815918",
+            "url": "https://ruby.social/@kaspth/110272039080815918",
+            "replies_count": 0,
+            "reblogs_count": 0,
+            "favourites_count": 2,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@shageman\" class=\"u-url mention\">@<span>shageman</span></a></span> nice yeah! just signed up</p>",
+            "reblog": null,
+            "application": {
+              "name": "Ivory for iOS",
+              "website": "https://tapbots.com/"
+            },
+            "account": {
+              "id": "109304127720054817",
+              "username": "kaspth",
+              "acct": "kaspth",
+              "display_name": "Kasper Timm Hansen",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-11-07T00:00:00.000Z",
+              "note": "<p>long-time Ruby&#39;er &amp; Rails consultant, <br />Rails core 2016-2022, co-host of <a href=\"http://namingthings.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">namingthings.org</span><span class=\"invisible\"></span></a></p>",
+              "url": "https://ruby.social/@kaspth",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/304/127/720/054/817/original/05c192bece38473a.jpg",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/304/127/720/054/817/original/05c192bece38473a.jpg",
+              "header": "https://ruby.social/headers/original/missing.png",
+              "header_static": "https://ruby.social/headers/original/missing.png",
+              "followers_count": 582,
+              "following_count": 98,
+              "statuses_count": 222,
+              "last_status_at": "2023-05-11",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "twitter",
+                  "value": "<a href=\"https://twitter.com/kaspth\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaspth</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                },
+                {
+                  "name": "github",
+                  "value": "<a href=\"https://github.com/kaspth\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">github.com/kaspth</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                },
+                {
+                  "name": "discord",
+                  "value": "<a href=\"http://discord.gg/NNN3TAD5jQ\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">http://</span><span class=\"\">discord.gg/NNN3TAD5jQ</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109523806417662780",
+                "username": "shageman",
+                "url": "https://ruby.social/@shageman",
+                "acct": "shageman"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          },
+          {
+            "id": "110273848482646758",
+            "created_at": "2023-04-28T01:29:53.110Z",
+            "in_reply_to_id": "110271823253765750",
+            "in_reply_to_account_id": "109523806417662780",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/Chels/statuses/110273848482646758",
+            "url": "https://ruby.social/@Chels/110273848482646758",
+            "replies_count": 0,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@shageman\" class=\"u-url mention\">@<span>shageman</span></a></span> Thank you!</p>",
+            "reblog": null,
+            "application": {
+              "name": "Mastodon for iOS",
+              "website": "https://app.joinmastodon.org/ios"
+            },
+            "account": {
+              "id": "109366058832677915",
+              "username": "Chels",
+              "acct": "Chels",
+              "display_name": "Chelsea Kaufman",
+              "locked": false,
+              "bot": false,
+              "discoverable": null,
+              "group": false,
+              "created_at": "2022-11-18T00:00:00.000Z",
+              "note": "<p>Building communities in tech and helping people find their voice at the table. Founder of LEARN academy Ruby Central Board President</p>",
+              "url": "https://ruby.social/@Chels",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/366/058/832/677/915/original/94118d4bab1de115.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/366/058/832/677/915/original/94118d4bab1de115.png",
+              "header": "https://ruby.social/headers/original/missing.png",
+              "header_static": "https://ruby.social/headers/original/missing.png",
+              "followers_count": 34,
+              "following_count": 29,
+              "statuses_count": 27,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": []
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109523806417662780",
+                "username": "shageman",
+                "url": "https://ruby.social/@shageman",
+                "acct": "shageman"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "110261025404354839",
+      "created_at": "2023-04-25T19:08:48.465Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110261025404354839",
+      "url": "https://ruby.social/@shageman/110261025404354839",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 2,
+      "edited_at": null,
+      "content": "<p>If you attended and liked Guillermo Aguirre’s talk on Applying microservices patterns to a modular monolith, join me tomorrow for an introduction for how to get started with one of the fundamentals discussed in the talk: Rails Modularization with Packwerk: <a href=\"https://railsconf2023.sessionize.com/session/452625\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">railsconf2023.sessionize.com/s</span><span class=\"invisible\">ession/452625</span></a></p>",
+      "reblog": null,
+      "application": {
+        "name": "Mastodon for iOS",
+        "website": "https://app.joinmastodon.org/ios"
+      },
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://railsconf2023.sessionize.com/session/452625",
+        "title": "Gradually Modularizing your Monolith with Ruby Packs and Packwerk",
+        "description": "Are you struggling with large amounts of complexity in your application? A big org with lots of cross-team dependencies? Too much coupling, causing bugs and incidents? Difficult time ramping up new engineers? Or do you just want to improve product optionality by having more reusable building blocks to create new features for your customers?\r\n\r\nJoin us to apply the packs ecosystem and packwerk to gradually modularize your application. We'll dive into decomposing your application, moving files into packs, and coming up with a technical and managerial plan to successfully roll this out to and get buy-in from the rest of your organization.\r\n",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "",
+        "provider_url": "",
+        "html": "",
+        "width": 384,
+        "height": 384,
+        "image": "https://cdn.masto.host/rubysocial/cache/preview_cards/images/003/905/053/original/6d0446946065ddfe.png",
+        "embed_url": "",
+        "blurhash": "UbN*|6kkzDRVBftQxIMyy]xbt7Ri=#RQMd%L"
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110260976172216345",
+      "created_at": "2023-04-25T18:56:17.241Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110260976172216345",
+      "url": "https://ruby.social/@shageman/110260976172216345",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 1,
+      "edited_at": null,
+      "content": "<p>Thanks to everyone who attended our modularity lunch! I very much enjoyed the time and the varied discussions!</p>",
+      "reblog": null,
+      "application": {
+        "name": "Mastodon for iOS",
+        "website": "https://app.joinmastodon.org/ios"
+      },
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [
+        {
+          "id": "110260962887811487",
+          "type": "image",
+          "url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/260/962/887/811/487/original/b5ebce00b527aa30.png",
+          "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/260/962/887/811/487/small/b5ebce00b527aa30.png",
+          "remote_url": null,
+          "preview_remote_url": null,
+          "text_url": null,
+          "meta": {
+            "original": {
+              "width": 1536,
+              "height": 1152,
+              "size": "1536x1152",
+              "aspect": 1.3333333333333333
+            },
+            "small": {
+              "width": 554,
+              "height": 416,
+              "size": "554x416",
+              "aspect": 1.3317307692307692
+            }
+          },
+          "description": "View of the lunch room at RailsConf",
+          "blurhash": "UAECg-tS_1bI~qbK9bRjtQNIae%19Yt2oexu"
+        }
+      ],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": null,
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110244321017576314",
+      "created_at": "2023-04-22T20:20:39.745Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110244321017576314",
+      "url": "https://ruby.social/@shageman/110244321017576314",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 0,
+      "edited_at": null,
+      "content": "<p>Railsconf Modularity Workshop update: We got notified that signups are no longer possible, because we&#39;re at capacity for the room we&#39;re going to be in.</p><p>We also got this message: &quot;However, there may be some extra seats (a few) in there, so swing by and check to see if there is anywhere to sit and join!&quot;</p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": null,
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110238660437340306",
+      "created_at": "2023-04-21T20:21:06.146Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110238660437340306",
+      "url": "https://ruby.social/@shageman/110238660437340306",
+      "replies_count": 0,
+      "reblogs_count": 3,
+      "favourites_count": 7,
+      "edited_at": null,
+      "content": "<p>I am super happy and proud with my team&#39;s and Gusto&#39;s showing at RailsConf this year: <span class=\"h-card\"><a href=\"https://ruby.social/@maple\" class=\"u-url mention\">@<span>maple</span></a></span> <span class=\"h-card\"><a href=\"https://ruby.social/@baweaver\" class=\"u-url mention\">@<span>baweaver</span></a></span> <span class=\"h-card\"><a href=\"https://mastodon.social/@nateberkopec\" class=\"u-url mention\">@<span>nateberkopec</span></a></span> and Alex!! Yay!</p><p>Check out details here: <a href=\"https://engineering.gusto.com/gusto-at-railsconf-2023-see-you-there/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">engineering.gusto.com/gusto-at</span><span class=\"invisible\">-railsconf-2023-see-you-there/</span></a></p><p>Alex and I are planning a modularity lunch for Tuesday and are also doing office hours, which you can sign up for here: <a href=\"https://tinyurl.com/modularityOH\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">tinyurl.com/modularityOH</span><span class=\"invisible\"></span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [
+        {
+          "id": "110238655533027484",
+          "type": "image",
+          "url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/238/655/533/027/484/original/f427612b36b0297a.png",
+          "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/238/655/533/027/484/small/f427612b36b0297a.png",
+          "remote_url": null,
+          "preview_remote_url": null,
+          "text_url": null,
+          "meta": {
+            "original": {
+              "width": 1572,
+              "height": 1258,
+              "size": "1572x1258",
+              "aspect": 1.2496025437201908
+            },
+            "small": {
+              "width": 536,
+              "height": 429,
+              "size": "536x429",
+              "aspect": 1.2494172494172495
+            }
+          },
+          "description": null,
+          "blurhash": "UuK1wOofxuWB~qWBWBfQ-pRjWBj[Rjj[WBj["
+        }
+      ],
+      "mentions": [
+        {
+          "id": "109365977274665367",
+          "username": "maple",
+          "url": "https://ruby.social/@maple",
+          "acct": "maple"
+        },
+        {
+          "id": "6173",
+          "username": "baweaver",
+          "url": "https://ruby.social/@baweaver",
+          "acct": "baweaver"
+        },
+        {
+          "id": "96385",
+          "username": "nateberkopec",
+          "url": "https://mastodon.social/@nateberkopec",
+          "acct": "nateberkopec@mastodon.social"
+        }
+      ],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://engineering.gusto.com/gusto-at-railsconf-2023-see-you-there/",
+        "title": "Gusto at RailsConf 2023 – see you there!",
+        "description": "This year at RailsConf, Gusto will have 5 speakers delivering 3 talks, a workshop, a modularity lunch, and modularity office hours! Here’s some information about each of these!\n\n\nTalk: Building Ruby Head for your Rails App, Maple Ong\n\nGusto Engineering has been investing in a long-term solution to upgrading",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Gusto Engineering",
+        "provider_url": "",
+        "html": "",
+        "width": 400,
+        "height": 207,
+        "image": "https://cdn.masto.host/rubysocial/cache/preview_cards/images/004/158/407/original/1da2368a0e8afbb9.jpg",
+        "embed_url": "",
+        "blurhash": "UMD0AY?vWBWB~q%gt7f5j?tQt7RjIUoff6M{"
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110220196694962913",
+      "created_at": "2023-04-18T14:05:31.794Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110220196694962913",
+      "url": "https://ruby.social/@shageman/110220196694962913",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 0,
+      "edited_at": null,
+      "content": "<p>Yup, this is legit. Good and relevant comparison; well researched. Definitely not spam. Definitely not generated by shitGPT.</p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [
+        {
+          "id": "110220186789495236",
+          "type": "image",
+          "url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/220/186/789/495/236/original/fa560dccf026685c.png",
+          "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/220/186/789/495/236/small/fa560dccf026685c.png",
+          "remote_url": null,
+          "preview_remote_url": null,
+          "text_url": null,
+          "meta": {
+            "original": {
+              "width": 892,
+              "height": 104,
+              "size": "892x104",
+              "aspect": 8.576923076923077
+            },
+            "small": {
+              "width": 892,
+              "height": 104,
+              "size": "892x104",
+              "aspect": 8.576923076923077
+            },
+            "focus": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "description": "Angular.js vs Ruby on Rails, vs Metaverse: Which is Best?",
+          "blurhash": "UKSF^hNIWCR+N2s.t5oe^$oeWCj[~TWCNHWC"
+        }
+      ],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": null,
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110188581756686099",
+      "created_at": "2023-04-13T00:05:26.121Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110188581756686099",
+      "url": "https://ruby.social/@shageman/110188581756686099",
+      "replies_count": 1,
+      "reblogs_count": 1,
+      "favourites_count": 3,
+      "edited_at": null,
+      "content": "<p>I have been thinking about how how gradual modularization fits into work of &quot;changing code for the future&quot; (trying to avoid all of the words in the chart)...</p><p>Does this resonate? What questions do you have?</p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [
+        {
+          "id": "110188571034120587",
+          "type": "image",
+          "url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/188/571/034/120/587/original/00418866de20951d.png",
+          "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/188/571/034/120/587/small/00418866de20951d.png",
+          "remote_url": null,
+          "preview_remote_url": null,
+          "text_url": null,
+          "meta": {
+            "original": {
+              "width": 1914,
+              "height": 1083,
+              "size": "1914x1083",
+              "aspect": 1.7673130193905817
+            },
+            "small": {
+              "width": 638,
+              "height": 361,
+              "size": "638x361",
+              "aspect": 1.7673130193905817
+            },
+            "focus": {
+              "x": 0.01,
+              "y": 0
+            }
+          },
+          "description": "A chart showing four quadrants:\n\n* Refactoring (small scale evolution)\n* Reimplementing (small scale replacement)\n* Strangler Fig Pattern (large scale replacement)\n* Gradual modularization (large scale evolution)",
+          "blurhash": "U9Ss8AayogofbHayj[fQt6j[~Tj[xuoLj[fR"
+        }
+      ],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": null,
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": [
+          {
+            "id": "110190383857451163",
+            "created_at": "2023-04-13T07:43:43.000Z",
+            "in_reply_to_id": "110188581756686099",
+            "in_reply_to_account_id": "109523806417662780",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://indieweb.social/users/mehulkar/statuses/110190383817953879",
+            "url": "https://indieweb.social/@mehulkar/110190383817953879",
+            "replies_count": 1,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@shageman\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>shageman</span></a></span> I don’t understand the chart but I’m interested to know more!</p>",
+            "reblog": null,
+            "account": {
+              "id": "109345680516147389",
+              "username": "mehulkar",
+              "acct": "mehulkar@indieweb.social",
+              "display_name": "mehulkar",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-04-26T00:00:00.000Z",
+              "note": "<p>The absolute tail of engineering at @turborepo @vercel. previously: a decade at <span class=\"h-card\"><a href=\"https://indieweb.social/@apple\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>apple</span></a></span>, the womb.</p><p><span class=\"h-card\"><a href=\"https://mastodon.social/@amishakar\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>amishakar</span></a></span> is the no 1. best.</p>",
+              "url": "https://indieweb.social/@mehulkar",
+              "avatar": "https://cdn.masto.host/rubysocial/cache/accounts/avatars/109/345/680/516/147/389/original/5006b1067c8b8013.jpeg",
+              "avatar_static": "https://cdn.masto.host/rubysocial/cache/accounts/avatars/109/345/680/516/147/389/original/5006b1067c8b8013.jpeg",
+              "header": "https://cdn.masto.host/rubysocial/cache/accounts/headers/109/345/680/516/147/389/original/cc92bbe5b86fd917.png",
+              "header_static": "https://cdn.masto.host/rubysocial/cache/accounts/headers/109/345/680/516/147/389/original/cc92bbe5b86fd917.png",
+              "followers_count": 221,
+              "following_count": 512,
+              "statuses_count": 603,
+              "last_status_at": "2023-05-04",
+              "emojis": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://mehulkar.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mehulkar.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-01-13T13:40:12.924+00:00"
+                },
+                {
+                  "name": "Twitter",
+                  "value": "<a href=\"https://twitter.com/mehulkar\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/mehulkar</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109523806417662780",
+                "username": "shageman",
+                "url": "https://ruby.social/@shageman",
+                "acct": "shageman"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          },
+          {
+            "id": "110191660839806914",
+            "created_at": "2023-04-13T13:08:29.205Z",
+            "in_reply_to_id": "110190383857451163",
+            "in_reply_to_account_id": "109345680516147389",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/shageman/statuses/110191660839806914",
+            "url": "https://ruby.social/@shageman/110191660839806914",
+            "replies_count": 1,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://indieweb.social/@mehulkar\" class=\"u-url mention\">@<span>mehulkar</span></a></span> Let&#39;s start in the bottom right (refactoring): I have discussed TDD&#39;s cycle of red-green-refactor and specifically the question of &quot;how much refactoring is ok in the context of the feature work.&quot; Whatever you come to, I believe it falls short of providing the answer as to how to decide on large scale codebase evolution.</p>",
+            "reblog": null,
+            "application": null,
+            "account": {
+              "id": "109523806417662780",
+              "username": "shageman",
+              "acct": "shageman",
+              "display_name": "",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-12-16T00:00:00.000Z",
+              "note": "",
+              "url": "https://ruby.social/@shageman",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "followers_count": 86,
+              "following_count": 142,
+              "statuses_count": 23,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109345680516147389",
+                "username": "mehulkar",
+                "url": "https://indieweb.social/@mehulkar",
+                "acct": "mehulkar@indieweb.social"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          },
+          {
+            "id": "110191684532168691",
+            "created_at": "2023-04-13T13:14:30.714Z",
+            "in_reply_to_id": "110191660839806914",
+            "in_reply_to_account_id": "109345680516147389",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/shageman/statuses/110191684532168691",
+            "url": "https://ruby.social/@shageman/110191684532168691",
+            "replies_count": 1,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://indieweb.social/@mehulkar\" class=\"u-url mention\">@<span>mehulkar</span></a></span> When it comes to this kind of large scale work, the most often proposed solution I come across is the strangler fig pattern: Build the new thing separately until you have the functionality (or parts thereof) that you can move consumers over to the new implementation. </p><p>This chart attempts to show that in the move from small to large we thus also tend to switch approaches: from evolution (right side) to replacement (left side).</p><p>There are alternatives.</p>",
+            "reblog": null,
+            "application": null,
+            "account": {
+              "id": "109523806417662780",
+              "username": "shageman",
+              "acct": "shageman",
+              "display_name": "",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-12-16T00:00:00.000Z",
+              "note": "",
+              "url": "https://ruby.social/@shageman",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "followers_count": 86,
+              "following_count": 142,
+              "statuses_count": 23,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109345680516147389",
+                "username": "mehulkar",
+                "url": "https://indieweb.social/@mehulkar",
+                "acct": "mehulkar@indieweb.social"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          },
+          {
+            "id": "110191692100417444",
+            "created_at": "2023-04-13T13:16:26.198Z",
+            "in_reply_to_id": "110191684532168691",
+            "in_reply_to_account_id": "109345680516147389",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/shageman/statuses/110191692100417444",
+            "url": "https://ruby.social/@shageman/110191692100417444",
+            "replies_count": 0,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://indieweb.social/@mehulkar\" class=\"u-url mention\">@<span>mehulkar</span></a></span></p><p>Reimplementing (bottom left) I have sometimes seen proposed as a practice. Implement a class and tests, then delete the class and write it again, implementing all the tests.</p><p>Gradual Modularization (top right) uses large scale system modularization feedback (in the form of structure rules and their violations) to allow for a refactoring of the entire system to become feasible.</p>",
+            "reblog": null,
+            "application": null,
+            "account": {
+              "id": "109523806417662780",
+              "username": "shageman",
+              "acct": "shageman",
+              "display_name": "",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-12-16T00:00:00.000Z",
+              "note": "",
+              "url": "https://ruby.social/@shageman",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "followers_count": 86,
+              "following_count": 142,
+              "statuses_count": 23,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109345680516147389",
+                "username": "mehulkar",
+                "url": "https://indieweb.social/@mehulkar",
+                "acct": "mehulkar@indieweb.social"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "110186365462206374",
+      "created_at": "2023-04-12T14:41:48.150Z",
+      "in_reply_to_id": "110186361451837074",
+      "in_reply_to_account_id": "109523806417662780",
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110186365462206374",
+      "url": "https://ruby.social/@shageman/110186365462206374",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 0,
+      "edited_at": "2023-04-12T14:41:59.121Z",
+      "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@railsconf\" class=\"u-url mention\">@<span>railsconf</span></a></span> Or maybe you know all this stuff already and want to help us run the workshop? Send me a DM or reach out at <a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [
+        {
+          "id": "109355345507882807",
+          "username": "railsconf",
+          "url": "https://ruby.social/@railsconf",
+          "acct": "railsconf"
+        }
+      ],
+      "tags": [],
+      "emojis": [],
+      "card": null,
+      "poll": null,
+      "context": {
+        "ancestors": [
+          {
+            "id": "110186361451837074",
+            "created_at": "2023-04-12T14:40:46.959Z",
+            "in_reply_to_id": null,
+            "in_reply_to_account_id": null,
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/shageman/statuses/110186361451837074",
+            "url": "https://ruby.social/@shageman/110186361451837074",
+            "replies_count": 1,
+            "reblogs_count": 2,
+            "favourites_count": 3,
+            "edited_at": null,
+            "content": "<p>Are you attending <span class=\"h-card\"><a href=\"https://ruby.social/@railsconf\" class=\"u-url mention\">@<span>railsconf</span></a></span> ... and following me??? Then you might be interested in joining me for the workshop _Gradually Modularizing your Monolith with Ruby Packs and Packwerk_ that I am hosting together with my colleague Alex! Sign up is here: <a href=\"https://www.eventbrite.com/e/workshop-gradually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">eventbrite.com/e/workshop-grad</span><span class=\"invisible\">ually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937</span></a></p>",
+            "reblog": null,
+            "application": null,
+            "account": {
+              "id": "109523806417662780",
+              "username": "shageman",
+              "acct": "shageman",
+              "display_name": "",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-12-16T00:00:00.000Z",
+              "note": "",
+              "url": "https://ruby.social/@shageman",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "followers_count": 86,
+              "following_count": 142,
+              "statuses_count": 23,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109355345507882807",
+                "username": "railsconf",
+                "url": "https://ruby.social/@railsconf",
+                "acct": "railsconf"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": {
+              "url": "https://www.eventbrite.com/e/workshop-gradually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937",
+              "title": "WORKSHOP: Gradually Modularizing your Monolith with Ruby Packs and Packwerk",
+              "description": "Workshops to Railsconf 2023. visit www.railsconf.org for more info",
+              "type": "link",
+              "author_name": "",
+              "author_url": "",
+              "provider_name": "Eventbrite",
+              "provider_url": "",
+              "html": "",
+              "width": 0,
+              "height": 0,
+              "image": null,
+              "embed_url": "",
+              "blurhash": null
+            },
+            "poll": null
+          }
+        ],
+        "descendants": []
+      }
+    },
+    {
+      "id": "110186361451837074",
+      "created_at": "2023-04-12T14:40:46.959Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110186361451837074",
+      "url": "https://ruby.social/@shageman/110186361451837074",
+      "replies_count": 1,
+      "reblogs_count": 2,
+      "favourites_count": 3,
+      "edited_at": null,
+      "content": "<p>Are you attending <span class=\"h-card\"><a href=\"https://ruby.social/@railsconf\" class=\"u-url mention\">@<span>railsconf</span></a></span> ... and following me??? Then you might be interested in joining me for the workshop _Gradually Modularizing your Monolith with Ruby Packs and Packwerk_ that I am hosting together with my colleague Alex! Sign up is here: <a href=\"https://www.eventbrite.com/e/workshop-gradually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">eventbrite.com/e/workshop-grad</span><span class=\"invisible\">ually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937</span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [
+        {
+          "id": "109355345507882807",
+          "username": "railsconf",
+          "url": "https://ruby.social/@railsconf",
+          "acct": "railsconf"
+        }
+      ],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://www.eventbrite.com/e/workshop-gradually-modularizing-your-monolith-with-ruby-packs-and-packwerk-tickets-598692684937",
+        "title": "WORKSHOP: Gradually Modularizing your Monolith with Ruby Packs and Packwerk",
+        "description": "Workshops to Railsconf 2023. visit www.railsconf.org for more info",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Eventbrite",
+        "provider_url": "",
+        "html": "",
+        "width": 0,
+        "height": 0,
+        "image": null,
+        "embed_url": "",
+        "blurhash": null
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": [
+          {
+            "id": "110186365462206374",
+            "created_at": "2023-04-12T14:41:48.150Z",
+            "in_reply_to_id": "110186361451837074",
+            "in_reply_to_account_id": "109523806417662780",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/shageman/statuses/110186365462206374",
+            "url": "https://ruby.social/@shageman/110186365462206374",
+            "replies_count": 0,
+            "reblogs_count": 0,
+            "favourites_count": 0,
+            "edited_at": "2023-04-12T14:41:59.121Z",
+            "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@railsconf\" class=\"u-url mention\">@<span>railsconf</span></a></span> Or maybe you know all this stuff already and want to help us run the workshop? Send me a DM or reach out at <a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a></p>",
+            "reblog": null,
+            "application": null,
+            "account": {
+              "id": "109523806417662780",
+              "username": "shageman",
+              "acct": "shageman",
+              "display_name": "",
+              "locked": false,
+              "bot": false,
+              "discoverable": true,
+              "group": false,
+              "created_at": "2022-12-16T00:00:00.000Z",
+              "note": "",
+              "url": "https://ruby.social/@shageman",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+              "followers_count": 86,
+              "following_count": 142,
+              "statuses_count": 23,
+              "last_status_at": "2023-05-05",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109355345507882807",
+                "username": "railsconf",
+                "url": "https://ruby.social/@railsconf",
+                "acct": "railsconf"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "110084356087563683",
+      "created_at": "2023-03-25T14:19:28.623Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/110084356087563683",
+      "url": "https://ruby.social/@shageman/110084356087563683",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 2,
+      "edited_at": null,
+      "content": "<p>Together with Alex Evanczuk, I am going to lead a workshop on gradual modularization at RailsConf in Atlanta on April 26. </p><p>Are you going to join us?</p><p><a href=\"https://railsconf2023.sessionize.com/session/452625\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">railsconf2023.sessionize.com/s</span><span class=\"invisible\">ession/452625</span></a></p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [
+        {
+          "id": "110084348056666351",
+          "type": "image",
+          "url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/084/348/056/666/351/original/0270b65ea45ef0bf.jpeg",
+          "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/110/084/348/056/666/351/small/0270b65ea45ef0bf.jpeg",
+          "remote_url": null,
+          "preview_remote_url": null,
+          "text_url": null,
+          "meta": {
+            "original": {
+              "width": 1920,
+              "height": 640,
+              "size": "1920x640",
+              "aspect": 3
+            },
+            "small": {
+              "width": 831,
+              "height": 277,
+              "size": "831x277",
+              "aspect": 3
+            }
+          },
+          "description": null,
+          "blurhash": "UWO^.a_ll,E14o:,IoMetScWkEtjVYa1sCSK"
+        }
+      ],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://railsconf2023.sessionize.com/session/452625",
+        "title": "Gradually Modularizing your Monolith with Ruby Packs and Packwerk",
+        "description": "Are you struggling with large amounts of complexity in your application? A big org with lots of cross-team dependencies? Too much coupling, causing bugs and incidents? Difficult time ramping up new engineers? Or do you just want to improve product optionality by having more reusable building blocks to create new features for your customers?\r\n\r\nJoin us to apply the packs ecosystem and packwerk to gradually modularize your application. We'll dive into decomposing your application, moving files into packs, and coming up with a technical and managerial plan to successfully roll this out to and get buy-in from the rest of your organization.\r\n",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "",
+        "provider_url": "",
+        "html": "",
+        "width": 384,
+        "height": 384,
+        "image": "https://cdn.masto.host/rubysocial/cache/preview_cards/images/003/905/053/original/6d0446946065ddfe.png",
+        "embed_url": "",
+        "blurhash": "UbN*|6kkzDRVBftQxIMyy]xbt7Ri=#RQMd%L"
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "109830412368854893",
+      "created_at": "2023-02-08T17:58:14.989Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/109830412368854893",
+      "url": "https://ruby.social/@shageman/109830412368854893",
+      "replies_count": 0,
+      "reblogs_count": 0,
+      "favourites_count": 0,
+      "edited_at": null,
+      "content": "<p>Today, I participated in a book club session for <a href=\"https://leanpub.com/package-based-rails-applications\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">leanpub.com/package-based-rail</span><span class=\"invisible\">s-applications</span></a>... It is so humbling to see in how many ways I get misunderstood, make points less than clear, and could improve structure... I am so grateful to anyone who engages with the topic. Thank you!</p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "https://leanpub.com/package-based-rails-applications",
+        "title": "Gradual Modularization for Ruby and Rails",
+        "description": "Get yourself a new tool to manage your Rails application and your growing engineering organization! Prevent the ball-of-mud (and fix it!). Go for microservices or SOA if it makes sense not just because you don't have any other tool. Do all this through a low-overhead tool: packages. Enable better conversations to make practical changes today.",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Leanpub",
+        "provider_url": "",
+        "html": "",
+        "width": 200,
+        "height": 259,
+        "image": "https://cdn.masto.host/rubysocial/cache/preview_cards/images/003/457/888/original/613807687b5ac594.png",
+        "embed_url": "",
+        "blurhash": "U58bKPkVugkWQTaepHf6VFf6kWkCjukVaef6"
+      },
+      "poll": null,
+      "context": {
+        "ancestors": [],
+        "descendants": []
+      }
+    },
+    {
+      "id": "109621681295716632",
+      "created_at": "2023-01-02T21:15:11.568Z",
+      "in_reply_to_id": null,
+      "in_reply_to_account_id": null,
+      "sensitive": false,
+      "spoiler_text": "",
+      "visibility": "public",
+      "language": "en",
+      "uri": "https://ruby.social/users/shageman/statuses/109621681295716632",
+      "url": "https://ruby.social/@shageman/109621681295716632",
+      "replies_count": 1,
+      "reblogs_count": 0,
+      "favourites_count": 0,
+      "edited_at": null,
+      "content": "<p>Over my winter break I realized that not having finished <a href=\"https://leanpub.com/package-based-rails-applications\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">leanpub.com/package-based-rail</span><span class=\"invisible\">s-applications</span></a> is weighing on me. Last half I took a long break because I needed to reassess what I should still add. Here is what I have come up with:</p><p>* Do-over for Chapter 7 - many gems have seen big revisions and improvements<br />* Finish Chapter 8 on metrics<br />* Add Chapter 9: How to create modularization progress in your org<br />* Add Chapter 10: From modularity to autonomy</p><p>Which chapter are you most interested in?</p>",
+      "reblog": null,
+      "application": null,
+      "account": {
+        "id": "109523806417662780",
+        "username": "shageman",
+        "acct": "shageman",
+        "display_name": "",
+        "locked": false,
+        "bot": false,
+        "discoverable": true,
+        "group": false,
+        "created_at": "2022-12-16T00:00:00.000Z",
+        "note": "",
+        "url": "https://ruby.social/@shageman",
+        "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/523/806/417/662/780/original/28aee5f4b0fd31c7.png",
+        "header": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/109/523/806/417/662/780/original/a3a3683bea954e22.png",
+        "followers_count": 86,
+        "following_count": 142,
+        "statuses_count": 23,
+        "last_status_at": "2023-05-05",
+        "noindex": false,
+        "emojis": [],
+        "roles": [],
+        "fields": [
+          {
+            "name": "Website",
+            "value": "<a href=\"https://stephanhagemann.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">stephanhagemann.com</span><span class=\"invisible\"></span></a>",
+            "verified_at": null
+          }
+        ]
+      },
+      "media_attachments": [],
+      "mentions": [],
+      "tags": [],
+      "emojis": [],
+      "card": {
+        "url": "http://leanpub.com/package-based-rails-applications",
+        "title": "Gradual Modularization for Ruby and Rails",
+        "description": "Get yourself a new tool to manage your Rails application and your growing engineering organization! Prevent the ball-of-mud (and fix it!). Go for microservices or SOA if it makes sense not just because you don't have any other tool. Do all this through a low-overhead tool: packages. Enable better conversations to make practical changes today.",
+        "type": "link",
+        "author_name": "",
+        "author_url": "",
+        "provider_name": "Leanpub",
+        "provider_url": "",
+        "html": "",
+        "width": 200,
+        "height": 259,
+        "image": null,
+        "embed_url": "",
+        "blurhash": "U58bKPkVugkWQTaepHf6VFf6kWkCjukVaef6"
+      },
+      "poll": {
+        "id": "45049",
+        "expires_at": "2023-01-05T21:15:11.564Z",
+        "expired": true,
+        "multiple": false,
+        "votes_count": 4,
+        "voters_count": 4,
+        "options": [
+          {
+            "title": "Chapter 7",
+            "votes_count": 1
+          },
+          {
+            "title": "Chapter 8",
+            "votes_count": 1
+          },
+          {
+            "title": "Chapter 9",
+            "votes_count": 2
+          },
+          {
+            "title": "Chapter 10",
+            "votes_count": 0
+          }
+        ],
+        "emojis": []
+      },
+      "context": {
+        "ancestors": [],
+        "descendants": [
+          {
+            "id": "109621775369965655",
+            "created_at": "2023-01-02T21:39:07.026Z",
+            "in_reply_to_id": "109621681295716632",
+            "in_reply_to_account_id": "109523806417662780",
+            "sensitive": false,
+            "spoiler_text": "",
+            "visibility": "public",
+            "language": "en",
+            "uri": "https://ruby.social/users/braidn/statuses/109621775369965655",
+            "url": "https://ruby.social/@braidn/109621775369965655",
+            "replies_count": 0,
+            "reblogs_count": 0,
+            "favourites_count": 1,
+            "edited_at": null,
+            "content": "<p><span class=\"h-card\"><a href=\"https://ruby.social/@shageman\" class=\"u-url mention\">@<span>shageman</span></a></span> metrics, metrics, metrics pls 🙏 . Too often do folks completely get this wrong or defer it to &#39;far in the future&#39;.</p><p>IMHO, big win with Chapter 8.</p>",
+            "reblog": null,
+            "application": {
+              "name": "Pinafore",
+              "website": "https://pinafore.social"
+            },
+            "account": {
+              "id": "973",
+              "username": "braidn",
+              "acct": "braidn",
+              "display_name": "Braden Douglass",
+              "locked": false,
+              "bot": false,
+              "discoverable": false,
+              "group": false,
+              "created_at": "2018-08-22T00:00:00.000Z",
+              "note": "<p>Vimmer, API nerd, <a href=\"https://ruby.social/tags/keyboard\" class=\"mention hashtag\" rel=\"tag\">#<span>keyboard</span></a> / <a href=\"https://ruby.social/tags/analogwatch\" class=\"mention hashtag\" rel=\"tag\">#<span>analogwatch</span></a> / <a href=\"https://ruby.social/tags/edc\" class=\"mention hashtag\" rel=\"tag\">#<span>edc</span></a> enthusiast and esteemed author of <a href=\"http://cloudbacon.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">http://</span><span class=\"\">cloudbacon.com</span><span class=\"invisible\"></span></a>. Nice developer evangelist and long time journeyman engineer. Currently bettering money related backed systems and championing for better developer experiences.</p><p>Booster Gold’s emotional sponsor and official spirit animal.</p>",
+              "url": "https://ruby.social/@braidn",
+              "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/000/000/973/original/3ef36c282a2ebcc3.jpg",
+              "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/000/000/973/original/3ef36c282a2ebcc3.jpg",
+              "header": "https://cdn.masto.host/rubysocial/accounts/headers/000/000/973/original/2e560aa98085a7e9.jpg",
+              "header_static": "https://cdn.masto.host/rubysocial/accounts/headers/000/000/973/original/2e560aa98085a7e9.jpg",
+              "followers_count": 55,
+              "following_count": 80,
+              "statuses_count": 268,
+              "last_status_at": "2023-05-08",
+              "noindex": false,
+              "emojis": [],
+              "roles": [],
+              "fields": [
+                {
+                  "name": "Blog",
+                  "value": "<a href=\"https://cloudbacon.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">cloudbacon.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-02-10T03:39:39.427+00:00"
+                },
+                {
+                  "name": "Code",
+                  "value": "<a href=\"https://github.com/braidn\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">github.com/braidn</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-02-10T03:51:42.247+00:00"
+                },
+                {
+                  "name": "Sync Chat (Discord)",
+                  "value": "braidn#6018",
+                  "verified_at": null
+                }
+              ]
+            },
+            "media_attachments": [],
+            "mentions": [
+              {
+                "id": "109523806417662780",
+                "username": "shageman",
+                "url": "https://ruby.social/@shageman",
+                "acct": "shageman"
+              }
+            ],
+            "tags": [],
+            "emojis": [],
+            "card": null,
+            "poll": null
+          }
+        ]
+      }
+    }
+  ]
+}

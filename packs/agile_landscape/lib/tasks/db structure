@@ -1,0 +1,31 @@
+entry
+  ! name + version == unique
+  id
+  name
+  version
+  section
+  created_at
+
+entry_commentary
+  id
+  entry_id
+  prompt
+  comment
+  author
+  created_at
+
+framework
+  ! name + version == unique
+  id
+  name
+  version
+  color
+  created_at
+
+connection
+  ! entry.version == framework.version == connected_entry.version
+  id
+  entry_id
+  framework_id
+  connected_entry_id
+  created_at
