@@ -9,7 +9,7 @@ class AgileLandscape::AgileLandscapeController < ApplicationController
 
   def show_entry
     @entry = AgileLandscape::Entry.find_by_slug("/agile_landscape/version/#{params[:version]}/entries/#{params[:id]}")
-    
+
     render layout: "page"
   end
 

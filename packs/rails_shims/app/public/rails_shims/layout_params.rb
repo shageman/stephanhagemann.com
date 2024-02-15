@@ -4,7 +4,7 @@ class RailsShims::LayoutParams
               :description_link,
               :description,
               :header,
-              :page_class, 
+              :page_class,
               :title
 
   def initialize(

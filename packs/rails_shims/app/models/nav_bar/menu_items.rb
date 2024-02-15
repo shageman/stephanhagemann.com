@@ -6,7 +6,7 @@ class NavBar::MenuItems
 
   class MenuItem
     attr_reader :section, :path, :class_name, :text
-    
+
     def initialize(section:, path:, text:, class_name: nil)
       @section = section
       @path = path

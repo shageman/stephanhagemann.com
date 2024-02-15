@@ -25,3 +25,6 @@ Layout/EndOfLine:
 
 Layout/TrailingEmptyLines:
   Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true

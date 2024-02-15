@@ -17,9 +17,9 @@ class Books::Book < ActiveHash::Base
         The emergence of Web 2.0 is provoking challenging questions for developers: What products and services can our company provide to customers and employees using Rich Internet Applications, mash-ups, Web feeds or Ajax? Which business models are appropriate and how do we implement them? What are best practices and how do we apply them?
 
         If you need answers to these and related questions, you need Unleashing Web 2.0—a comprehensive and reliable resource that guides you into the emerging and unstructured landscape that is Web 2.0.
-        
+
         Gottfried Vossen is a professor of Information Systems and Computer Science at the University of Muenster in Germany. He is the European Editor-in-Chief of Elsevier’s Information Systems—An International Journal. Stephan Hagemann is a PhD. Student in Gottfried’s research group focused on Web technologies.
-        
+
         * Presents a complete view of Web 2.0 including services and technologies
         * Discusses potential new products and services and the technology and programming ability needed to realize them
         * Offers ‘how to’ basics presenting development frameworks and best practices
@@ -52,7 +52,7 @@ class Books::Book < ActiveHash::Base
       TEXT
     },
     {
-      id: 4, 
+      id: 4,
       slug: "cbra",
       title: "Component-Based Rails Applications: Large Domains Under Control",
       authors: "Stephan Hagemann",
@@ -87,7 +87,7 @@ class Books::Book < ActiveHash::Base
       TEXT
     },
     {
-      id: 5, 
+      id: 5,
       slug: "gradual-modularization",
       title: "Gradual Modularization for Ruby and Rails",
       description: "Improve collaboration, system design, and flexibility",
@@ -113,13 +113,13 @@ class Books::Book < ActiveHash::Base
         **WORK IN PROGRESS: You can buy the book right here. I also do book clubs with teams that buy the book. You can also the book [on Leanpub](https://leanpub.com/package-based-rails-applications). All book delivery will be through leanpub so you can follow along as I complete this book!**
 
         For the longest time, Ruby and Rails developers had gems and engines as their main tools for creating structure to manage large-scale structures within their applications. This book is about a new tool in their tool belt: packages.
-        
+
         ## [Be sure to check out gradualmodularization.com](https://gradualmodularization.com)
-        
+
         Based on the work on packwerk by Shopify packages allow a much more fluid move to modularization then components ever did. The effects are astounding: discussions about where to draw boundaries can be far less technical and focus more on the business because the underlying technology gets out of the way.
-        
+
         The concept underlying this is gradual modularization, which the author expects we will see spread into other languages and frameworks over the coming years. Why? Because gradual modularization allows for a not-before seen level of approachability and flexibility to modularization work. Work that required difficult decisions that were hard to reverse changes. Those decisions are now the extreme points on a spectrum of options where the right thing for the team can be somewhere in between.
-        
+
         This work is a continuation of [Component-based Rails applications](https://cbra.info) with superior tooling! I [wrote a book about that too](/books/cbra/) <span>&#128522;</span>
       TEXT
     },
