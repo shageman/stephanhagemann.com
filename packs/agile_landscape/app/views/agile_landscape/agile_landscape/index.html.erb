@@ -1,0 +1,86 @@
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'agile_landscape',
+    container_class: "content-margin-top",
+    description_link: link_to('Ask me anything!', Contact::Api.entrypoint_path('Speaking Inquiry')),
+    description: "Oh my...",
+    header: "Deloitte's \"The Agile Landscape\" Analyzed",
+    page_class: "dark-theme theme-blue",
+    title: "Deloitte's \"The Agile Landscape\" Analyzed",
+  )
+%>
+
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js"></script>
+<script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+
+<%= raw @markdown.render(<<~MD) 
+Have you seen this gif before?
+
+![The Agile Landscape in the style of the London tube map v0.1](/images/agile_landscape/agile_landscape-0-1.gif)
+
+The map has been described as a project by Deloitte, specifically, one of their people, Christopher Webb (you can see that info on the version below). Unfortunately, I can't reference either, because I can't find links to either. There is a v3 version floating around as well. Similarly, I can't find references.
+
+![The Agile Landscape in the style of the London tube map v3](/images/agile_landscape/agile_landscape-3.jpg)
+
+After looking at the image for a while, I didn't think this diagram was particularly good. And in some ways, it is terrible. Others have noted so too:
+
+* [Navigating The Agile Landscape](https://coolinfographics.com/blog/2017/1/9/navigating-the-agile_landscape.html), Randy Krum
+* [7 things wrong with Deloitte’s Agile Tube Map](https://medium.com/tech-sojourna/7-things-wrong-with-deloittes-agile-tube-map-641192e20068), Ethar Alali
+
+The arbitrary twists and turns in the lines, the seemingly non-existed rationale for connecting particular nodes, the non-equivalency of anything about these nodes, the mistakes, the duplication, oh my...
+
+That all said, there is 
+one aspect I keep find intriguing: **I don't know all the terms listed on the map.**
+
+So... I made my own version of the map to allow for more exploration than the original map! You can explore it below (if it doesn't show or you can't pan and zoom, reload this page, the renderer seems to get stuck sometimes). Click on any node and you get to a page for that entry. You can then navigate between entries and methodologies.
+
+Note: *This project currently contains the entries and methodologies as used in the diagrams shown above (as best as I can tell). I have questions and disagreements about many details.*
+MD
+%>
+
+<div id="graph" style="z-index: -100; border: 1px solid grey; background-color: lightblue; text-align: center; height: 700px; width: 100%;"></div>
+
+<script>
+  function attributer(datum, index, nodes) {
+      var selection = d3.select(this);
+      if (datum.tag == "svg") {
+          var width = document.getElementById('graph').clientWidth;
+          var height = document.getElementById('graph').clientHeight;
+          var x = -250;
+          var y = -350;
+          var scale = 0.7;
+          selection
+              .attr("width", width + "pt")
+              .attr("height", height + "pt")
+              .attr("viewBox", -x + " " + -y + " " + (width / scale) + " " + (height / scale));
+          datum.attributes.width = width + "pt";
+          datum.attributes.height = height + "pt";
+          datum.attributes.viewBox = -x + " " + -y + " " + (width / scale) + " " + (height / scale);
+      }
+  }
+
+  d3
+    .select('#graph')
+    .graphviz()
+    .attributer(attributer)
+    .renderDot(`<%= raw @graph %>`);
+</script>
+
+<h2>Frameworks</h2>
+<ul>
+<% @frameworks.each do |f| %>
+  <li>
+    <%= link_to f.Framework,  agile_landscape_framework_path(version: f.Version.gsub(/[^a-zA-Z0-9]/, "-"), id: f.Framework.gsub(/[^a-zA-Z0-9]/, "-")) %>
+  </li>
+<% end %>
+</ul>
+
+<h2>Entries</h2>
+<ul>
+<% @entries.each do |e| %>
+  <li>
+    <%= link_to e.Name, agile_landscape_entry_path(version: e.Version.gsub(/[^a-zA-Z0-9]/, "-"), id: e.Name.gsub(/[^a-zA-Z0-9]/, "-")) %>
+  </li>
+<% end %>
+</ul>

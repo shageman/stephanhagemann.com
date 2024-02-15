@@ -19,6 +19,6 @@ RSpec.describe "Root" do
 
     expect(page).to have_selector("a", text: "Services")
     expect(page).to have_selector("a", text: "Tags")
-    # expect(page).to have_selector("a", text: "Agile Landscape")
+    expect(page).to have_selector("a", text: "Agile Landscape")
   end
 end

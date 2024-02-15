@@ -1,0 +1,28 @@
+<%
+  @layout_params = RailsShims::LayoutParams.new(
+    active_section: 'agile_landscape',
+    container_class: "content-margin-top",
+    title: "Agile Landscape - Entry - #{@entry.Name}",
+    header: "Agile Landscape - Entry",
+    description: "This page is part of my <a href='/agile_landscape'>Agile Landscape</a> project."
+  )
+%>
+
+<h1>Entry: <%= @entry.Name %></h1>
+
+<%= @entry.Name %> is part of the following frameworks:
+
+<ul>
+  <% @entry.frameworks.sort_by{ _1['name'].downcase }.each do |f| %>
+    <li><%= link_to f['name'], agile_landscape_framework_path(version: 'v0-1', id: f['name'].gsub(/[^a-zA-Z0-9]/, "-")) %></a>
+  <% end %>
+</ul>
+
+<h2>What ChaptGPT says about it...</h2>
+
+<%= raw @markdown.render(@entry.chatGPT && @entry.chatGPT["result"] || '') %>
+
+<h2>Google Links</h2>
+
+<a href="https://www.google.com/search?q=${justName}">Google Search for "<%= @entry.Name %>"</a>
+<a href="https://trends.google.com/trends/explore?date=all&q=${justName}">Google Trends for "<%= @entry.Name %>"</a>
