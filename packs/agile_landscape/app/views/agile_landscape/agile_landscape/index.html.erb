@@ -71,7 +71,7 @@ MD
 <ul>
 <% @frameworks.each do |f| %>
   <li>
-    <%= link_to f.Framework,  agile_landscape_framework_path(version: f.Version.gsub(/[^a-zA-Z0-9]/, "-"), id: f.Framework.gsub(/[^a-zA-Z0-9]/, "-")) %>
+    <%= link_to f.name,  agile_landscape_framework_path(version: f.version.to_param, id: f.to_param) %>
   </li>
 <% end %>
 </ul>
@@ -80,7 +80,7 @@ MD
 <ul>
 <% @entries.each do |e| %>
   <li>
-    <%= link_to e.Name, agile_landscape_entry_path(version: e.Version.gsub(/[^a-zA-Z0-9]/, "-"), id: e.Name.gsub(/[^a-zA-Z0-9]/, "-")) %>
+    <%= link_to e.name, agile_landscape_entry_path(version: e.version.to_param, id: e.to_param) %>
   </li>
 <% end %>
 </ul>

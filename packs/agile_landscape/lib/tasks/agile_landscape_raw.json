@@ -1,0 +1,3098 @@
+[
+  {
+    "Name": "Product Backlog",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Sprint Planning (1&2)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Planning (1&2)",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Release Planning",
+    "Next 2": ""
+  },
+  {
+    "Name": "Release Planning",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Iterations",
+    "Next 2": ""
+  },
+  {
+    "Name": "Iterations",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Relative Estimation",
+    "Next 2": "Sprint Backlog"
+  },
+  {
+    "Name": "Relative Estimation",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Poker Planning",
+    "Next 2": "Sprint Backlog"
+  },
+  {
+    "Name": "Poker Planning",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Sprint Planning (1&2)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Backlog",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Three Questions",
+    "Next 2": ""
+  },
+  {
+    "Name": "Three Questions",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Daily Meeting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Daily Meeting",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Task Board",
+    "Next 2": ""
+  },
+  {
+    "Name": "Task Board",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Definition of Ready",
+    "Next 2": ""
+  },
+  {
+    "Name": "Definition of Ready",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Refinement Meeting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refinement Meeting",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Definition of Done",
+    "Next 2": ""
+  },
+  {
+    "Name": "Definition of Done",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Testing",
+    "Next 2": "Dreyfus Model"
+  },
+  {
+    "Name": "Testing",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Velocity",
+    "Next 2": ""
+  },
+  {
+    "Name": "Velocity",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Burndown Chart",
+    "Next 2": ""
+  },
+  {
+    "Name": "Burndown Chart",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Sprint Review (Showcase)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Review (Showcase)",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Retrospective",
+    "Next 2": ""
+  },
+  {
+    "Name": "Retrospective",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Refactoring",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refactoring",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Sprint Backlog",
+    "Next 2": ""
+  },
+  {
+    "Name": "Dreyfus Model",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Usability Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Usability Testing",
+    "Section": "Deliver",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Frequent Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Frequent Releases",
+    "Section": "Release",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "Small Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Small Releases",
+    "Section": "Release",
+    "Framework": "Scrum",
+    "Color": "Grey",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "6 levels of planning",
+    "Section": "Discover",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "JIT Model Storming",
+    "Next 2": ""
+  },
+  {
+    "Name": "JIT Model Storming",
+    "Section": "Discover",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Simple Design",
+    "Next 2": ""
+  },
+  {
+    "Name": "Simple Design",
+    "Section": "Discover",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "CRC Cards",
+    "Next 2": ""
+  },
+  {
+    "Name": "CRC Cards",
+    "Section": "Discover",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Sustainable Pace",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sustainable Pace",
+    "Section": "Discover",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Metaphor",
+    "Next 2": ""
+  },
+  {
+    "Name": "Metaphor",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Spikes",
+    "Next 2": ""
+  },
+  {
+    "Name": "Spikes",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Release Planning",
+    "Next 2": ""
+  },
+  {
+    "Name": "Release Planning",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Iterations",
+    "Next 2": ""
+  },
+  {
+    "Name": "Iterations",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Programming Rotation (15mins)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Programming Rotation (15mins)",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Onsite Customer",
+    "Next 2": ""
+  },
+  {
+    "Name": "Onsite Customer",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Feedback Loops",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feedback Loops",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "JIT Ad-hoc retrospective",
+    "Next 2": ""
+  },
+  {
+    "Name": "JIT Ad-hoc retrospective",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Testing",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Acceptance Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Acceptance Testing",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Source Code Management",
+    "Next 2": ""
+  },
+  {
+    "Name": "Source Code Management",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Continuous Integration",
+    "Next 2": ""
+  },
+  {
+    "Name": "Continuous Integration",
+    "Section": "Deliver",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "Small Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Small Releases",
+    "Section": "Release",
+    "Framework": "eXtreme Programming",
+    "Color": "lightblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Cumulative Flow Diagram",
+    "Section": "Deliver",
+    "Framework": "Useful Add-Ons",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Burndown Chart",
+    "Next 2": ""
+  },
+  {
+    "Name": "Monte Carlo",
+    "Section": "Deliver",
+    "Framework": "Useful Add-Ons",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Velocity",
+    "Next 2": ""
+  },
+  {
+    "Name": "Continous Production Testing",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Auto-scale & Heal",
+    "Next 2": ""
+  },
+  {
+    "Name": "Auto-scale & Heal",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Feature Toggling",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Toggling",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Small Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Small Releases",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Continuous Deployment",
+    "Next 2": ""
+  },
+  {
+    "Name": "Continuous Deployment",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Shift Left",
+    "Next 2": ""
+  },
+  {
+    "Name": "Shift Left",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Automated Visual Dashboard",
+    "Next 2": ""
+  },
+  {
+    "Name": "Automated Visual Dashboard",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Branching Strategy",
+    "Next 2": ""
+  },
+  {
+    "Name": "Branching Strategy",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Mock Objects",
+    "Next 2": ""
+  },
+  {
+    "Name": "Mock Objects",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Virtualization",
+    "Next 2": ""
+  },
+  {
+    "Name": "Virtualization",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Dynamic Environments",
+    "Next 2": ""
+  },
+  {
+    "Name": "Dynamic Environments",
+    "Section": "Release",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Automated Build",
+    "Next 2": ""
+  },
+  {
+    "Name": "Automated Build",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Test Automation",
+    "Next 2": ""
+  },
+  {
+    "Name": "Test Automation",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Config Management",
+    "Next 2": "Continuous Integration"
+  },
+  {
+    "Name": "Config Management",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Integrated Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Integrated Testing",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Standardized Promotion Path",
+    "Next 2": ""
+  },
+  {
+    "Name": "Standardized Promotion Path",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Artifact Management",
+    "Next 2": ""
+  },
+  {
+    "Name": "Artifact Management",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Version Control",
+    "Next 2": ""
+  },
+  {
+    "Name": "Version Control",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Componentized Architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Componentized Architecture",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Continuous Integration",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Source Code Management",
+    "Next 2": ""
+  },
+  {
+    "Name": "Source Code Management",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Acceptance Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Acceptance Testing",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Testing",
+    "Section": "Deliver",
+    "Framework": "DevOps",
+    "Color": "aqua",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Buffer Management",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "5 Whys",
+    "Next 2": ""
+  },
+  {
+    "Name": "5 Whys",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "8 Wastes",
+    "Next 2": "Limit WIP"
+  },
+  {
+    "Name": "8 Wastes",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Limit WIP",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Manage & Measure Flow",
+    "Next 2": "Visual Waste & Waiting"
+  },
+  {
+    "Name": "Manage & Measure Flow",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Kanban Board",
+    "Next 2": ""
+  },
+  {
+    "Name": "Kanban Board",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Task Board",
+    "Next 2": ""
+  },
+  {
+    "Name": "Task Board",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Visual Waste & Waiting",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "3 Bin System",
+    "Next 2": ""
+  },
+  {
+    "Name": "3 Bin System",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Make Policies Explicit",
+    "Next 2": ""
+  },
+  {
+    "Name": "Make Policies Explicit",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Implement Feedback Loops",
+    "Next 2": ""
+  },
+  {
+    "Name": "Implement Feedback Loops",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Evolve Experimentally",
+    "Next 2": ""
+  },
+  {
+    "Name": "Evolve Experimentally",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Muda, Muri, Mura",
+    "Next 2": ""
+  },
+  {
+    "Name": "Muda, Muri, Mura",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "Lead Time",
+    "Next 2": ""
+  },
+  {
+    "Name": "Lead Time",
+    "Section": "Deliver",
+    "Framework": "Kanban",
+    "Color": "Green",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Buffer Management",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "5 Whys",
+    "Next 2": ""
+  },
+  {
+    "Name": "5 Whys",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "8 Wastes",
+    "Next 2": ""
+  },
+  {
+    "Name": "8 Wastes",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "Kaizen Burst",
+    "Next 2": ""
+  },
+  {
+    "Name": "Kaizen Burst",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "Kaizen Blitz",
+    "Next 2": ""
+  },
+  {
+    "Name": "Kaizen Blitz",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "PDCA (Deming Cycle)",
+    "Next 2": ""
+  },
+  {
+    "Name": "PDCA (Deming Cycle)",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "5 S's",
+    "Next 2": ""
+  },
+  {
+    "Name": "5 S's",
+    "Section": "Deliver",
+    "Framework": "Kaizen",
+    "Color": "darkblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Acceptance Criteria (Given, When, Then)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Acceptance Criteria (Given, When, Then)",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "7 questions of context driven testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "7 questions of context driven testing",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Context Driven Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Context Driven Testing",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Testing",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Marick's Test Categories",
+    "Next 2": ""
+  },
+  {
+    "Name": "Marick's Test Categories",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Test Driven Development",
+    "Next 2": ""
+  },
+  {
+    "Name": "Test Driven Development",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "Test Automation",
+    "Next 2": ""
+  },
+  {
+    "Name": "Test Automation",
+    "Section": "Deliver",
+    "Framework": "Test Driven Development",
+    "Color": "darkred",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature",
+    "Section": "Deliver",
+    "Framework": "Agile Modeling",
+    "Color": "Black",
+    "Version": "v0.1",
+    "Next 1": "Story Hierarchy",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story Hierarchy",
+    "Section": "Deliver",
+    "Framework": "Agile Modeling",
+    "Color": "Black",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "Agile Modeling",
+    "Color": "Black",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Object Relational Mapping",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "SOLID Principles",
+    "Next 2": ""
+  },
+  {
+    "Name": "SOLID Principles",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Domain Object Modeling",
+    "Next 2": ""
+  },
+  {
+    "Name": "Domain Object Modeling",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "UML diagram",
+    "Next 2": "Feature naming template"
+  },
+  {
+    "Name": "UML diagram",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Inspections",
+    "Next 2": ""
+  },
+  {
+    "Name": "Inspections",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Naming template",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Parking lot",
+    "Next 2": ""
+  },
+  {
+    "Name": "Parking lot",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Feature",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature",
+    "Section": "Deliver",
+    "Framework": "Feature Driven Development",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Theory Of Constraints Thinking Process",
+    "Section": "Deliver",
+    "Framework": "Theory Of Constraints",
+    "Color": "gold",
+    "Version": "v0.1",
+    "Next 1": "Buffer Management",
+    "Next 2": ""
+  },
+  {
+    "Name": "Buffer Management",
+    "Section": "Deliver",
+    "Framework": "Theory Of Constraints",
+    "Color": "gold",
+    "Version": "v0.1",
+    "Next 1": "Theory of Constraints",
+    "Next 2": ""
+  },
+  {
+    "Name": "Theory of Constraints",
+    "Section": "Deliver",
+    "Framework": "Theory Of Constraints",
+    "Color": "gold",
+    "Version": "v0.1",
+    "Next 1": "Queuing Theory",
+    "Next 2": ""
+  },
+  {
+    "Name": "Queuing Theory",
+    "Section": "Deliver",
+    "Framework": "Theory Of Constraints",
+    "Color": "gold",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Model Canvas",
+    "Section": "Initiate",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Business Vision",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Vision",
+    "Section": "Initiate",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Change Canvas",
+    "Next 2": ""
+  },
+  {
+    "Name": "Change Canvas",
+    "Section": "Initiate",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Low Fidelity Prototypes",
+    "Next 2": ""
+  },
+  {
+    "Name": "Low Fidelity Prototypes",
+    "Section": "Discover",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Decision Tree",
+    "Next 2": ""
+  },
+  {
+    "Name": "Decision Tree",
+    "Section": "Discover",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Product Vision (Elevator Pitch)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Product Vision (Elevator Pitch)",
+    "Section": "Discover",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Personas",
+    "Next 2": ""
+  },
+  {
+    "Name": "Personas",
+    "Section": "Discover",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Rules of Simplicity",
+    "Next 2": ""
+  },
+  {
+    "Name": "Rules of Simplicity",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Parking lot",
+    "Next 2": ""
+  },
+  {
+    "Name": "Parking lot",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Story Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story Mapping",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "3 C's",
+    "Next 2": ""
+  },
+  {
+    "Name": "3 C's",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Queuing Theory",
+    "Next 2": "User Story"
+  },
+  {
+    "Name": "Queuing Theory",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Manage & Measure Flow",
+    "Next 2": "User Story"
+  },
+  {
+    "Name": "Manage & Measure Flow",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Flow Control",
+    "Next 2": ""
+  },
+  {
+    "Name": "Flow Control",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Limit WIP",
+    "Next 2": ""
+  },
+  {
+    "Name": "Limit WIP",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Sprint Backlog",
+    "Next 2": "INVEST"
+  },
+  {
+    "Name": "Sprint Backlog",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "INVEST",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Story Splitting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story Splitting",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Fast Feedback",
+    "Next 2": ""
+  },
+  {
+    "Name": "Fast Feedback",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Refinement Meeting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refinement Meeting",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Optimal Batch Sizes",
+    "Next 2": ""
+  },
+  {
+    "Name": "Optimal Batch Sizes",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "12 Cardinal Sins",
+    "Next 2": ""
+  },
+  {
+    "Name": "12 Cardinal Sins",
+    "Section": "Deliver",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Frequent Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Frequent Releases",
+    "Section": "Release",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "Small Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Small Releases",
+    "Section": "Release",
+    "Framework": "Product Development (FLOW)",
+    "Color": "blue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Change Canvas",
+    "Section": "Initiate",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Idea Collaboration Session",
+    "Next 2": ""
+  },
+  {
+    "Name": "Idea Collaboration Session",
+    "Section": "Initiate",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Hypothesis Statement",
+    "Next 2": ""
+  },
+  {
+    "Name": "Hypothesis Statement",
+    "Section": "Initiate",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Value Stream Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Value Stream Mapping",
+    "Section": "Discover",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Voice of Customer (VOC)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Voice of Customer (VOC)",
+    "Section": "Discover",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Lean Coffee",
+    "Next 2": ""
+  },
+  {
+    "Name": "Lean Coffee",
+    "Section": "Discover",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Project Charter",
+    "Next 2": ""
+  },
+  {
+    "Name": "Project Charter",
+    "Section": "Discover",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Minimum Viable Product (MVP)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Minimum Viable Product (MVP)",
+    "Section": "Discover",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "A3",
+    "Next 2": ""
+  },
+  {
+    "Name": "A3",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "ADKAR Survey",
+    "Next 2": ""
+  },
+  {
+    "Name": "ADKAR Survey",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Theory Of Constraints Thinking Process",
+    "Next 2": ""
+  },
+  {
+    "Name": "Theory Of Constraints Thinking Process",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Poisson Cumulative Distribution",
+    "Next 2": ""
+  },
+  {
+    "Name": "Poisson Cumulative Distribution",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Plant Types",
+    "Next 2": ""
+  },
+  {
+    "Name": "Plant Types",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Team eNPS",
+    "Next 2": ""
+  },
+  {
+    "Name": "Team eNPS",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Improvement Kata",
+    "Next 2": ""
+  },
+  {
+    "Name": "Improvement Kata",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Exploratory Days",
+    "Next 2": ""
+  },
+  {
+    "Name": "Exploratory Days",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Actionable Metrics",
+    "Next 2": ""
+  },
+  {
+    "Name": "Actionable Metrics",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "6 Signma",
+    "Next 2": ""
+  },
+  {
+    "Name": "6 Signma",
+    "Section": "Release",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Cycle Time",
+    "Next 2": ""
+  },
+  {
+    "Name": "Cycle Time",
+    "Section": "Release",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Lead Time",
+    "Next 2": ""
+  },
+  {
+    "Name": "Lead Time",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "5 S's",
+    "Next 2": ""
+  },
+  {
+    "Name": "5 S's",
+    "Section": "Deliver",
+    "Framework": "Lean",
+    "Color": "thistle",
+    "Version": "v0.1",
+    "Next 1": "Actionable Metrics",
+    "Next 2": "6 Signma"
+  },
+  {
+    "Name": "Focal Question",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Design Brief",
+    "Next 2": ""
+  },
+  {
+    "Name": "Design Brief",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Divergent/Convergent Thinking",
+    "Next 2": ""
+  },
+  {
+    "Name": "Divergent/Convergent Thinking",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Brainstorming",
+    "Next 2": ""
+  },
+  {
+    "Name": "Brainstorming",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Top 5 Ideas",
+    "Next 2": ""
+  },
+  {
+    "Name": "Top 5 Ideas",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Why-How Laddering",
+    "Next 2": ""
+  },
+  {
+    "Name": "Why-How Laddering",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Stakeholder Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Stakeholder Mapping",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Design Principles",
+    "Next 2": ""
+  },
+  {
+    "Name": "Design Principles",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Five E's",
+    "Next 2": ""
+  },
+  {
+    "Name": "Five E's",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Story telling",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story telling",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Business Model Canvas",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Model Canvas",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Business Vision",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Vision",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "SPICE",
+    "Next 2": ""
+  },
+  {
+    "Name": "SPICE",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "2x2 Matrix",
+    "Next 2": ""
+  },
+  {
+    "Name": "2x2 Matrix",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "User Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Testing",
+    "Section": "Initiate",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Journey Maps",
+    "Next 2": ""
+  },
+  {
+    "Name": "Journey Maps",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Storyboards",
+    "Next 2": ""
+  },
+  {
+    "Name": "Storyboards",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Ecosystem Map",
+    "Next 2": ""
+  },
+  {
+    "Name": "Ecosystem Map",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Empathy Map",
+    "Next 2": ""
+  },
+  {
+    "Name": "Empathy Map",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Perspective Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Perspective Mapping",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Context Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Context Mapping",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Relational Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Relational Mapping",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Affinity Clustering",
+    "Next 2": ""
+  },
+  {
+    "Name": "Affinity Clustering",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Decision Tree",
+    "Next 2": ""
+  },
+  {
+    "Name": "Decision Tree",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Product Vision (Elevator Pitch)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Product Vision (Elevator Pitch)",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Personas",
+    "Next 2": ""
+  },
+  {
+    "Name": "Personas",
+    "Section": "Discover",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Rules of Simplicity",
+    "Next 2": ""
+  },
+  {
+    "Name": "Rules of Simplicity",
+    "Section": "Deliver",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Parking lot",
+    "Next 2": ""
+  },
+  {
+    "Name": "Parking lot",
+    "Section": "Deliver",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "Story Mapping",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story Mapping",
+    "Section": "Deliver",
+    "Framework": "Design Thinking",
+    "Color": "red",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Journey Maps",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Guided Tour",
+    "Next 2": ""
+  },
+  {
+    "Name": "Guided Tour",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Define Success",
+    "Next 2": ""
+  },
+  {
+    "Name": "Define Success",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Facilitated Workshops",
+    "Next 2": ""
+  },
+  {
+    "Name": "Facilitated Workshops",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Doblin's 10 Types of Innovations",
+    "Next 2": ""
+  },
+  {
+    "Name": "Doblin's 10 Types of Innovations",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Hackathon",
+    "Next 2": ""
+  },
+  {
+    "Name": "Hackathon",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Card Sort",
+    "Next 2": ""
+  },
+  {
+    "Name": "Card Sort",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "Simple Design",
+    "Next 2": ""
+  },
+  {
+    "Name": "Simple Design",
+    "Section": "Discover",
+    "Framework": "Human Centered Design",
+    "Color": "lightpink",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Vision",
+    "Section": "Initiate",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Feasibility Assessment",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feasibility Assessment",
+    "Section": "Initiate",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Project Approach Questionnaire",
+    "Next 2": ""
+  },
+  {
+    "Name": "Project Approach Questionnaire",
+    "Section": "Initiate",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Business Case",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Case",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Risk Log",
+    "Next 2": ""
+  },
+  {
+    "Name": "Risk Log",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Delivery Plan",
+    "Next 2": ""
+  },
+  {
+    "Name": "Delivery Plan",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Baselined Requirements",
+    "Next 2": ""
+  },
+  {
+    "Name": "Baselined Requirements",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Solution Architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Solution Architecture",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "MoSCoW",
+    "Next 2": ""
+  },
+  {
+    "Name": "MoSCoW",
+    "Section": "Discover",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Delivery Control Pack",
+    "Next 2": ""
+  },
+  {
+    "Name": "Delivery Control Pack",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Development Approach Definition",
+    "Next 2": ""
+  },
+  {
+    "Name": "Development Approach Definition",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Earmall Index Estimates",
+    "Next 2": ""
+  },
+  {
+    "Name": "Earmall Index Estimates",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Time Box",
+    "Next 2": ""
+  },
+  {
+    "Name": "Time Box",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Sprint Planning (1&2)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Planning (1&2)",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Release Planning",
+    "Next 2": ""
+  },
+  {
+    "Name": "Release Planning",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "Iterations",
+    "Next 2": ""
+  },
+  {
+    "Name": "Iterations",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "Dynamic System Development Method",
+    "Color": "yellow",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Trade off Sliders",
+    "Section": "Initiate",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Feasibility Assessment",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feasibility Assessment",
+    "Section": "Initiate",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Project Approach Questionnaire",
+    "Next 2": ""
+  },
+  {
+    "Name": "Project Approach Questionnaire",
+    "Section": "Initiate",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Business Case",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Case",
+    "Section": "Discover",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Risk Log",
+    "Next 2": ""
+  },
+  {
+    "Name": "Risk Log",
+    "Section": "Discover",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Delivery Plan",
+    "Next 2": ""
+  },
+  {
+    "Name": "Delivery Plan",
+    "Section": "Discover",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Baselined Requirements",
+    "Next 2": ""
+  },
+  {
+    "Name": "Baselined Requirements",
+    "Section": "Discover",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Solution Architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Solution Architecture",
+    "Section": "Discover",
+    "Framework": "Prince 2 Agile / Waterfall",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Business Case",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business Case",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "4+1 View Architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "4+1 View Architecture",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Emerging Design (code craftsmanship)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Emerging Design (code craftsmanship)",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Update when it hurts",
+    "Next 2": ""
+  },
+  {
+    "Name": "Update when it hurts",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "User Case",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Case",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "Incremental Re-architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Incremental Re-architecture",
+    "Section": "Discover",
+    "Framework": "Rational Unified Process",
+    "Color": "lightgreen",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Osmotic Communications",
+    "Section": "Discover",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Incremental Re-architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Incremental Re-architecture",
+    "Section": "Discover",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Focus Period (2h)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Focus Period (2h)",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Scale Method by Colour",
+    "Next 2": ""
+  },
+  {
+    "Name": "Scale Method by Colour",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Walking Skeleton",
+    "Next 2": ""
+  },
+  {
+    "Name": "Walking Skeleton",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Delphi Estimation",
+    "Next 2": ""
+  },
+  {
+    "Name": "Delphi Estimation",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Information Radiators",
+    "Next 2": ""
+  },
+  {
+    "Name": "Information Radiators",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Exploratory 360 degree reviews",
+    "Next 2": "Reflection Workshops"
+  },
+  {
+    "Name": "Exploratory 360 degree reviews",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Incremental Architecture",
+    "Next 2": ""
+  },
+  {
+    "Name": "Incremental Architecture",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Team Safe Space",
+    "Next 2": ""
+  },
+  {
+    "Name": "Team Safe Space",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Safety (user solution)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Safety (user solution)",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "COEL method selection",
+    "Next 2": ""
+  },
+  {
+    "Name": "COEL method selection",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Automated Test Code Coverage",
+    "Next 2": ""
+  },
+  {
+    "Name": "Automated Test Code Coverage",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Config Management",
+    "Next 2": ""
+  },
+  {
+    "Name": "Config Management",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Test Automation",
+    "Next 2": ""
+  },
+  {
+    "Name": "Test Automation",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Continuous Integration",
+    "Next 2": ""
+  },
+  {
+    "Name": "Continuous Integration",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Frequent Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Frequent Releases",
+    "Section": "Release",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Reflection Workshops",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Reflective Improvement",
+    "Next 2": ""
+  },
+  {
+    "Name": "Niko-Niko Calendar",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Reflective Improvement",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "Retrospective",
+    "Next 2": ""
+  },
+  {
+    "Name": "Retrospective",
+    "Section": "Deliver",
+    "Framework": "Crystal",
+    "Color": "darkgray",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refactoring",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "Document Prerequisites",
+    "Next 2": ""
+  },
+  {
+    "Name": "Document Prerequisites",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "5 Focusing Steps",
+    "Next 2": "Refactoring Map"
+  },
+  {
+    "Name": "5 Focusing Steps",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "Mikado Dependency Map",
+    "Next 2": ""
+  },
+  {
+    "Name": "Mikado Dependency Map",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "Independent Goal Naivelyu",
+    "Next 2": ""
+  },
+  {
+    "Name": "Independent Goal Naivelyu",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "Revert",
+    "Next 2": ""
+  },
+  {
+    "Name": "Revert",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "Refactoring Map",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refactoring Map",
+    "Section": "Deliver",
+    "Framework": "Mikado Method",
+    "Color": "lime",
+    "Version": "v0.1",
+    "Next 1": "5 Focusing Steps",
+    "Next 2": ""
+  },
+  {
+    "Name": "Understanding Complexity (Framework precedes data)",
+    "Section": "Discover",
+    "Framework": "Cynefin",
+    "Color": "purple",
+    "Version": "v0.1",
+    "Next 1": "Sense Making (Data precedes framework)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sense Making (Data precedes framework)",
+    "Section": "Discover",
+    "Framework": "Cynefin",
+    "Color": "purple",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Product Owner",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Organize by customer value",
+    "Next 2": ""
+  },
+  {
+    "Name": "Organize by customer value",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Top down + bottom up",
+    "Next 2": ""
+  },
+  {
+    "Name": "Top down + bottom up",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Feature Team Adoption Map",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Team Adoption Map",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "3 levels of coaching(org, team, tech)",
+    "Next 2": "Area Product Owner"
+  },
+  {
+    "Name": "3 levels of coaching(org, team, tech)",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Scrum of Scrums",
+    "Next 2": ""
+  },
+  {
+    "Name": "Scrum of Scrums",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Improvement Service",
+    "Next 2": ""
+  },
+  {
+    "Name": "Improvement Service",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Feature Teams",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Teams",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Overall Retrospective",
+    "Next 2": ""
+  },
+  {
+    "Name": "Overall Retrospective",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Communities of Practice",
+    "Next 2": ""
+  },
+  {
+    "Name": "Communities of Practice",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Potentially Shippable Product",
+    "Next 2": ""
+  },
+  {
+    "Name": "Potentially Shippable Product",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Minimum Viable Product (MVP)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Minimum Viable Product (MVP)",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "System Non-Functional Requirements Overview Page",
+    "Next 2": ""
+  },
+  {
+    "Name": "System Non-Functional Requirements Overview Page",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Requirement Area",
+    "Next 2": ""
+  },
+  {
+    "Name": "Requirement Area",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Tiger Team",
+    "Next 2": ""
+  },
+  {
+    "Name": "Tiger Team",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Shu Ha Ri",
+    "Next 2": ""
+  },
+  {
+    "Name": "Shu Ha Ri",
+    "Section": "Deliver",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Feature Set (combined, vertical, horizontal)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Set (combined, vertical, horizontal)",
+    "Section": "Deliver",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Team PER",
+    "Next 2": ""
+  },
+  {
+    "Name": "Team PER",
+    "Section": "Deliver",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Area Product Owner",
+    "Section": "Scaling",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Vision Page",
+    "Next 2": ""
+  },
+  {
+    "Name": "Vision Page",
+    "Section": "Initiate",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Multi-team design workshop",
+    "Next 2": ""
+  },
+  {
+    "Name": "Multi-team design workshop",
+    "Section": "Initiate",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Contract Game",
+    "Next 2": ""
+  },
+  {
+    "Name": "Contract Game",
+    "Section": "Initiate",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Cause effect diagrams",
+    "Next 2": ""
+  },
+  {
+    "Name": "Cause effect diagrams",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Casual Loop Diagrams",
+    "Next 2": ""
+  },
+  {
+    "Name": "Casual Loop Diagrams",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "5 Dysfunctions of a team",
+    "Next 2": ""
+  },
+  {
+    "Name": "5 Dysfunctions of a team",
+    "Section": "Discover",
+    "Framework": "LeSS",
+    "Color": "darkcyan",
+    "Version": "v0.1",
+    "Next 1": "Potentially Shippable Product",
+    "Next 2": ""
+  },
+  {
+    "Name": "5C's of Management",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "3 Levels Protfolio, Program, Team",
+    "Next 2": ""
+  },
+  {
+    "Name": "3 Levels Protfolio, Program, Team",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Portfolio Backlog",
+    "Next 2": ""
+  },
+  {
+    "Name": "Portfolio Backlog",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "WSJF",
+    "Next 2": ""
+  },
+  {
+    "Name": "WSJF",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Agile Portfolio",
+    "Next 2": ""
+  },
+  {
+    "Name": "Agile Portfolio",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Architectural Runway",
+    "Next 2": ""
+  },
+  {
+    "Name": "Architectural Runway",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Strategic Theme",
+    "Next 2": ""
+  },
+  {
+    "Name": "Strategic Theme",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "ART Budget",
+    "Next 2": ""
+  },
+  {
+    "Name": "ART Budget",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "SAFEe Patterns",
+    "Next 2": ""
+  },
+  {
+    "Name": "SAFEe Patterns",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Program Planning",
+    "Next 2": ""
+  },
+  {
+    "Name": "Program Planning",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Program Increment",
+    "Next 2": ""
+  },
+  {
+    "Name": "Program Increment",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Innovation & Planning Sprint",
+    "Next 2": ""
+  },
+  {
+    "Name": "Innovation & Planning Sprint",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Business EPIC",
+    "Next 2": ""
+  },
+  {
+    "Name": "Business EPIC",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Architectural EPIC",
+    "Next 2": ""
+  },
+  {
+    "Name": "Architectural EPIC",
+    "Section": "Scaling",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Feature Naming template",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature Naming template",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Parking lot",
+    "Next 2": ""
+  },
+  {
+    "Name": "Parking lot",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Feature",
+    "Next 2": ""
+  },
+  {
+    "Name": "Feature",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Story Hierarchy",
+    "Next 2": ""
+  },
+  {
+    "Name": "Story Hierarchy",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "User Story",
+    "Next 2": ""
+  },
+  {
+    "Name": "User Story",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Three Questions",
+    "Next 2": "Sprint Backlog"
+  },
+  {
+    "Name": "Three Questions",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Daily Meeting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Daily Meeting",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Task Board",
+    "Next 2": ""
+  },
+  {
+    "Name": "Task Board",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Definition of Ready",
+    "Next 2": ""
+  },
+  {
+    "Name": "Definition of Ready",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Refinement Meeting",
+    "Next 2": ""
+  },
+  {
+    "Name": "Refinement Meeting",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Definition of Done",
+    "Next 2": ""
+  },
+  {
+    "Name": "Definition of Done",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Testing",
+    "Next 2": "Dreyfus Model"
+  },
+  {
+    "Name": "Testing",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Velocity",
+    "Next 2": ""
+  },
+  {
+    "Name": "Velocity",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Burndown Chart",
+    "Next 2": ""
+  },
+  {
+    "Name": "Burndown Chart",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Sprint Review (Showcase)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Review (Showcase)",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Retrospective",
+    "Next 2": ""
+  },
+  {
+    "Name": "Retrospective",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Sprint Backlog",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Dreyfus Model",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Usability Testing",
+    "Section": "Deliver",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Frequent Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Frequent Releases",
+    "Section": "Release",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Small Releases",
+    "Next 2": ""
+  },
+  {
+    "Name": "Small Releases",
+    "Section": "Release",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Agile Release Trains (ART)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Agile Release Trains (ART)",
+    "Section": "Release",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Release Train Engineer",
+    "Next 2": ""
+  },
+  {
+    "Name": "Release Train Engineer",
+    "Section": "Release",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "Release on Demand",
+    "Next 2": ""
+  },
+  {
+    "Name": "Release on Demand",
+    "Section": "Release",
+    "Framework": "SAFe",
+    "Color": "navyblue",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "4 versions of lifecycle",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Fixed Delivery Date",
+    "Next 2": ""
+  },
+  {
+    "Name": "Fixed Delivery Date",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Software Development Context Framework (SDFC)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Software Development Context Framework (SDFC)",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Hybrid Waterfall Practices",
+    "Next 2": ""
+  },
+  {
+    "Name": "Hybrid Waterfall Practices",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Product Management Team",
+    "Next 2": ""
+  },
+  {
+    "Name": "Product Management Team",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Architecture Team",
+    "Next 2": ""
+  },
+  {
+    "Name": "Architecture Team",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Geographically Distributed Development (GDO)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Geographically Distributed Development (GDO)",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Coordinate Activities Focus",
+    "Next 2": ""
+  },
+  {
+    "Name": "Coordinate Activities Focus",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Risk Value Driven Cycle",
+    "Next 2": ""
+  },
+  {
+    "Name": "Risk Value Driven Cycle",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Goal Diagram",
+    "Next 2": ""
+  },
+  {
+    "Name": "Goal Diagram",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "Parallel Independent Testing",
+    "Next 2": ""
+  },
+  {
+    "Name": "Parallel Independent Testing",
+    "Section": "Scaling",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "3 C's",
+    "Next 2": ""
+  },
+  {
+    "Name": "3 C's",
+    "Section": "Deliver",
+    "Framework": "Disciplined Agile Delivery",
+    "Color": "orange",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Turn up the good",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "Delegation Picker",
+    "Next 2": ""
+  },
+  {
+    "Name": "Delegation Picker",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "Kudos Cards",
+    "Next 2": ""
+  },
+  {
+    "Name": "Kudos Cards",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "Meddlers (change card game)",
+    "Next 2": ""
+  },
+  {
+    "Name": "Meddlers (change card game)",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "10 Intrinsic Desires",
+    "Next 2": ""
+  },
+  {
+    "Name": "10 Intrinsic Desires",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "Moving Motivators",
+    "Next 2": ""
+  },
+  {
+    "Name": "Moving Motivators",
+    "Section": "Leadership",
+    "Framework": "Management 3.0",
+    "Color": "chartreuse",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "7 Tests of a new model",
+    "Section": "Leadership",
+    "Framework": "Beyond Budgeting",
+    "Color": "salmon",
+    "Version": "v0.1",
+    "Next 1": "Schneider Culture Model",
+    "Next 2": ""
+  },
+  {
+    "Name": "Schneider Culture Model",
+    "Section": "Leadership",
+    "Framework": "Beyond Budgeting",
+    "Color": "salmon",
+    "Version": "v0.1",
+    "Next 1": "Theory X vs Theory Y",
+    "Next 2": ""
+  },
+  {
+    "Name": "Theory X vs Theory Y",
+    "Section": "Leadership",
+    "Framework": "Beyond Budgeting",
+    "Color": "salmon",
+    "Version": "v0.1",
+    "Next 1": "Collaboration, Cultivation, and Competence",
+    "Next 2": ""
+  },
+  {
+    "Name": "Collaboration, Cultivation, and Competence",
+    "Section": "Leadership",
+    "Framework": "Beyond Budgeting",
+    "Color": "salmon",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  },
+  {
+    "Name": "Marshall Model",
+    "Section": "Leadership",
+    "Framework": "Right Shifting",
+    "Color": "purple",
+    "Version": "v0.1",
+    "Next 1": "4 Mindsets",
+    "Next 2": ""
+  },
+  {
+    "Name": "4 Mindsets",
+    "Section": "Leadership",
+    "Framework": "Right Shifting",
+    "Color": "purple",
+    "Version": "v0.1",
+    "Next 1": "",
+    "Next 2": ""
+  }
+]
