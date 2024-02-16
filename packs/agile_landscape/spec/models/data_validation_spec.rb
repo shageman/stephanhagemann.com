@@ -6,6 +6,7 @@ RSpec.describe AgileLandscape::Entry do
     AgileLandscape::Entry.all.each do |entry|
       AgileLandscape::Entry.all.each do |second_entry|
         next if entry.id == second_entry.id
+
         is_duplicate = entry.name == second_entry.name && entry.version == second_entry.version
         expect(is_duplicate).to(be_falsey, "Entries #{entry.id} and #{second_entry.id} are duplicates")
       end
@@ -18,6 +19,7 @@ RSpec.describe AgileLandscape::Framework do
     AgileLandscape::Framework.all.each do |framework|
       AgileLandscape::Framework.all.each do |second_framework|
         next if framework.id == second_framework.id
+
         is_duplicate = framework.name == second_framework.name && framework.version == second_framework.version
         expect(is_duplicate).to(be_falsey, "Entries #{framework.id} and #{second_framework.id} are duplicates")
       end
@@ -46,6 +48,23 @@ RSpec.describe AgileLandscape::FrameworkConnection do
 end
 
 RSpec.describe AgileLandscape::EntryConnection do
-  it "ensures versions of connected entries, connected_entry and frameworks are the same"
-  it "validates uniqueness of connected entries, connected_entry and frameworks"
+  it "ensures versions of connected entries, connected_entry and frameworks are the same" do
+    AgileLandscape::EntryConnection.all.each do |connection|
+      entry_version = connection.entry.version
+      connected_entry_version = connection.connected_entry.version
+      framework_version = connection.framework.version
+      expect(entry_version).to eq(framework_version)
+      expect(connected_entry_version).to eq(framework_version)
+    end
+  end
+
+  it "validates uniqueness of connected entries, connected_entry and frameworks" do
+    AgileLandscape::EntryConnection.all.each do |connection|
+      entry_version = connection.entry.version
+      connected_entry_version = connection.connected_entry.version
+      framework_version = connection.framework.version
+      expect(entry_version).to eq(framework_version)
+      expect(connected_entry_version).to eq(framework_version)
+    end
+  end
 end

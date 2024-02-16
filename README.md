@@ -36,5 +36,3 @@ add backlinks to everything
 Get chatgpt to comment on more things
 
 add webmentions import code
-
-fix DB structure of agile landscsape
