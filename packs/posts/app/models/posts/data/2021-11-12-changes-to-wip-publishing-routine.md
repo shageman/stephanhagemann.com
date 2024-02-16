@@ -39,5 +39,5 @@ For the atomic essays, I relied only on the spell and grammar checker built into
 Feel free to engage with me any time there are any issues with what is coming out!
 
 
-[^1]: https://stephanhagemann.com/posts/2021-10-06-writing-vs-writing-now/
+[^1]: /posts/2021-10-06-writing-vs-writing-now/
 [^2]: https://leanpub.com/package-based-rails-applications

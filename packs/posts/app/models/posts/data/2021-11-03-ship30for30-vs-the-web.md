@@ -32,4 +32,4 @@ Linking is powerful because it starts to give credit where credit is due. That's
 
 [^1]: https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants
 [^2]: https://twitter.com/dickiebush/status/1440470868262481923
-[^3]: https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/
+[^3]: /posts/2021-11-02-zettelkasten-vs-atomic-essays/

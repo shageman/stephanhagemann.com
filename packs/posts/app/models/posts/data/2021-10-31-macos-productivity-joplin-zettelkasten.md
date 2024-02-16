@@ -27,5 +27,5 @@ All Joplin plugins are available via the plugin repository[^3].
 
 
 [^1]: https://zettelkasten.de/introduction/#luhmann-s-zettelkasten
-[^2]: https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/
+[^2]: /posts/2021-10-30-macos-productivity-joplin-3/
 [^3]: https://github.com/joplin/plugins

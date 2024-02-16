@@ -25,5 +25,5 @@ With Gradual Modularization, none of the module boundaries are hard - irreversib
 
 ==With Gradual Modularization we can simply ignore all the boundaries for this situation and *just build* the feature in the most straightforward way we can see.== In that sense, maybe the change was already easy?
 
-[^1]: https://stephanhagemann.com/posts/2021-10-16-gradual-modularity-definition2/
+[^1]: /posts/2021-10-16-gradual-modularity-definition2/
 [^2]: https://twitter.com/kentbeck/status/250733358307500032
