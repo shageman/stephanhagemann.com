@@ -18,11 +18,18 @@
   <% end %>
 </ul>
 
-<%# <h2>What ChaptGPT says about it...</h2> %>
+<% if @explanations.size > 0 %>
+  <h2>What ChaptGPT says about it...</h2>
 
-<%#= raw @markdown.render(@entry.chatGPT && @entry.chatGPT["result"] || '') %>
+  <% @explanations.each do |ex| %>
+    <h3><%= @entry.name %> in the context of <%= ex.framework_connection.framework.name %></h3>
+    <%= raw @markdown.render(ex.result) %>
+  <% end %>
+<% end %>
 
 <h2>Google Links</h2>
 
-<a href="https://www.google.com/search?q=${justName}">Google Search for "<%= @entry.name %>"</a>
-<a href="https://trends.google.com/trends/explore?date=all&q=${justName}">Google Trends for "<%= @entry.name %>"</a>
+<ul>
+<li><a href="https://www.google.com/search?q=<%= ERB::Util.url_encode @entry.name %>">Google Search for "<%= @entry.name %>"</a></li>
+<li><a href="https://trends.google.com/trends/explore?date=all&q=<%= ERB::Util.url_encode @entry.name %>">Google Trends for "<%= @entry.name %>"</a></li>
+</ul>

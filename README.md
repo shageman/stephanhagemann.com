@@ -33,6 +33,4 @@ add web mentions to posts
 
 add backlinks to everything
 
-Get chatgpt to comment on more things
-
 add webmentions import code
