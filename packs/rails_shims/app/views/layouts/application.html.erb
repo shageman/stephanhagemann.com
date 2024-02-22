@@ -46,7 +46,17 @@
             <% end %>
           </ul>
           <div class="page-details">
-          <%= yield :sidebar %>
+            <% if content_for?(:sidebar) %>
+              <%= yield :sidebar %>
+            <% else %>
+              <%- if @layout_params.header -%>
+                <h1><%= @layout_params.header %></h1>
+              <%- elsif @layout_params.title -%>
+                <h1><%= @layout_params.title %></h1>
+              <%- end -%>
+              <p><%= raw @layout_params.description %></p>
+              <p><%= raw @layout_params.description_link %></p>
+            <% end %>
           </div>
         </div>
       </header>
