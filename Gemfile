@@ -4,22 +4,22 @@ ruby "3.2.2"
 
 gem "active_hash"
 gem "bootsnap"
-gem "capybara", group: %w(test)
+gem "capybara", require: false
 gem "importmap-rails"
 gem "lefthook"
 gem "packs-rails"
-gem "packwerk-extensions"
-gem "packwerk"
-gem "parklife"
+gem "packwerk-extensions", require: false
+gem "packwerk", require: false
+gem "parklife", require: false
 gem "puma"
 gem "rails"
 gem "redcarpet"
-gem "rspec-rails", group: %w(test)
-gem "rubocop-packs", require: false, group: %w(development test)
-gem "rubocop", require: false, group: %w(development test)
+gem "rspec-rails", require: false
+gem "rubocop-packs", require: false
+gem "rubocop", require: false
 gem "sass-rails"
 gem "slim-rails"
 gem "sprockets-rails"
 gem "sqlite3"
-gem "visualize_packs", group: %w(development)
-gem "web-console", group: %w(development)
+gem "visualize_packs", require: false
+gem "web-console", require: false
