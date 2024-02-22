@@ -2,18 +2,19 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
-gem "capybara", group: %w(test)
-gem "rspec-rails", group: %w(test)
 gem "active_hash"
 gem "bootsnap"
+gem "capybara", group: %w(test)
 gem "importmap-rails"
 gem "lefthook"
 gem "packs-rails"
 gem "packwerk-extensions"
 gem "packwerk"
+gem "parklife"
 gem "puma"
 gem "rails"
 gem "redcarpet"
+gem "rspec-rails", group: %w(test)
 gem "rubocop-packs", require: false, group: %w(development test)
 gem "rubocop", require: false, group: %w(development test)
 gem "sass-rails"

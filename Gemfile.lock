@@ -194,6 +194,10 @@ GEM
       sorbet-runtime
       zeitwerk
     parallel (1.24.0)
+    parklife (0.6.0)
+      nokogiri
+      rack-test
+      thor
     parse_packwerk (0.22.0)
       sorbet-runtime
     parser (3.3.0.5)
@@ -373,6 +377,7 @@ DEPENDENCIES
   packs-rails
   packwerk
   packwerk-extensions
+  parklife
   puma
   rails
   redcarpet
