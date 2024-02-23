@@ -52,6 +52,12 @@ namespace :agile_landscape do
         framework_id: framework[:id],
       }
       framework_connections << framework_connection
+    end
+
+    json_data.each do |item|
+      version = versions.find { |v| v[:name] == item['Version'] }
+      entry = entries.find { |e| e[:name] == item['Name'] && e[:section] == item['Section'] && e[:version_id] == version[:id] }
+      framework = frameworks.find { |f| f[:name] == item['Framework'] && f[:color] == item['Color'] && f[:version_id] == version[:id] }
 
       # Create connection for 'Next 1'
       if item['Next 1'].present?
