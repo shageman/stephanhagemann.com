@@ -1,1 +1,1801 @@
-[{"id":1,"name":"Product Backlog","section":"Deliver","version_id":1,"slug":"Product-Backlog"},{"id":2,"name":"Sprint Planning (1&2)","section":"Deliver","version_id":1,"slug":"Sprint-Planning--1-2-"},{"id":3,"name":"Release Planning","section":"Deliver","version_id":1,"slug":"Release-Planning"},{"id":4,"name":"Iterations","section":"Deliver","version_id":1,"slug":"Iterations"},{"id":5,"name":"Relative Estimation","section":"Deliver","version_id":1,"slug":"Relative-Estimation"},{"id":6,"name":"Poker Planning","section":"Deliver","version_id":1,"slug":"Poker-Planning"},{"id":7,"name":"Sprint Backlog","section":"Deliver","version_id":1,"slug":"Sprint-Backlog"},{"id":8,"name":"User Story","section":"Deliver","version_id":1,"slug":"User-Story"},{"id":9,"name":"Three Questions","section":"Deliver","version_id":1,"slug":"Three-Questions"},{"id":10,"name":"Daily Meeting","section":"Deliver","version_id":1,"slug":"Daily-Meeting"},{"id":11,"name":"Task Board","section":"Deliver","version_id":1,"slug":"Task-Board"},{"id":12,"name":"Definition of Ready","section":"Deliver","version_id":1,"slug":"Definition-of-Ready"},{"id":13,"name":"Refinement Meeting","section":"Deliver","version_id":1,"slug":"Refinement-Meeting"},{"id":14,"name":"Definition of Done","section":"Deliver","version_id":1,"slug":"Definition-of-Done"},{"id":15,"name":"Testing","section":"Deliver","version_id":1,"slug":"Testing"},{"id":16,"name":"Velocity","section":"Deliver","version_id":1,"slug":"Velocity"},{"id":17,"name":"Burndown Chart","section":"Deliver","version_id":1,"slug":"Burndown-Chart"},{"id":18,"name":"Sprint Review (Showcase)","section":"Deliver","version_id":1,"slug":"Sprint-Review--Showcase-"},{"id":19,"name":"Retrospective","section":"Deliver","version_id":1,"slug":"Retrospective"},{"id":20,"name":"Refactoring","section":"Deliver","version_id":1,"slug":"Refactoring"},{"id":21,"name":"Dreyfus Model","section":"Deliver","version_id":1,"slug":"Dreyfus-Model"},{"id":22,"name":"Usability Testing","section":"Deliver","version_id":1,"slug":"Usability-Testing"},{"id":23,"name":"Frequent Releases","section":"Release","version_id":1,"slug":"Frequent-Releases"},{"id":24,"name":"Small Releases","section":"Release","version_id":1,"slug":"Small-Releases"},{"id":25,"name":"6 levels of planning","section":"Discover","version_id":1,"slug":"6-levels-of-planning"},{"id":26,"name":"JIT Model Storming","section":"Discover","version_id":1,"slug":"JIT-Model-Storming"},{"id":27,"name":"Simple Design","section":"Discover","version_id":1,"slug":"Simple-Design"},{"id":28,"name":"CRC Cards","section":"Discover","version_id":1,"slug":"CRC-Cards"},{"id":29,"name":"Sustainable Pace","section":"Discover","version_id":1,"slug":"Sustainable-Pace"},{"id":30,"name":"Metaphor","section":"Deliver","version_id":1,"slug":"Metaphor"},{"id":31,"name":"Spikes","section":"Deliver","version_id":1,"slug":"Spikes"},{"id":32,"name":"Programming Rotation (15mins)","section":"Deliver","version_id":1,"slug":"Programming-Rotation--15mins-"},{"id":33,"name":"Onsite Customer","section":"Deliver","version_id":1,"slug":"Onsite-Customer"},{"id":34,"name":"Feedback Loops","section":"Deliver","version_id":1,"slug":"Feedback-Loops"},{"id":35,"name":"JIT Ad-hoc retrospective","section":"Deliver","version_id":1,"slug":"JIT-Ad-hoc-retrospective"},{"id":36,"name":"Acceptance Testing","section":"Deliver","version_id":1,"slug":"Acceptance-Testing"},{"id":37,"name":"Source Code Management","section":"Deliver","version_id":1,"slug":"Source-Code-Management"},{"id":38,"name":"Continuous Integration","section":"Deliver","version_id":1,"slug":"Continuous-Integration"},{"id":39,"name":"Cumulative Flow Diagram","section":"Deliver","version_id":1,"slug":"Cumulative-Flow-Diagram"},{"id":40,"name":"Monte Carlo","section":"Deliver","version_id":1,"slug":"Monte-Carlo"},{"id":41,"name":"Continous Production Testing","section":"Release","version_id":1,"slug":"Continous-Production-Testing"},{"id":42,"name":"Auto-scale & Heal","section":"Release","version_id":1,"slug":"Auto-scale---Heal"},{"id":43,"name":"Feature Toggling","section":"Release","version_id":1,"slug":"Feature-Toggling"},{"id":44,"name":"Continuous Deployment","section":"Release","version_id":1,"slug":"Continuous-Deployment"},{"id":45,"name":"Shift Left","section":"Release","version_id":1,"slug":"Shift-Left"},{"id":46,"name":"Automated Visual Dashboard","section":"Release","version_id":1,"slug":"Automated-Visual-Dashboard"},{"id":47,"name":"Branching Strategy","section":"Release","version_id":1,"slug":"Branching-Strategy"},{"id":48,"name":"Mock Objects","section":"Release","version_id":1,"slug":"Mock-Objects"},{"id":49,"name":"Virtualization","section":"Release","version_id":1,"slug":"Virtualization"},{"id":50,"name":"Dynamic Environments","section":"Release","version_id":1,"slug":"Dynamic-Environments"},{"id":51,"name":"Automated Build","section":"Deliver","version_id":1,"slug":"Automated-Build"},{"id":52,"name":"Test Automation","section":"Deliver","version_id":1,"slug":"Test-Automation"},{"id":53,"name":"Config Management","section":"Deliver","version_id":1,"slug":"Config-Management"},{"id":54,"name":"Integrated Testing","section":"Deliver","version_id":1,"slug":"Integrated-Testing"},{"id":55,"name":"Standardized Promotion Path","section":"Deliver","version_id":1,"slug":"Standardized-Promotion-Path"},{"id":56,"name":"Artifact Management","section":"Deliver","version_id":1,"slug":"Artifact-Management"},{"id":57,"name":"Version Control","section":"Deliver","version_id":1,"slug":"Version-Control"},{"id":58,"name":"Componentized Architecture","section":"Deliver","version_id":1,"slug":"Componentized-Architecture"},{"id":59,"name":"Buffer Management","section":"Deliver","version_id":1,"slug":"Buffer-Management"},{"id":60,"name":"5 Whys","section":"Deliver","version_id":1,"slug":"5-Whys"},{"id":61,"name":"8 Wastes","section":"Deliver","version_id":1,"slug":"8-Wastes"},{"id":62,"name":"Limit WIP","section":"Deliver","version_id":1,"slug":"Limit-WIP"},{"id":63,"name":"Manage & Measure Flow","section":"Deliver","version_id":1,"slug":"Manage---Measure-Flow"},{"id":64,"name":"Kanban Board","section":"Deliver","version_id":1,"slug":"Kanban-Board"},{"id":65,"name":"Visual Waste & Waiting","section":"Deliver","version_id":1,"slug":"Visual-Waste---Waiting"},{"id":66,"name":"3 Bin System","section":"Deliver","version_id":1,"slug":"3-Bin-System"},{"id":67,"name":"Make Policies Explicit","section":"Deliver","version_id":1,"slug":"Make-Policies-Explicit"},{"id":68,"name":"Implement Feedback Loops","section":"Deliver","version_id":1,"slug":"Implement-Feedback-Loops"},{"id":69,"name":"Evolve Experimentally","section":"Deliver","version_id":1,"slug":"Evolve-Experimentally"},{"id":70,"name":"Muda, Muri, Mura","section":"Deliver","version_id":1,"slug":"Muda--Muri--Mura"},{"id":71,"name":"Lead Time","section":"Deliver","version_id":1,"slug":"Lead-Time"},{"id":72,"name":"Kaizen Burst","section":"Deliver","version_id":1,"slug":"Kaizen-Burst"},{"id":73,"name":"Kaizen Blitz","section":"Deliver","version_id":1,"slug":"Kaizen-Blitz"},{"id":74,"name":"PDCA (Deming Cycle)","section":"Deliver","version_id":1,"slug":"PDCA--Deming-Cycle-"},{"id":75,"name":"5 S's","section":"Deliver","version_id":1,"slug":"5-S-s"},{"id":76,"name":"Acceptance Criteria (Given, When, Then)","section":"Deliver","version_id":1,"slug":"Acceptance-Criteria--Given--When--Then-"},{"id":77,"name":"7 questions of context driven testing","section":"Deliver","version_id":1,"slug":"7-questions-of-context-driven-testing"},{"id":78,"name":"Context Driven Testing","section":"Deliver","version_id":1,"slug":"Context-Driven-Testing"},{"id":79,"name":"Marick's Test Categories","section":"Deliver","version_id":1,"slug":"Marick-s-Test-Categories"},{"id":80,"name":"Test Driven Development","section":"Deliver","version_id":1,"slug":"Test-Driven-Development"},{"id":81,"name":"Feature","section":"Deliver","version_id":1,"slug":"Feature"},{"id":82,"name":"Story Hierarchy","section":"Deliver","version_id":1,"slug":"Story-Hierarchy"},{"id":83,"name":"Object Relational Mapping","section":"Deliver","version_id":1,"slug":"Object-Relational-Mapping"},{"id":84,"name":"SOLID Principles","section":"Deliver","version_id":1,"slug":"SOLID-Principles"},{"id":85,"name":"Domain Object Modeling","section":"Deliver","version_id":1,"slug":"Domain-Object-Modeling"},{"id":86,"name":"UML diagram","section":"Deliver","version_id":1,"slug":"UML-diagram"},{"id":87,"name":"Inspections","section":"Deliver","version_id":1,"slug":"Inspections"},{"id":88,"name":"Feature Naming template","section":"Deliver","version_id":1,"slug":"Feature-Naming-template"},{"id":89,"name":"Parking lot","section":"Deliver","version_id":1,"slug":"Parking-lot"},{"id":90,"name":"Theory Of Constraints Thinking Process","section":"Deliver","version_id":1,"slug":"Theory-Of-Constraints-Thinking-Process"},{"id":91,"name":"Theory of Constraints","section":"Deliver","version_id":1,"slug":"Theory-of-Constraints"},{"id":92,"name":"Queuing Theory","section":"Deliver","version_id":1,"slug":"Queuing-Theory"},{"id":93,"name":"Business Model Canvas","section":"Initiate","version_id":1,"slug":"Business-Model-Canvas"},{"id":94,"name":"Business Vision","section":"Initiate","version_id":1,"slug":"Business-Vision"},{"id":95,"name":"Change Canvas","section":"Initiate","version_id":1,"slug":"Change-Canvas"},{"id":96,"name":"Low Fidelity Prototypes","section":"Discover","version_id":1,"slug":"Low-Fidelity-Prototypes"},{"id":97,"name":"Decision Tree","section":"Discover","version_id":1,"slug":"Decision-Tree"},{"id":98,"name":"Product Vision (Elevator Pitch)","section":"Discover","version_id":1,"slug":"Product-Vision--Elevator-Pitch-"},{"id":99,"name":"Personas","section":"Discover","version_id":1,"slug":"Personas"},{"id":100,"name":"Rules of Simplicity","section":"Deliver","version_id":1,"slug":"Rules-of-Simplicity"},{"id":101,"name":"Story Mapping","section":"Deliver","version_id":1,"slug":"Story-Mapping"},{"id":102,"name":"3 C's","section":"Deliver","version_id":1,"slug":"3-C-s"},{"id":103,"name":"Flow Control","section":"Deliver","version_id":1,"slug":"Flow-Control"},{"id":104,"name":"INVEST","section":"Deliver","version_id":1,"slug":"INVEST"},{"id":105,"name":"Story Splitting","section":"Deliver","version_id":1,"slug":"Story-Splitting"},{"id":106,"name":"Fast Feedback","section":"Deliver","version_id":1,"slug":"Fast-Feedback"},{"id":107,"name":"Optimal Batch Sizes","section":"Deliver","version_id":1,"slug":"Optimal-Batch-Sizes"},{"id":108,"name":"12 Cardinal Sins","section":"Deliver","version_id":1,"slug":"12-Cardinal-Sins"},{"id":109,"name":"Idea Collaboration Session","section":"Initiate","version_id":1,"slug":"Idea-Collaboration-Session"},{"id":110,"name":"Hypothesis Statement","section":"Initiate","version_id":1,"slug":"Hypothesis-Statement"},{"id":111,"name":"Value Stream Mapping","section":"Discover","version_id":1,"slug":"Value-Stream-Mapping"},{"id":112,"name":"Voice of Customer (VOC)","section":"Discover","version_id":1,"slug":"Voice-of-Customer--VOC-"},{"id":113,"name":"Lean Coffee","section":"Discover","version_id":1,"slug":"Lean-Coffee"},{"id":114,"name":"Project Charter","section":"Discover","version_id":1,"slug":"Project-Charter"},{"id":115,"name":"Minimum Viable Product (MVP)","section":"Discover","version_id":1,"slug":"Minimum-Viable-Product--MVP-"},{"id":116,"name":"A3","section":"Deliver","version_id":1,"slug":"A3"},{"id":117,"name":"ADKAR Survey","section":"Deliver","version_id":1,"slug":"ADKAR-Survey"},{"id":118,"name":"Poisson Cumulative Distribution","section":"Deliver","version_id":1,"slug":"Poisson-Cumulative-Distribution"},{"id":119,"name":"Plant Types","section":"Deliver","version_id":1,"slug":"Plant-Types"},{"id":120,"name":"Team eNPS","section":"Deliver","version_id":1,"slug":"Team-eNPS"},{"id":121,"name":"Improvement Kata","section":"Deliver","version_id":1,"slug":"Improvement-Kata"},{"id":122,"name":"Exploratory Days","section":"Deliver","version_id":1,"slug":"Exploratory-Days"},{"id":123,"name":"Actionable Metrics","section":"Deliver","version_id":1,"slug":"Actionable-Metrics"},{"id":124,"name":"6 Signma","section":"Release","version_id":1,"slug":"6-Signma"},{"id":125,"name":"Cycle Time","section":"Release","version_id":1,"slug":"Cycle-Time"},{"id":126,"name":"Focal Question","section":"Initiate","version_id":1,"slug":"Focal-Question"},{"id":127,"name":"Design Brief","section":"Initiate","version_id":1,"slug":"Design-Brief"},{"id":128,"name":"Divergent/Convergent Thinking","section":"Initiate","version_id":1,"slug":"Divergent-Convergent-Thinking"},{"id":129,"name":"Brainstorming","section":"Initiate","version_id":1,"slug":"Brainstorming"},{"id":130,"name":"Top 5 Ideas","section":"Initiate","version_id":1,"slug":"Top-5-Ideas"},{"id":131,"name":"Why-How Laddering","section":"Initiate","version_id":1,"slug":"Why-How-Laddering"},{"id":132,"name":"Stakeholder Mapping","section":"Initiate","version_id":1,"slug":"Stakeholder-Mapping"},{"id":133,"name":"Design Principles","section":"Initiate","version_id":1,"slug":"Design-Principles"},{"id":134,"name":"Five E's","section":"Initiate","version_id":1,"slug":"Five-E-s"},{"id":135,"name":"Story telling","section":"Initiate","version_id":1,"slug":"Story-telling"},{"id":136,"name":"SPICE","section":"Initiate","version_id":1,"slug":"SPICE"},{"id":137,"name":"2x2 Matrix","section":"Initiate","version_id":1,"slug":"2x2-Matrix"},{"id":138,"name":"User Testing","section":"Initiate","version_id":1,"slug":"User-Testing"},{"id":139,"name":"Journey Maps","section":"Discover","version_id":1,"slug":"Journey-Maps"},{"id":140,"name":"Storyboards","section":"Discover","version_id":1,"slug":"Storyboards"},{"id":141,"name":"Ecosystem Map","section":"Discover","version_id":1,"slug":"Ecosystem-Map"},{"id":142,"name":"Empathy Map","section":"Discover","version_id":1,"slug":"Empathy-Map"},{"id":143,"name":"Perspective Mapping","section":"Discover","version_id":1,"slug":"Perspective-Mapping"},{"id":144,"name":"Context Mapping","section":"Discover","version_id":1,"slug":"Context-Mapping"},{"id":145,"name":"Relational Mapping","section":"Discover","version_id":1,"slug":"Relational-Mapping"},{"id":146,"name":"Affinity Clustering","section":"Discover","version_id":1,"slug":"Affinity-Clustering"},{"id":147,"name":"Guided Tour","section":"Discover","version_id":1,"slug":"Guided-Tour"},{"id":148,"name":"Define Success","section":"Discover","version_id":1,"slug":"Define-Success"},{"id":149,"name":"Facilitated Workshops","section":"Discover","version_id":1,"slug":"Facilitated-Workshops"},{"id":150,"name":"Doblin's 10 Types of Innovations","section":"Discover","version_id":1,"slug":"Doblin-s-10-Types-of-Innovations"},{"id":151,"name":"Hackathon","section":"Discover","version_id":1,"slug":"Hackathon"},{"id":152,"name":"Card Sort","section":"Discover","version_id":1,"slug":"Card-Sort"},{"id":153,"name":"Feasibility Assessment","section":"Initiate","version_id":1,"slug":"Feasibility-Assessment"},{"id":154,"name":"Project Approach Questionnaire","section":"Initiate","version_id":1,"slug":"Project-Approach-Questionnaire"},{"id":155,"name":"Business Case","section":"Discover","version_id":1,"slug":"Business-Case"},{"id":156,"name":"Risk Log","section":"Discover","version_id":1,"slug":"Risk-Log"},{"id":157,"name":"Delivery Plan","section":"Discover","version_id":1,"slug":"Delivery-Plan"},{"id":158,"name":"Baselined Requirements","section":"Discover","version_id":1,"slug":"Baselined-Requirements"},{"id":159,"name":"Solution Architecture","section":"Discover","version_id":1,"slug":"Solution-Architecture"},{"id":160,"name":"MoSCoW","section":"Discover","version_id":1,"slug":"MoSCoW"},{"id":161,"name":"Delivery Control Pack","section":"Deliver","version_id":1,"slug":"Delivery-Control-Pack"},{"id":162,"name":"Development Approach Definition","section":"Deliver","version_id":1,"slug":"Development-Approach-Definition"},{"id":163,"name":"Earmall Index Estimates","section":"Deliver","version_id":1,"slug":"Earmall-Index-Estimates"},{"id":164,"name":"Time Box","section":"Deliver","version_id":1,"slug":"Time-Box"},{"id":165,"name":"Trade off Sliders","section":"Initiate","version_id":1,"slug":"Trade-off-Sliders"},{"id":166,"name":"4+1 View Architecture","section":"Discover","version_id":1,"slug":"4-1-View-Architecture"},{"id":167,"name":"Emerging Design (code craftsmanship)","section":"Discover","version_id":1,"slug":"Emerging-Design--code-craftsmanship-"},{"id":168,"name":"Update when it hurts","section":"Discover","version_id":1,"slug":"Update-when-it-hurts"},{"id":169,"name":"User Case","section":"Discover","version_id":1,"slug":"User-Case"},{"id":170,"name":"Incremental Re-architecture","section":"Discover","version_id":1,"slug":"Incremental-Re-architecture"},{"id":171,"name":"Osmotic Communications","section":"Discover","version_id":1,"slug":"Osmotic-Communications"},{"id":172,"name":"Focus Period (2h)","section":"Deliver","version_id":1,"slug":"Focus-Period--2h-"},{"id":173,"name":"Scale Method by Colour","section":"Deliver","version_id":1,"slug":"Scale-Method-by-Colour"},{"id":174,"name":"Walking Skeleton","section":"Deliver","version_id":1,"slug":"Walking-Skeleton"},{"id":175,"name":"Delphi Estimation","section":"Deliver","version_id":1,"slug":"Delphi-Estimation"},{"id":176,"name":"Information Radiators","section":"Deliver","version_id":1,"slug":"Information-Radiators"},{"id":177,"name":"Exploratory 360 degree reviews","section":"Deliver","version_id":1,"slug":"Exploratory-360-degree-reviews"},{"id":178,"name":"Incremental Architecture","section":"Deliver","version_id":1,"slug":"Incremental-Architecture"},{"id":179,"name":"Team Safe Space","section":"Deliver","version_id":1,"slug":"Team-Safe-Space"},{"id":180,"name":"Safety (user solution)","section":"Deliver","version_id":1,"slug":"Safety--user-solution-"},{"id":181,"name":"COEL method selection","section":"Deliver","version_id":1,"slug":"COEL-method-selection"},{"id":182,"name":"Automated Test Code Coverage","section":"Deliver","version_id":1,"slug":"Automated-Test-Code-Coverage"},{"id":183,"name":"Reflection Workshops","section":"Deliver","version_id":1,"slug":"Reflection-Workshops"},{"id":184,"name":"Niko-Niko Calendar","section":"Deliver","version_id":1,"slug":"Niko-Niko-Calendar"},{"id":185,"name":"Reflective Improvement","section":"Deliver","version_id":1,"slug":"Reflective-Improvement"},{"id":186,"name":"Document Prerequisites","section":"Deliver","version_id":1,"slug":"Document-Prerequisites"},{"id":187,"name":"5 Focusing Steps","section":"Deliver","version_id":1,"slug":"5-Focusing-Steps"},{"id":188,"name":"Mikado Dependency Map","section":"Deliver","version_id":1,"slug":"Mikado-Dependency-Map"},{"id":189,"name":"Independent Goal Naivelyu","section":"Deliver","version_id":1,"slug":"Independent-Goal-Naivelyu"},{"id":190,"name":"Revert","section":"Deliver","version_id":1,"slug":"Revert"},{"id":191,"name":"Refactoring Map","section":"Deliver","version_id":1,"slug":"Refactoring-Map"},{"id":192,"name":"Understanding Complexity (Framework precedes data)","section":"Discover","version_id":1,"slug":"Understanding-Complexity--Framework-precedes-data-"},{"id":193,"name":"Sense Making (Data precedes framework)","section":"Discover","version_id":1,"slug":"Sense-Making--Data-precedes-framework-"},{"id":194,"name":"Product Owner","section":"Scaling","version_id":1,"slug":"Product-Owner"},{"id":195,"name":"Organize by customer value","section":"Scaling","version_id":1,"slug":"Organize-by-customer-value"},{"id":196,"name":"Top down + bottom up","section":"Scaling","version_id":1,"slug":"Top-down---bottom-up"},{"id":197,"name":"Feature Team Adoption Map","section":"Scaling","version_id":1,"slug":"Feature-Team-Adoption-Map"},{"id":198,"name":"3 levels of coaching(org, team, tech)","section":"Scaling","version_id":1,"slug":"3-levels-of-coaching-org--team--tech-"},{"id":199,"name":"Scrum of Scrums","section":"Scaling","version_id":1,"slug":"Scrum-of-Scrums"},{"id":200,"name":"Improvement Service","section":"Scaling","version_id":1,"slug":"Improvement-Service"},{"id":201,"name":"Feature Teams","section":"Scaling","version_id":1,"slug":"Feature-Teams"},{"id":202,"name":"Overall Retrospective","section":"Scaling","version_id":1,"slug":"Overall-Retrospective"},{"id":203,"name":"Communities of Practice","section":"Scaling","version_id":1,"slug":"Communities-of-Practice"},{"id":204,"name":"Potentially Shippable Product","section":"Scaling","version_id":1,"slug":"Potentially-Shippable-Product"},{"id":205,"name":"System Non-Functional Requirements Overview Page","section":"Discover","version_id":1,"slug":"System-Non-Functional-Requirements-Overview-Page"},{"id":206,"name":"Requirement Area","section":"Discover","version_id":1,"slug":"Requirement-Area"},{"id":207,"name":"Tiger Team","section":"Discover","version_id":1,"slug":"Tiger-Team"},{"id":208,"name":"Shu Ha Ri","section":"Deliver","version_id":1,"slug":"Shu-Ha-Ri"},{"id":209,"name":"Feature Set (combined, vertical, horizontal)","section":"Deliver","version_id":1,"slug":"Feature-Set--combined--vertical--horizontal-"},{"id":210,"name":"Team PER","section":"Deliver","version_id":1,"slug":"Team-PER"},{"id":211,"name":"Area Product Owner","section":"Scaling","version_id":1,"slug":"Area-Product-Owner"},{"id":212,"name":"Vision Page","section":"Initiate","version_id":1,"slug":"Vision-Page"},{"id":213,"name":"Multi-team design workshop","section":"Initiate","version_id":1,"slug":"Multi-team-design-workshop"},{"id":214,"name":"Contract Game","section":"Initiate","version_id":1,"slug":"Contract-Game"},{"id":215,"name":"Cause effect diagrams","section":"Discover","version_id":1,"slug":"Cause-effect-diagrams"},{"id":216,"name":"Casual Loop Diagrams","section":"Discover","version_id":1,"slug":"Casual-Loop-Diagrams"},{"id":217,"name":"5 Dysfunctions of a team","section":"Discover","version_id":1,"slug":"5-Dysfunctions-of-a-team"},{"id":218,"name":"5C's of Management","section":"Scaling","version_id":1,"slug":"5C-s-of-Management"},{"id":219,"name":"3 Levels Protfolio, Program, Team","section":"Scaling","version_id":1,"slug":"3-Levels-Protfolio--Program--Team"},{"id":220,"name":"Portfolio Backlog","section":"Scaling","version_id":1,"slug":"Portfolio-Backlog"},{"id":221,"name":"WSJF","section":"Scaling","version_id":1,"slug":"WSJF"},{"id":222,"name":"Agile Portfolio","section":"Scaling","version_id":1,"slug":"Agile-Portfolio"},{"id":223,"name":"Architectural Runway","section":"Scaling","version_id":1,"slug":"Architectural-Runway"},{"id":224,"name":"Strategic Theme","section":"Scaling","version_id":1,"slug":"Strategic-Theme"},{"id":225,"name":"ART Budget","section":"Scaling","version_id":1,"slug":"ART-Budget"},{"id":226,"name":"SAFEe Patterns","section":"Scaling","version_id":1,"slug":"SAFEe-Patterns"},{"id":227,"name":"Program Planning","section":"Scaling","version_id":1,"slug":"Program-Planning"},{"id":228,"name":"Program Increment","section":"Scaling","version_id":1,"slug":"Program-Increment"},{"id":229,"name":"Innovation & Planning Sprint","section":"Scaling","version_id":1,"slug":"Innovation---Planning-Sprint"},{"id":230,"name":"Business EPIC","section":"Scaling","version_id":1,"slug":"Business-EPIC"},{"id":231,"name":"Architectural EPIC","section":"Scaling","version_id":1,"slug":"Architectural-EPIC"},{"id":232,"name":"Agile Release Trains (ART)","section":"Release","version_id":1,"slug":"Agile-Release-Trains--ART-"},{"id":233,"name":"Release Train Engineer","section":"Release","version_id":1,"slug":"Release-Train-Engineer"},{"id":234,"name":"Release on Demand","section":"Release","version_id":1,"slug":"Release-on-Demand"},{"id":235,"name":"4 versions of lifecycle","section":"Scaling","version_id":1,"slug":"4-versions-of-lifecycle"},{"id":236,"name":"Fixed Delivery Date","section":"Scaling","version_id":1,"slug":"Fixed-Delivery-Date"},{"id":237,"name":"Software Development Context Framework (SDFC)","section":"Scaling","version_id":1,"slug":"Software-Development-Context-Framework--SDFC-"},{"id":238,"name":"Hybrid Waterfall Practices","section":"Scaling","version_id":1,"slug":"Hybrid-Waterfall-Practices"},{"id":239,"name":"Product Management Team","section":"Scaling","version_id":1,"slug":"Product-Management-Team"},{"id":240,"name":"Architecture Team","section":"Scaling","version_id":1,"slug":"Architecture-Team"},{"id":241,"name":"Geographically Distributed Development (GDO)","section":"Scaling","version_id":1,"slug":"Geographically-Distributed-Development--GDO-"},{"id":242,"name":"Coordinate Activities Focus","section":"Scaling","version_id":1,"slug":"Coordinate-Activities-Focus"},{"id":243,"name":"Risk Value Driven Cycle","section":"Scaling","version_id":1,"slug":"Risk-Value-Driven-Cycle"},{"id":244,"name":"Goal Diagram","section":"Scaling","version_id":1,"slug":"Goal-Diagram"},{"id":245,"name":"Parallel Independent Testing","section":"Scaling","version_id":1,"slug":"Parallel-Independent-Testing"},{"id":246,"name":"Turn up the good","section":"Leadership","version_id":1,"slug":"Turn-up-the-good"},{"id":247,"name":"Delegation Picker","section":"Leadership","version_id":1,"slug":"Delegation-Picker"},{"id":248,"name":"Kudos Cards","section":"Leadership","version_id":1,"slug":"Kudos-Cards"},{"id":249,"name":"Meddlers (change card game)","section":"Leadership","version_id":1,"slug":"Meddlers--change-card-game-"},{"id":250,"name":"10 Intrinsic Desires","section":"Leadership","version_id":1,"slug":"10-Intrinsic-Desires"},{"id":251,"name":"Moving Motivators","section":"Leadership","version_id":1,"slug":"Moving-Motivators"},{"id":252,"name":"7 Tests of a new model","section":"Leadership","version_id":1,"slug":"7-Tests-of-a-new-model"},{"id":253,"name":"Schneider Culture Model","section":"Leadership","version_id":1,"slug":"Schneider-Culture-Model"},{"id":254,"name":"Theory X vs Theory Y","section":"Leadership","version_id":1,"slug":"Theory-X-vs-Theory-Y"},{"id":255,"name":"Collaboration, Cultivation, and Competence","section":"Leadership","version_id":1,"slug":"Collaboration--Cultivation--and-Competence"},{"id":256,"name":"Marshall Model","section":"Leadership","version_id":1,"slug":"Marshall-Model"},{"id":257,"name":"4 Mindsets","section":"Leadership","version_id":1,"slug":"4-Mindsets"}]
+[
+  {
+    "id": 1,
+    "name": "Product Backlog",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Product-Backlog"
+  },
+  {
+    "id": 2,
+    "name": "Sprint Planning (1&2)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Sprint-Planning--1-2-"
+  },
+  {
+    "id": 3,
+    "name": "Release Planning",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Release-Planning"
+  },
+  {
+    "id": 4,
+    "name": "Iterations",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Iterations"
+  },
+  {
+    "id": 5,
+    "name": "Relative Estimation",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Relative-Estimation"
+  },
+  {
+    "id": 6,
+    "name": "Poker Planning",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Poker-Planning"
+  },
+  {
+    "id": 7,
+    "name": "Sprint Backlog",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Sprint-Backlog"
+  },
+  {
+    "id": 8,
+    "name": "User Story",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "User-Story"
+  },
+  {
+    "id": 9,
+    "name": "Three Questions",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Three-Questions"
+  },
+  {
+    "id": 10,
+    "name": "Daily Meeting",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Daily-Meeting"
+  },
+  {
+    "id": 11,
+    "name": "Task Board",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Task-Board"
+  },
+  {
+    "id": 12,
+    "name": "Definition of Ready",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Definition-of-Ready"
+  },
+  {
+    "id": 13,
+    "name": "Refinement Meeting",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Refinement-Meeting"
+  },
+  {
+    "id": 14,
+    "name": "Definition of Done",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Definition-of-Done"
+  },
+  {
+    "id": 15,
+    "name": "Testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Testing"
+  },
+  {
+    "id": 16,
+    "name": "Velocity",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Velocity"
+  },
+  {
+    "id": 17,
+    "name": "Burndown Chart",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Burndown-Chart"
+  },
+  {
+    "id": 18,
+    "name": "Sprint Review (Showcase)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Sprint-Review--Showcase-"
+  },
+  {
+    "id": 19,
+    "name": "Retrospective",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Retrospective"
+  },
+  {
+    "id": 20,
+    "name": "Refactoring",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Refactoring"
+  },
+  {
+    "id": 21,
+    "name": "Dreyfus Model",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Dreyfus-Model"
+  },
+  {
+    "id": 22,
+    "name": "Usability Testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Usability-Testing"
+  },
+  {
+    "id": 23,
+    "name": "Frequent Releases",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Frequent-Releases"
+  },
+  {
+    "id": 24,
+    "name": "Small Releases",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Small-Releases"
+  },
+  {
+    "id": 25,
+    "name": "6 levels of planning",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "6-levels-of-planning"
+  },
+  {
+    "id": 26,
+    "name": "JIT Model Storming",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "JIT-Model-Storming"
+  },
+  {
+    "id": 27,
+    "name": "Simple Design",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Simple-Design"
+  },
+  {
+    "id": 28,
+    "name": "CRC Cards",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "CRC-Cards"
+  },
+  {
+    "id": 29,
+    "name": "Sustainable Pace",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Sustainable-Pace"
+  },
+  {
+    "id": 30,
+    "name": "Metaphor",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Metaphor"
+  },
+  {
+    "id": 31,
+    "name": "Spikes",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Spikes"
+  },
+  {
+    "id": 32,
+    "name": "Programming Rotation (15mins)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Programming-Rotation--15mins-"
+  },
+  {
+    "id": 33,
+    "name": "Onsite Customer",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Onsite-Customer"
+  },
+  {
+    "id": 34,
+    "name": "Feedback Loops",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Feedback-Loops"
+  },
+  {
+    "id": 35,
+    "name": "JIT Ad-hoc retrospective",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "JIT-Ad-hoc-retrospective"
+  },
+  {
+    "id": 36,
+    "name": "Acceptance Testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Acceptance-Testing"
+  },
+  {
+    "id": 37,
+    "name": "Source Code Management",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Source-Code-Management"
+  },
+  {
+    "id": 38,
+    "name": "Continuous Integration",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Continuous-Integration"
+  },
+  {
+    "id": 39,
+    "name": "Cumulative Flow Diagram",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Cumulative-Flow-Diagram"
+  },
+  {
+    "id": 40,
+    "name": "Monte Carlo",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Monte-Carlo"
+  },
+  {
+    "id": 41,
+    "name": "Continous Production Testing",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Continous-Production-Testing"
+  },
+  {
+    "id": 42,
+    "name": "Auto-scale & Heal",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Auto-scale---Heal"
+  },
+  {
+    "id": 43,
+    "name": "Feature Toggling",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Feature-Toggling"
+  },
+  {
+    "id": 44,
+    "name": "Continuous Deployment",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Continuous-Deployment"
+  },
+  {
+    "id": 45,
+    "name": "Shift Left",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Shift-Left"
+  },
+  {
+    "id": 46,
+    "name": "Automated Visual Dashboard",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Automated-Visual-Dashboard"
+  },
+  {
+    "id": 47,
+    "name": "Branching Strategy",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Branching-Strategy"
+  },
+  {
+    "id": 48,
+    "name": "Mock Objects",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Mock-Objects"
+  },
+  {
+    "id": 49,
+    "name": "Virtualization",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Virtualization"
+  },
+  {
+    "id": 50,
+    "name": "Dynamic Environments",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Dynamic-Environments"
+  },
+  {
+    "id": 51,
+    "name": "Automated Build",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Automated-Build"
+  },
+  {
+    "id": 52,
+    "name": "Test Automation",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Test-Automation"
+  },
+  {
+    "id": 53,
+    "name": "Config Management",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Config-Management"
+  },
+  {
+    "id": 54,
+    "name": "Integrated Testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Integrated-Testing"
+  },
+  {
+    "id": 55,
+    "name": "Standardized Promotion Path",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Standardized-Promotion-Path"
+  },
+  {
+    "id": 56,
+    "name": "Artifact Management",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Artifact-Management"
+  },
+  {
+    "id": 57,
+    "name": "Version Control",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Version-Control"
+  },
+  {
+    "id": 58,
+    "name": "Componentized Architecture",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Componentized-Architecture"
+  },
+  {
+    "id": 59,
+    "name": "Buffer Management",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Buffer-Management"
+  },
+  {
+    "id": 60,
+    "name": "5 Whys",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "5-Whys"
+  },
+  {
+    "id": 61,
+    "name": "8 Wastes",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "8-Wastes"
+  },
+  {
+    "id": 62,
+    "name": "Limit WIP",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Limit-WIP"
+  },
+  {
+    "id": 63,
+    "name": "Manage & Measure Flow",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Manage---Measure-Flow"
+  },
+  {
+    "id": 64,
+    "name": "Kanban Board",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Kanban-Board"
+  },
+  {
+    "id": 65,
+    "name": "Visual Waste & Waiting",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Visual-Waste---Waiting"
+  },
+  {
+    "id": 66,
+    "name": "3 Bin System",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "3-Bin-System"
+  },
+  {
+    "id": 67,
+    "name": "Make Policies Explicit",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Make-Policies-Explicit"
+  },
+  {
+    "id": 68,
+    "name": "Implement Feedback Loops",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Implement-Feedback-Loops"
+  },
+  {
+    "id": 69,
+    "name": "Evolve Experimentally",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Evolve-Experimentally"
+  },
+  {
+    "id": 70,
+    "name": "Muda, Muri, Mura",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Muda--Muri--Mura"
+  },
+  {
+    "id": 71,
+    "name": "Lead Time",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Lead-Time"
+  },
+  {
+    "id": 72,
+    "name": "Kaizen Burst",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Kaizen-Burst"
+  },
+  {
+    "id": 73,
+    "name": "Kaizen Blitz",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Kaizen-Blitz"
+  },
+  {
+    "id": 74,
+    "name": "PDCA (Deming Cycle)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "PDCA--Deming-Cycle-"
+  },
+  {
+    "id": 75,
+    "name": "5 S's",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "5-S-s"
+  },
+  {
+    "id": 76,
+    "name": "Acceptance Criteria (Given, When, Then)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Acceptance-Criteria--Given--When--Then-"
+  },
+  {
+    "id": 77,
+    "name": "7 questions of context driven testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "7-questions-of-context-driven-testing"
+  },
+  {
+    "id": 78,
+    "name": "Context Driven Testing",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Context-Driven-Testing"
+  },
+  {
+    "id": 79,
+    "name": "Marick's Test Categories",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Marick-s-Test-Categories"
+  },
+  {
+    "id": 80,
+    "name": "Test Driven Development",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Test-Driven-Development"
+  },
+  {
+    "id": 81,
+    "name": "Feature",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Feature"
+  },
+  {
+    "id": 82,
+    "name": "Story Hierarchy",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Story-Hierarchy"
+  },
+  {
+    "id": 83,
+    "name": "Object Relational Mapping",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Object-Relational-Mapping"
+  },
+  {
+    "id": 84,
+    "name": "SOLID Principles",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "SOLID-Principles"
+  },
+  {
+    "id": 85,
+    "name": "Domain Object Modeling",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Domain-Object-Modeling"
+  },
+  {
+    "id": 86,
+    "name": "UML diagram",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "UML-diagram"
+  },
+  {
+    "id": 87,
+    "name": "Inspections",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Inspections"
+  },
+  {
+    "id": 88,
+    "name": "Feature Naming template",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Feature-Naming-template"
+  },
+  {
+    "id": 89,
+    "name": "Parking lot",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Parking-lot"
+  },
+  {
+    "id": 90,
+    "name": "Theory Of Constraints Thinking Process",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Theory-Of-Constraints-Thinking-Process"
+  },
+  {
+    "id": 91,
+    "name": "Theory of Constraints",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Theory-of-Constraints"
+  },
+  {
+    "id": 92,
+    "name": "Queuing Theory",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Queuing-Theory"
+  },
+  {
+    "id": 93,
+    "name": "Business Model Canvas",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Business-Model-Canvas"
+  },
+  {
+    "id": 94,
+    "name": "Business Vision",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Business-Vision"
+  },
+  {
+    "id": 95,
+    "name": "Change Canvas",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Change-Canvas"
+  },
+  {
+    "id": 96,
+    "name": "Low Fidelity Prototypes",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Low-Fidelity-Prototypes"
+  },
+  {
+    "id": 97,
+    "name": "Decision Tree",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Decision-Tree"
+  },
+  {
+    "id": 98,
+    "name": "Product Vision (Elevator Pitch)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Product-Vision--Elevator-Pitch-"
+  },
+  {
+    "id": 99,
+    "name": "Personas",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Personas"
+  },
+  {
+    "id": 100,
+    "name": "Rules of Simplicity",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Rules-of-Simplicity"
+  },
+  {
+    "id": 101,
+    "name": "Story Mapping",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Story-Mapping"
+  },
+  {
+    "id": 102,
+    "name": "3 C's",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "3-C-s"
+  },
+  {
+    "id": 103,
+    "name": "Flow Control",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Flow-Control"
+  },
+  {
+    "id": 104,
+    "name": "INVEST",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "INVEST"
+  },
+  {
+    "id": 105,
+    "name": "Story Splitting",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Story-Splitting"
+  },
+  {
+    "id": 106,
+    "name": "Fast Feedback",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Fast-Feedback"
+  },
+  {
+    "id": 107,
+    "name": "Optimal Batch Sizes",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Optimal-Batch-Sizes"
+  },
+  {
+    "id": 108,
+    "name": "12 Cardinal Sins",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "12-Cardinal-Sins"
+  },
+  {
+    "id": 109,
+    "name": "Idea Collaboration Session",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Idea-Collaboration-Session"
+  },
+  {
+    "id": 110,
+    "name": "Hypothesis Statement",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Hypothesis-Statement"
+  },
+  {
+    "id": 111,
+    "name": "Value Stream Mapping",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Value-Stream-Mapping"
+  },
+  {
+    "id": 112,
+    "name": "Voice of Customer (VOC)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Voice-of-Customer--VOC-"
+  },
+  {
+    "id": 113,
+    "name": "Lean Coffee",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Lean-Coffee"
+  },
+  {
+    "id": 114,
+    "name": "Project Charter",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Project-Charter"
+  },
+  {
+    "id": 115,
+    "name": "Minimum Viable Product (MVP)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Minimum-Viable-Product--MVP-"
+  },
+  {
+    "id": 116,
+    "name": "A3",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "A3"
+  },
+  {
+    "id": 117,
+    "name": "ADKAR Survey",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "ADKAR-Survey"
+  },
+  {
+    "id": 118,
+    "name": "Poisson Cumulative Distribution",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Poisson-Cumulative-Distribution"
+  },
+  {
+    "id": 119,
+    "name": "Plant Types",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Plant-Types"
+  },
+  {
+    "id": 120,
+    "name": "Team eNPS",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Team-eNPS"
+  },
+  {
+    "id": 121,
+    "name": "Improvement Kata",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Improvement-Kata"
+  },
+  {
+    "id": 122,
+    "name": "Exploratory Days",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Exploratory-Days"
+  },
+  {
+    "id": 123,
+    "name": "Actionable Metrics",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Actionable-Metrics"
+  },
+  {
+    "id": 124,
+    "name": "6 Signma",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "6-Signma"
+  },
+  {
+    "id": 125,
+    "name": "Cycle Time",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Cycle-Time"
+  },
+  {
+    "id": 126,
+    "name": "Focal Question",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Focal-Question"
+  },
+  {
+    "id": 127,
+    "name": "Design Brief",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Design-Brief"
+  },
+  {
+    "id": 128,
+    "name": "Divergent/Convergent Thinking",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Divergent-Convergent-Thinking"
+  },
+  {
+    "id": 129,
+    "name": "Brainstorming",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Brainstorming"
+  },
+  {
+    "id": 130,
+    "name": "Top 5 Ideas",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Top-5-Ideas"
+  },
+  {
+    "id": 131,
+    "name": "Why-How Laddering",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Why-How-Laddering"
+  },
+  {
+    "id": 132,
+    "name": "Stakeholder Mapping",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Stakeholder-Mapping"
+  },
+  {
+    "id": 133,
+    "name": "Design Principles",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Design-Principles"
+  },
+  {
+    "id": 134,
+    "name": "Five E's",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Five-E-s"
+  },
+  {
+    "id": 135,
+    "name": "Story telling",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Story-telling"
+  },
+  {
+    "id": 136,
+    "name": "SPICE",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "SPICE"
+  },
+  {
+    "id": 137,
+    "name": "2x2 Matrix",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "2x2-Matrix"
+  },
+  {
+    "id": 138,
+    "name": "User Testing",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "User-Testing"
+  },
+  {
+    "id": 139,
+    "name": "Journey Maps",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Journey-Maps"
+  },
+  {
+    "id": 140,
+    "name": "Storyboards",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Storyboards"
+  },
+  {
+    "id": 141,
+    "name": "Ecosystem Map",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Ecosystem-Map"
+  },
+  {
+    "id": 142,
+    "name": "Empathy Map",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Empathy-Map"
+  },
+  {
+    "id": 143,
+    "name": "Perspective Mapping",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Perspective-Mapping"
+  },
+  {
+    "id": 144,
+    "name": "Context Mapping",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Context-Mapping"
+  },
+  {
+    "id": 145,
+    "name": "Relational Mapping",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Relational-Mapping"
+  },
+  {
+    "id": 146,
+    "name": "Affinity Clustering",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Affinity-Clustering"
+  },
+  {
+    "id": 147,
+    "name": "Guided Tour",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Guided-Tour"
+  },
+  {
+    "id": 148,
+    "name": "Define Success",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Define-Success"
+  },
+  {
+    "id": 149,
+    "name": "Facilitated Workshops",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Facilitated-Workshops"
+  },
+  {
+    "id": 150,
+    "name": "Doblin's 10 Types of Innovations",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Doblin-s-10-Types-of-Innovations"
+  },
+  {
+    "id": 151,
+    "name": "Hackathon",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Hackathon"
+  },
+  {
+    "id": 152,
+    "name": "Card Sort",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Card-Sort"
+  },
+  {
+    "id": 153,
+    "name": "Feasibility Assessment",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Feasibility-Assessment"
+  },
+  {
+    "id": 154,
+    "name": "Project Approach Questionnaire",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Project-Approach-Questionnaire"
+  },
+  {
+    "id": 155,
+    "name": "Business Case",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Business-Case"
+  },
+  {
+    "id": 156,
+    "name": "Risk Log",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Risk-Log"
+  },
+  {
+    "id": 157,
+    "name": "Delivery Plan",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Delivery-Plan"
+  },
+  {
+    "id": 158,
+    "name": "Baselined Requirements",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Baselined-Requirements"
+  },
+  {
+    "id": 159,
+    "name": "Solution Architecture",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Solution-Architecture"
+  },
+  {
+    "id": 160,
+    "name": "MoSCoW",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "MoSCoW"
+  },
+  {
+    "id": 161,
+    "name": "Delivery Control Pack",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Delivery-Control-Pack"
+  },
+  {
+    "id": 162,
+    "name": "Development Approach Definition",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Development-Approach-Definition"
+  },
+  {
+    "id": 163,
+    "name": "Earmall Index Estimates",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Earmall-Index-Estimates"
+  },
+  {
+    "id": 164,
+    "name": "Time Box",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Time-Box"
+  },
+  {
+    "id": 165,
+    "name": "Trade off Sliders",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Trade-off-Sliders"
+  },
+  {
+    "id": 166,
+    "name": "4+1 View Architecture",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "4-1-View-Architecture"
+  },
+  {
+    "id": 167,
+    "name": "Emerging Design (code craftsmanship)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Emerging-Design--code-craftsmanship-"
+  },
+  {
+    "id": 168,
+    "name": "Update when it hurts",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Update-when-it-hurts"
+  },
+  {
+    "id": 169,
+    "name": "User Case",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "User-Case"
+  },
+  {
+    "id": 170,
+    "name": "Incremental Re-architecture",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Incremental-Re-architecture"
+  },
+  {
+    "id": 171,
+    "name": "Osmotic Communications",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Osmotic-Communications"
+  },
+  {
+    "id": 172,
+    "name": "Focus Period (2h)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Focus-Period--2h-"
+  },
+  {
+    "id": 173,
+    "name": "Scale Method by Colour",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Scale-Method-by-Colour"
+  },
+  {
+    "id": 174,
+    "name": "Walking Skeleton",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Walking-Skeleton"
+  },
+  {
+    "id": 175,
+    "name": "Delphi Estimation",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Delphi-Estimation"
+  },
+  {
+    "id": 176,
+    "name": "Information Radiators",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Information-Radiators"
+  },
+  {
+    "id": 177,
+    "name": "Exploratory 360 degree reviews",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Exploratory-360-degree-reviews"
+  },
+  {
+    "id": 178,
+    "name": "Incremental Architecture",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Incremental-Architecture"
+  },
+  {
+    "id": 179,
+    "name": "Team Safe Space",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Team-Safe-Space"
+  },
+  {
+    "id": 180,
+    "name": "Safety (user solution)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Safety--user-solution-"
+  },
+  {
+    "id": 181,
+    "name": "COEL method selection",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "COEL-method-selection"
+  },
+  {
+    "id": 182,
+    "name": "Automated Test Code Coverage",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Automated-Test-Code-Coverage"
+  },
+  {
+    "id": 183,
+    "name": "Reflection Workshops",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Reflection-Workshops"
+  },
+  {
+    "id": 184,
+    "name": "Niko-Niko Calendar",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Niko-Niko-Calendar"
+  },
+  {
+    "id": 185,
+    "name": "Reflective Improvement",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Reflective-Improvement"
+  },
+  {
+    "id": 186,
+    "name": "Document Prerequisites",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Document-Prerequisites"
+  },
+  {
+    "id": 187,
+    "name": "5 Focusing Steps",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "5-Focusing-Steps"
+  },
+  {
+    "id": 188,
+    "name": "Mikado Dependency Map",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Mikado-Dependency-Map"
+  },
+  {
+    "id": 189,
+    "name": "Independent Goal Naivelyu",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Independent-Goal-Naivelyu"
+  },
+  {
+    "id": 190,
+    "name": "Revert",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Revert"
+  },
+  {
+    "id": 191,
+    "name": "Refactoring Map",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Refactoring-Map"
+  },
+  {
+    "id": 192,
+    "name": "Understanding Complexity (Framework precedes data)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Understanding-Complexity--Framework-precedes-data-"
+  },
+  {
+    "id": 193,
+    "name": "Sense Making (Data precedes framework)",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Sense-Making--Data-precedes-framework-"
+  },
+  {
+    "id": 194,
+    "name": "Product Owner",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Product-Owner"
+  },
+  {
+    "id": 195,
+    "name": "Organize by customer value",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Organize-by-customer-value"
+  },
+  {
+    "id": 196,
+    "name": "Top down + bottom up",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Top-down---bottom-up"
+  },
+  {
+    "id": 197,
+    "name": "Feature Team Adoption Map",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Feature-Team-Adoption-Map"
+  },
+  {
+    "id": 198,
+    "name": "3 levels of coaching(org, team, tech)",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "3-levels-of-coaching-org--team--tech-"
+  },
+  {
+    "id": 199,
+    "name": "Scrum of Scrums",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Scrum-of-Scrums"
+  },
+  {
+    "id": 200,
+    "name": "Improvement Service",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Improvement-Service"
+  },
+  {
+    "id": 201,
+    "name": "Feature Teams",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Feature-Teams"
+  },
+  {
+    "id": 202,
+    "name": "Overall Retrospective",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Overall-Retrospective"
+  },
+  {
+    "id": 203,
+    "name": "Communities of Practice",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Communities-of-Practice"
+  },
+  {
+    "id": 204,
+    "name": "Potentially Shippable Product",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Potentially-Shippable-Product"
+  },
+  {
+    "id": 205,
+    "name": "System Non-Functional Requirements Overview Page",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "System-Non-Functional-Requirements-Overview-Page"
+  },
+  {
+    "id": 206,
+    "name": "Requirement Area",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Requirement-Area"
+  },
+  {
+    "id": 207,
+    "name": "Tiger Team",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Tiger-Team"
+  },
+  {
+    "id": 208,
+    "name": "Shu Ha Ri",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Shu-Ha-Ri"
+  },
+  {
+    "id": 209,
+    "name": "Feature Set (combined, vertical, horizontal)",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Feature-Set--combined--vertical--horizontal-"
+  },
+  {
+    "id": 210,
+    "name": "Team PER",
+    "section": "Deliver",
+    "version_id": 1,
+    "slug": "Team-PER"
+  },
+  {
+    "id": 211,
+    "name": "Area Product Owner",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Area-Product-Owner"
+  },
+  {
+    "id": 212,
+    "name": "Vision Page",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Vision-Page"
+  },
+  {
+    "id": 213,
+    "name": "Multi-team design workshop",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Multi-team-design-workshop"
+  },
+  {
+    "id": 214,
+    "name": "Contract Game",
+    "section": "Initiate",
+    "version_id": 1,
+    "slug": "Contract-Game"
+  },
+  {
+    "id": 215,
+    "name": "Cause effect diagrams",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Cause-effect-diagrams"
+  },
+  {
+    "id": 216,
+    "name": "Casual Loop Diagrams",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "Casual-Loop-Diagrams"
+  },
+  {
+    "id": 217,
+    "name": "5 Dysfunctions of a team",
+    "section": "Discover",
+    "version_id": 1,
+    "slug": "5-Dysfunctions-of-a-team"
+  },
+  {
+    "id": 218,
+    "name": "5C's of Management",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "5C-s-of-Management"
+  },
+  {
+    "id": 219,
+    "name": "3 Levels Protfolio, Program, Team",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "3-Levels-Protfolio--Program--Team"
+  },
+  {
+    "id": 220,
+    "name": "Portfolio Backlog",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Portfolio-Backlog"
+  },
+  {
+    "id": 221,
+    "name": "WSJF",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "WSJF"
+  },
+  {
+    "id": 222,
+    "name": "Agile Portfolio",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Agile-Portfolio"
+  },
+  {
+    "id": 223,
+    "name": "Architectural Runway",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Architectural-Runway"
+  },
+  {
+    "id": 224,
+    "name": "Strategic Theme",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Strategic-Theme"
+  },
+  {
+    "id": 225,
+    "name": "ART Budget",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "ART-Budget"
+  },
+  {
+    "id": 226,
+    "name": "SAFEe Patterns",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "SAFEe-Patterns"
+  },
+  {
+    "id": 227,
+    "name": "Program Planning",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Program-Planning"
+  },
+  {
+    "id": 228,
+    "name": "Program Increment",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Program-Increment"
+  },
+  {
+    "id": 229,
+    "name": "Innovation & Planning Sprint",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Innovation---Planning-Sprint"
+  },
+  {
+    "id": 230,
+    "name": "Business EPIC",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Business-EPIC"
+  },
+  {
+    "id": 231,
+    "name": "Architectural EPIC",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Architectural-EPIC"
+  },
+  {
+    "id": 232,
+    "name": "Agile Release Trains (ART)",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Agile-Release-Trains--ART-"
+  },
+  {
+    "id": 233,
+    "name": "Release Train Engineer",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Release-Train-Engineer"
+  },
+  {
+    "id": 234,
+    "name": "Release on Demand",
+    "section": "Release",
+    "version_id": 1,
+    "slug": "Release-on-Demand"
+  },
+  {
+    "id": 235,
+    "name": "4 versions of lifecycle",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "4-versions-of-lifecycle"
+  },
+  {
+    "id": 236,
+    "name": "Fixed Delivery Date",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Fixed-Delivery-Date"
+  },
+  {
+    "id": 237,
+    "name": "Software Development Context Framework (SDFC)",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Software-Development-Context-Framework--SDFC-"
+  },
+  {
+    "id": 238,
+    "name": "Hybrid Waterfall Practices",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Hybrid-Waterfall-Practices"
+  },
+  {
+    "id": 239,
+    "name": "Product Management Team",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Product-Management-Team"
+  },
+  {
+    "id": 240,
+    "name": "Architecture Team",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Architecture-Team"
+  },
+  {
+    "id": 241,
+    "name": "Geographically Distributed Development (GDO)",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Geographically-Distributed-Development--GDO-"
+  },
+  {
+    "id": 242,
+    "name": "Coordinate Activities Focus",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Coordinate-Activities-Focus"
+  },
+  {
+    "id": 243,
+    "name": "Risk Value Driven Cycle",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Risk-Value-Driven-Cycle"
+  },
+  {
+    "id": 244,
+    "name": "Goal Diagram",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Goal-Diagram"
+  },
+  {
+    "id": 245,
+    "name": "Parallel Independent Testing",
+    "section": "Scaling",
+    "version_id": 1,
+    "slug": "Parallel-Independent-Testing"
+  },
+  {
+    "id": 246,
+    "name": "Turn up the good",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Turn-up-the-good"
+  },
+  {
+    "id": 247,
+    "name": "Delegation Picker",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Delegation-Picker"
+  },
+  {
+    "id": 248,
+    "name": "Kudos Cards",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Kudos-Cards"
+  },
+  {
+    "id": 249,
+    "name": "Meddlers (change card game)",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Meddlers--change-card-game-"
+  },
+  {
+    "id": 250,
+    "name": "10 Intrinsic Desires",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "10-Intrinsic-Desires"
+  },
+  {
+    "id": 251,
+    "name": "Moving Motivators",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Moving-Motivators"
+  },
+  {
+    "id": 252,
+    "name": "7 Tests of a new model",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "7-Tests-of-a-new-model"
+  },
+  {
+    "id": 253,
+    "name": "Schneider Culture Model",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Schneider-Culture-Model"
+  },
+  {
+    "id": 254,
+    "name": "Theory X vs Theory Y",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Theory-X-vs-Theory-Y"
+  },
+  {
+    "id": 255,
+    "name": "Collaboration, Cultivation, and Competence",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Collaboration--Cultivation--and-Competence"
+  },
+  {
+    "id": 256,
+    "name": "Marshall Model",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "Marshall-Model"
+  },
+  {
+    "id": 257,
+    "name": "4 Mindsets",
+    "section": "Leadership",
+    "version_id": 1,
+    "slug": "4-Mindsets"
+  }
+]

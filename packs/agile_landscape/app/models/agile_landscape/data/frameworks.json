@@ -1,1 +1,184 @@
-[{"id":1,"name":"Scrum","color":"Grey","version_id":1,"slug":"Scrum"},{"id":2,"name":"eXtreme Programming","color":"lightblue","version_id":1,"slug":"eXtreme-Programming"},{"id":3,"name":"Useful Add-Ons","color":"darkgray","version_id":1,"slug":"Useful-Add-Ons"},{"id":4,"name":"DevOps","color":"aqua","version_id":1,"slug":"DevOps"},{"id":5,"name":"Kanban","color":"Green","version_id":1,"slug":"Kanban"},{"id":6,"name":"Kaizen","color":"darkblue","version_id":1,"slug":"Kaizen"},{"id":7,"name":"Test Driven Development","color":"darkred","version_id":1,"slug":"Test-Driven-Development"},{"id":8,"name":"Agile Modeling","color":"Black","version_id":1,"slug":"Agile-Modeling"},{"id":9,"name":"Feature Driven Development","color":"lightgreen","version_id":1,"slug":"Feature-Driven-Development"},{"id":10,"name":"Theory Of Constraints","color":"gold","version_id":1,"slug":"Theory-Of-Constraints"},{"id":11,"name":"Product Development (FLOW)","color":"blue","version_id":1,"slug":"Product-Development--FLOW-"},{"id":12,"name":"Lean","color":"thistle","version_id":1,"slug":"Lean"},{"id":13,"name":"Design Thinking","color":"red","version_id":1,"slug":"Design-Thinking"},{"id":14,"name":"Human Centered Design","color":"lightpink","version_id":1,"slug":"Human-Centered-Design"},{"id":15,"name":"Dynamic System Development Method","color":"yellow","version_id":1,"slug":"Dynamic-System-Development-Method"},{"id":16,"name":"Prince 2 Agile / Waterfall","color":"orange","version_id":1,"slug":"Prince-2-Agile---Waterfall"},{"id":17,"name":"Rational Unified Process","color":"lightgreen","version_id":1,"slug":"Rational-Unified-Process"},{"id":18,"name":"Crystal","color":"darkgray","version_id":1,"slug":"Crystal"},{"id":19,"name":"Mikado Method","color":"lime","version_id":1,"slug":"Mikado-Method"},{"id":20,"name":"Cynefin","color":"purple","version_id":1,"slug":"Cynefin"},{"id":21,"name":"LeSS","color":"darkcyan","version_id":1,"slug":"LeSS"},{"id":22,"name":"SAFe","color":"navyblue","version_id":1,"slug":"SAFe"},{"id":23,"name":"Disciplined Agile Delivery","color":"orange","version_id":1,"slug":"Disciplined-Agile-Delivery"},{"id":24,"name":"Management 3.0","color":"chartreuse","version_id":1,"slug":"Management-3-0"},{"id":25,"name":"Beyond Budgeting","color":"salmon","version_id":1,"slug":"Beyond-Budgeting"},{"id":26,"name":"Right Shifting","color":"purple","version_id":1,"slug":"Right-Shifting"}]
+[
+  {
+    "id": 1,
+    "name": "Scrum",
+    "color": "Grey",
+    "version_id": 1,
+    "slug": "Scrum"
+  },
+  {
+    "id": 2,
+    "name": "eXtreme Programming",
+    "color": "lightblue",
+    "version_id": 1,
+    "slug": "eXtreme-Programming"
+  },
+  {
+    "id": 3,
+    "name": "Useful Add-Ons",
+    "color": "darkgray",
+    "version_id": 1,
+    "slug": "Useful-Add-Ons"
+  },
+  {
+    "id": 4,
+    "name": "DevOps",
+    "color": "aqua",
+    "version_id": 1,
+    "slug": "DevOps"
+  },
+  {
+    "id": 5,
+    "name": "Kanban",
+    "color": "Green",
+    "version_id": 1,
+    "slug": "Kanban"
+  },
+  {
+    "id": 6,
+    "name": "Kaizen",
+    "color": "darkblue",
+    "version_id": 1,
+    "slug": "Kaizen"
+  },
+  {
+    "id": 7,
+    "name": "Test Driven Development",
+    "color": "darkred",
+    "version_id": 1,
+    "slug": "Test-Driven-Development"
+  },
+  {
+    "id": 8,
+    "name": "Agile Modeling",
+    "color": "Black",
+    "version_id": 1,
+    "slug": "Agile-Modeling"
+  },
+  {
+    "id": 9,
+    "name": "Feature Driven Development",
+    "color": "lightgreen",
+    "version_id": 1,
+    "slug": "Feature-Driven-Development"
+  },
+  {
+    "id": 10,
+    "name": "Theory Of Constraints",
+    "color": "gold",
+    "version_id": 1,
+    "slug": "Theory-Of-Constraints"
+  },
+  {
+    "id": 11,
+    "name": "Product Development (FLOW)",
+    "color": "blue",
+    "version_id": 1,
+    "slug": "Product-Development--FLOW-"
+  },
+  {
+    "id": 12,
+    "name": "Lean",
+    "color": "thistle",
+    "version_id": 1,
+    "slug": "Lean"
+  },
+  {
+    "id": 13,
+    "name": "Design Thinking",
+    "color": "red",
+    "version_id": 1,
+    "slug": "Design-Thinking"
+  },
+  {
+    "id": 14,
+    "name": "Human Centered Design",
+    "color": "lightpink",
+    "version_id": 1,
+    "slug": "Human-Centered-Design"
+  },
+  {
+    "id": 15,
+    "name": "Dynamic System Development Method",
+    "color": "yellow",
+    "version_id": 1,
+    "slug": "Dynamic-System-Development-Method"
+  },
+  {
+    "id": 16,
+    "name": "Prince 2 Agile / Waterfall",
+    "color": "orange",
+    "version_id": 1,
+    "slug": "Prince-2-Agile---Waterfall"
+  },
+  {
+    "id": 17,
+    "name": "Rational Unified Process",
+    "color": "lightgreen",
+    "version_id": 1,
+    "slug": "Rational-Unified-Process"
+  },
+  {
+    "id": 18,
+    "name": "Crystal",
+    "color": "darkgray",
+    "version_id": 1,
+    "slug": "Crystal"
+  },
+  {
+    "id": 19,
+    "name": "Mikado Method",
+    "color": "lime",
+    "version_id": 1,
+    "slug": "Mikado-Method"
+  },
+  {
+    "id": 20,
+    "name": "Cynefin",
+    "color": "purple",
+    "version_id": 1,
+    "slug": "Cynefin"
+  },
+  {
+    "id": 21,
+    "name": "LeSS",
+    "color": "darkcyan",
+    "version_id": 1,
+    "slug": "LeSS"
+  },
+  {
+    "id": 22,
+    "name": "SAFe",
+    "color": "navyblue",
+    "version_id": 1,
+    "slug": "SAFe"
+  },
+  {
+    "id": 23,
+    "name": "Disciplined Agile Delivery",
+    "color": "orange",
+    "version_id": 1,
+    "slug": "Disciplined-Agile-Delivery"
+  },
+  {
+    "id": 24,
+    "name": "Management 3.0",
+    "color": "chartreuse",
+    "version_id": 1,
+    "slug": "Management-3-0"
+  },
+  {
+    "id": 25,
+    "name": "Beyond Budgeting",
+    "color": "salmon",
+    "version_id": 1,
+    "slug": "Beyond-Budgeting"
+  },
+  {
+    "id": 26,
+    "name": "Right Shifting",
+    "color": "purple",
+    "version_id": 1,
+    "slug": "Right-Shifting"
+  }
+]
