@@ -2,13 +2,11 @@
   @layout_params = RailsShims::LayoutParams.new(
     active_section: 'agile_landscape',
     container_class: "content-margin-top",
-    title: "Agile Landscape - Framework - #{@framework.name}",
-    header: "Agile Landscape - Framework",
+    title: "Agile Landscape - Framework: #{@framework.name}",
+    header: "Agile Landscape - Framework #{@framework.name}",
     description: "This page is part of my <a href='/agile_landscape'>Agile Landscape</a> project."
   )
 %>
-
-<h1>Framework: <%= @framework.name %></h1>
 
 <%= @framework.name %> has the following entries: 
 
@@ -17,3 +15,5 @@
     <li><%= link_to e.name, agile_landscape_entry_path(version: @framework.version.to_param, id: e.to_param) %></a>
   <% end %>
 </ul>
+
+<%= render partial: 'agile_landscape/agile_landscape/graph', locals: { graph: @graph } %>

@@ -1,11 +1,13 @@
 class AgileLandscape::Graph
-  def initialize(focus: nil)
+  def initialize(focus_type = nil, focus_id = nil)
+    @focus_type = focus_type
+    @focus_id = focus_id
   end
 
   def calculate
     result = "graph {\n"
 
-    AgileLandscape::Entry.all.pluck(:section).uniq.each do |section|
+    sections(entries).each do |section|
       result += <<~DOC
         subgraph cluster_#{section} {
           color = blue
@@ -14,18 +16,19 @@ class AgileLandscape::Graph
 
       DOC
 
-      AgileLandscape::Entry.where(section: section).each do |e|
-        result += "  \"#{e.name}\" [URL=\"#{Rails.application.routes.url_helpers.agile_landscape_entry_path(version: e.version.to_param, id: e.to_param)}\"]\n"
+      entries.each do |e|
+        if e.section == section
+          result += "  \"#{e.name}\" [URL=\"#{Rails.application.routes.url_helpers.agile_landscape_entry_path(version: e.version.to_param, id: e.to_param)}\"]\n"
+        end
       end
 
       result += <<~DOC
         }
 
-
       DOC
     end
 
-    AgileLandscape::EntryConnection.all.each do |ec|
+    entry_connections.each do |ec|
       if ec.entry_id < ec.connected_entry_id
         result += "  \"#{ec.entry.name}\" -- \"#{ec.connected_entry.name}\" [color = \"#{ec.framework.color}\"]\n"
       end
@@ -33,339 +36,46 @@ class AgileLandscape::Graph
 
     result += "}"
 
-    puts result
-
     result
   end
+
+  def sections(entries)
+    if !@focus_type
+      AgileLandscape::Entry.all.pluck(:section).uniq
+    elsif @focus_type == :entry
+      AgileLandscape::Entry.where(id: entries.map(&:id)).pluck(:section).uniq
+    elsif @focus_type == :framework
+      entriy_ids = AgileLandscape::FrameworkConnection.where(framework_id: @focus_id).pluck(:entry_id)
+      AgileLandscape::Entry.where(id: entriy_ids).pluck(:section).uniq
+    end
+  end
+
+  def entries
+    if !@focus_type
+      AgileLandscape::Entry.all
+    elsif @focus_type == :entry
+      entities1 = AgileLandscape::EntryConnection.where(entry_id: @focus_id)
+      entities2 = AgileLandscape::EntryConnection.where(connected_entry_id: @focus_id)
+
+      entity_ids = entities1.inject([]) { |res, e| res += [e.entry_id, e.connected_entry_id]}
+      entity_ids = entities2.inject(entity_ids) { |res, e| res += [e.entry_id, e.connected_entry_id]}
+      entity_ids = entity_ids.uniq
+
+      AgileLandscape::Entry.where(id: entity_ids)
+    elsif @focus_type == :framework
+      entitiy_ids = AgileLandscape::FrameworkConnection.where(framework_id: @focus_id).pluck(:entry_id)
+      AgileLandscape::Entry.where(id: entitiy_ids)
+    end
+  end
+
+  def entry_connections
+    if !@focus_type
+      AgileLandscape::EntryConnection.all
+    elsif @focus_type == :entry
+      AgileLandscape::EntryConnection.where(entry_id: @focus_id).to_a +
+        AgileLandscape::EntryConnection.where(connected_entry_id: @focus_id).to_a
+    elsif @focus_type == :framework
+      AgileLandscape::EntryConnection.where(framework_id: @focus_id)
+    end
+  end
 end
-
-
-#   "Product Backlog" -- "Sprint Planning (1&2)" [color = "Grey"]
-#   "Sprint Planning (1&2)" -- "Release Planning" [color = "Grey"]
-#   "Release Planning" -- "Iterations" [color = "Grey"]
-#   "Iterations" -- "Relative Estimation" [color = "Grey"]
-#   "Iterations" -- "Sprint Backlog" [color = "Grey"]
-#   "Relative Estimation" -- "Poker Planning" [color = "Grey"]
-#   "Relative Estimation" -- "Sprint Backlog" [color = "Grey"]
-#   "Poker Planning" -- "Sprint Planning (1&2)" [color = "Grey"]
-#   "Sprint Backlog" -- "User Story" [color = "Grey"]
-#   "User Story" -- "Three Questions" [color = "Grey"]
-#   "Three Questions" -- "Daily Meeting" [color = "Grey"]
-#   "Daily Meeting" -- "Task Board" [color = "Grey"]
-#   "Task Board" -- "Definition of Ready" [color = "Grey"]
-#   "Definition of Ready" -- "Refinement Meeting" [color = "Grey"]
-#   "Refinement Meeting" -- "Definition of Done" [color = "Grey"]
-#   "Definition of Done" -- "Testing" [color = "Grey"]
-#   "Definition of Done" -- "Dreyfus Model" [color = "Grey"]
-#   "Testing" -- "Velocity" [color = "Grey"]
-#   "Velocity" -- "Burndown Chart" [color = "Grey"]
-#   "Burndown Chart" -- "Sprint Review (Showcase)" [color = "Grey"]
-#   "Sprint Review (Showcase)" -- "Retrospective" [color = "Grey"]
-#   "Retrospective" -- "Refactoring" [color = "Grey"]
-#   "Refactoring" -- "Sprint Backlog" [color = "Grey"]
-#   "Dreyfus Model" -- "Usability Testing" [color = "Grey"]
-#   "Usability Testing" -- "Frequent Releases" [color = "Grey"]
-#   "Frequent Releases" -- "Small Releases" [color = "Grey"]
-#   "6 levels of planning" -- "JIT Model Storming" [color = "lightblue"]
-#   "JIT Model Storming" -- "Simple Design" [color = "lightblue"]
-#   "Simple Design" -- "CRC Cards" [color = "lightblue"]
-#   "CRC Cards" -- "Sustainable Pace" [color = "lightblue"]
-#   "Sustainable Pace" -- "Metaphor" [color = "lightblue"]
-#   "Metaphor" -- "Spikes" [color = "lightblue"]
-#   "Spikes" -- "Release Planning" [color = "lightblue"]
-#   "Release Planning" -- "Iterations" [color = "lightblue"]
-#   "Iterations" -- "User Story" [color = "lightblue"]
-#   "User Story" -- "Programming Rotation (15mins)" [color = "lightblue"]
-#   "Programming Rotation (15mins)" -- "Onsite Customer" [color = "lightblue"]
-#   "Onsite Customer" -- "Feedback Loops" [color = "lightblue"]
-#   "Feedback Loops" -- "JIT Ad-hoc retrospective" [color = "lightblue"]
-#   "JIT Ad-hoc retrospective" -- "Testing" [color = "lightblue"]
-#   "Testing" -- "Acceptance Testing" [color = "lightblue"]
-#   "Acceptance Testing" -- "Source Code Management" [color = "lightblue"]
-#   "Source Code Management" -- "Continuous Integration" [color = "lightblue"]
-#   "Continuous Integration" -- "Small Releases" [color = "lightblue"]
-#   "Cumulative Flow Diagram" -- "Burndown Chart" [color = "darkgray"]
-#   "Monte Carlo" -- "Velocity" [color = "darkgray"]
-#   "Continous Production Testing" -- "Auto-scale & Heal" [color = "aqua"]
-#   "Auto-scale & Heal" -- "Feature Toggling" [color = "aqua"]
-#   "Feature Toggling" -- "Small Releases" [color = "aqua"]
-#   "Small Releases" -- "Continuous Deployment" [color = "aqua"]
-#   "Continuous Deployment" -- "Shift Left" [color = "aqua"]
-#   "Shift Left" -- "Automated Visual Dashboard" [color = "aqua"]
-#   "Automated Visual Dashboard" -- "Branching Strategy" [color = "aqua"]
-#   "Branching Strategy" -- "Mock Objects" [color = "aqua"]
-#   "Mock Objects" -- "Virtualization" [color = "aqua"]
-#   "Virtualization" -- "Dynamic Environments" [color = "aqua"]
-#   "Dynamic Environments" -- "Automated Build" [color = "aqua"]
-#   "Automated Build" -- "Test Automation" [color = "aqua"]
-#   "Test Automation" -- "Config Management" [color = "aqua"]
-#   "Test Automation" -- "Continuous Integration" [color = "aqua"]
-#   "Config Management" -- "Integrated Testing" [color = "aqua"]
-#   "Integrated Testing" -- "Standardized Promotion Path" [color = "aqua"]
-#   "Standardized Promotion Path" -- "Artifact Management" [color = "aqua"]
-#   "Artifact Management" -- "Version Control" [color = "aqua"]
-#   "Version Control" -- "Componentized Architecture" [color = "aqua"]
-#   "Continuous Integration" -- "Source Code Management" [color = "aqua"]
-#   "Source Code Management" -- "Acceptance Testing" [color = "aqua"]
-#   "Acceptance Testing" -- "Testing" [color = "aqua"]
-#   "Buffer Management" -- "5 Whys" [color = "Green"]
-#   "5 Whys" -- "8 Wastes" [color = "Green"]
-#   "5 Whys" -- "Limit WIP" [color = "Green"]
-#   "Limit WIP" -- "Manage & Measure Flow" [color = "Green"]
-#   "Limit WIP" -- "Visual Waste & Waiting" [color = "Green"]
-#   "Manage & Measure Flow" -- "Kanban Board" [color = "Green"]
-#   "Kanban Board" -- "Task Board" [color = "Green"]
-#   "Visual Waste & Waiting" -- "3 Bin System" [color = "Green"]
-#   "3 Bin System" -- "Make Policies Explicit" [color = "Green"]
-#   "Make Policies Explicit" -- "Implement Feedback Loops" [color = "Green"]
-#   "Implement Feedback Loops" -- "Evolve Experimentally" [color = "Green"]
-#   "Evolve Experimentally" -- "Muda, Muri, Mura" [color = "Green"]
-#   "Muda, Muri, Mura" -- "Lead Time" [color = "Green"]
-#   "Buffer Management" -- "5 Whys" [color = "darkblue"]
-#   "5 Whys" -- "8 Wastes" [color = "darkblue"]
-#   "8 Wastes" -- "Kaizen Burst" [color = "darkblue"]
-#   "Kaizen Burst" -- "Kaizen Blitz" [color = "darkblue"]
-#   "Kaizen Blitz" -- "PDCA (Deming Cycle)" [color = "darkblue"]
-#   "PDCA (Deming Cycle)" -- "5 S's" [color = "darkblue"]
-#   "User Story" -- "Acceptance Criteria (Given, When, Then)" [color = "darkred"]
-#   "Acceptance Criteria (Given, When, Then)" -- "7 questions of context driven testing" [color = "darkred"]
-#   "7 questions of context driven testing" -- "Context Driven Testing" [color = "darkred"]
-#   "Context Driven Testing" -- "Testing" [color = "darkred"]
-#   "Testing" -- "Marick's Test Categories" [color = "darkred"]
-#   "Marick's Test Categories" -- "Test Driven Development" [color = "darkred"]
-#   "Test Driven Development" -- "Test Automation" [color = "darkred"]
-#   "Feature" -- "Story Hierarchy" [color = "Black"]
-#   "Story Hierarchy" -- "User Story" [color = "Black"]
-#   "Object Relational Mapping" -- "SOLID Principles" [color = "lightgreen"]
-#   "SOLID Principles" -- "Domain Object Modeling" [color = "lightgreen"]
-#   "Domain Object Modeling" -- "UML diagram" [color = "lightgreen"]
-#   "Domain Object Modeling" -- "Feature naming template" [color = "lightgreen"]
-#   "UML diagram" -- "Inspections" [color = "lightgreen"]
-#   "Feature naming template" -- "Parking lot" [color = "lightgreen"]
-#   "Parking lot" -- "Feature" [color = "lightgreen"]
-#   "Theory Of Constraints Thinking Process" -- "Buffer Management" [color = "gold"]
-#   "Buffer Management" -- "Theory of Constraints" [color = "gold"]
-#   "Theory of Constraints" -- "Queuing Theory" [color = "gold"]
-#   "Business Model Canvas" -- "Business Vision" [color = "blue"]
-#   "Business Vision" -- "Change Canvas" [color = "blue"]
-#   "Change Canvas" -- "Low Fidelity Prototypes" [color = "blue"]
-#   "Low Fidelity Prototypes" -- "Decision Tree" [color = "blue"]
-#   "Decision Tree" -- "Product Vision (Elevator Pitch)" [color = "blue"]
-#   "Product Vision (Elevator Pitch)" -- "Personas" [color = "blue"]
-#   "Personas" -- "Rules of Simplicity" [color = "blue"]
-#   "Rules of Simplicity" -- "Parking lot" [color = "blue"]
-#   "Parking lot" -- "Story Mapping" [color = "blue"]
-#   "Story Mapping" -- "3 C's" [color = "blue"]
-#   "3 C's" -- "Queuing Theory" [color = "blue"]
-#   "3 C's" -- "User Story" [color = "blue"]
-#   "Queuing Theory" -- "Manage & Measure Flow" [color = "blue"]
-#   "Queuing Theory" -- "User Story" [color = "blue"]
-#   "Manage & Measure Flow" -- "Flow Control" [color = "blue"]
-#   "Flow Control" -- "Limit WIP" [color = "blue"]
-#   "User Story" -- "Sprint Backlog" [color = "blue"]
-#   "User Story" -- "INVEST" [color = "blue"]
-#   "INVEST" -- "Story Splitting" [color = "blue"]
-#   "Story Splitting" -- "Fast Feedback" [color = "blue"]
-#   "Fast Feedback" -- "Refinement Meeting" [color = "blue"]
-#   "Refinement Meeting" -- "Optimal Batch Sizes" [color = "blue"]
-#   "Optimal Batch Sizes" -- "12 Cardinal Sins" [color = "blue"]
-#   "12 Cardinal Sins" -- "Frequent Releases" [color = "blue"]
-#   "Frequent Releases" -- "Small Releases" [color = "blue"]
-#   "Change Canvas" -- "Idea Collaboration Session" [color = "thistle"]
-#   "Idea Collaboration Session" -- "Hypothesis Statement" [color = "thistle"]
-#   "Hypothesis Statement" -- "Value Stream Mapping" [color = "thistle"]
-#   "Value Stream Mapping" -- "Voice of Customer (VOC)" [color = "thistle"]
-#   "Voice of Customer (VOC)" -- "Lean Coffee" [color = "thistle"]
-#   "Lean Coffee" -- "Project Charter" [color = "thistle"]
-#   "Project Charter" -- "Minimum Viable Product (MVP)" [color = "thistle"]
-#   "Minimum Viable Product (MVP)" -- "A3" [color = "thistle"]
-#   "A3" -- "ADKAR Survey" [color = "thistle"]
-#   "ADKAR Survey" -- "Theory Of Constraints Thinking Process" [color = "thistle"]
-#   "Theory Of Constraints Thinking Process" -- "Poisson Cumulative Distribution" [color = "thistle"]
-#   "Poisson Cumulative Distribution" -- "Plant Types" [color = "thistle"]
-#   "Plant Types" -- "Team eNPS" [color = "thistle"]
-#   "Team eNPS" -- "Improvement Kata" [color = "thistle"]
-#   "Improvement Kata" -- "Exploratory Days" [color = "thistle"]
-#   "Exploratory Days" -- "Actionable Metrics" [color = "thistle"]
-#   "Actionable Metrics" -- "6 Signma" [color = "thistle"]
-#   "6 Signma" -- "Cycle Time" [color = "thistle"]
-#   "Cycle Time" -- "Lead Time" [color = "thistle"]
-#   "Lead Time" -- "5 S's" [color = "thistle"]
-#   "5 S's" -- "Actionable Metrics" [color = "thistle"]
-#   "5 S's" -- "6 Signma" [color = "thistle"]
-#   "Focal Question" -- "Design Brief" [color = "red"]
-#   "Design Brief" -- "Divergent/Convergent Thinking" [color = "red"]
-#   "Divergent/Convergent Thinking" -- "Brainstorming" [color = "red"]
-#   "Brainstorming" -- "Top 5 Ideas" [color = "red"]
-#   "Top 5 Ideas" -- "Why-How Laddering" [color = "red"]
-#   "Why-How Laddering" -- "Stakeholder Mapping" [color = "red"]
-#   "Stakeholder Mapping" -- "Design Principles" [color = "red"]
-#   "Design Principles" -- "Five E's" [color = "red"]
-#   "Five E's" -- "Story telling" [color = "red"]
-#   "Story telling" -- "Business Model Canvas" [color = "red"]
-#   "Business Model Canvas" -- "Business Vision" [color = "red"]
-#   "Business Vision" -- "SPICE" [color = "red"]
-#   "SPICE" -- "2x2 Matrix" [color = "red"]
-#   "2x2 Matrix" -- "User Testing" [color = "red"]
-#   "User Testing" -- "Journey Maps" [color = "red"]
-#   "Journey Maps" -- "Storyboards" [color = "red"]
-#   "Storyboards" -- "Ecosystem Map" [color = "red"]
-#   "Ecosystem Map" -- "Empathy Map" [color = "red"]
-#   "Empathy Map" -- "Perspective Mapping" [color = "red"]
-#   "Perspective Mapping" -- "Context Mapping" [color = "red"]
-#   "Context Mapping" -- "Relational Mapping" [color = "red"]
-#   "Relational Mapping" -- "Affinity Clustering" [color = "red"]
-#   "Affinity Clustering" -- "Decision Tree" [color = "red"]
-#   "Decision Tree" -- "Product Vision (Elevator Pitch)" [color = "red"]
-#   "Product Vision (Elevator Pitch)" -- "Personas" [color = "red"]
-#   "Personas" -- "Rules of Simplicity" [color = "red"]
-#   "Rules of Simplicity" -- "Parking lot" [color = "red"]
-#   "Parking lot" -- "Story Mapping" [color = "red"]
-#   "Journey Maps" -- "Guided Tour" [color = "lightpink"]
-#   "Guided Tour" -- "Define Success" [color = "lightpink"]
-#   "Define Success" -- "Facilitated Workshops" [color = "lightpink"]
-#   "Facilitated Workshops" -- "Doblin's 10 Types of Innovations" [color = "lightpink"]
-#   "Doblin's 10 Types of Innovations" -- "Hackathon" [color = "lightpink"]
-#   "Hackathon" -- "Card Sort" [color = "lightpink"]
-#   "Card Sort" -- "Simple Design" [color = "lightpink"]
-#   "Business Vision" -- "Feasibility Assessment" [color = "yellow"]
-#   "Feasibility Assessment" -- "Project Approach Questionnaire" [color = "yellow"]
-#   "Project Approach Questionnaire" -- "Business Case" [color = "yellow"]
-#   "Business Case" -- "Risk Log" [color = "yellow"]
-#   "Risk Log" -- "Delivery Plan" [color = "yellow"]
-#   "Delivery Plan" -- "Baselined Requirements" [color = "yellow"]
-#   "Baselined Requirements" -- "Solution Architecture" [color = "yellow"]
-#   "Solution Architecture" -- "MoSCoW" [color = "yellow"]
-#   "MoSCoW" -- "Delivery Control Pack" [color = "yellow"]
-#   "Delivery Control Pack" -- "Development Approach Definition" [color = "yellow"]
-#   "Development Approach Definition" -- "Earmall Index Estimates" [color = "yellow"]
-#   "Earmall Index Estimates" -- "Time Box" [color = "yellow"]
-#   "Time Box" -- "Sprint Planning (1&2)" [color = "yellow"]
-#   "Sprint Planning (1&2)" -- "Release Planning" [color = "yellow"]
-#   "Release Planning" -- "Iterations" [color = "yellow"]
-#   "Iterations" -- "User Story" [color = "yellow"]
-#   "Trade off Sliders" -- "Feasibility Assessment" [color = "orange"]
-#   "Feasibility Assessment" -- "Project Approach Questionnaire" [color = "orange"]
-#   "Project Approach Questionnaire" -- "Business Case" [color = "orange"]
-#   "Business Case" -- "Risk Log" [color = "orange"]
-#   "Risk Log" -- "Delivery Plan" [color = "orange"]
-#   "Delivery Plan" -- "Baselined Requirements" [color = "orange"]
-#   "Baselined Requirements" -- "Solution Architecture" [color = "orange"]
-#   "Solution Architecture" -- "Business Case" [color = "orange"]
-#   "Business Case" -- "4+1 View Architecture" [color = "lightgreen"]
-#   "4+1 View Architecture" -- "Emerging Design (code craftsmanship)" [color = "lightgreen"]
-#   "Emerging Design (code craftsmanship)" -- "Update when it hurts" [color = "lightgreen"]
-#   "Update when it hurts" -- "User Case" [color = "lightgreen"]
-#   "User Case" -- "Incremental Re-architecture" [color = "lightgreen"]
-#   "Osmotic Communications" -- "Incremental Re-architecture" [color = "darkgray"]
-#   "Incremental Re-architecture" -- "Focus Period (2h)" [color = "darkgray"]
-#   "Focus Period (2h)" -- "Scale Method by Colour" [color = "darkgray"]
-#   "Scale Method by Colour" -- "Walking Skeleton" [color = "darkgray"]
-#   "Walking Skeleton" -- "Delphi Estimation" [color = "darkgray"]
-#   "Delphi Estimation" -- "Information Radiators" [color = "darkgray"]
-#   "Information Radiators" -- "Exploratory 360 degree reviews" [color = "darkgray"]
-#   "Information Radiators" -- "Reflection Workshops" [color = "darkgray"]
-#   "Exploratory 360 degree reviews" -- "Incremental Architecture" [color = "darkgray"]
-#   "Incremental Architecture" -- "Team Safe Space" [color = "darkgray"]
-#   "Team Safe Space" -- "Safety (user solution)" [color = "darkgray"]
-#   "Safety (user solution)" -- "COEL method selection" [color = "darkgray"]
-#   "COEL method selection" -- "Automated Test Code Coverage" [color = "darkgray"]
-#   "Automated Test Code Coverage" -- "Config Management" [color = "darkgray"]
-#   "Config Management" -- "Test Automation" [color = "darkgray"]
-#   "Test Automation" -- "Continuous Integration" [color = "darkgray"]
-#   "Continuous Integration" -- "Frequent Releases" [color = "darkgray"]
-#   "Reflection Workshops" -- "Reflective Improvement" [color = "darkgray"]
-#   "Reflective Improvement" -- "Retrospective" [color = "darkgray"]
-#   "Refactoring" -- "Document Prerequisites" [color = "lime"]
-#   "Document Prerequisites" -- "5 Focusing Steps" [color = "lime"]
-#   "Document Prerequisites" -- "Refactoring Map" [color = "lime"]
-#   "5 Focusing Steps" -- "Mikado Dependency Map" [color = "lime"]
-#   "Mikado Dependency Map" -- "Independent Goal Naivelyu" [color = "lime"]
-#   "Independent Goal Naivelyu" -- "Revert" [color = "lime"]
-#   "Revert" -- "Refactoring Map" [color = "lime"]
-#   "Refactoring Map" -- "5 Focusing Steps" [color = "lime"]
-#   "Understanding Complexity (Framework precedes data)" -- "Sense Making (Data precedes framework)" [color = "purple"]
-#   "Product Owner" -- "Organize by customer value" [color = "darkcyan"]
-#   "Organize by customer value" -- "Top down + bottom up" [color = "darkcyan"]
-#   "Top down + bottom up" -- "Feature Team Adoption Map" [color = "darkcyan"]
-#   "Feature Team Adoption Map" -- "3 levels of coaching(org, team, tech)" [color = "darkcyan"]
-#   "Feature Team Adoption Map" -- "Area Product Owner" [color = "darkcyan"]
-#   "3 levels of coaching(org, team, tech)" -- "Scrum of Scrums" [color = "darkcyan"]
-#   "Scrum of Scrums" -- "Improvement Service" [color = "darkcyan"]
-#   "Improvement Service" -- "Feature Teams" [color = "darkcyan"]
-#   "Feature Teams" -- "Overall Retrospective" [color = "darkcyan"]
-#   "Overall Retrospective" -- "Communities of Practice" [color = "darkcyan"]
-#   "Communities of Practice" -- "Potentially Shippable Product" [color = "darkcyan"]
-#   "Potentially Shippable Product" -- "Minimum Viable Product (MVP)" [color = "darkcyan"]
-#   "Minimum Viable Product (MVP)" -- "System Non-Functional Requirements Overview Page" [color = "darkcyan"]
-#   "System Non-Functional Requirements Overview Page" -- "Requirement Area" [color = "darkcyan"]
-#   "Requirement Area" -- "Tiger Team" [color = "darkcyan"]
-#   "Tiger Team" -- "Shu Ha Ri" [color = "darkcyan"]
-#   "Shu Ha Ri" -- "Feature Set (combined, vertical, horizontal)" [color = "darkcyan"]
-#   "Feature Set (combined, vertical, horizontal)" -- "Team PER" [color = "darkcyan"]
-#   "Team PER" -- "User Story" [color = "darkcyan"]
-#   "Area Product Owner" -- "Vision Page" [color = "darkcyan"]
-#   "Vision Page" -- "Multi-team design workshop" [color = "darkcyan"]
-#   "Multi-team design workshop" -- "Contract Game" [color = "darkcyan"]
-#   "Contract Game" -- "Cause effect diagrams" [color = "darkcyan"]
-#   "Cause effect diagrams" -- "Casual Loop Diagrams" [color = "darkcyan"]
-#   "Casual Loop Diagrams" -- "5 Dysfunctions of a team" [color = "darkcyan"]
-#   "5 Dysfunctions of a team" -- "Potentially Shippable Product" [color = "darkcyan"]
-#   "5C's of Management" -- "3 Levels Protfolio, Program, Team" [color = "navyblue"]
-#   "3 Levels Protfolio, Program, Team" -- "Portfolio Backlog" [color = "navyblue"]
-#   "Portfolio Backlog" -- "WSJF" [color = "navyblue"]
-#   "WSJF" -- "Agile Portfolio" [color = "navyblue"]
-#   "Agile Portfolio" -- "Architectural Runway" [color = "navyblue"]
-#   "Architectural Runway" -- "Strategic Theme" [color = "navyblue"]
-#   "Strategic Theme" -- "ART Budget" [color = "navyblue"]
-#   "ART Budget" -- "SAFEe Patterns" [color = "navyblue"]
-#   "SAFEe Patterns" -- "Program Planning" [color = "navyblue"]
-#   "Program Planning" -- "Program Increment" [color = "navyblue"]
-#   "Program Increment" -- "Innovation & Planning Sprint" [color = "navyblue"]
-#   "Innovation & Planning Sprint" -- "Business EPIC" [color = "navyblue"]
-#   "Business EPIC" -- "Architectural EPIC" [color = "navyblue"]
-#   "Architectural EPIC" -- "Feature Naming template" [color = "navyblue"]
-#   "Feature Naming template" -- "Parking lot" [color = "navyblue"]
-#   "Parking lot" -- "Feature" [color = "navyblue"]
-#   "Feature" -- "Story Hierarchy" [color = "navyblue"]
-#   "Story Hierarchy" -- "User Story" [color = "navyblue"]
-#   "User Story" -- "Three Questions" [color = "navyblue"]
-#   "User Story" -- "Sprint Backlog" [color = "navyblue"]
-#   "Three Questions" -- "Daily Meeting" [color = "navyblue"]
-#   "Daily Meeting" -- "Task Board" [color = "navyblue"]
-#   "Task Board" -- "Definition of Ready" [color = "navyblue"]
-#   "Definition of Ready" -- "Refinement Meeting" [color = "navyblue"]
-#   "Refinement Meeting" -- "Definition of Done" [color = "navyblue"]
-#   "Definition of Done" -- "Testing" [color = "navyblue"]
-#   "Definition of Done" -- "Dreyfus Model" [color = "navyblue"]
-#   "Testing" -- "Velocity" [color = "navyblue"]
-#   "Velocity" -- "Burndown Chart" [color = "navyblue"]
-#   "Burndown Chart" -- "Sprint Review (Showcase)" [color = "navyblue"]
-#   "Sprint Review (Showcase)" -- "Retrospective" [color = "navyblue"]
-#   "Usability Testing" -- "Frequent Releases" [color = "navyblue"]
-#   "Frequent Releases" -- "Small Releases" [color = "navyblue"]
-#   "Small Releases" -- "Agile Release Trains (ART)" [color = "navyblue"]
-#   "Agile Release Trains (ART)" -- "Release Train Engineer" [color = "navyblue"]
-#   "Release Train Engineer" -- "Release on Demand" [color = "navyblue"]
-#   "4 versions of lifecycle" -- "Fixed Delivery Date" [color = "orange"]
-#   "Fixed Delivery Date" -- "Software Development Context Framework (SDFC)" [color = "orange"]
-#   "Software Development Context Framework (SDFC)" -- "Hybrid Waterfall Practices" [color = "orange"]
-#   "Hybrid Waterfall Practices" -- "Product Management Team" [color = "orange"]
-#   "Product Management Team" -- "Architecture Team" [color = "orange"]
-#   "Architecture Team" -- "Geographically Distributed Development (GDO)" [color = "orange"]
-#   "Geographically Distributed Development (GDO)" -- "Coordinate Activities Focus" [color = "orange"]
-#   "Coordinate Activities Focus" -- "Risk Value Driven Cycle" [color = "orange"]
-#   "Risk Value Driven Cycle" -- "Goal Diagram" [color = "orange"]
-#   "Goal Diagram" -- "Parallel Independent Testing" [color = "orange"]
-#   "Parallel Independent Testing" -- "Goal Diagram" [color = "orange"]
-#   "Goal Diagram" -- "3 C's" [color = "orange"]
-#   "3 C's" -- "Turn up the good" [color = "orange"]
-#   "Turn up the good" -- "Delegation Picker" [color = "chartreuse"]
-#   "Delegation Picker" -- "Kudos Cards" [color = "chartreuse"]
-#   "Kudos Cards" -- "Meddlers (change card game)" [color = "chartreuse"]
-#   "Meddlers (change card game)" -- "10 Intrinsic Desires" [color = "chartreuse"]
-#   "10 Intrinsic Desires" -- "Moving Motivators" [color = "chartreuse"]
-#   "7 Tests of a new model" -- "Schneider Culture Model" [color = "salmon"]
-#   "Schneider Culture Model" -- "Theory X vs Theory Y" [color = "salmon"]
-#   "Theory X vs Theory Y" -- "Collaboration, Cultivation, and Competence" [color = "salmon"]
-#   "Marshall Model" -- "4 Mindsets" [color = "purple"]
