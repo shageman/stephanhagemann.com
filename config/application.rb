@@ -23,5 +23,11 @@ module StephanhagemannCom
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    middleware.use ::ActionDispatch::Static, File.expand_path(File.join(__FILE__, "../../packs/agile_landscape/public"))
+    middleware.use ::ActionDispatch::Static, File.expand_path(File.join(__FILE__, "../../packs/books/public"))
+    middleware.use ::ActionDispatch::Static, File.expand_path(File.join(__FILE__, "../../packs/posts/public"))
+    middleware.use ::ActionDispatch::Static, File.expand_path(File.join(__FILE__, "../../packs/root/public"))
+    middleware.use ::ActionDispatch::Static, File.expand_path(File.join(__FILE__, "../../packs/speaking/public"))
   end
 end
