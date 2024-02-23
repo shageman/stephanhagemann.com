@@ -1,0 +1,31 @@
+<div id="graph" style="z-index: -100; border: 1px solid grey; background-color: lightblue; text-align: center; height: 700px; width: 100%;"></div>
+
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js"></script>
+<script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+
+<script>
+  function attributer(datum, index, nodes) {
+      var selection = d3.select(this);
+      if (datum.tag == "svg") {
+          var width = document.getElementById('graph').clientWidth;
+          var height = document.getElementById('graph').clientHeight;
+          var x = -250;
+          var y = -350;
+          var scale = 0.7;
+          // selection
+          //     .attr("width", width + "pt")
+          //     .attr("height", height + "pt")
+          //     .attr("viewBox", -x + " " + -y + " " + (width / scale) + " " + (height / scale));
+          datum.attributes.width = width + "pt";
+          datum.attributes.height = height + "pt";
+          // datum.attributes.viewBox = -x + " " + -y + " " + (width / scale) + " " + (height / scale);
+      }
+  }
+
+  d3
+    .select('#graph')
+    .graphviz()
+    .attributer(attributer)
+    .renderDot(`<%= raw graph %>`);
+</script>

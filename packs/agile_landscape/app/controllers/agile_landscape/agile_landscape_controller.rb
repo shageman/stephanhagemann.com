@@ -2,7 +2,7 @@ class AgileLandscape::AgileLandscapeController < ApplicationController
   def index
     @frameworks = AgileLandscape::Framework.all.sort_by &:name
     @entries = AgileLandscape::Entry.all.sort_by &:name
-    @graph = File.read(File.expand_path(File.join(__FILE__,"../../../models/agile_landscape/data/graph.dot")))
+    @graph = AgileLandscape::Graph.new.calculate
   end
 
   def show_entry
