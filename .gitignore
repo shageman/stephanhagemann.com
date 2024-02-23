@@ -42,3 +42,5 @@ packs.png
 /build
 /localhost:3000
 /_cache
+
+/node_modules

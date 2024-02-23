@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "netlify-plugin-cache-folder": "^0.0.8"
+  }
+}
