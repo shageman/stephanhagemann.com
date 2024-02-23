@@ -13,6 +13,16 @@ bin/rails s
 
 You will need to have a local server running at http://localhost:3000 in order to make a commit. That's because lefthook runs a command to verify that there are no 404s reachable from the root page
 
+## Deploy
+
+Pushing to git will deploy a new version of the site to netlify.
+
+To see locally what will end up in netlify, run the following and check the output in the `build` folder:
+
+```
+bin/static-build
+```
+
 ## Visualize Structure
 
 ```
