@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/shageman/parklife.git
-  revision: c1814371f2e36307728f9a81232b7492f7240feb
+  revision: 42d270888aa6e5bc7555b5baa635e3cf7eea34bb
   branch: crawl-images-as-well
   specs:
     parklife (0.6.0)
