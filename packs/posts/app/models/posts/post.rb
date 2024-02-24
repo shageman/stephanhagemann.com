@@ -46,6 +46,14 @@ class Posts::Post < ActiveFile::Base
     slug
   end
 
+  def date
+    "#{self.read_attribute(:date)}T00:00:00.000Z"
+  end
+
+  def link_title
+    header || title
+  end
+
   def backlinks
 #     const postsLinkRegExp = /https:\/\/stephanhagemann\.com\/posts\/([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g
 

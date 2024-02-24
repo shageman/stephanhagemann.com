@@ -13,11 +13,11 @@
 <% @posts.each do |post| %>
 <div class="blog-list-item">
 
-  <h2><%= link_to(post.header || post.title, post_path(post)) %></h2>
+  <h2><%= link_to(raw(post.link_title), post_path(post)) %></h2>
 
   <div class="grab">
   <%= raw @markdown.render(post.teaser) %>
   </div>
-  <p class="by-line"><%= post.date %></p>
+  <p class="by-line"><%= Date.parse(post.date).strftime("%B %d, %Y") %></p>
 </div>
 <% end %>

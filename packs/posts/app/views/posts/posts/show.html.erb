@@ -7,5 +7,6 @@
 
 <% if @post.is_a?(Posts::Post) %>
   <%= render partial: 'posts/posts/post', locals: { post: @post } %>
-
+<% elsif @post.is_a?(Posts::MastodonPost) %>
+  <%= render partial: 'posts/posts/mastodon_post', locals: { post: @post } %>
 <% end %>

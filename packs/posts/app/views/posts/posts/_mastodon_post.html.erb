@@ -1,0 +1,87 @@
+<% content_for :sidebar do %>
+  <h1><%= raw post.link_title %></h1>
+  <p><%= post.date  %></p>
+  <p>🍿 <%= post.reading_time %> min. read</p>
+<% end %>
+
+<!--more-->
+
+<link rel="canonical" href="<%= post.url %>" />
+
+<% [@post].each do |posts_post|%>
+  <% isMine = posts_post.account["url"] == "https://ruby.social/@shageman" %>
+  <% displayName = posts_post.account["display_name"] ? posts_post.account["display_name"] : posts_post.account.username %>
+  <div class="toot <%= isMine ? "toot-mine" : "toot-other" %>">
+    <div class='toot-bubble'>
+      <div class='toot-content'><%= raw posts_post.content  %></div>
+      <% if isMine %>
+        <div class='toot-images'>
+          <% posts_post.media_attachments.each do |media| %>
+            <% if media["type"] == "image" %>
+              <img src="<%= media["preview_url"] %>">
+            <% end %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <div class="arrow-down"></div>
+    <div class="toot-metadata">
+      <% if isMine %>
+        <img class="toot-author-icon" src="<%= posts_post.account["avatar"] %>">
+        <div class='toot-author'>
+          <a class="author-name" href="<%= posts_post.account["url"] %>"><%= displayName %></a>
+          <a class="author-acct" href="<%= posts_post.account["url"] %>"><%= posts_post.account["acct"] %>@ruby.social</a>
+        </div>
+        <div class='toot-time'><a href="<%= posts_post.url %>"><%= Date.parse(posts_post.created_at).strftime("%B %d, %Y at %h:%m") %></a></div>
+      <% else %>
+        <div class='toot-time'><a href="<%= posts_post.url %>"><%= Date.parse(posts_post.created_at).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-author'>
+          <a class="author-name" href="<%= posts_post.account["url"] %>"><%= displayName %></a>
+          <a class="author-acct" href="<%= posts_post.account["url"] %>"><%= posts_post.account["acct"] %></a>
+        </div>
+        <img class="toot-author-icon" src="<%= posts_post.account["avatar"] %>">
+      <% end %>
+    </div>
+  </div>
+<% end %>
+
+<% @related_posts.each do |posts_post|%>
+  <% isMine = posts_post["account"]["url"] == "https://ruby.social/@shageman" %>
+  <% displayName = posts_post["account"]["display_name"] ? posts_post["account"]["display_name"] : posts_post["account"].username %>
+  <div class="toot <%= isMine ? "toot-mine" : "toot-other" %>">
+    <div class='toot-bubble'>
+      <div class='toot-content'><%= raw posts_post["content"]  %></div>
+      <% if isMine %>
+        <div class='toot-images'>
+          <% posts_post["media_attachments"].each do |media| %>
+            <% if media["type"] == "image" %>
+              <img src="<%= media["preview_url"] %>">
+            <% end %>
+          <% end %> %>
+        </div>
+      <% end %>
+    </div>
+    <div class="arrow-down"></div>
+    <div class="toot-metadata">
+      <% if isMine %>
+        <img class="toot-author-icon" src="<%= posts_post["account"]["avatar"] %>">
+        <div class='toot-author'>
+          <a class="author-name" href="<%= posts_post["account"]["url"] %>"><%= displayName %></a>
+          <a class="author-acct" href="<%= posts_post["account"]["url"] %>"><%= posts_post["account"]["acct"] %>@ruby.social</a>
+        </div>
+        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= Date.parse(posts_post["created_at"]).strftime("%B %d, %Y at %h:%m") %></a></div>
+      <% else %>
+        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= Date.parse(posts_post["created_at"]).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-author'>
+          <a class="author-name" href="<%= posts_post["account"]["url"] %>"><%= displayName %></a>
+          <a class="author-acct" href="<%= posts_post["account"]["url"] %>"><%= posts_post["account"]["acct"] %></a>
+        </div>
+        <img class="toot-author-icon" src="<%= posts_post["account"]["avatar"] %>">
+      <% end %>
+    </div>
+  </div>
+<% end %>
+
+<div class='toot-backlink'>
+  <a href="<%= post.url %>">Join the conversation on mastodon!</a>
+</div>
