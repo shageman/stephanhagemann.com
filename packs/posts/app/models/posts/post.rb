@@ -1,6 +1,9 @@
 require "yaml"
 
 class Posts::Post < ActiveFile::Base
+  use_multiple_files
+  set_filenames *Dir.glob(File.expand_path(File.join(__FILE__, "../data/*.md"))).sort.select { |f| File.file?(f) }
+
   def self.load_file
     result = []
 
@@ -32,9 +35,6 @@ class Posts::Post < ActiveFile::Base
   def self.extension
     "md"
   end
-
-  use_multiple_files
-  set_filenames *Dir.glob(File.expand_path(File.join(__FILE__, "../data/*.md"))).sort.select { |f| File.file?(f) }
 
   def reading_time
     wpm = 265
