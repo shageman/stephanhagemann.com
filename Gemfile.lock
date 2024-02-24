@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/shageman/parklife.git
+  revision: c1814371f2e36307728f9a81232b7492f7240feb
+  branch: crawl-images-as-well
+  specs:
+    parklife (0.6.0)
+      nokogiri
+      rack-test
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,10 +204,6 @@ GEM
       sorbet-runtime
       zeitwerk
     parallel (1.24.0)
-    parklife (0.6.0)
-      nokogiri
-      rack-test
-      thor
     parse_packwerk (0.22.0)
       sorbet-runtime
     parser (3.3.0.5)
@@ -211,7 +217,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
-    rack (3.0.9)
+    rack (3.0.9.1)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -377,7 +383,7 @@ DEPENDENCIES
   packs-rails
   packwerk
   packwerk-extensions
-  parklife
+  parklife!
   puma
   rails
   redcarpet
