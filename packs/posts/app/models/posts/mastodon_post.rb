@@ -53,4 +53,8 @@ class Posts::MastodonPost < ActiveFile::Base
   def reading_time
     1
   end
+
+  def tags
+    self[:tags].map { _1["name"] }
+  end
 end

@@ -85,3 +85,11 @@
 <div class='toot-backlink'>
   <a href="<%= post.url %>">Join the conversation on mastodon!</a>
 </div>
+
+<section class="tags">
+  <p>
+    <% post.tags.each do |tag| %>
+      <%= link_to "#{tag} (#{::Tags::Api.tag_tally(tag)})", ::Tags::Api.entrypoint_path(tag) %>
+    <% end %>
+  </p>
+</section>

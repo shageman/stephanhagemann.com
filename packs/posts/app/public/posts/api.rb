@@ -12,6 +12,6 @@ class Posts::Api
 
   # Returns all posts
   def self.all_posts
-    Posts::Post.all
+    Posts::Post.all.to_a + Posts::MastodonPost.all.to_a
   end
 end
