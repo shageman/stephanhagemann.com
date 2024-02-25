@@ -1,0 +1,2475 @@
+{
+  "lastFetched": "2024-02-25T02:04:18.638Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Gehard",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/46c785ab57e997629437c3ed4503f1ebfe93ccd00c9ace18d169abf68e5a8f37.jpg",
+        "url": "https://twitter.com/mikegehard"
+      },
+      "url": "https://twitter.com/shageman/status/1524936108122972166#favorited-by-38679514",
+      "published": null,
+      "wm-received": "2022-05-13T18:54:28Z",
+      "wm-id": 1397997,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1524936108122972166/38679514",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brandon Weaver",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3823b85e33eb02d54278b46854acb9966cc803f8f7447524996f7f3d5b2817e2.jpg",
+        "url": "https://twitter.com/keystonelemur"
+      },
+      "url": "https://twitter.com/keystonelemur/status/1524957886744436737",
+      "published": "2022-05-13T03:41:07+00:00",
+      "wm-received": "2022-05-13T03:53:07Z",
+      "wm-id": 1397597,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1524935612553371662/1524957886744436737",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "content": {
+        "html": "We're always hiring 🙂\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jaredcwhite\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "We're always hiring 🙂"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jared White supports the Open Web",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/32c75efe53aae2069c803c868e8867b3b9cd3c7d7135024a994c05f933a6d296.jpg",
+        "url": "https://twitter.com/jaredcwhite"
+      },
+      "url": "https://twitter.com/shageman/status/1524935612553371662#favorited-by-18657020",
+      "published": null,
+      "wm-received": "2022-05-13T03:53:07Z",
+      "wm-id": 1397598,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1524935612553371662/18657020",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kevin Kim",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b992340a895c9651a137768603c5ee1d9a0d2efa4a9230bc1e3c1d9b3fd66645.jpg",
+        "url": "https://twitter.com/kevinhyunilkim"
+      },
+      "url": "https://twitter.com/shageman/status/1524936108122972166#favorited-by-389768753",
+      "published": null,
+      "wm-received": "2022-05-13T03:53:06Z",
+      "wm-id": 1397596,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1524936108122972166/389768753",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jared White supports the Open Web",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/32c75efe53aae2069c803c868e8867b3b9cd3c7d7135024a994c05f933a6d296.jpg",
+        "url": "https://twitter.com/jaredcwhite"
+      },
+      "url": "https://twitter.com/jaredcwhite/status/1524954028538417152",
+      "published": "2022-05-13T03:25:47+00:00",
+      "wm-received": "2022-05-13T03:52:39Z",
+      "wm-id": 1397594,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1524935612553371662/1524954028538417152",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "content": {
+        "html": "That might be one of the most thoughtful blog post replies I've ever seen! 👍 I really appreciate what you have to say. I think I mostly agree with what you're describing…the major caveat being that I have yet to see gradual typing promoted within an org's culture. 🧐\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "That might be one of the most thoughtful blog post replies I've ever seen! 👍 I really appreciate what you have to say. I think I mostly agree with what you're describing…the major caveat being that I have yet to see gradual typing promoted within an org's culture. 🧐"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2022-05-12-typescripts-superpower/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rudy prévost",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/740e50085c9ccebee29c11d7cd56668a80d29014a9e7e6e79431b9018d3591cf.jpg",
+        "url": "https://twitter.com/rudy_prevost"
+      },
+      "url": "https://twitter.com/shageman/status/1521143825154158599#favorited-by-1465851562329264137",
+      "published": null,
+      "wm-received": "2022-05-06T04:38:41Z",
+      "wm-id": 1392698,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1521143825154158599/1465851562329264137",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-02-chapter6-is-out/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-02-chapter6-is-out/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rudy prévost",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/740e50085c9ccebee29c11d7cd56668a80d29014a9e7e6e79431b9018d3591cf.jpg",
+        "url": "https://twitter.com/rudy_prevost"
+      },
+      "url": "https://twitter.com/shageman/status/1521132424192737282#favorited-by-1465851562329264137",
+      "published": null,
+      "wm-received": "2022-05-06T04:38:12Z",
+      "wm-id": 1392697,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1521132424192737282/1465851562329264137",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-02-can-i-tweet-from-here-2/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-02-can-i-tweet-from-here-2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim Riley 💙💛",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/25ea85943debdcf214dcb922fa0a434862777a6c30abc1f68cfc53c356c1419c.jpg",
+        "url": "https://twitter.com/timriley"
+      },
+      "url": "https://twitter.com/shageman/status/1521143825154158599#favorited-by-12341",
+      "published": null,
+      "wm-received": "2022-05-03T00:49:59Z",
+      "wm-id": 1390653,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1521143825154158599/12341",
+      "wm-target": "https://stephanhagemann.com/posts/2022-05-02-chapter6-is-out/",
+      "like-of": "https://stephanhagemann.com/posts/2022-05-02-chapter6-is-out/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tarellel",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4e91d18aca123ec8a822d2c477a537973469cdfaa44cc9cf776ccc023ce12e84.jpg",
+        "url": "https://twitter.com/tarellel"
+      },
+      "url": "https://twitter.com/shageman/status/1494338368582217729#favorited-by-50213",
+      "published": null,
+      "wm-received": "2022-04-26T17:56:18Z",
+      "wm-id": 1387351,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1494338368582217729/50213",
+      "wm-target": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "like-of": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "コンユウ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/78e02f1cd89b2324f3f44d3a980ae88678bf600c337e0b255d6ea146c6697f91.jpg",
+        "url": "https://twitter.com/kon_yu"
+      },
+      "url": "https://twitter.com/kon_yu/status/1494480642469679109",
+      "published": "2022-02-18T01:15:25+00:00",
+      "wm-received": "2022-02-18T03:28:30Z",
+      "wm-id": 1352943,
+      "wm-source": "https://brid.gy/post/twitter/shageman/1494480642469679109",
+      "wm-target": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "content": {
+        "html": "リンク内でRailsのプロジェクトのサイズや簡易な複雑さを出せるシェルコマンドがある。便利\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/\"></a>",
+        "text": "リンク内でRailsのプロジェクトのサイズや簡易な複雑さを出せるシェルコマンドがある。便利"
+      },
+      "mention-of": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "コンユウ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/78e02f1cd89b2324f3f44d3a980ae88678bf600c337e0b255d6ea146c6697f91.jpg",
+        "url": "https://twitter.com/kon_yu"
+      },
+      "url": "https://twitter.com/kon_yu/status/1494338644165132289",
+      "published": "2022-02-17T15:51:10+00:00",
+      "wm-received": "2022-02-17T20:46:49Z",
+      "wm-id": 1352771,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1494338368582217729/1494338644165132289",
+      "wm-target": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "content": {
+        "text": "My space on gradual modularization starts in about 10 minutes!\n\nCheck whether your app might be in need of some refactoring, check out these queries you can run against your codebase to give you an idea of the size and location of the problem:\n\nstephanhagemann.com/posts/2022-02-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2022-02-17-rails-apps-size-tests/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Frederik Dietz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0aef07ceac65737025d7247139ddfaa4b6af41bac2349c3b6f1f493a03c853ef.jpg",
+        "url": "https://twitter.com/fdietz"
+      },
+      "url": "https://twitter.com/shageman/status/1477424205620670466#favorited-by-15188918",
+      "published": null,
+      "wm-received": "2022-01-08T15:46:48Z",
+      "wm-id": 1328455,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1477424205620670466/15188918",
+      "wm-target": "https://stephanhagemann.com/posts/2022-01-01-happy-new-year/",
+      "like-of": "https://stephanhagemann.com/posts/2022-01-01-happy-new-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Santiago Bartesaghi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d1fdb3d8b177f40d2dd3c8bab87aa1dd270f48b0b5a40bf9336a7369e9af8cfc.jpg",
+        "url": "https://twitter.com/santib6_"
+      },
+      "url": "https://twitter.com/shageman/status/1478395879216361473#favorited-by-2905116724",
+      "published": null,
+      "wm-received": "2022-01-04T17:24:19Z",
+      "wm-id": 1326220,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1478395879216361473/2905116724",
+      "wm-target": "https://stephanhagemann.com/posts/2022-01-03-changes-from-ruby-rails-packwerk-updates/",
+      "like-of": "https://stephanhagemann.com/posts/2022-01-03-changes-from-ruby-rails-packwerk-updates/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rishav Jadon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0df1a971b15bc281eae496b4a7914396da43c898720b84e50f725210f331f73b.jpg",
+        "url": "https://twitter.com/rovenclasher"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-1266952742586777600",
+      "published": null,
+      "wm-received": "2021-12-16T16:52:33Z",
+      "wm-id": 1318686,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/1266952742586777600",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f6d2ba33fb2150a8fd2a7ac4efa810f1a0ab563078d425fd5948838b44467de0.jpg",
+        "url": "https://twitter.com/dchudz"
+      },
+      "url": "https://twitter.com/shageman/status/1458488875618291717#favorited-by-50060349",
+      "published": null,
+      "wm-received": "2021-11-11T04:15:44Z",
+      "wm-id": 1303526,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1458488875618291717/50060349",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-09-definition-of-done-agile/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-09-definition-of-done-agile/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "RŌBÆRT",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cf03c3ebb848b8bd73b61e04626d50dd3afb25b267de696137fb41eda46fcc29.jpg",
+        "url": "https://twitter.com/fnordfish"
+      },
+      "url": "https://twitter.com/shageman/status/1458230274865647617#favorited-by-14513358",
+      "published": null,
+      "wm-received": "2021-11-10T07:46:19Z",
+      "wm-id": 1303150,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1458230274865647617/14513358",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-08-instantaneous-migrations-can-bite/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-08-instantaneous-migrations-can-bite/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ryan Barrett",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b53c64f247959eaaee6c3c96dacf6f27905c716ac8da2b79fb7448c78595867b.jpg",
+        "url": "https://twitter.com/schnarfed"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-139199211",
+      "published": null,
+      "wm-received": "2021-11-09T17:15:29Z",
+      "wm-id": 1302927,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/139199211",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tobias Ljungström",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3daea6c3dc4c0b5f04e257a8aeb9f83634e4bd3273051388f571fdf962732904.jpg",
+        "url": "https://twitter.com/midvintr"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-855319668436774912",
+      "published": null,
+      "wm-received": "2021-11-09T13:59:54Z",
+      "wm-id": 1302867,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/855319668436774912",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mark",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/62df9772898610babc3d6a5a2c7027eb915bb65fe1076e7b5dcb7cadd2a0b4f2.jpg",
+        "url": "https://twitter.com/markbarton"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-14168785",
+      "published": null,
+      "wm-received": "2021-11-08T21:18:08Z",
+      "wm-id": 1301878,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/14168785",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jens H",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/478cb35d30099c4054a9f9799223ae249d7ddfa7fd9818ef56c60a06348ae226.jpg",
+        "url": "https://twitter.com/IThoemmi"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-236809366",
+      "published": null,
+      "wm-received": "2021-11-08T20:08:15Z",
+      "wm-id": 1301387,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/236809366",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Böck",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/18a4e83da23e07a465feab2cd21362105938e9ac05ff774c757bec8f39bf6141.jpg",
+        "url": "https://twitter.com/mxbck"
+      },
+      "url": "https://twitter.com/mxbck/status/1457756260644933637",
+      "published": "2021-11-08T17:05:50+00:00",
+      "wm-received": "2021-11-08T18:19:08Z",
+      "wm-id": 1301287,
+      "wm-source": "https://brid.gy/post/twitter/shageman/1457756260644933637",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "content": {
+        "html": "one of us\none of us\none of us\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/\"></a>",
+        "text": "one of us\none of us\none of us"
+      },
+      "mention-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave ♦️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d5bccfce0da3ccaaf57c7627e3734679f0d778f5ae093b461145388ab5f00ccb.jpg",
+        "url": "https://twitter.com/DavidDarnes"
+      },
+      "url": "https://twitter.com/DavidDarnes/status/1457764983790526470",
+      "published": "2021-11-08T17:40:30+00:00",
+      "wm-received": "2021-11-08T18:19:08Z",
+      "wm-id": 1301288,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1457183930206011398/1457764983790526470",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "photo": [
+        "https://pbs.twimg.com/media/FDj1D7iWYAcuxpd.jpg"
+      ],
+      "content": {
+        "text": "Make Your Self-hosted Website Come To Life By Connecting It To Your Social Media\n\nThank you, @thegreengreek! Also: @eleven_ty, webmention.io, brid.gy\n\nstephanhagemann.com/posts/2021-11-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy (1.0.0-beta.4)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a109f3cd7c6eebf377053cc6cea1dd78cf113f76beacb7f2c7217da43bab9d04.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/eleven_ty/status/1457755063473090560",
+      "published": "2021-11-08T17:01:05+00:00",
+      "wm-received": "2021-11-08T18:19:07Z",
+      "wm-id": 1301286,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1457183930206011398/1457755063473090560",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "photo": [
+        "https://pbs.twimg.com/media/FDj1D7iWYAcuxpd.jpg"
+      ],
+      "content": {
+        "text": "Make Your Self-hosted Website Come To Life By Connecting It To Your Social Media\n\nThank you, @thegreengreek! Also: @eleven_ty, webmention.io, brid.gy\n\nstephanhagemann.com/posts/2021-11-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Yaël 🛸",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c777c620584aa1598a2c029859aa48e06130c291a2ea520364939b903748e709.jpg",
+        "url": "https://twitter.com/yaeeelglx"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-2893299190",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:06Z",
+      "wm-id": 1301284,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/2893299190",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Arpit",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/98ad9e5982ed043d93db3d8d8ff7acfead487295c9eb33bf6c91b25256892938.jpg",
+        "url": "https://twitter.com/ArpitCodes"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-423471075",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:06Z",
+      "wm-id": 1301285,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/423471075",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Zeeshan ⬢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/71c38f4b0626e72ad821d701218c13ad8c7a1c1b4997688187348902880ba1c2.jpg",
+        "url": "https://twitter.com/zeshhaan"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-727355433401344000",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:05Z",
+      "wm-id": 1301282,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/727355433401344000",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aleksandr Hovhannisyan",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a57ef2a18b0456507f96c7391f6f5c067084b20adca201c076619412ff6dff27.jpg",
+        "url": "https://twitter.com/hovhaDovah"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-1325417571223527424",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:05Z",
+      "wm-id": 1301283,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/1325417571223527424",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Eleventy (1.0.0-beta.4)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a109f3cd7c6eebf377053cc6cea1dd78cf113f76beacb7f2c7217da43bab9d04.jpg",
+        "url": "https://twitter.com/eleven_ty"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-949639269433380864",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:04Z",
+      "wm-id": 1301281,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/949639269433380864",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "S#",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ae19e57ae0d41b96972196d5054983863b7db3de132cb9d6e5ff03af95fcd8a8.jpg",
+        "url": "https://twitter.com/gthri_"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-1256286210072498176",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:03Z",
+      "wm-id": 1301279,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/1256286210072498176",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Max Böck",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/18a4e83da23e07a465feab2cd21362105938e9ac05ff774c757bec8f39bf6141.jpg",
+        "url": "https://twitter.com/mxbck"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-516438525",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:03Z",
+      "wm-id": 1301280,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/516438525",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bob Monsour",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9cdde99ea2a6450a1bdce0c0830f4063df0ed831db88fdd907087f83e1332671.jpg",
+        "url": "https://twitter.com/bobmonsour"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-721913",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:02Z",
+      "wm-id": 1301277,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/721913",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tanner Dolby",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b9b6080c2486ab209b39facadec189a081288baa997cdb77bda07ddd9dafa21.jpg",
+        "url": "https://twitter.com/tannerdolby"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-1259622945955016705",
+      "published": null,
+      "wm-received": "2021-11-08T18:19:02Z",
+      "wm-id": 1301278,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/1259622945955016705",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@reiver ⊼ (Charles Iliya Krempeaux)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/71daf757e423028597f3aa2cef9a69a71189110722cc5139e27e69ad1fa6e9d1.png",
+        "url": "https://twitter.com/reiver"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-14156466",
+      "published": null,
+      "wm-received": "2021-11-08T09:48:59Z",
+      "wm-id": 1301091,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/14156466",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-08T08:55:25Z",
+      "wm-id": 1300962,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1457436912361295872",
+      "published": "2021-11-07T19:56:52+00:00",
+      "wm-received": "2021-11-07T19:58:22Z",
+      "wm-id": 1300822,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1457330430005420032/1457436912361295872",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "content": {
+        "html": "Good point! If we choose to not wrap the library we’re in global change territory. Choosing a wrapper might make initial adoption a bit slower (costly) but simplify migration work.\n<a class=\"u-mention\" href=\"https://twitter.com/ShoshinManager\"></a>",
+        "text": "Good point! If we choose to not wrap the library we’re in global change territory. Choosing a wrapper might make initial adoption a bit slower (costly) but simplify migration work."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1457330430005420032#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-07T17:45:47Z",
+      "wm-id": 1300797,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457330430005420032/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/ShoshinManager/status/1457397447450370056",
+      "published": "2021-11-07T17:20:03+00:00",
+      "wm-received": "2021-11-07T17:45:47Z",
+      "wm-id": 1300798,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1457330430005420032/1457397447450370056",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "content": {
+        "html": "Great questions. I guess it's a tradeoff between convenience and maintainability. Wrapping up the library helps you reduce the cost of upgrading the library but as the library add more features and capabilities it requires to update your wrapper before adopting them.\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Great questions. I guess it's a tradeoff between convenience and maintainability. Wrapping up the library helps you reduce the cost of upgrading the library but as the library add more features and capabilities it requires to update your wrapper before adopting them."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-07-naming-technical-migrations/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sia Karamalegos",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/20c589e7555a0b0adf9c74d3a9fff17c2367e26b2b77b3b332dcfe33ec0bed93.jpg",
+        "url": "https://twitter.com/TheGreenGreek"
+      },
+      "url": "https://twitter.com/shageman/status/1457183930206011398#favorited-by-23724008",
+      "published": null,
+      "wm-received": "2021-11-07T12:16:11Z",
+      "wm-id": 1300724,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1457183930206011398/23724008",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-06-social-media-on-website/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-05T23:58:51Z",
+      "wm-id": 1300361,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1456618506754138114#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-05T23:58:19Z",
+      "wm-id": 1300360,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1456618506754138114/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-05-evaluate-software-teams/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-05-evaluate-software-teams/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sebastian Spier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e877a6cdc0fe32e026bb90cb8ab40085bef0d6913ad1133011d1ba5b3b105ef7.jpg",
+        "url": "https://twitter.com/sebastianspier"
+      },
+      "url": "https://twitter.com/shageman/status/1456618506754138114#favorited-by-96320763",
+      "published": null,
+      "wm-received": "2021-11-05T22:30:01Z",
+      "wm-id": 1300303,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1456618506754138114/96320763",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-05-evaluate-software-teams/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-05-evaluate-software-teams/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/shageman/status/1456266508154249244#favorited-by-2323131",
+      "published": null,
+      "wm-received": "2021-11-04T18:13:43Z",
+      "wm-id": 1299796,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1456266508154249244/2323131",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-04-minority-leader/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-04-minority-leader/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-11-04T01:46:14Z",
+      "wm-id": 1299553,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/692958497bf669f05bb7bac5ba6d95993df3b11ccdff256ffa7761896b46c1ae.jpg",
+        "url": "https://twitter.com/avierspaul"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-1094346301364469760",
+      "published": null,
+      "wm-received": "2021-11-03T20:37:58Z",
+      "wm-id": 1299476,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/1094346301364469760",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Renaizen🧠",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4f89859c004a51362ef2ae11e8698781c4c280384d3b52df36a2beca197f3973.jpg",
+        "url": "https://twitter.com/renai_zen"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-1281511097606930434",
+      "published": null,
+      "wm-received": "2021-11-03T20:37:58Z",
+      "wm-id": 1299477,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/1281511097606930434",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Cole",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77874b27d7822e756eb31bbe2455849f315efa1f2e557847ed25d09465568b35.jpg",
+        "url": "https://twitter.com/Nicolascole77"
+      },
+      "url": "https://twitter.com/Nicolascole77/status/1455915638476607491",
+      "published": "2021-11-03T15:11:52+00:00",
+      "wm-received": "2021-11-03T16:54:20Z",
+      "wm-id": 1299426,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455885483188293634/1455915638476607491",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "content": {
+        "html": "Dickie has created a ton of it from his own experiences too.\n\nPoint is, yes linking is a great skill and love the idea. And whenever we do draw DIRECT inspiration, we always give credit where credit is due.\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/dickiebush\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Dickie has created a ton of it from his own experiences too.\n\nPoint is, yes linking is a great skill and love the idea. And whenever we do draw DIRECT inspiration, we always give credit where credit is due."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Gracilla • 📚✍🏼🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a57209388e32147f6e0eb352080661b96ad667b99003be23dd709c32f64260f0.jpg",
+        "url": "https://twitter.com/nickgracilla"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-1140906463",
+      "published": null,
+      "wm-received": "2021-11-03T16:54:20Z",
+      "wm-id": 1299427,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/1140906463",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Gracilla • 📚✍🏼🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a57209388e32147f6e0eb352080661b96ad667b99003be23dd709c32f64260f0.jpg",
+        "url": "https://twitter.com/nickgracilla"
+      },
+      "url": "https://twitter.com/nickgracilla/status/1455920002079547392",
+      "published": "2021-11-03T15:29:12+00:00",
+      "wm-received": "2021-11-03T16:53:49Z",
+      "wm-id": 1299424,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455885483188293634/1455920002079547392",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "content": {
+        "html": "The format of imaged text is a blocker too. You've got  footnotes here (thanks!) — but as images, none of it is clickable anyway.\n\nMy take: this is a lean method for testing ideas, but not the end game which would have these links.\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/Nicolascole77\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/dickiebush\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "The format of imaged text is a blocker too. You've got  footnotes here (thanks!) — but as images, none of it is clickable anyway.\n\nMy take: this is a lean method for testing ideas, but not the end game which would have these links."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1455920517655977994",
+      "published": "2021-11-03T15:31:15+00:00",
+      "wm-received": "2021-11-03T16:53:49Z",
+      "wm-id": 1299425,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455885483188293634/1455920517655977994",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "content": {
+        "html": "Agreed! That is why I started linking to my own website where the links are clickable. “Lean method to test ideas” - exactly! As that it is quite powerful\n<a class=\"u-mention\" href=\"https://twitter.com/Nicolascole77\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/dickiebush\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/nickgracilla\"></a>",
+        "text": "Agreed! That is why I started linking to my own website where the links are clickable. “Lean method to test ideas” - exactly! As that it is quite powerful"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ray",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6609e28d577b935def3f3f59f773b5e2ca7d5395dde403f6dbc9ec28275eaf76.jpg",
+        "url": "https://twitter.com/riddyrayes"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-853242881078775808",
+      "published": null,
+      "wm-received": "2021-11-03T14:56:35Z",
+      "wm-id": 1299374,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/853242881078775808",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Cole",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77874b27d7822e756eb31bbe2455849f315efa1f2e557847ed25d09465568b35.jpg",
+        "url": "https://twitter.com/Nicolascole77"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-617073276",
+      "published": null,
+      "wm-received": "2021-11-03T14:56:33Z",
+      "wm-id": 1299372,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/617073276",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrew Lazenka 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/676d60739fe2bddf35993096f048dfe8124a329e85fa0ba79f23079ef66e40a8.jpg",
+        "url": "https://twitter.com/andrewlazenka"
+      },
+      "url": "https://twitter.com/shageman/status/1455885483188293634#favorited-by-1252113792995033088",
+      "published": null,
+      "wm-received": "2021-11-03T14:56:33Z",
+      "wm-id": 1299373,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455885483188293634/1252113792995033088",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1455909522590113800",
+      "published": "2021-11-03T14:47:34+00:00",
+      "wm-received": "2021-11-03T14:56:32Z",
+      "wm-id": 1299371,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455885483188293634/1455909522590113800",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "content": {
+        "html": "In the live sessions, it is very palpable that you draw from extensive experience. It makes the content come alive!\n\nThe remaining 1%... is that all @dickiebush? ;)\n<a class=\"u-mention\" href=\"https://twitter.com/Nicolascole77\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/dickiebush\"></a>",
+        "text": "In the live sessions, it is very palpable that you draw from extensive experience. It makes the content come alive!\n\nThe remaining 1%... is that all @dickiebush? ;)"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nicolas Cole",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/77874b27d7822e756eb31bbe2455849f315efa1f2e557847ed25d09465568b35.jpg",
+        "url": "https://twitter.com/Nicolascole77"
+      },
+      "url": "https://twitter.com/Nicolascole77/status/1455901633573912582",
+      "published": "2021-11-03T14:16:13+00:00",
+      "wm-received": "2021-11-03T14:56:31Z",
+      "wm-id": 1299370,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455885483188293634/1455901633573912582",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "content": {
+        "html": "Valid and thanks for the feedback. \n\nFor what it’s worth, 90% of what’s in ship 30, if not 99% are all lessons and frameworks I created for myself over the past 10 years writing. I created the curriculum from my own hard lessons learned, not from someone else’s material.\n<a class=\"u-mention\" href=\"https://leanpub.com/package-based-rails-applications\"></a>\n<a class=\"u-mention\" href=\"https://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/dickiebush\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Valid and thanks for the feedback. \n\nFor what it’s worth, 90% of what’s in ship 30, if not 99% are all lessons and frameworks I created for myself over the past 10 years writing. I created the curriculum from my own hard lessons learned, not from someone else’s material."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-03-ship30for30-vs-the-web/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Derek Moore 🚢 7️⃣6️⃣",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e5b271f839d38024362caa7863497fa38bba393b914eddcd04451d020eef3e2e.jpg",
+        "url": "https://twitter.com/DerekMoore23"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-1415871115424014346",
+      "published": null,
+      "wm-received": "2021-11-03T04:41:51Z",
+      "wm-id": 1299234,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/1415871115424014346",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-03T01:58:08Z",
+      "wm-id": 1299176,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/692958497bf669f05bb7bac5ba6d95993df3b11ccdff256ffa7761896b46c1ae.jpg",
+        "url": "https://twitter.com/avierspaul"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-1094346301364469760",
+      "published": null,
+      "wm-received": "2021-11-02T22:41:17Z",
+      "wm-id": 1298840,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/1094346301364469760",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paul 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/692958497bf669f05bb7bac5ba6d95993df3b11ccdff256ffa7761896b46c1ae.jpg",
+        "url": "https://twitter.com/avierspaul"
+      },
+      "url": "https://twitter.com/avierspaul/status/1455657542131109895",
+      "published": "2021-11-02T22:06:17+00:00",
+      "wm-received": "2021-11-02T22:41:16Z",
+      "wm-id": 1298838,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455500354599141383/1455657542131109895",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "content": {
+        "html": "I’ve been doing exactly this for ship30! \n\nEach atomic essay becomes a Zettel-like note in Obsidian. It’s worked super well, and forced me to work through ideas that I hadn’t really fleshed out before the course. \n\nThe best part is that it created loads of other essay ideas 😄\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "I’ve been doing exactly this for ship30! \n\nEach atomic essay becomes a Zettel-like note in Obsidian. It’s worked super well, and forced me to work through ideas that I hadn’t really fleshed out before the course. \n\nThe best part is that it created loads of other essay ideas 😄"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1455663169133858819",
+      "published": "2021-11-02T22:28:39+00:00",
+      "wm-received": "2021-11-02T22:41:16Z",
+      "wm-id": 1298839,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1455500354599141383/1455663169133858819",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "content": {
+        "html": "I agree! Incidentally - This makes me settle on tomorrow’s topic! My biggest criticism of <a href=\"https://twitter.com/search?q=%23ship30for30\">#ship30for30</a>\n<a class=\"u-mention\" href=\"https://twitter.com/avierspaul\"></a>",
+        "text": "I agree! Incidentally - This makes me settle on tomorrow’s topic! My biggest criticism of #ship30for30"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrew Lazenka 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/676d60739fe2bddf35993096f048dfe8124a329e85fa0ba79f23079ef66e40a8.jpg",
+        "url": "https://twitter.com/andrewlazenka"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-1252113792995033088",
+      "published": null,
+      "wm-received": "2021-11-02T16:15:23Z",
+      "wm-id": 1298686,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/1252113792995033088",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-2323131",
+      "published": null,
+      "wm-received": "2021-11-02T13:07:48Z",
+      "wm-id": 1298621,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/2323131",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sebastian Spier",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e877a6cdc0fe32e026bb90cb8ab40085bef0d6913ad1133011d1ba5b3b105ef7.jpg",
+        "url": "https://twitter.com/sebastianspier"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-96320763",
+      "published": null,
+      "wm-received": "2021-11-02T13:07:47Z",
+      "wm-id": 1298619,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/96320763",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1455500354599141383#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-11-02T13:07:47Z",
+      "wm-id": 1298620,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455500354599141383/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-02-zettelkasten-vs-atomic-essays/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1455196327701319693#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-11-02T01:42:33Z",
+      "wm-id": 1298505,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455196327701319693/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-01-macos-productivity-joplin-todo-management/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-01-macos-productivity-joplin-todo-management/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joplin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/01a5deb8138c6733fb3482fdde1ddd9f20070c01769b28f493a11f49788c5764.png",
+        "url": "https://twitter.com/joplinapp"
+      },
+      "url": "https://twitter.com/shageman/status/1455196327701319693#favorited-by-1119166511220838405",
+      "published": null,
+      "wm-received": "2021-11-01T19:18:03Z",
+      "wm-id": 1298391,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1455196327701319693/1119166511220838405",
+      "wm-target": "https://stephanhagemann.com/posts/2021-11-01-macos-productivity-joplin-todo-management/",
+      "like-of": "https://stephanhagemann.com/posts/2021-11-01-macos-productivity-joplin-todo-management/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Bierbrodt",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/06de4b1b6b869be6b4fb5f042a0a71a219f4995340e0be97b9fa04a2f0b53b4e.jpg",
+        "url": "https://twitter.com/thomasBbdt"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-715632587524464644",
+      "published": null,
+      "wm-received": "2021-11-01T19:17:33Z",
+      "wm-id": 1298390,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/715632587524464644",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1454802318097014788#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-11-01T06:22:42Z",
+      "wm-id": 1298165,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454802318097014788/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "pauline.eth ◯ 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6dd9a4294043c52c43b9660eda37b175a6a7709cabf895c2775d11d17605c814.jpg",
+        "url": "https://twitter.com/PaulineRiviere"
+      },
+      "url": "https://twitter.com/shageman/status/1454802318097014788#favorited-by-33296955",
+      "published": null,
+      "wm-received": "2021-10-31T18:24:08Z",
+      "wm-id": 1298010,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454802318097014788/33296955",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/mstine/status/1454814877579628544",
+      "published": "2021-10-31T14:17:50+00:00",
+      "wm-received": "2021-10-31T15:51:32Z",
+      "wm-id": 1297993,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1454802318097014788/1454814877579628544",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "photo": [
+        "https://pbs.twimg.com/media/FDB-_3VX0AY8LRo.jpg"
+      ],
+      "content": {
+        "text": "A post by @mstine led to me joining #ship30for30 and to explore the #zettelkasten method. Big thanks to you!\n\nThis is how I use Joplin plugins to make a powerful Zettelkasten system.\n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sendhil Kumar R",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dcc0993c17428b33ef89dbe3dc534b9854a78ae5d85a693aae48d1eb8bea393e.jpg",
+        "url": "https://twitter.com/adeveloper"
+      },
+      "url": "https://twitter.com/shageman/status/1454802318097014788#favorited-by-31347365",
+      "published": null,
+      "wm-received": "2021-10-31T15:51:31Z",
+      "wm-id": 1297991,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454802318097014788/31347365",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/shageman/status/1454802318097014788#favorited-by-2323131",
+      "published": null,
+      "wm-received": "2021-10-31T15:51:31Z",
+      "wm-id": 1297992,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454802318097014788/2323131",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jambay",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5c661a01b1cc90c56575f3ddfe859cf73e1d3d0a42a504f470cf8179880aca98.png",
+        "url": "https://twitter.com/jambay"
+      },
+      "url": "https://twitter.com/shageman/status/1454802318097014788#favorited-by-14086636",
+      "published": null,
+      "wm-received": "2021-10-31T15:51:30Z",
+      "wm-id": 1297990,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454802318097014788/14086636",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-31-macos-productivity-joplin-zettelkasten/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Halil Hancioglu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/831445f1b7f7250be075e96b81bb55b22e300533328794b4971736e4a0eca910.jpg",
+        "url": "https://twitter.com/satspeedy"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-722183294",
+      "published": null,
+      "wm-received": "2021-10-31T11:57:01Z",
+      "wm-id": 1297956,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/722183294",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Markus Bukowski",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/69a09fbd5f1d5c1f48293888718dafd44e52f6cd9bc42987b224ea84ba1a95fc.jpg",
+        "url": "https://twitter.com/mrbt"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-20610220",
+      "published": null,
+      "wm-received": "2021-10-31T07:48:42Z",
+      "wm-id": 1297912,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/20610220",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/mstine/status/1454559808846188548",
+      "published": "2021-10-30T21:24:17+00:00",
+      "wm-received": "2021-10-30T23:54:22Z",
+      "wm-id": 1297791,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1454424202770100225/1454559808846188548",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "content": {
+        "html": "Building a Second Brain <a href=\"https://www.buildingasecondbrain.com/\">buildingasecondbrain.com</a>\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fortelabs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Building a Second Brain buildingasecondbrain.com"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1454585421950750723",
+      "published": "2021-10-30T23:06:04+00:00",
+      "wm-received": "2021-10-30T23:54:22Z",
+      "wm-id": 1297792,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1454424202770100225/1454585421950750723",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "content": {
+        "html": "Interesting! Thanks for sharing!\n<a class=\"u-mention\" href=\"https://twitter.com/fortelabs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mstine\"></a>",
+        "text": "Interesting! Thanks for sharing!"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1454556581597696001",
+      "published": "2021-10-30T21:11:28+00:00",
+      "wm-received": "2021-10-30T21:14:53Z",
+      "wm-id": 1297768,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1454424202770100225/1454556581597696001",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "content": {
+        "html": "Cool! What’s BASB?\n<a class=\"u-mention\" href=\"https://twitter.com/fortelabs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mstine\"></a>",
+        "text": "Cool! What’s BASB?"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/mstine/status/1454498126996426760",
+      "published": "2021-10-30T17:19:11+00:00",
+      "wm-received": "2021-10-30T18:07:35Z",
+      "wm-id": 1297737,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1454424202770100225/1454498126996426760",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "content": {
+        "html": "So I had not read this <a href=\"https://twitter.com/fortelabs\">@fortelabs</a> article before...great stuff. Highlighted a bunch and made a lot of notes. Also hadn't heard of Joplin! Thanks!\n\nIncidentally I'm going through BASB cohort #13 starting next week.\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "So I had not read this @fortelabs article before...great stuff. Highlighted a bunch and made a lot of notes. Also hadn't heard of Joplin! Thanks!\n\nIncidentally I'm going through BASB cohort #13 starting next week."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "simblysimple",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/simblysimple"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-67275124",
+      "published": null,
+      "wm-received": "2021-10-30T18:07:35Z",
+      "wm-id": 1297738,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/67275124",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-2323131",
+      "published": null,
+      "wm-received": "2021-10-30T18:07:08Z",
+      "wm-id": 1297730,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/2323131",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1454052739265306636#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-10-30T14:24:13Z",
+      "wm-id": 1297680,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454052739265306636/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tiffany Callahan",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d1b321db81647bdc264e152c542b34d9f30d933da4c744e236480832730c3726.jpg",
+        "url": "https://twitter.com/Tiff_callahan"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-148583931",
+      "published": null,
+      "wm-received": "2021-10-30T14:24:11Z",
+      "wm-id": 1297678,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/148583931",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jambay",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5c661a01b1cc90c56575f3ddfe859cf73e1d3d0a42a504f470cf8179880aca98.png",
+        "url": "https://twitter.com/jambay"
+      },
+      "url": "https://twitter.com/shageman/status/1454424202770100225#favorited-by-14086636",
+      "published": null,
+      "wm-received": "2021-10-30T14:24:11Z",
+      "wm-id": 1297679,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454424202770100225/14086636",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-30-macos-productivity-joplin-3/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f6d2ba33fb2150a8fd2a7ac4efa810f1a0ab563078d425fd5948838b44467de0.jpg",
+        "url": "https://twitter.com/dchudz"
+      },
+      "url": "https://twitter.com/dchudz/status/1454248712109268992",
+      "published": "2021-10-30T00:48:06+00:00",
+      "wm-received": "2021-10-30T01:12:46Z",
+      "wm-id": 1297579,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1453807937130950670/1454248712109268992",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "content": {
+        "html": "I had a lot of tweets to catch up on...\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "I had a lot of tweets to catch up on..."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1454052739265306636#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-10-29T18:43:05Z",
+      "wm-id": 1297516,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454052739265306636/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joplin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/01a5deb8138c6733fb3482fdde1ddd9f20070c01769b28f493a11f49788c5764.png",
+        "url": "https://twitter.com/joplinapp"
+      },
+      "url": "https://twitter.com/shageman/status/1454052739265306636#favorited-by-1119166511220838405",
+      "published": null,
+      "wm-received": "2021-10-29T18:43:04Z",
+      "wm-id": 1297515,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1454052739265306636/1119166511220838405",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-29-macos-productivity-joplin-2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f6d2ba33fb2150a8fd2a7ac4efa810f1a0ab563078d425fd5948838b44467de0.jpg",
+        "url": "https://twitter.com/dchudz"
+      },
+      "url": "https://twitter.com/dchudz/status/1454084856036659205",
+      "published": "2021-10-29T13:56:59+00:00",
+      "wm-received": "2021-10-29T15:23:44Z",
+      "wm-id": 1297410,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1453807937130950670/1454084856036659205",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "content": {
+        "html": "what a cliff hanger!\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "what a cliff hanger!"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1453807937130950670#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-10-29T04:03:07Z",
+      "wm-id": 1297263,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1453807937130950670/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/parker_evi/status/1453920845689081860",
+      "published": "2021-10-29T03:05:16+00:00",
+      "wm-received": "2021-10-29T04:03:07Z",
+      "wm-id": 1297264,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1453807937130950670/1453920845689081860",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "photo": [
+        "https://pbs.twimg.com/media/FCz2nQhXoAkLiz_.jpg"
+      ],
+      "content": {
+        "text": "I deleted the TextEdit app from my Mac today so I won't use it ever again. Let me tell you why. And, let me tell you how to fix your note taking.\n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "RŌBÆRT",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cf03c3ebb848b8bd73b61e04626d50dd3afb25b267de696137fb41eda46fcc29.jpg",
+        "url": "https://twitter.com/fnordfish"
+      },
+      "url": "https://twitter.com/shageman/status/1453807937130950670#favorited-by-14513358",
+      "published": null,
+      "wm-received": "2021-10-28T23:56:01Z",
+      "wm-id": 1297197,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1453807937130950670/14513358",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1453807937130950670#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-10-28T23:56:01Z",
+      "wm-id": 1297198,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1453807937130950670/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-28-macos-productivity-joplin-1/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Niedzielski",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/730b1178b6232eba264cb58424beae33ec17a026498a608e7cfa84373fce5b8c.jpg",
+        "url": "https://twitter.com/niedzielskiadam"
+      },
+      "url": "https://twitter.com/niedzielskiadam/status/1453212081138937860",
+      "published": "2021-10-27T04:08:54+00:00",
+      "wm-received": "2021-10-27T06:07:52Z",
+      "wm-id": 1296469,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1452447318498848774/1453212081138937860",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "photo": [
+        "https://pbs.twimg.com/media/FCghI5DWQAQJbo1.jpg"
+      ],
+      "content": {
+        "text": "If you are working right now (in the US) you likely need to to up your meeting game. Check out @MeetingBarApp and my post on how it boosts my meetingability and makes me be on time more often! \n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "MeetingBar",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c7ed5f0e30cf3443831717ee36c934eba64a7c98102fd087295cc2dbf941dd1c.jpg",
+        "url": "https://twitter.com/MeetingBarApp"
+      },
+      "url": "https://twitter.com/shageman/status/1452447318498848774#favorited-by-1389876612301217793",
+      "published": null,
+      "wm-received": "2021-10-25T07:18:38Z",
+      "wm-id": 1295621,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1452447318498848774/1389876612301217793",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/parker_evi/status/1452447587189936135",
+      "published": "2021-10-25T01:31:04+00:00",
+      "wm-received": "2021-10-25T02:16:56Z",
+      "wm-id": 1295581,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1452447318498848774/1452447587189936135",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "content": {
+        "html": "Ok this is me. Good rec thanks SH!\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/MeetingBarApp\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Ok this is me. Good rec thanks SH!"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-24-macos-productivity-meetingbar",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shoshin Manager 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/49d7881305ede7aa183fc4927cb7a4d0c772011750af12a458055ded64761fc2.jpg",
+        "url": "https://twitter.com/ShoshinManager"
+      },
+      "url": "https://twitter.com/shageman/status/1451293814799355911#favorited-by-1300599044910137345",
+      "published": null,
+      "wm-received": "2021-10-23T16:05:54Z",
+      "wm-id": 1295310,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1451293814799355911/1300599044910137345",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Denys",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ad68ec733837c63b6b08826bac07428962dd0b3fc1d41c674bf4980b8d560771.jpg",
+        "url": "https://twitter.com/denyago"
+      },
+      "url": "https://twitter.com/denyago/status/1451826395164946432",
+      "published": "2021-10-23T08:22:40+00:00",
+      "wm-received": "2021-10-23T08:52:35Z",
+      "wm-id": 1295184,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1450884937008156674/1451826395164946432",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "photo": [
+        "https://pbs.twimg.com/media/FCKUKSLXEAMXHFM.jpg"
+      ],
+      "content": {
+        "text": "To Mac power users @MacHomebrew is no secret - it gives us app install and management super powers. Two of its extensions make it ... even better!\n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Denys",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ad68ec733837c63b6b08826bac07428962dd0b3fc1d41c674bf4980b8d560771.jpg",
+        "url": "https://twitter.com/denyago"
+      },
+      "url": "https://twitter.com/shageman/status/1450884937008156674#favorited-by-130606514",
+      "published": null,
+      "wm-received": "2021-10-23T08:52:35Z",
+      "wm-id": 1295185,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450884937008156674/130606514",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Niedzielski",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/730b1178b6232eba264cb58424beae33ec17a026498a608e7cfa84373fce5b8c.jpg",
+        "url": "https://twitter.com/niedzielskiadam"
+      },
+      "url": "https://twitter.com/niedzielskiadam/status/1451784259933511684",
+      "published": "2021-10-23T05:35:15+00:00",
+      "wm-received": "2021-10-23T06:28:14Z",
+      "wm-id": 1295168,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1450884937008156674/1451784259933511684",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "photo": [
+        "https://pbs.twimg.com/media/FCKUKSLXEAMXHFM.jpg"
+      ],
+      "content": {
+        "text": "To Mac power users @MacHomebrew is no secret - it gives us app install and management super powers. Two of its extensions make it ... even better!\n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Denis Rodmann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9d091ecf1b930760b8ea839adc9b949036a581afe20fc0ad12b989ec633ff353.jpg",
+        "url": "https://twitter.com/ricardello"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-37459562",
+      "published": null,
+      "wm-received": "2021-10-22T00:06:24Z",
+      "wm-id": 1294873,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/37459562",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f6d2ba33fb2150a8fd2a7ac4efa810f1a0ab563078d425fd5948838b44467de0.jpg",
+        "url": "https://twitter.com/dchudz"
+      },
+      "url": "https://twitter.com/shageman/status/1451293814799355911#favorited-by-50060349",
+      "published": null,
+      "wm-received": "2021-10-21T23:21:40Z",
+      "wm-id": 1294858,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1451293814799355911/50060349",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hammerspoon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ecaa75282afbaedccf985ee23cf849d6bf81f9ece460f4acee9e6037509ce5d8.png",
+        "url": "https://twitter.com/_hammerspoon"
+      },
+      "url": "https://twitter.com/shageman/status/1451293814799355911#favorited-by-2836117209",
+      "published": null,
+      "wm-received": "2021-10-21T21:50:02Z",
+      "wm-id": 1294834,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1451293814799355911/2836117209",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-21-macos-productivity-hammerspoon/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Zigo Webdesign",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/25384f32029cd903e7c21f5105c299eb867b6f4d06cff879472152c5f1ae78e1.gif",
+        "url": "https://twitter.com/zigo_webdesign"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-96118098",
+      "published": null,
+      "wm-received": "2021-10-21T20:18:50Z",
+      "wm-id": 1294793,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/96118098",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kelly Jones",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1fac9a4c40b21d5df393bd62cd4d3abd562d890606e6b7838eecd049c0f28728.jpg",
+        "url": "https://twitter.com/kellymjones"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-14679101",
+      "published": null,
+      "wm-received": "2021-10-21T16:17:48Z",
+      "wm-id": 1294615,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/14679101",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alfred App",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/95b470d193f59157d581b990c833b52a02b1a30f62d08d4a8a679301be6db5de.jpg",
+        "url": "https://twitter.com/alfredapp"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-105836355",
+      "published": null,
+      "wm-received": "2021-10-21T11:38:57Z",
+      "wm-id": 1294492,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/105836355",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "enebō",
+        "photo": "https://pbs.twimg.com/profile_images/1909769692/next2_small_80x80.jpg",
+        "url": "https://twitter.com/enebo"
+      },
+      "url": "https://twitter.com/shageman/status/1450884937008156674#favorited-by-14068882",
+      "published": null,
+      "wm-received": "2021-10-21T00:38:25Z",
+      "wm-id": 1294298,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450884937008156674/14068882",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "freiden",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d02bacd7e06a5551dbc587f08e81dbab7cb0dc0e7cde3b729a8f63736b369865.jpg",
+        "url": "https://twitter.com/freiden"
+      },
+      "url": "https://twitter.com/freiden/status/1450954442497474566",
+      "published": "2021-10-20T22:37:51+00:00",
+      "wm-received": "2021-10-21T00:37:56Z",
+      "wm-id": 1294297,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1450884937008156674/1450954442497474566",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "photo": [
+        "https://pbs.twimg.com/media/FCKUKSLXEAMXHFM.jpg"
+      ],
+      "content": {
+        "text": "To Mac power users @MacHomebrew is no secret - it gives us app install and management super powers. Two of its extensions make it ... even better!\n\nstephanhagemann.com/posts/2021-10-…"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marcus Derencius",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b843f2dbcf789e8956c9648584b61869c2957e5f3daf4fd04ba64658d904545d.jpg",
+        "url": "https://twitter.com/derencius"
+      },
+      "url": "https://twitter.com/shageman/status/1450884937008156674#favorited-by-11590",
+      "published": null,
+      "wm-received": "2021-10-20T21:55:19Z",
+      "wm-id": 1294174,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450884937008156674/11590",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Josh Knowles",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/eefa0fdbf016b15e9147b630bf40db21e48c99ddb98a87d7f740617a6201c5e8.jpg",
+        "url": "https://twitter.com/joshknowles"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-1274141",
+      "published": null,
+      "wm-received": "2021-10-20T17:05:33Z",
+      "wm-id": 1294070,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/1274141",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bridy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b2af5ef73d1ca4e79cfe638aac22cdfc59ba2249c78bf9eb3ec91c92ee1f733d.png",
+        "url": "https://twitter.com/BridyHQ"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-1411079920281866242",
+      "published": null,
+      "wm-received": "2021-10-20T10:15:45Z",
+      "wm-id": 1293918,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/1411079920281866242",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-10-20T04:13:56Z",
+      "wm-id": 1293743,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-2323131",
+      "published": null,
+      "wm-received": "2021-10-20T04:13:54Z",
+      "wm-id": 1293742,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/2323131",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Stine 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/596ca05865e52d77e19d5ad10bd42d6d834a61a9deffb4ba09a3f4d18489da89.jpg",
+        "url": "https://twitter.com/mstine"
+      },
+      "url": "https://twitter.com/mstine/status/1450652322003099649",
+      "published": "2021-10-20T02:37:20+00:00",
+      "wm-received": "2021-10-20T04:13:53Z",
+      "wm-id": 1293740,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1450631437611409416/1450652322003099649",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "content": {
+        "html": "Sweet. I did not know the first two. 🙏\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alfredapp\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Sweet. I did not know the first two. 🙏"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marky 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e29f524e9a3aaee43c2a669cf679879f7802599055caa7c5ca7d8db0a9f37cbc.jpg",
+        "url": "https://twitter.com/markpereyra"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-39020177",
+      "published": null,
+      "wm-received": "2021-10-20T04:13:53Z",
+      "wm-id": 1293741,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/39020177",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ely - Atomic Visual Zettelkasten in Life 🛳",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7cc472115144cb0b8fb3a0c16cb8e430c9df1cc01fe13b21e0028a9c50fc9c7a.jpg",
+        "url": "https://twitter.com/jozzua"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-4311721",
+      "published": null,
+      "wm-received": "2021-10-20T01:50:21Z",
+      "wm-id": 1293638,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/4311721",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hassan Karimi 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c30d3d7bf3b32e110e42cdd1e31c256241b554c55c091cebd66b280fdce0744d.jpg",
+        "url": "https://twitter.com/HassanHKarimi"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-1073782215467773954",
+      "published": null,
+      "wm-received": "2021-10-20T01:50:20Z",
+      "wm-id": 1293637,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/1073782215467773954",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ely - Atomic Visual Zettelkasten in Life 🛳",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7cc472115144cb0b8fb3a0c16cb8e430c9df1cc01fe13b21e0028a9c50fc9c7a.jpg",
+        "url": "https://twitter.com/jozzua"
+      },
+      "url": "https://twitter.com/jozzua/status/1450631943024873472",
+      "published": "2021-10-20T01:16:21+00:00",
+      "wm-received": "2021-10-20T01:50:19Z",
+      "wm-id": 1293635,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1450631437611409416/1450631943024873472",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "content": {
+        "html": "I love the @alfredapp . I've made a couple of personal text-expanders that I always use with it.\n\nI've actually remapped the copy-paste function to option-spacebar because I use it so much.\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alfredapp\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "I love the @alfredapp . I've made a couple of personal text-expanders that I always use with it.\n\nI've actually remapped the copy-paste function to option-spacebar because I use it so much."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hassan Karimi 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c30d3d7bf3b32e110e42cdd1e31c256241b554c55c091cebd66b280fdce0744d.jpg",
+        "url": "https://twitter.com/HassanHKarimi"
+      },
+      "url": "https://twitter.com/HassanHKarimi/status/1450637288887791626",
+      "published": "2021-10-20T01:37:35+00:00",
+      "wm-received": "2021-10-20T01:50:19Z",
+      "wm-id": 1293636,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1450631437611409416/1450637288887791626",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "content": {
+        "html": "I love this idea, I’ll have to check our Alfred.\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/alfredapp\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "I love this idea, I’ll have to check our Alfred."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1450633114972266496",
+      "published": "2021-10-20T01:21:00+00:00",
+      "wm-received": "2021-10-20T01:49:51Z",
+      "wm-id": 1293634,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1450631437611409416/1450633114972266496",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "content": {
+        "html": "That’s awesome! Are you sharing your customizations somewhere? Or is text expansion too personal?\n<a class=\"u-mention\" href=\"https://twitter.com/alfredapp\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/jozzua\"></a>",
+        "text": "That’s awesome! Are you sharing your customizations somewhere? Or is text expansion too personal?"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edwardrooster.Ξth 🛳️(255/?)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/61d1eba21296cf29d6b2379e01c66d6916102aa27ad64f65640526ee3409f60b.jpg",
+        "url": "https://twitter.com/edwardrooster"
+      },
+      "url": "https://twitter.com/shageman/status/1450631437611409416#favorited-by-18989537",
+      "published": null,
+      "wm-received": "2021-10-20T01:49:50Z",
+      "wm-id": 1293633,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1450631437611409416/18989537",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-19-macos-productivity-alfred/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ruby and Rails Bot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/122ea1d1eac8deacaea0adce6ae9203b944ca2a0ae9243f86d1b22ad8a447131.jpg",
+        "url": "https://twitter.com/ruby_rails_bot"
+      },
+      "url": "https://twitter.com/ruby_rails_bot/status/1450192040067624962",
+      "published": "2021-10-18T20:08:20+00:00",
+      "wm-received": "2021-10-18T20:18:09Z",
+      "wm-id": 1292742,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1450191927568130050/1450192040067624962",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-16-gradual-modularity-definition2/",
+      "content": {
+        "text": "I wrote two pieces on gradual modularity this weekend that maybe should be put in a different order:\n\nA definition: stephanhagemann.com/posts/2021-10-…\nA \"what is it\" explanation: stephanhagemann.com/posts/2021-10-…\n\n#wip #softwarearchitecture #rails"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-16-gradual-modularity-definition2/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ruby and Rails Bot",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/122ea1d1eac8deacaea0adce6ae9203b944ca2a0ae9243f86d1b22ad8a447131.jpg",
+        "url": "https://twitter.com/ruby_rails_bot"
+      },
+      "url": "https://twitter.com/ruby_rails_bot/status/1450192040067624962",
+      "published": "2021-10-18T20:08:20+00:00",
+      "wm-received": "2021-10-18T20:18:09Z",
+      "wm-id": 1292743,
+      "wm-source": "https://brid.gy/repost/twitter/shageman/1450191927568130050/1450192040067624962",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-15-gradual-modularity-definition/",
+      "content": {
+        "text": "I wrote two pieces on gradual modularity this weekend that maybe should be put in a different order:\n\nA definition: stephanhagemann.com/posts/2021-10-…\nA \"what is it\" explanation: stephanhagemann.com/posts/2021-10-…\n\n#wip #softwarearchitecture #rails"
+      },
+      "repost-of": "https://stephanhagemann.com/posts/2021-10-15-gradual-modularity-definition/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stephan Hagemann",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2130da8dedd7fa020cb17ad96367c8949633caa5f81bc69dffc64db386d643d3.jpg",
+        "url": "https://twitter.com/shageman"
+      },
+      "url": "https://twitter.com/shageman/status/1450110169225043971",
+      "published": "2021-10-18T14:43:00+00:00",
+      "wm-received": "2021-10-18T15:22:08Z",
+      "wm-id": 1292579,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1449886037149421576/1450110169225043971",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "content": {
+        "html": "thank you!\n<a class=\"u-mention\" href=\"https://twitter.com/JohnVial\"></a>",
+        "text": "thank you!"
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "John Vial 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d5cf33c79fc64823a7fb9867b7993257b4c07d56fb11819dca7aebec3a64d880.jpg",
+        "url": "https://twitter.com/JohnVial"
+      },
+      "url": "https://twitter.com/shageman/status/1449886037149421576#favorited-by-19164908",
+      "published": null,
+      "wm-received": "2021-10-18T10:27:54Z",
+      "wm-id": 1292379,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1449886037149421576/19164908",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "John Vial 🚢",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d5cf33c79fc64823a7fb9867b7993257b4c07d56fb11819dca7aebec3a64d880.jpg",
+        "url": "https://twitter.com/JohnVial"
+      },
+      "url": "https://twitter.com/JohnVial/status/1450029853005082626",
+      "published": "2021-10-18T09:23:51+00:00",
+      "wm-received": "2021-10-18T10:27:24Z",
+      "wm-id": 1292377,
+      "wm-source": "https://brid.gy/comment/twitter/shageman/1449886037149421576/1450029853005082626",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "content": {
+        "html": "Haha I was thinking that this was only for messed up rails apps. Very great explanation.\n<a class=\"u-mention\" href=\"http://leanpub.com/package-based-rail\"></a>\n<a class=\"u-mention\" href=\"http://stephanhagemann.com/\"></a>\n<a class=\"u-mention\" href=\"http://typeshare.co/g/stephan\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/shageman\"></a>",
+        "text": "Haha I was thinking that this was only for messed up rails apps. Very great explanation."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lew Parker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/28f1dacdccd0042bb84349209d98a3b0485921af8e2b4c4bce2ecff21c13f956.jpg",
+        "url": "https://twitter.com/parker_evi"
+      },
+      "url": "https://twitter.com/shageman/status/1449886037149421576#favorited-by-9091752",
+      "published": null,
+      "wm-received": "2021-10-18T03:06:54Z",
+      "wm-id": 1292035,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1449886037149421576/9091752",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-17-gradually-forward-and-backwards/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Santiago Bartesaghi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d1fdb3d8b177f40d2dd3c8bab87aa1dd270f48b0b5a40bf9336a7369e9af8cfc.jpg",
+        "url": "https://twitter.com/santib6_"
+      },
+      "url": "https://twitter.com/shageman/status/1449468787246444548#favorited-by-2905116724",
+      "published": null,
+      "wm-received": "2021-10-16T21:49:58Z",
+      "wm-id": 1291497,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1449468787246444548/2905116724",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-16-gradual-modularity-definition2/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-16-gradual-modularity-definition2/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mohit Sindhwani",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/98c7612f4e3187cf02cd0051916718232c2afd46c6a6e30781c72ed81e6ee82c.jpg",
+        "url": "https://twitter.com/onghu"
+      },
+      "url": "https://twitter.com/shageman/status/1449062621622251529#favorited-by-57288792",
+      "published": null,
+      "wm-received": "2021-10-15T17:30:40Z",
+      "wm-id": 1290825,
+      "wm-source": "https://brid.gy/like/twitter/shageman/1449062621622251529/57288792",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-15-webmentions-test/",
+      "like-of": "https://stephanhagemann.com/posts/2021-10-15-webmentions-test/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Webmention Rocks!",
+        "photo": "https://webmention.io/avatar/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png",
+        "url": ""
+      },
+      "url": "https://webmention.rocks/receive/1",
+      "published": "2021-10-15T04:57:36-07:00",
+      "wm-received": "2021-10-15T11:55:19Z",
+      "wm-id": 1290474,
+      "wm-source": "https://webmention.rocks/receive/1/8002d7cccf48593ebaa62869322c2b3c",
+      "wm-target": "https://stephanhagemann.com/posts/2021-10-15-webmentions-test/",
+      "name": "Receiver Test #1",
+      "content": {
+        "html": "<p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href=\"https://www.w3.org/TR/webmention/#receiving-webmentions\">appropriate headers</a>.</p>\n        <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>",
+        "text": "This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the appropriate headers.\n        If your endpoint returns HTTP 201, then it MUST also return a Location header. If it returns HTTP 200 or 202, then it MUST NOT include a Location header."
+      },
+      "in-reply-to": "https://stephanhagemann.com/posts/2021-10-15-webmentions-test/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ]
+}

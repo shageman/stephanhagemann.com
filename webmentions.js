@@ -6,6 +6,7 @@ require('dotenv').config()
 const domain = "https://stephanhagemann.com"
 
 // Define Cache Location and API Endpoint
+const COLD_STORAGE_FILE_PATH = 'packs/posts/app/models/posts/cold_storage/webmentions.json'
 const CACHE_FILE_PATH = '_cache/webmentions.json'
 const API = 'https://webmention.io/api'
 const TOKEN = process.env.WEBMENTION_IO_TOKEN
@@ -52,16 +53,29 @@ function writeToCache(data) {
 
 // get cache contents from json file
 function readFromCache() {
-  if (fs.existsSync(CACHE_FILE_PATH)) {
-    const cacheFile = fs.readFileSync(CACHE_FILE_PATH)
-    return JSON.parse(cacheFile)
-  }
-
-  // no cache found.
-  return {
+  var coldStorage = {
     lastFetched: null,
     children: []
   }
+  if (fs.existsSync(COLD_STORAGE_FILE_PATH)) {
+    const cacheFile = fs.readFileSync(COLD_STORAGE_FILE_PATH)
+    coldStorage = JSON.parse(cacheFile)
+  }
+
+  var cache = {
+    lastFetched: null,
+    children: []
+  }
+  if (fs.existsSync(CACHE_FILE_PATH)) {
+    const cacheFile = fs.readFileSync(CACHE_FILE_PATH)
+    cache = JSON.parse(cacheFile)
+  }
+  date = Date.parse(cache.lastFetched) > Date.parse(coldStorage.lastFetched) ? cache.lastFetched : coldStorage.lastFetched
+  const webmentions = {
+    lastFetched: date,
+    children: mergeWebmentions(cache, coldStorage)
+  }
+  return webmentions;
 }
 
 console.log('>>> Reading webmentions from cache...');

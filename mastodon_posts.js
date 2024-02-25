@@ -4,6 +4,7 @@ const unionBy = require('lodash/unionBy')
 require('dotenv').config()
 const fsPromises = require("fs/promises");
 
+const COLD_STORAGE_FILE_PATH = 'packs/posts/app/models/posts/cold_storage/mastodon_posts.json'
 const CACHE_FILE_PATH_MINE = '_cache/mastodon_posts.json'
 const API = 'https://ruby.social/api'
 
@@ -60,11 +61,16 @@ function readTootsFromCache(cacheFileName) {
 
 console.log('>>> Reading toots from cache...');
 const cache = readTootsFromCache(CACHE_FILE_PATH_MINE)
-console.log(`>>> ${cache.children.length} toots loaded from cache`)
+const coldStorage = readTootsFromCache(COLD_STORAGE_FILE_PATH)
+fullCache = {
+  lastFetchedId: Date.parse(cache.lastFetched) > Date.parse(coldStorage.lastFetched) ? cache.lastFetched : coldStorage.lastFetched,
+  children: mergeToots(cache.children, coldStorage.children)
+}
+console.log(`>>> ${fullCache.children.length} toots loaded from fullCache`)
 
 var d = new Date();
 d.setMonth(d.getMonth()-1);
-const oldToots = cache.children.filter(toot => Date.parse(toot.created_at) < d)
+const oldToots = fullCache.children.filter(toot => Date.parse(toot.created_at) < d)
 const youngestOldTood = oldToots.reduce((result, currentToot) => {
   if (Date.parse(result.created_at) < Date.parse(currentToot.created_at)) {
     result = currentToot
