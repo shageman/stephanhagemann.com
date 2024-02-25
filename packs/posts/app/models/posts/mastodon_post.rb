@@ -1,9 +1,21 @@
-class Posts::MastodonPost < ActiveJSON::Base
+require "json"
+
+class Posts::MastodonPost < ActiveFile::Base
   set_root_path File.expand_path(File.join(__FILE__, "../../../../../../_cache/"))
-  set_filename "toots"
+  set_filename "mastodon_posts"
 
   include ActiveHash::Associations
   belongs_to :in_reply_to, class_name: "Posts::MastodonPost", foreign_key: "in_reply_to"
+
+  def self.load_file
+    file = File.read(full_path)
+    data_hash = JSON.parse(file)
+    data_hash["children"]
+  end
+
+  def self.extension
+    "json"
+  end
 
   def date
     created_at

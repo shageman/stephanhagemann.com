@@ -39,6 +39,10 @@ rake agile_landscape:etl
 
 ## Todos
 
+make contact page work
+
+---
+
 add web mentions to posts
 
 add backlinks to everything
