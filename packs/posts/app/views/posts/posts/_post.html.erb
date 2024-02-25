@@ -1,6 +1,6 @@
 <% content_for :sidebar do %>
   <h1><%= post.header || post.title %></h1>
-  <p><%= post.date  %></p>
+  <p><%= format_date(post.date)  %></p>
   <p>🍿 <%= post.reading_time %> min. read</p>
 <% end %>
 
