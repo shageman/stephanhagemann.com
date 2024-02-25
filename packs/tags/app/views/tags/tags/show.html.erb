@@ -2,8 +2,8 @@
   @layout_params = RailsShims::LayoutParams.new(
     active_section: 'tags',
     container_class: "content-margin-top",
-    header: "Content tagged #{tag.name}",
-    title: "Content tagged #{tag.name}",
+    header: "Content tagged #{@tags.first.name}",
+    title: "Content tagged #{@tags.first.name}",
     page_class: "dark-theme theme-blue",
   )
 %>
@@ -13,7 +13,7 @@
   <ul>
   <% @tags.each do |tag| %>
     <li>
-      <%= link_to tag.title, tag.path.() %> (<%= Date.parse(tag.date) %>)
+      <%= link_to tag.title, tag.path.() %> (<%= format_date(tag.date) %>)
     </li>
   <% end %>
   </ul>

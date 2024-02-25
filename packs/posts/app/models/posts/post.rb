@@ -83,4 +83,15 @@ class Posts::Post < ActiveFile::Base
 #     }
 # }
   end
+
+  def share_link
+    share_text = "#{link_title} by @shageman"
+    share_url = "https://stephanhagemann.com/posts/#{slug}"
+    return "https://twitter.com/intent/tweet/?text=#{URI::Parser.new.escape(share_text)}&url=#{URI::Parser.new.escape(share_url)}"
+  end
+
+  def discussion_link
+    post_url = "https://stephanhagemann.com/posts/#{slug}"
+    "https://twitter.com/search?f=tweets&src=typd&q=#{URI::Parser.new.escape(post_url)}"
+  end
 end

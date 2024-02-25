@@ -18,6 +18,6 @@
   <div class="grab">
   <%= raw @markdown.render(post.teaser) %>
   </div>
-  <p class="by-line"><%= Date.parse(post.date).strftime("%B %d, %Y") %></p>
+  <p class="by-line"><%= format_date(post.date) %></p>
 </div>
 <% end %>

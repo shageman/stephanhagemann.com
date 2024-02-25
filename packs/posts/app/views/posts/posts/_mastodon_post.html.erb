@@ -32,9 +32,9 @@
           <a class="author-name" href="<%= posts_post.account["url"] %>"><%= displayName %></a>
           <a class="author-acct" href="<%= posts_post.account["url"] %>"><%= posts_post.account["acct"] %>@ruby.social</a>
         </div>
-        <div class='toot-time'><a href="<%= posts_post.url %>"><%= Date.parse(posts_post.created_at).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-time'><a href="<%= posts_post.url %>"><%= format_date_time(posts_post.created_at) %></a></div>
       <% else %>
-        <div class='toot-time'><a href="<%= posts_post.url %>"><%= Date.parse(posts_post.created_at).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-time'><a href="<%= posts_post.url %>"><%= format_date_time(posts_post.created_at) %></a></div>
         <div class='toot-author'>
           <a class="author-name" href="<%= posts_post.account["url"] %>"><%= displayName %></a>
           <a class="author-acct" href="<%= posts_post.account["url"] %>"><%= posts_post.account["acct"] %></a>
@@ -69,9 +69,9 @@
           <a class="author-name" href="<%= posts_post["account"]["url"] %>"><%= displayName %></a>
           <a class="author-acct" href="<%= posts_post["account"]["url"] %>"><%= posts_post["account"]["acct"] %>@ruby.social</a>
         </div>
-        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= Date.parse(posts_post["created_at"]).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= format_date_time(posts_post["created_at"]) %></a></div>
       <% else %>
-        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= Date.parse(posts_post["created_at"]).strftime("%B %d, %Y at %h:%m") %></a></div>
+        <div class='toot-time'><a href="<%= posts_post["url"] %>"><%= format_date_time(posts_post["created_at"]) %></a></div>
         <div class='toot-author'>
           <a class="author-name" href="<%= posts_post["account"]["url"] %>"><%= displayName %></a>
           <a class="author-acct" href="<%= posts_post["account"]["url"] %>"><%= posts_post["account"]["acct"] %></a>

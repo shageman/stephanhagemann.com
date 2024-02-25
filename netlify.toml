@@ -1,5 +1,5 @@
 [build]
-  command = "node mastodon_posts.js && bin/static-build"
+  command = "node webmentions.js && node mastodon_posts.js && bin/static-build"
   publish = "build/"
 
 # [[headers]]

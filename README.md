@@ -39,8 +39,4 @@ rake agile_landscape:etl
 
 ## Todos
 
-add web mentions to posts
-
 add backlinks to everything
-
-add webmentions import code

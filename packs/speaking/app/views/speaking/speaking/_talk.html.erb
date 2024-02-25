@@ -8,7 +8,7 @@
     <summary>
       <span class="event-date">
         <% if talk.date %>
-          <%= Date.parse(talk.date).strftime("%B %d, %Y")  %>
+          <%= format_date(talk.date) %>
         <% else %>
           Date: TBD
         <% end %>

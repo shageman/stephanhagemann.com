@@ -1,103 +1,93 @@
 <div class="webmentions flow" id="webmentions">
+  <% if @likes.size > 0 %>
+    <div class="webmentions__facepile flow">
+    <h3 style="margin-bottom:1em" <% if @reposts.size > 11 || @likes.size > 11 %> class="webmentions__facepile__squish" <% end %>><%= @likes.size %>
+      Like<% if @likes.size != 1 %>s<% end %></h3>
 
-  {% set mentions = webmentions | getWebmentionsForUrl(metadata.url + webmentionUrl) %}
-  {% set reposts = mentions | webmentionsByType(['repost-of']) %}
-  {% set repostsSize = reposts | size %}
-  {% set likes = mentions | webmentionsByType(['like-of']) %}
-  {% set likesSize = likes | size %}
-  {% set replies = mentions | webmentionsByType(['mention-of', 'in-reply-to']) | sortWebmentions  %}
-  {% set repliesSize = replies | size  %}
+      <% @likes.each do |webmention| %>
+        <% if webmention.url != "" %>
+          <a class="h-card u-url link-u-exempt" href="<%= webmention.url %>" target="_blank" rel="noopener noreferrer">
+        <% end %>
 
-  {% if likesSize > 0 %}
-  <div class="webmentions__facepile flow">
-    <h3 style="margin-bottom:1em" {% if repostsSize > 11 or likesSize > 11 %} class="webmentions__facepile__squish" {% endif %}>{{ likesSize }}
-      Like{% if likesSize != 1 %}s{% endif %}</h3>
+        <% if webmention.author["photo"] %>
+          <img src="<%= webmention.author["photo"] %>" alt="<%= webmention.author["name"] %>" width="48" height="48" loading="lazy">
+        <% else %>
+          <img src="<%= '/img/avatar.svg' | url %>" alt="" width="48" height="48">
+        <% end %>
 
-      {% for webmention in likes %}
-
-        {% if webmention.url != "" %}
-          <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
-        {% endif %}
-
-        {% if webmention.author.photo %}
-        <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
-        {% else %}
-        <img src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
-        {% endif %}
-
-        {% if webmention.url != "" %}
+        <% if webmention.url != "" %>
           </a>
-        {% endif %}
-      {% endfor %}
-  </div>
-  {% endif %}
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
 
-  {% if repostsSize > 0 %}
-  <div class="webmentions__facepile flow">
-    <h3 style="margin-bottom:1em" {% if repostsSize > 11 or likesSize > 11 %} class="webmentions__facepile__squish" {% endif %}>{{ repostsSize }} Retweet{% if repostsSize != 1 %}s{% endif %}</h3>
+  <% if @reposts.size > 0 %>
+    <div class="webmentions__facepile flow">
+    <h3 style="margin-bottom:1em" <% if @reposts.size > 11 || @likes.size > 11 %> class="webmentions__facepile__squish" <% end %>><%= @reposts.size %> Retweet<% if @reposts.size != 1 %>s<% end %></h3>
+      <% @reposts.each do |webmention| %>
+        <% if webmention.url != "" %>
+        <a class="h-card u-url link-u-exempt" href="<%= webmention.url %>" target="_blank" rel="noopener noreferrer">
+        <% end %>
 
-      {% for webmention in reposts %}
-        {% if webmention.url != "" %}
-        <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
-        {% endif %}
+        <% if webmention.author["photo"] %>
+        <img src="<%= webmention.author["photo"] %>" alt="<%= webmention.author["name"] %>" width="48" height="48" loading="lazy">
+        <% else %>
+        <img src="<%= '/img/avatar.svg' | url %>" alt="" width="48" height="48">
+        <% end %>
 
-        {% if webmention.author.photo %}
-        <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
-        {% else %}
-        <img src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
-        {% endif %}
-        {% if webmention.url != "" %}
+        <% if webmention.url != "" %>
         </a>
-        {% endif %}
-      {% endfor %}
-  </div>
-  {% endif %}
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
 
-  {% if repliesSize > 0 %}
-  <div class="webmention-replies flow">
-    <h3>{{ repliesSize }} {% if repliesSize == "1" %}Reply{% else %}Replies{% endif %}</h3>
+  <% if @replies.size > 0 %>
+    <div class="webmention-replies flow">
+    <h3><%= @replies.size %> <% if @replies.size == "1" %>Reply<% else %>Replies<% end %></h3>
 
-    {% for webmention in replies %}
-    <article class="webmention {% if webmention|isOwnWebmention %}webmention--own{% endif %}" id="webmention-{{ webmention['wm-id'] }}">
+    <% @replies.each do |webmention| %>
+    <article class="webmention <% if webmention.is_mine? %>webmention--own<% end %>" id="webmention-<%= webmention['wm-id'] %>">
       <div class="webmention__meta">
-        {% if webmention.author %}
-          {% if webmention.author.photo %}
-          <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
-          {% else %}
-          <img src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
-          {% endif %}
-          <strong class="name p-name">{{ webmention.author.name }}</strong>
-        {% else %}
+        <% if webmention.author %>
+          <% if webmention.author["photo"] %>
+          <img src="<%= webmention.author["photo"] %>" alt="<%= webmention.author["name"] %>" width="48" height="48" loading="lazy">
+          <% else %>
+          <img src="<%= '/img/avatar.svg' | url %>" alt="" width="48" height="48">
+          <% end %>
+          <strong class="name p-name"><%= webmention.author["name"] %></strong>
+        <% else %>
           <strong class="name">Anonymous</strong>
-        {% endif %}
+        <% end %>
 
-        {% if webmention.published %}
-            <time class="postlist-date" datetime="{{ webmention.published }}">
-                {{ webmention.published | dateTimeDisplay }}
+        <% if webmention.published %>
+            <time class="postlist-date" datetime="<%= webmention.published %>">
+                <%= format_date_time(webmention.published) %>
             </time>
-        {% endif %}
+        <% end %>
       </div>
       <p class="webmention-text">
-        {{ webmention.content.html | truncate | safe }}
-        {% if webmention.url %}
-        <a href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
+        <%= raw webmention.content_html %>
+        <% if webmention.url %>
+        <a href="<%= webmention.url %>" target="_blank" rel="noopener noreferrer">
           source <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10px"><path fill="currentColor" d="M432 320h-32a16 16 0 00-16 16v112H64V128h144a16 16 0 0016-16V80a16 16 0 00-16-16H48a48 48 0 00-48 48v352a48 48 0 0048 48h352a48 48 0 0048-48V336a16 16 0 00-16-16zM488 0H360c-21.37 0-32.05 25.91-17 41l35.73 35.73L135 320.37a24 24 0 000 34L157.67 377a24 24 0 0034 0l243.61-243.68L471 169c15 15 41 4.5 41-17V24a24 24 0 00-24-24z" /></svg>
         </a>
-        {% endif %}
+        <% end %>
       </p>
     </article>
-    {% endfor %}
-  </div>
-  {% endif %}
+    <% end %>
+    </div>
+  <% end %>
 
   <p>
-    {% if repliesSize > 0 %}These are <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>.{% endif %}
+    <% if @replies.size > 0 %>These are <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>.<% end %>
     Mention this post from your site:
   </p>
   <form action="https://webmention.io/www.stephanhagemann.com/webmention" method="post" class="form-webmention">
     <label for="form-webmention-source">URL</label><br>
     <input id="form-webmention-source" type="url" name="source" placeholder="https://example.com" required>
-    <input type="hidden" name="target" value="https://www.stephanhagemann.com{{ page.url }}">
+    <input type="hidden" name="target" value="https://www.stephanhagemann.com/posts/<%= @post.slug %>">
     <input type="submit" class="btn" value="Send Webmention">
   </form>
 </div>

@@ -30,29 +30,11 @@
         href="https://twitter.com/intent/retweet?tweet_id=<%= @tweetId %>" target="_blank" rel="noopener">retweet it</a>.
       <% else %>
       If you liked this article and think others should read it, please <a
-        href="<%#= page.url | generateShareLink(description) %>" target="_blank" rel="noopener">share it</a>. Or, <a
-        href="<%#= page.url | generateDiscussionLink %>">find the conversation</a> on Twitter.
+        href="<%= post.share_link %>" target="_blank" rel="noopener">share it</a>. Or, <a
+        href="<%= post.discussion_link %>">find the conversation</a> on Twitter.
       <% end %>
     </p>
   </div>
 
-  <%# set webmentionUrl %><%#= page.url %><%# endset %>
-  <%# include 'includes/webmentions.njk' %>
-</section>
-
-
-<section class="flow">
-  <h2>Backlinks</h3>
-
-  <%# if backlinks.length > 0 %>
-  <ul class="backlinks-container">
-      <%# for link in backlinks %>
-          <li class="backlink">
-              <a href="<%#=link.url%>" class="backlink__link"><%#=link.title%></a>
-          </li>
-      <%# endfor %>
-  </ul>
-  <%# else %>
-  <p class="backlinks-default">No backlinks to this post.</p>
-  <%# end %>
+  <%= render partial: 'posts/posts/webmentions', locals: { webmentions: @webmentions } %>
 </section>
