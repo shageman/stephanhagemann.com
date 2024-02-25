@@ -10,13 +10,15 @@ class Posts::PostsController < ApplicationController
       @likes =
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}/", :"wm-property" => "like-of").to_a +
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}", :"wm-property" => "like-of").to_a
+
       @reposts =
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}/", :"wm-property" => "repost-of").to_a +
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}", :"wm-property" => "repost-of").to_a
 
-      @replies =
+      replies =
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}/", :"wm-property" => ["mention-of", "in-reply-to"]).to_a +
         Posts::Webmention.where(:"wm-target" => "https://stephanhagemann.com/posts/#{@post.slug}", :"wm-property" => ["mention-of", "in-reply-to"]).to_a
+      @replies = replies.sort_by { Date.parse(_1[:published]) }.reverse
     elsif @post.is_a?(Posts::MastodonPost)
       @related_posts = @post.context && @post.context["descendants"]
     end
