@@ -29,4 +29,4 @@ Second, every time you find yourself wanting to take a random note, within the d
 
 [^1]: https://joplinapp.org
 [^2]: https://en.wikipedia.org/wiki/Markdown
-[^3]: http://stephanhagemann.com/posts/2021-10-20-macos-productivity-homebrew/
+[^3]: [2 ways homebrew for macOS is ... even better](/posts/2021-10-20-macos-productivity-homebrew/)

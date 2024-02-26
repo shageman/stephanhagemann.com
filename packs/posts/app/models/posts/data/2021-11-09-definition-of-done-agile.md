@@ -26,5 +26,5 @@ We can use QA to assure quality. We can write (and should) automated tests to ve
 
 And still, an ==*impact lense* focuses us more on the business change we would like to see. It thus creates a stronger incentive to do the right thing and leaves room to adjust what that means for different kinds of work.==
 
-[^1]: /posts/2021-11-05-evaluate-software-teams/
+[^1]: [Three Ways Engineering Leaders Evaluate Team Performance](/posts/2021-11-05-evaluate-software-teams/)
 [^2]: https://www.agilealliance.org/glossary/definition-of-done

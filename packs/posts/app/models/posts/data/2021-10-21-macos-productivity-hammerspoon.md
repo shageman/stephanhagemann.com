@@ -7,7 +7,9 @@ tags:
   - automation
 ---
 
-Hammerspoon[^1] boasts two things: a truly epic project name and a lua scripting environment that hooks into extensions that allow you to control system functionality in macOS.<!--more--> Over the years, it has completely changed how I do a couple small but important tasks. Hammerspoon is a generic tool, but the functionality I use *by far* the most is ==window layout management==.
+Hammerspoon[^1] boasts two things: a truly epic project name and a lua scripting environment that hooks into extensions that allow you to control system functionality in macOS.
+<!--more-->
+Over the years, it has completely changed how I do a couple small but important tasks. Hammerspoon is a generic tool, but the functionality I use *by far* the most is ==window layout management==.
 
 ## Stop using the mouse - Start using your keyboard (for navigation)
 

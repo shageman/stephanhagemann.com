@@ -12,7 +12,9 @@ tags:
   - technique
 ---
 
-6 years ago I read this beast of an article titled "How to Use Evernote for Your Creative Workflow"<!--more-->[^1] by productivity consultant Tiago Forte and it is still resonating with me today. It is all about attention, memory formation and creative thinking.
+6 years ago I read this beast of an article titled "How to Use Evernote for Your Creative Workflow"
+<!--more-->
+[^1] by productivity consultant Tiago Forte and it is still resonating with me today. It is all about attention, memory formation and creative thinking.
 Among all this theory, there is one practical idea that changed how I think about note taking:
 
 > **Progressively summarize** the most important points of a source in small stages (compression), and…

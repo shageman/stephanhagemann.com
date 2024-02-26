@@ -29,5 +29,5 @@ The `be_truthy` gem's name might indicate that you get some sort of truthiness c
 
 
 [^1]: https://github.com/benjaminleesmith/be_truthy/tree/master/lib
-[^2]: /posts/2021-11-07-naming-technical-migrations/
+[^2]: [Naming 3 types of technical migrations to make us better at tackling them](/posts/2021-11-07-naming-technical-migrations/)
 [^3]: https://github.com/dependabot

@@ -7,7 +7,9 @@ tags:
   - meetings
 ---
 
-MeetingBar is for you if you use a calendar and you regularly participate in video calls[^1].<!--more--> It works with meet, and zoom, and teams, and more - and I have found it to help me remember my meetings in time and for it to eliminate a bunch of annoying clicks for getting in.
+MeetingBar is for you if you use a calendar and you regularly participate in video calls[^1].
+<!--more-->
+It works with meet, and zoom, and teams, and more - and I have found it to help me remember my meetings in time and for it to eliminate a bunch of annoying clicks for getting in.
 
 I previously covered Homebrew to install and manage macOS applications[^2]. Install MeetingBar as follows:
 
@@ -34,4 +36,4 @@ MeetingBar also adds a handy system bar icon where you can see all your upcoming
 There are two caveats I can think of with using MeetingBar: if you are double book for a given time, you will join one of those meetings... which may not be the one you expected. Also, because MeetingBar uses the macOS calendar it sometimes can take some time (minutes mostly) to update  (namely when the underlying calendar hasn't synced to your computer yet).
 
 [^1]: https://github.com/leits/MeetingBar
-[^2]: /posts/2021-10-20-macos-productivity-homebrew/
+[^2]: [2 ways homebrew for macOS is ... even better](/posts/2021-10-20-macos-productivity-homebrew/)

@@ -7,7 +7,8 @@ tags:
   - zettelkasten
 ---
 
-In 1992, Niklas Luhmann, a German sociologist who **published over 50 books and over 400 academic articles**, published Kommunikation mit Zettelkästen about his use of the ==Zettelkasten method== - explaining **how it made him so productive**.<!--more-->
+In 1992, Niklas Luhmann, a German sociologist who **published over 50 books and over 400 academic articles**, published Kommunikation mit Zettelkästen about his use of the ==Zettelkasten method== - explaining **how it made him so productive**.
+<!--more-->
 
 The Zettelkasten[^1] method is a knowledge and idea organizing system that goes far beyond progressive summarizing and layering I discussed yesterday[^2]. Instead, this system focuses on atomic ideas and creating connections between ideas.
 
@@ -27,5 +28,5 @@ All Joplin plugins are available via the plugin repository[^3].
 
 
 [^1]: https://zettelkasten.de/introduction/#luhmann-s-zettelkasten
-[^2]: /posts/2021-10-30-macos-productivity-joplin-3/
+[^2]: [To get smarter at what you do, make sure you _process_ what you read (using Joplin) - in 4 short steps](/posts/2021-10-30-macos-productivity-joplin-3/)
 [^3]: https://github.com/joplin/plugins

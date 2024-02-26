@@ -38,6 +38,6 @@ I believe that all of the above aspects, except for maybe process isolation, can
 
 Classic Modularity is one point in the space created by the dimensions of Gradual Modularity, namely the one where all aspects are fully attained.
 
-[^1]: /posts/2021-10-15-gradual-modularity-definition/
+[^1]: [Gradual Modularity - What is it?](/posts/2021-10-15-gradual-modularity-definition/)
 [^2]: https://en.wikipedia.org/wiki/Modular_programming
 

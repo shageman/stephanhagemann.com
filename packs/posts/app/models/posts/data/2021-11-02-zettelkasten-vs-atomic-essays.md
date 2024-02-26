@@ -36,5 +36,5 @@ Notice how much overlap there is between the two techniques. It actually is easi
 # What would happen if we developed our Zettelkasten as a series of Atomic Essays in public?
 
 [^1]: https://www.ship30for30.com/post/how-to-write-an-atomic-essay-a-beginners-guide
-[^2]: /posts/2021-10-31-macos-productivity-joplin-zettelkasten/
+[^2]: [5 plugins turn Joplin into a powerful and customizable Zettelkasten](/posts/2021-10-31-macos-productivity-joplin-zettelkasten/)
 [^3]: https://zettelkasten.de/introduction/

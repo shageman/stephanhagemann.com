@@ -37,4 +37,4 @@ The true test of a to-do management system is how it handles lots of to-dos over
 
 If I ever realize that too many of the to-dos are no longer relevant, **I create a new note according to the rules above and copy any relevant to-dos over.** The previous to-do list will soon disappear into the long list of daily notes (but still be available for future searches!).
 
-[^1]: /posts/2021-10-29-macos-productivity-joplin-2/
+[^1]: [Switching to Joplin will transform your daily note taking](/posts/2021-10-29-macos-productivity-joplin-2/)

@@ -5,7 +5,9 @@ tags:
   - test flakes
 ---
 
-If you are working with a large codebase, then you are likely dealing with test flakes. Flakes? Tests that, ever so often, report a failure where no relevant change to the system has happened. Google seems to think that a certain amount of flakes is unavoidable[^1] and I agree. <!--more-->Because flakes are by nature random, it is often difficult to find the root cause - so ==we should think about all the ways we might be able to help ourselves in the search for mitigations==.
+If you are working with a large codebase, then you are likely dealing with test flakes. Flakes? Tests that, ever so often, report a failure where no relevant change to the system has happened. Google seems to think that a certain amount of flakes is unavoidable[^1] and I agree. 
+<!--more-->
+Because flakes are by nature random, it is often difficult to find the root cause - so ==we should think about all the ways we might be able to help ourselves in the search for mitigations==.
 
 ## We should have more error codes
 

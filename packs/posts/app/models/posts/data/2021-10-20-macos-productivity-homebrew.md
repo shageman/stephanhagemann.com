@@ -6,7 +6,9 @@ tags:
   - tools
 ---
 
-Homebrew[^1] describes itself as "The Missing Package Manager for macOS (or Linux)." The program primarily installs command line applications but through its various extensions is, in my opinion, the best way to install and long-term manage applications on a Mac.<!--more--> If you can find it through homebrew you should not download and install it directly and you should not use the Apple app store.
+Homebrew[^1] describes itself as "The Missing Package Manager for macOS (or Linux)." The program primarily installs command line applications but through its various extensions is, in my opinion, the best way to install and long-term manage applications on a Mac.
+<!--more-->
+If you can find it through homebrew you should not download and install it directly and you should not use the Apple app store.
 
 The standard command to install software is brew install zip (the name of some software in the homebrew list of formulae). You can search for apps on the homebrew homepage.
 Homebrew really shines when you use it with a couple of extensions.

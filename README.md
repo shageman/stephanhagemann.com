@@ -39,9 +39,3 @@ rake agile_landscape:etl
 ```
 
 ## Todos
-
-fix intra-document-references in markdown docs
-
-fix broken <!--more--> in markdown docs
-
-fix <http...> pattern in markdown docs
