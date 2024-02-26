@@ -1,19 +1,12 @@
 class Tags::Tag < ActiveHash::Base
-  self.data = [
-    {
-      name: "",
-      path: "",
-      title: "",
-      date: ""
-    }
-  ]
+  fields :name, :path, :title, :date
 
   def to_param
     name
   end
 
   def self.tag_tally
-    Tags::Tag.all.flat_map(&:name).reject { _1 == "" }.tally
+    Tags::Tag.all.map(&:canonical_tag_name).tally
   end
 
   def self.tagged_count_frequency(name)
@@ -29,5 +22,18 @@ class Tags::Tag < ActiveHash::Base
     tally.keys.map do |tag_name|
       TagSummary.new(tag_name, tally[tag_name])
     end
+  end
+
+  def self.canonical_tag_name(name)
+    canonical_tags = {
+      "gradual modularity" => "gradual modularization",
+      "gradualmodularization" => "gradual modularization"
+    }
+    canonical_tags.default = name
+    canonical_tags[name]
+  end
+
+  def canonical_tag_name
+    self.class.canonical_tag_name(name)
   end
 end

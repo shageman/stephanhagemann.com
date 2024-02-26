@@ -4,6 +4,6 @@ class Tags::TagsController < ApplicationController
   end
 
   def show
-    @tags = Tags::Tag.where(name: params[:id]).sort_by{ Date.parse(_1.date) }.reverse
+    @tags = Tags::Tag.all.select {_1.canonical_tag_name == params[:id] }.sort_by{ Date.parse(_1.date) }.reverse
   end
 end
