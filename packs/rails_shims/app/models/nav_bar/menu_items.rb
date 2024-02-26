@@ -26,7 +26,7 @@ class NavBar::MenuItems
   def each(&block)
     if @items.size > NavBar::Api.max_menu_items_before_more
       items = @items.first(NavBar::Api.max_menu_items_before_more)
-      items << MenuItem.new( section: "more", path: -> { NavBar::Api.entrypoint_path }, text: "...and more")
+      items << MenuItem.new( section: "more", path: NavBar::Api.entrypoint_path, text: "...and more")
     else
       items = @items
     end

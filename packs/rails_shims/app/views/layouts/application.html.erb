@@ -40,7 +40,7 @@
           <ul class="nav">
             <% NavBar::Menu.each_item do |mi| %>
               <li <% if @layout_params.active_section == mi.section %> aria-current="page"<% end %>>
-                <%= link_to mi.text.downcase, mi.path.(), class: mi.class_name %>
+                <%= link_to mi.text.downcase, mi.path, class: mi.class_name %>
               </li>
             <% end %>
           </ul>

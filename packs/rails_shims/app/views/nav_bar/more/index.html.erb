@@ -9,6 +9,6 @@
 
 <ul>
   <% NavBar::MenuItems.instance.more_each do |mi| %>
-    <li><%= link_to mi.text, mi.path.() %></li>
+    <li><%= link_to mi.text, mi.path %></li>
   <% end %>
 </ul>

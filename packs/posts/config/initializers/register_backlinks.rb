@@ -1,4 +1,6 @@
 Rails.application.config.to_prepare do
+  Rails.application.reload_routes!
+
   Posts::Post.all.each do |post|
     links = []
     post.content.scan(/\[.*?\]\(([^\)]*?)\)/) do |match|
@@ -7,6 +9,6 @@ Rails.application.config.to_prepare do
       links << match[0]
     end
 
-    Backlinks::Api.register_links_for(-> { Posts::Api.entrypoint_path(post.slug) }, post.title, links)
+    Backlinks::Api.register_links_for(Posts::Api.entrypoint_path(post.slug), post.title, links)
   end
 end

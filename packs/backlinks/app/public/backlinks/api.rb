@@ -1,5 +1,5 @@
 class Backlinks::Api
-  # Call with a path string to register given linked_paths (of type Backlinks::Api::Link)
+  # Call with a path and source_page_title strings to register given linked_paths
   # Every path can only be registered once. Subsequent calls will return an error
   def self.register_links_for(path, source_page_title, linked_paths)
     existing_backlinks = Backlinks::Backlink.where(source_path: path)
@@ -26,7 +26,7 @@ class Backlinks::Api
           <ul class="backlinks-container">
       HTML
       backlinks.each do |backlink|
-        result += "<li class='backlink'><a href='#{backlink.source_path.()}' class='backlink__link'>#{backlink.source_title}</a></li>"
+        result += "<li class='backlink'><a href='#{backlink.source_path}' class='backlink__link'>#{backlink.source_title}</a></li>"
       end
       result += <<~HTML
           </ul>
