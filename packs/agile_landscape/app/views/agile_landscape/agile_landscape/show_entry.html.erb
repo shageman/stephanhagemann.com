@@ -33,3 +33,5 @@
 <li><a href="https://www.google.com/search?q=<%= ERB::Util.url_encode @entry.name %>">Google Search for "<%= @entry.name %>"</a></li>
 <li><a href="https://trends.google.com/trends/explore?date=all&q=<%= ERB::Util.url_encode @entry.name %>">Google Trends for "<%= @entry.name %>"</a></li>
 </ul>
+
+<%= raw Backlinks::Api.backlinks_for(request.path) %>

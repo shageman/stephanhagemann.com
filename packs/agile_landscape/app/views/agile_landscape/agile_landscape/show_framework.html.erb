@@ -17,3 +17,5 @@
 </ul>
 
 <%= render partial: 'agile_landscape/agile_landscape/graph', locals: { graph: @graph } %>
+
+<%= raw Backlinks::Api.backlinks_for(request.path) %>

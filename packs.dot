@@ -137,7 +137,19 @@ digraph package_diagram {
       style=filled
         label="utility"
         cluster=true
-        rank = 2        "packs/rails_shims" [
+        rank = 2        "packs/backlinks" [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> packs/backlinks </td> </tr>
+                  </table>
+                  </td></tr>
+                  </table>
+              >
+          ]
+        
+        "packs/rails_shims" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
@@ -150,6 +162,14 @@ digraph package_diagram {
           ]
         
     }
+              "packs/agile_landscape" -> "packs/backlinks" [ style=invis ]
+              "packs/books" -> "packs/backlinks" [ style=invis ]
+              "packs/contact" -> "packs/backlinks" [ style=invis ]
+              "packs/posts" -> "packs/backlinks" [ style=invis ]
+              "packs/root" -> "packs/backlinks" [ style=invis ]
+              "packs/services" -> "packs/backlinks" [ style=invis ]
+              "packs/speaking" -> "packs/backlinks" [ style=invis ]
+              "packs/tags" -> "packs/backlinks" [ style=invis ]
               "packs/agile_landscape" -> "packs/rails_shims" [ style=invis ]
               "packs/books" -> "packs/rails_shims" [ style=invis ]
               "packs/contact" -> "packs/rails_shims" [ style=invis ]
@@ -165,13 +185,16 @@ digraph package_diagram {
       style=filled
         cluster=false
     }
+          "packs/agile_landscape" -> "packs/backlinks" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/contact" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/tags" [ color=darkgreen ]
+          "packs/books" -> "packs/backlinks" [ color=darkgreen ]
           "packs/books" -> "packs/contact" [ color=darkgreen ]
           "packs/books" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/books" -> "packs/tags" [ color=darkgreen ]
           "packs/contact" -> "packs/rails_shims" [ color=darkgreen ]
+          "packs/posts" -> "packs/backlinks" [ color=darkgreen ]
           "packs/posts" -> "packs/contact" [ color=darkgreen ]
           "packs/posts" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/posts" -> "packs/tags" [ color=darkgreen ]
@@ -182,6 +205,7 @@ digraph package_diagram {
           "packs/services" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/speaking" -> "packs/contact" [ color=darkgreen ]
           "packs/speaking" -> "packs/rails_shims" [ color=darkgreen ]
+          "packs/tags" -> "packs/backlinks" [ color=darkgreen ]
           "packs/tags" -> "packs/rails_shims" [ color=darkgreen ]
     subgraph cluster_legend {
       fontsize=16

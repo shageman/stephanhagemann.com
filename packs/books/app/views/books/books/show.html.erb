@@ -44,3 +44,5 @@
     <% end %>
   </p>
 </section>
+
+<%= raw Backlinks::Api.backlinks_for(request.path) %>

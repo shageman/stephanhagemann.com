@@ -40,4 +40,8 @@ rake agile_landscape:etl
 
 ## Todos
 
-add backlinks to everything
+fix intra-document-references in markdown docs
+
+fix broken <!--more--> in markdown docs
+
+fix <http...> pattern in markdown docs

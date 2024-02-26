@@ -2,8 +2,4 @@ enforce_architecture: strict
 enforce_dependencies: strict
 enforce_privacy: strict
 
-dependencies:
-- packs/backlinks
-- packs/rails_shims
-
-layer: userfacing
+layer: utility

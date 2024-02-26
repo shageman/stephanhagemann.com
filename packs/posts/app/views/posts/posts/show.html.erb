@@ -10,3 +10,5 @@
 <% elsif @post.is_a?(Posts::MastodonPost) %>
   <%= render partial: 'posts/posts/mastodon_post', locals: { post: @post } %>
 <% end %>
+
+<%= raw Backlinks::Api.backlinks_for(request.path) %>

@@ -20,3 +20,5 @@
 </div>
 
 <a href="/tags">All Tags</a>
+
+<%= raw Backlinks::Api.backlinks_for(request.path) %>
