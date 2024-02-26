@@ -11,9 +11,4 @@ class Books::Api
       Rails.application.routes.url_helpers.books_path
     end
   end
-
-  # Returns all books
-  def self.all_books
-    Books::Book.all
-  end
 end

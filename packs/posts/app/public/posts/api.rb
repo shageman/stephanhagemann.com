@@ -9,9 +9,4 @@ class Posts::Api
       Rails.application.routes.url_helpers.posts_path
     end
   end
-
-  # Returns all posts
-  def self.all_posts
-    Posts::Post.all.to_a + Posts::MastodonPost.all.to_a
-  end
 end
