@@ -1,3 +1,4 @@
+# typed: false
 require "yaml"
 
 class Posts::Post < ActiveFile::Base

@@ -1,3 +1,4 @@
+# typed: false
 class AgileLandscape::AgileLandscapeController < ApplicationController
   def index
     @frameworks = AgileLandscape::Framework.all.sort_by &:name

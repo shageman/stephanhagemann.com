@@ -1,3 +1,4 @@
+# typed: false
 class Posts::PostsController < ApplicationController
   def index
     all_posts = (Posts::Post.all.to_a + Posts::MastodonPost.where(in_reply_to_id: nil).to_a)

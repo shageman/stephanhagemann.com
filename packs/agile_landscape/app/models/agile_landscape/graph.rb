@@ -1,3 +1,4 @@
+# typed: false
 class AgileLandscape::Graph
   def initialize(focus_type = nil, focus_id = nil)
     @focus_type = focus_type

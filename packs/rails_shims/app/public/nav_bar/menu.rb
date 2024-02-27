@@ -1,3 +1,4 @@
+# typed: false
 class NavBar::Menu
   # Call this method for every menu item you would like to create... probably somewhere in an initializer
   def self.add_item(section:, path:, text:, class_name: nil)

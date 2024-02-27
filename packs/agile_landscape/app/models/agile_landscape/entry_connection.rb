@@ -1,3 +1,4 @@
+# typed: false
 class AgileLandscape::EntryConnection < ActiveJSON::Base
   set_root_path File.expand_path(File.join(__FILE__, "../data/"))
   set_filename "entry_connections"

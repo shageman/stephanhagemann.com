@@ -1,3 +1,4 @@
+# typed: strict
 Rails.application.config.to_prepare do
   Rails.application.reload_routes!
 

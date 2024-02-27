@@ -1,3 +1,4 @@
+# typed: false
 class Books::Book < ActiveHash::Base
   def to_param
     slug

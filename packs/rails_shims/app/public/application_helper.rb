@@ -1,3 +1,4 @@
+# typed: false
 module ApplicationHelper
   #format a datetime string into a human readable date
   def format_date(date_time_string)

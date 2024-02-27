@@ -1,3 +1,4 @@
+# typed: false
 class Speaking::Talk < ActiveHash::Base
   include ActiveHash::Associations
   belongs_to :deck, class_name: "Speaking::Deck"

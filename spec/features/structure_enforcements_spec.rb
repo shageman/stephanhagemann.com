@@ -1,3 +1,4 @@
+# typed: false
 # enforce that route and path helpers are not used outside of the package defining the routes
 # enforce that global routes file only draw routes
   # and that drawn routes are found via constant

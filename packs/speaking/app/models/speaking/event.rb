@@ -1,3 +1,4 @@
+# typed: false
 class Speaking::Event < ActiveHash::Base
   self.data = [
     {

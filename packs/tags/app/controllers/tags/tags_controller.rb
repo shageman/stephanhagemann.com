@@ -1,3 +1,4 @@
+# typed: false
 class Tags::TagsController < ApplicationController
   def index
     @tag_summaries = Tags::Tag.tag_summary_all.sort_by(&:name)

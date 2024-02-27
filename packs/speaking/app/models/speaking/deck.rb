@@ -1,3 +1,4 @@
+# typed: false
 class Speaking::Deck < ActiveHash::Base
   self.data = [
     {

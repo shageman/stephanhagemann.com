@@ -1,3 +1,4 @@
+# typed: false
 scope "agile_landscape" do
   resources "/", only: [:index], controller: "agile_landscape/agile_landscape", as: "agile_landscape"
 

@@ -1,3 +1,4 @@
+# typed: false
 class RailsShims::LayoutParams
   attr_reader :active_section,
               :container_class,

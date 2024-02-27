@@ -1,3 +1,4 @@
+# typed: false
 class Tags::Tag < ActiveHash::Base
   fields :name, :path, :title, :date
 

@@ -1,3 +1,4 @@
+# typed: false
 # spec/models/entry_spec.rb
 require "rails_helper"
 

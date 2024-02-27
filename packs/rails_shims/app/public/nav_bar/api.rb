@@ -1,3 +1,4 @@
+# typed: false
 class NavBar::Api
   ROUTE_FILE_NAME = "nav_bar"
 
