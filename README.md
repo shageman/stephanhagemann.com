@@ -1,5 +1,7 @@
 # stephanhagemann.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d673fc38-8df5-4186-8181-45d2a90eb174/deploy-status)](https://app.netlify.com/sites/stephanhagemann-com/deploys)
+
 ## Deploy
 
 Be sure to have `rust` installed. Then `cargo install pks` to allow pks to check packwerk boundaries and is executed as part of the pre-commit hooks found in [.lefthook](https://github.com/shageman/stephanhagemann.com/blob/main/lefthook.yml).
