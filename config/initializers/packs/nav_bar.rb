@@ -1,7 +1,7 @@
 Rails.application.config.to_prepare do
   Rails.application.reload_routes!
 
-  NavBar::Menu.add_item(section: "root", path:  "/", text: "Stephan Hagemann", class_name: "home")
+  NavBar::Menu.add_item(section: "root", path:  Root::Api.entrypoint_path, text: "Stephan Hagemann", class_name: "home")
 
   NavBar::Menu.add_item(section: "posts", path: Posts::Api.entrypoint_path, text: "Posts")
   NavBar::Menu.add_item(section: "books", path: Books::Api.entrypoint_path, text: "Books")
