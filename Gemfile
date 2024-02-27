@@ -11,7 +11,6 @@ gem "packs-rails"
 gem "packwerk-extensions", require: false
 gem "packwerk", require: false
 gem "parklife", require: false, github: "shageman/parklife", branch: "crawl-images-as-well"
-# gem "parklife", require: false, path: "../../projects/parklife"
 gem "puma"
 gem "rails"
 gem "redcarpet"
@@ -20,7 +19,9 @@ gem "rubocop-packs", require: false
 gem "rubocop", require: false
 gem "sass-rails"
 gem "slim-rails"
+gem "sorbet-static-and-runtime"
 gem "sprockets-rails"
 gem "sqlite3"
+gem "tapioca", require: false
 gem "visualize_packs", require: false
 gem "web-console", require: false
