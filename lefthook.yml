@@ -25,6 +25,9 @@ pre-commit:
       glob: "*.rb"
       run: echo {all_files} > /dev/null && bin/rubocop --autocorrect
       stage_fixed: true
+    backend-linter-cant-fail:
+      glob: "*"
+      run: echo {all_files} > /dev/null && find . -type f -name ".rubocop_todo.yml" | grep -q . && echo "File named .rubocop_todo.yml found" && exit 1 || echo "No files named .rubocop_todo.yml found"
     tests:
       glob: '*'
       run: echo {all_files} > /dev/null && bin/rspec
