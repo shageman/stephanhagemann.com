@@ -37,3 +37,6 @@ pre-commit:
     check-broken-links:
       glob: '*'
       run: "echo {all_files} > /dev/null && wget --spider -r --header='User-Agent: Mozilla/5.0' --output-file=crawl.log --no-verbose http://localhost:3000 2>&1"
+    typecheck:
+      glob: '*'
+      run: echo {all_files} > /dev/null && srb tc
