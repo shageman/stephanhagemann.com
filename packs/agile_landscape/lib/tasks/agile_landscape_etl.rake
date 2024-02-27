@@ -1,9 +1,9 @@
-require 'json'
+require "json"
 
 namespace :agile_landscape do
   desc "ETL Agile Landscape Data"
   task etl: :environment do
-    json_data = JSON.parse(File.read(File.expand_path(File.join(__FILE__, '../agile_landscape_raw.json'))))
+    json_data = JSON.parse(File.read(File.expand_path(File.join(__FILE__, "../agile_landscape_raw.json"))))
 
     entries = []
     frameworks = []
@@ -12,36 +12,36 @@ namespace :agile_landscape do
     framework_connections = []
 
     json_data.each do |item|
-      version = versions.find { |v| v[:name] == item['Version'] }
+      version = versions.find { |v| v[:name] == item["Version"] }
       unless version
         version = {
           id: versions.length + 1, # Generating a unique id
-          name: item['Version'],
-          slug: item['Version'].gsub(/[^0-9a-z]/i, '-') 
+          name: item["Version"],
+          slug: item["Version"].gsub(/[^0-9a-z]/i, "-")
         }
         versions << version
       end
 
-      entry = entries.find { |e| e[:name] == item['Name'] && e[:section] == item['Section'] && e[:version_id] == version[:id] }
+      entry = entries.find { |e| e[:name] == item["Name"] && e[:section] == item["Section"] && e[:version_id] == version[:id] }
       unless entry
         entry = {
           id: entries.length + 1, # Generating a unique id
-          name: item['Name'],
-          section: item['Section'],
+          name: item["Name"],
+          section: item["Section"],
           version_id: version[:id],
-          slug: item['Name'].gsub(/[^0-9a-z]/i, '-')
+          slug: item["Name"].gsub(/[^0-9a-z]/i, "-")
         }
         entries << entry
       end
 
-      framework = frameworks.find { |f| f[:name] == item['Framework'] && f[:color] == item['Color'] && f[:version_id] == version[:id] }
+      framework = frameworks.find { |f| f[:name] == item["Framework"] && f[:color] == item["Color"] && f[:version_id] == version[:id] }
       unless framework
         framework = {
           id: frameworks.length + 1, # Generating a unique id
-          name: item['Framework'],
-          color: item['Color'],
+          name: item["Framework"],
+          color: item["Color"],
           version_id: version[:id],
-          slug: item['Framework'].gsub(/[^0-9a-z]/i, '-')
+          slug: item["Framework"].gsub(/[^0-9a-z]/i, "-")
         }
         frameworks << framework
       end
@@ -55,13 +55,13 @@ namespace :agile_landscape do
     end
 
     json_data.each do |item|
-      version = versions.find { |v| v[:name] == item['Version'] }
-      entry = entries.find { |e| e[:name] == item['Name'] && e[:section] == item['Section'] && e[:version_id] == version[:id] }
-      framework = frameworks.find { |f| f[:name] == item['Framework'] && f[:color] == item['Color'] && f[:version_id] == version[:id] }
+      version = versions.find { |v| v[:name] == item["Version"] }
+      entry = entries.find { |e| e[:name] == item["Name"] && e[:section] == item["Section"] && e[:version_id] == version[:id] }
+      framework = frameworks.find { |f| f[:name] == item["Framework"] && f[:color] == item["Color"] && f[:version_id] == version[:id] }
 
       # Create connection for 'Next 1'
-      if item['Next 1'].present?
-        next_entry_1 = entries.find { |e| e[:name] == item['Next 1'] && e[:version_id] == version[:id] }
+      if item["Next 1"].present?
+        next_entry_1 = entries.find { |e| e[:name] == item["Next 1"] && e[:version_id] == version[:id] }
         if next_entry_1
           connection = {
             id: entry_connections.length + 1, # Generating a unique id
@@ -83,8 +83,8 @@ namespace :agile_landscape do
       end
 
       # Create connection for 'Next 2'
-      if item['Next 2'].present?
-        next_entry_2 = entries.find { |e| e[:name] == item['Next 2'] && e[:version_id] == version[:id] }
+      if item["Next 2"].present?
+        next_entry_2 = entries.find { |e| e[:name] == item["Next 2"] && e[:version_id] == version[:id] }
         if next_entry_2
           connection = {
             id: entry_connections.length + 1, # Generating a unique id
@@ -107,7 +107,7 @@ namespace :agile_landscape do
     end
 
     # Write arrays as JSON files
-    output_dir = File.expand_path(File.join(__FILE__, '../../../app/models/agile_landscape/data'))
+    output_dir = File.expand_path(File.join(__FILE__, "../../../app/models/agile_landscape/data"))
     Dir.mkdir(output_dir) unless File.directory?(output_dir)
 
     File.write("#{output_dir}/entries.json", JSON.dump(entries))

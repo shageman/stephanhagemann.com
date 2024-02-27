@@ -1,11 +1,11 @@
-require 'net/http'
-require 'json'
+require "net/http"
+require "json"
 
 namespace :agile_landscape do
   desc "Query OpenAI API"
   task openai: :environment do
-    limit = ENV['LIMIT']&.to_i || 3
-    offset = ENV['OFFSET']&.to_i || 0
+    limit = ENV["LIMIT"]&.to_i || 3
+    offset = ENV["OFFSET"]&.to_i || 0
 
     puts "limit #{limit}, offset #{offset}"
     input_array = AgileLandscape::FrameworkConnection.all.to_a
@@ -38,10 +38,10 @@ namespace :agile_landscape do
   end
 
   def query_openai_api(prompt)
-    uri = URI('https://api.openai.com/v1/chat/completions')
+    uri = URI("https://api.openai.com/v1/chat/completions")
     req = Net::HTTP::Post.new(uri)
-    req['Authorization'] = "Bearer #{Rails.application.credentials.dig(:openai, :api_key)}"
-    req['Content-Type'] = 'application/json'
+    req["Authorization"] = "Bearer #{Rails.application.credentials.dig(:openai, :api_key)}"
+    req["Content-Type"] = "application/json"
     req.body = "
     {
     \"model\": \"gpt-3.5-turbo\",
@@ -61,6 +61,6 @@ namespace :agile_landscape do
       http.request(req)
     end
 
-    JSON.parse(res.body)['choices'][0]['message']['content'] if res.is_a?(Net::HTTPSuccess)
+    JSON.parse(res.body)["choices"][0]["message"]["content"] if res.is_a?(Net::HTTPSuccess)
   end
 end
