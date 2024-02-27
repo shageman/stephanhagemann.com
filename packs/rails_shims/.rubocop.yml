@@ -10,4 +10,4 @@ Packs/RootNamespaceIsPackName:
   Enabled: false
 
 Packs/TypedPublicApis:
-  Enabled: false
+  Enabled: true
