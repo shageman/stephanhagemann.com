@@ -5,7 +5,7 @@ digraph package_diagram {
     fontname="Helvetica,Arial,sans-serif"
     dpi=100
     layout=dot
-    label=<<b>All packs</b><br/>>
+    label=<<b>Package Structure</b>>
     fontsize=18
   ]
   node [
@@ -25,7 +25,20 @@ digraph package_diagram {
       style=filled
         label="application_harness"
         cluster=true
-        rank = 0    }
+        rank = 0        "." [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> . </td> </tr>
+                  </table>
+                  </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, R: 0</td></tr>
+                  </table>
+              >
+          ]
+        
+    }
     subgraph userfacing {
       shape=box
       color=darkgrey
@@ -130,6 +143,14 @@ digraph package_diagram {
           ]
         
     }
+              "." -> "packs/agile_landscape" [ style=invis ]
+              "." -> "packs/books" [ style=invis ]
+              "." -> "packs/contact" [ style=invis ]
+              "." -> "packs/posts" [ style=invis ]
+              "." -> "packs/root" [ style=invis ]
+              "." -> "packs/services" [ style=invis ]
+              "." -> "packs/speaking" [ style=invis ]
+              "." -> "packs/tags" [ style=invis ]
     subgraph utility {
       shape=box
       color=darkgrey
@@ -185,6 +206,15 @@ digraph package_diagram {
       style=filled
         cluster=false
     }
+          "." -> "packs/agile_landscape" [ color=darkgreen ]
+          "." -> "packs/books" [ color=darkgreen ]
+          "." -> "packs/contact" [ color=darkgreen ]
+          "." -> "packs/posts" [ color=darkgreen ]
+          "." -> "packs/rails_shims" [ color=darkgreen ]
+          "." -> "packs/root" [ color=darkgreen ]
+          "." -> "packs/services" [ color=darkgreen ]
+          "." -> "packs/speaking" [ color=darkgreen ]
+          "." -> "packs/tags" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/backlinks" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/contact" [ color=darkgreen ]
           "packs/agile_landscape" -> "packs/rails_shims" [ color=darkgreen ]
@@ -207,42 +237,10 @@ digraph package_diagram {
           "packs/speaking" -> "packs/rails_shims" [ color=darkgreen ]
           "packs/tags" -> "packs/backlinks" [ color=darkgreen ]
           "packs/tags" -> "packs/rails_shims" [ color=darkgreen ]
-    subgraph cluster_legend {
-      fontsize=16
-      label="Edges Styles and Arrow Heads"
-      A [ fontsize=12 shape=box label="package"]
-      B [ fontsize=12 shape=box label="package"]
-      A -> B [label="accepted dependency" color=darkgreen]
-      M [ fontsize=12 shape=box label="package"]
-      N [ fontsize=12 shape=box label="package"]
-      M -> N [label="nested package" color=purple]
-      O [ fontsize=12 shape=box label="package"]
-      P [ fontsize=12 shape=box label="package"]
-      O -> P [label="visible to" color=blue]
-      C [ fontsize=12 shape=box label="package"]
-      D [ fontsize=12 shape=box label="package"]
-      C -> D [label="privacy todo" color=darkred style=dashed arrowhead=crow]
-      E [ fontsize=12 shape=box label="package"]
-      F [ fontsize=12 shape=box label="package"]
-      E -> F [label="architecture todo" color=darkred style=dashed arrowhead=obox]
-      G [ fontsize=12 shape=box label="package"]
-      H [ fontsize=12 shape=box label="package"]
-      G -> H [label="visibility todo" color=darkred style=dashed arrowhead=tee]
-      I [ fontsize=12 shape=box label="package"]
-      J [ fontsize=12 shape=box label="package"]
-      I -> J [label="folder visibility todo" color=darkred style=dashed arrowhead=odot]
-      K [ fontsize=12 shape=box label="package"]
-      L [ fontsize=12 shape=box label="package"]
-      K -> L [label="dependency todo" color=darkred style=dashed arrowhead=odiamond]
-      LEGEND_NODE_1 [ label="" peripheries=0 height=0 width=0 style=invis ]
-      LEGEND_NODE_2 [ label="" peripheries=0 height=0 width=0 style=invis ]
-      LEGEND_NODE_1 -> LEGEND_NODE_2 [ style=invis ]
-    }
   subgraph cluster_teams_legend {
     fontsize=16
     label="Team Colors"
 
 
   }
-    LEGEND_NODE_2 -> "" [style=invis]
 }

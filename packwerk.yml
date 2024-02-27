@@ -12,7 +12,7 @@
 # Patterns to find package configuration files
 package_paths: 
 - .
-- "packs/*"
+- packs/*
 
 # List of custom associations, if any
 # custom_associations:

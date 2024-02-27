@@ -20,7 +20,7 @@ pre-commit:
       run: echo {all_files} > /dev/null && pks check
     structure-visualize:
       glob: '*'
-      run: echo {all_files} > /dev/null && visualize_packs > packs.dot && git diff --exit-code --quiet "packs.dot"
+      run: echo {all_files} > /dev/null && visualize_packs --no-legend --title="Package Structure"> packs.dot && git diff --exit-code --quiet "packs.dot"
     backend-linter:
       glob: "*.rb"
       run: bin/rubocop {all_files} --autocorrect
