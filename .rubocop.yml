@@ -9,13 +9,17 @@ inherit_gem:
   rubocop-packs:
     - config/default.yml
 
+Packs/ClassMethodsAsPublicApis:
+  Enabled: true
+
 Packs/DocumentedPublicApis:
   Enabled: true
 
 Packs/RootNamespaceIsPackName:
   Enabled: true
-  Exclude:
-  - packs/rails_shims/**/*
+
+Packs/TypedPublicApis:
+  Enabled: false
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes

@@ -33,7 +33,7 @@ digraph package_diagram {
                     <tr> <td port='private'> . </td> </tr>
                   </table>
                   </td></tr>
-                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, R: 0</td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -54,6 +54,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/agile_landscape </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -66,6 +67,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/books </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -78,6 +80,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/contact </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -90,6 +93,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/posts </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -114,6 +118,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/services </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -126,6 +131,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/speaking </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -138,6 +144,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/tags </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -166,6 +173,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/backlinks </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0</td></tr>
                   </table>
               >
           ]
@@ -178,6 +186,7 @@ digraph package_diagram {
                     <tr> <td port='private'> packs/rails_shims </td> </tr>
                   </table>
                   </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0</td></tr>
                   </table>
               >
           ]
