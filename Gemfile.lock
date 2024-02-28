@@ -293,6 +293,7 @@ DEPENDENCIES
   actionview
   active_hash
   activemodel
+  activesupport
   capybara
   lefthook
   packs-rails

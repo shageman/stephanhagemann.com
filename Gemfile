@@ -6,6 +6,7 @@ gem "actionpack"
 gem "actionview"
 gem "active_hash"
 gem "activemodel"
+gem "activesupport"
 gem "packs-rails"
 gem "redcarpet"
 
