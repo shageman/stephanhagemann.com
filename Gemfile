@@ -3,7 +3,6 @@ source "https://rubygems.org"
 ruby "3.2.2"
 
 gem "active_hash"
-gem "bootsnap"
 gem "capybara", require: false
 gem "lefthook"
 gem "packs-rails"
