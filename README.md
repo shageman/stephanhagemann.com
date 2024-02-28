@@ -1,6 +1,6 @@
 # stephanhagemann.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d673fc38-8df5-4186-8181-45d2a90eb174/deploy-status)](https://app.netlify.com/sites/stephanhagemann-com/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d673fc38-8df5-4186-8181-45d2a90eb174/deploy-status)](https://app.netlify.com/sites/stephanhagemann-com/deploys) [![Regular scheduled build](https://github.com/shageman/stephanhagemann.com/actions/workflows/regular-build.yml/badge.svg?branch=main)](https://github.com/shageman/stephanhagemann.com/actions/workflows/regular-build.yml)
 
 ## Deploy
 
