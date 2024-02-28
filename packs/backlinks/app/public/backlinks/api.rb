@@ -27,7 +27,7 @@ class Backlinks::Api
     if backlinks.size > 0
       result = <<~HTML
         <section class="flow">
-          <h2>Backlinks</h3>
+          <h2>Backlinks</h2>
           <ul class="backlinks-container">
       HTML
       backlinks.each do |backlink|
