@@ -6,7 +6,6 @@ gem "active_hash"
 gem "packs-rails"
 gem "rails"
 gem "redcarpet"
-gem "slim-rails"
 
 gem "capybara", require: false
 gem "lefthook", require: false
