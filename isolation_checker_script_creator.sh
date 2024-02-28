@@ -39,11 +39,11 @@ set -e\n\n
 
 {
   "packs/agile_landscape" => "agile_landscape",
-  #"packs/backlinks",
+  "packs/backlinks" => nil,
   "packs/books" => "books",
   "packs/contact" => "contact",
   "packs/posts" => "posts",
-  #"packs/rails_shims",
+  "packs/rails_shims" => nil,
   "packs/root" => "",
   "packs/services" => "services",
   "packs/speaking" => "speaking",
@@ -57,16 +57,20 @@ set -e\n\n
   result += "git clean -fd\n"
   result += "echo ' >> Deleting packs: #{packs_to_delete.join(" ")}'\n"
   result += "#{packs_to_delete.map { "rm -rf #{_1}; " }.join(" ")}\n"
-  result += "bin/rails s > /dev/null &\n"
-  result += "sleep 3\n"
-  result += "echo ' >> Checking server links for 404s starting at: http://localhost:3000/#{path}'\n"
-  result += "wget --show-progress --spider -r --header='User-Agent: Mozilla/5.0' --output-file=crawl.log --no-verbose http://localhost:3000/#{path} 2>&1 && echo 'SUCCESS'\n"
-  result += "downloaded=$(grep -o 'Downloaded: [0-9]*' crawl.log | awk '{print $2}')\n"
-  result += 'echo "  > Checked ${downloaded} pages"'
-  result += "\n"
+  if path
+    result += "bin/rails s > /dev/null &\n"
+    result += "sleep 3\n"
+    result += "echo ' >> Checking server links for 404s starting at: http://localhost:3000/#{path}'\n"
+    result += "wget --show-progress --spider -r --header='User-Agent: Mozilla/5.0' --output-file=crawl.log --no-verbose http://localhost:3000/#{path} 2>&1 && echo 'SUCCESS'\n"
+    result += "downloaded=$(grep -o 'Downloaded: [0-9]*' crawl.log | awk '{print $2}')\n"
+    result += 'echo "  > Checked ${downloaded} pages"'
+    result += "\n"
+  else
+    result += 'echo " >> Skipping link 404 check due to config."'
+    result += "\n"
+  end
   result += "echo ' >> Running RSpec for pack: `bin/rspec #{pack_name}`'\n"
   result += "bin/rspec --no-profile --format progress #{pack_name}\n"
-
 end
 
 result += "
