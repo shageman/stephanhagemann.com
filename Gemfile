@@ -2,9 +2,11 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
+gem "actionpack"
+gem "actionview"
 gem "active_hash"
+gem "activemodel"
 gem "packs-rails"
-gem "rails"
 gem "redcarpet"
 
 gem "capybara", require: false

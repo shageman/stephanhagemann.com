@@ -11,32 +11,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actioncable (7.1.3)
-      actionpack (= 7.1.3)
-      activesupport (= 7.1.3)
-      nio4r (~> 2.0)
-      websocket-driver (>= 0.6.1)
-      zeitwerk (~> 2.6)
-    actionmailbox (7.1.3)
-      actionpack (= 7.1.3)
-      activejob (= 7.1.3)
-      activerecord (= 7.1.3)
-      activestorage (= 7.1.3)
-      activesupport (= 7.1.3)
-      mail (>= 2.7.1)
-      net-imap
-      net-pop
-      net-smtp
-    actionmailer (7.1.3)
-      actionpack (= 7.1.3)
-      actionview (= 7.1.3)
-      activejob (= 7.1.3)
-      activesupport (= 7.1.3)
-      mail (~> 2.5, >= 2.5.4)
-      net-imap
-      net-pop
-      net-smtp
-      rails-dom-testing (~> 2.2)
     actionpack (7.1.3)
       actionview (= 7.1.3)
       activesupport (= 7.1.3)
@@ -47,13 +21,6 @@ GEM
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    actiontext (7.1.3)
-      actionpack (= 7.1.3)
-      activerecord (= 7.1.3)
-      activestorage (= 7.1.3)
-      activesupport (= 7.1.3)
-      globalid (>= 0.6.0)
-      nokogiri (>= 1.8.5)
     actionview (7.1.3)
       activesupport (= 7.1.3)
       builder (~> 3.1)
@@ -62,21 +29,8 @@ GEM
       rails-html-sanitizer (~> 1.6)
     active_hash (3.2.1)
       activesupport (>= 5.0.0)
-    activejob (7.1.3)
-      activesupport (= 7.1.3)
-      globalid (>= 0.3.6)
     activemodel (7.1.3)
       activesupport (= 7.1.3)
-    activerecord (7.1.3)
-      activemodel (= 7.1.3)
-      activesupport (= 7.1.3)
-      timeout (>= 0.4.0)
-    activestorage (7.1.3)
-      actionpack (= 7.1.3)
-      activejob (= 7.1.3)
-      activerecord (= 7.1.3)
-      activesupport (= 7.1.3)
-      marcel (~> 1.0)
     activesupport (7.1.3)
       base64
       bigdecimal
@@ -120,13 +74,10 @@ GEM
     connection_pool (2.4.1)
     constant_resolver (0.2.0)
     crass (1.0.6)
-    date (3.3.4)
     diff-lcs (1.5.1)
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
-    globalid (1.2.1)
-      activesupport (>= 6.1)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
@@ -139,25 +90,10 @@ GEM
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.8.1)
-      mini_mime (>= 0.1.1)
-      net-imap
-      net-pop
-      net-smtp
-    marcel (1.0.2)
     matrix (0.4.2)
     mini_mime (1.1.5)
     minitest (5.22.2)
     mutex_m (0.2.0)
-    net-imap (0.4.10)
-      date
-      net-protocol
-    net-pop (0.1.2)
-      net-protocol
-    net-protocol (0.2.2)
-      timeout
-    net-smtp (0.4.0.1)
-      net-protocol
     netrc (0.11.0)
     nio4r (2.7.0)
     nokogiri (1.16.2-aarch64-linux)
@@ -220,20 +156,6 @@ GEM
     rackup (2.1.0)
       rack (>= 3)
       webrick (~> 1.8)
-    rails (7.1.3)
-      actioncable (= 7.1.3)
-      actionmailbox (= 7.1.3)
-      actionmailer (= 7.1.3)
-      actionpack (= 7.1.3)
-      actiontext (= 7.1.3)
-      actionview (= 7.1.3)
-      activejob (= 7.1.3)
-      activemodel (= 7.1.3)
-      activerecord (= 7.1.3)
-      activestorage (= 7.1.3)
-      activesupport (= 7.1.3)
-      bundler (>= 1.15.0)
-      railties (= 7.1.3)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -329,7 +251,6 @@ GEM
       thor (>= 1.2.0)
       yard-sorbet
     thor (1.3.0)
-    timeout (0.4.1)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
     tty-prompt (0.23.1)
@@ -353,9 +274,6 @@ GEM
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
     webrick (1.8.1)
-    websocket-driver (0.7.6)
-      websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.5)
     wisper (2.0.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
@@ -371,7 +289,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  actionpack
+  actionview
   active_hash
+  activemodel
   capybara
   lefthook
   packs-rails
@@ -379,7 +300,6 @@ DEPENDENCIES
   packwerk-extensions
   parklife!
   puma
-  rails
   redcarpet
   rspec-rails
   rubocop
