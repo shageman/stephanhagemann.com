@@ -17,7 +17,6 @@ gem "rubocop-packs", require: false
 gem "rubocop", require: false
 gem "slim-rails"
 gem "sorbet-static-and-runtime"
-gem "sqlite3"
 gem "tapioca", require: false
 gem "visualize_packs", require: false
 gem "web-console", require: false
