@@ -1,4 +1,4 @@
-# typed: false
+# typed: strict
 Rails.application.config.to_prepare do
   Rails.application.reload_routes!
 
@@ -10,6 +10,14 @@ Rails.application.config.to_prepare do
       links << match[0]
     end
 
-    Backlinks::Api.register_links_for(Posts::Api.entrypoint_path(post.slug), post.title, links)
+    success = Backlinks::Api.register_links_for(Posts::Api.entrypoint_path(post.slug), post.title, links)
+    case success
+    when TrueClass
+      Rails.logger.info "Backlink registered for blog post"
+    when Backlinks::Api::BacklinkParametersInvalid
+      raise "Backlink creation failed due to bad params: #{success.message}"
+    else
+      T.absurd(success)
+    end
   end
 end

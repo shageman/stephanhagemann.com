@@ -30,4 +30,12 @@ RSpec.describe Backlinks do
 </section>
 '
   end
+
+  it "register_links_for returns an error if the given tag is unacceptable" do
+    add_result = Backlinks::Api.register_links_for("", "", [""])
+
+    expect(add_result.message).to include('source_path=>["can\'t be blank"')
+    expect(add_result.message).to include("source_title=>[\"can't be blank\"")
+    expect(add_result.message).to include("destination_path=>[\"can't be blank\"")
+  end
 end
