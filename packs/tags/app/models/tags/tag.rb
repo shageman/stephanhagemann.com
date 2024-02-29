@@ -1,6 +1,19 @@
 # typed: false
 class Tags::Tag < ActiveHash::Base
+  include ActiveModel::Validations
+
   fields :name, :path, :title, :date
+
+  validates :name, presence: true
+  validates :path, presence: true
+  validates :title, presence: true
+  validate :date_is_parseable
+
+  def date_is_parseable
+    DateTime.parse(date)
+  rescue
+    self.errors.add(:date, "is not parseable")
+  end
 
   def to_param
     name

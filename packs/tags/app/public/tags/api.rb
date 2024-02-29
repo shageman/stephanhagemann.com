@@ -4,6 +4,8 @@ class Tags::Api
 
   ROUTE_FILE_NAME = "tags"
 
+  class TagParametersInvalid < StandardError; end
+
   # Entrypoint helper for tags: With tag param, get link to the tag's page. Otherwise, get list of all
   sig { params(name: T.nilable(String)).returns(String)}
   def self.entrypoint_path(name = nil)
@@ -16,14 +18,18 @@ class Tags::Api
   end
 
   # call to add the given element to the tags list
-  sig { params(name: String, path: String, title: String, date: String).returns(T::Boolean)}
+  sig { params(name: String, path: String, title: String, date: String).returns(T.any(TrueClass, TagParametersInvalid))}
   def self.add_tagable(name:, path:, title:, date:)
-    tag = Tags::Tag.create
+    tag = Tags::Tag.new
     tag.name = name
     tag.path = path
     tag.title = title
     tag.date = date
-    tag.save!
+    if !tag.valid?
+      return TagParametersInvalid.new(tag.errors.messages)
+    else
+      tag.save!
+    end
   end
 
   # HTML code to render a consistent chip given a tag name
