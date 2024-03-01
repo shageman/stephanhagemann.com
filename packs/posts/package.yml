@@ -6,6 +6,6 @@ dependencies:
 - packs/backlinks
 - packs/contact
 - packs/rails_shims
-- packs/tags
+- packs/taggable
 
 layer: userfacing

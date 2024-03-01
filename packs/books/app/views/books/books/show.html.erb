@@ -40,7 +40,7 @@
 <section class="tags">
   <p>
     <% @book.tags.each do |tag| %>
-      <%= ::Tags::Api.chip_for(tag) %>
+      <%= ::Taggable::TagServer.tagger.chip_for(tag) %>
     <% end %>
   </p>
 </section>

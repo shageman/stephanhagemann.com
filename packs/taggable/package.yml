@@ -4,8 +4,6 @@ enforce_privacy: strict
 
 dependencies:
 - packs/backlinks
-- packs/contact
 - packs/rails_shims
-- packs/taggable
 
 layer: userfacing
