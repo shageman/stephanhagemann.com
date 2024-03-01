@@ -36,7 +36,7 @@ pre-commit:
       run: echo {all_files} > /dev/null && echo "puts Speaking::Talk.count" | bin/rails c 
     check-broken-links:
       glob: '*'
-      run: "echo {all_files} > /dev/null && wget --spider -r --header='User-Agent: Mozilla/5.0' --output-file=crawl.log --no-verbose http://localhost:3000 2>&1"
+      run: "echo {all_files} > /dev/null && bin/static-build"
     typecheck:
       glob: '*'
       run: echo {all_files} > /dev/null && srb tc
