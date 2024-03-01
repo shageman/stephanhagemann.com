@@ -19,7 +19,7 @@ class Tags::Api
 
   # call to add the given element to the tags list
   sig { params(name: String, path: String, title: String, date: String).returns(T.any(TrueClass, TagParametersInvalid))}
-  def self.add_tagable(name:, path:, title:, date:)
+  def self.add_taggable(name:, path:, title:, date:)
     tag = Tags::Tag.new
     tag.name = name
     tag.path = path
