@@ -42,45 +42,47 @@ So, with pks instead of packwerk, we can push the gradient (the applicable area)
 
 Practices can also push the gradient of packages to the right. As two examples, look at these PRs on the repo for this website:
 
-[Make route file locations part of package public APIs](https://github.com/shageman/stephanhagemann.com/commit/5949ebf89a14473071d4b35f3342ac23b9240c63#diff-959bc9abc46a55332bb64d5155a79323afa75a50ec1a2137ddd22d926f62c6c5)
+* [Make route file locations part of package public APIs](https://github.com/shageman/stephanhagemann.com/commit/5949ebf89a14473071d4b35f3342ac23b9240c63#diff-959bc9abc46a55332bb64d5155a79323afa75a50ec1a2137ddd22d926f62c6c5)
 
+    This PR contains a new routes file that doesn't (directly) use string for [packaged-based route registration](https://github.com/rubyatscale/packs-rails?tab=readme-ov-file#splitting-routes). Instead, each package exposes a constant that the top-level routes file uses. That makes this connection visible to package boundaries and makes the system's internal structure more sensible in that it co-locates the ownership of routes and their entry point within one (the "owning") pack.
 
-This PR contains a new routes file that doesn't (directly) use string for [packaged-based route registration](https://github.com/rubyatscale/packs-rails?tab=readme-ov-file#splitting-routes). Instead, each package exposes a constant that the top-level routes file uses. That makes this connection visible to package boundaries and makes the system's internal structure more sensible in that it co-locates the ownership of routes and their entry point within one (the "owning") pack.
+    * `config/routes.rb`:
 
-`config/routes.rb`:
+      ```ruby 
+      Rails.application.routes.draw do
+        get 'up' => 'rails/health#show', as: :rails_health_check
 
-```ruby 
-Rails.application.routes.draw do
-  get 'up' => 'rails/health#show', as: :rails_health_check
+        draw(Root::Config::ROUTE_FILE_NAME)
 
-  draw(Root::Config::ROUTE_FILE_NAME)
+        draw(Books::Config::ROUTE_FILE_NAME)
+        draw(Speaking::Config::ROUTE_FILE_NAME)
+      end
+      ```
 
-  draw(Books::Config::ROUTE_FILE_NAME)
-  draw(Speaking::Config::ROUTE_FILE_NAME)
-end
-```
+    * `packs/books/app/public/config.rb`:
 
-`packs/books/app/public/config.rb`:
-
-```ruby
-class Books::Config
-  ROUTE_FILE_NAME = "books"
-end
-```
+      ```ruby
+      class Books::Config
+        ROUTE_FILE_NAME = "books"
+      end
+      ```
 
 * [Expose path helper for contact page via public API](https://github.com/shageman/stephanhagemann.com/commit/52776f33f731db9a15fba0b943fad7809f1e3a0a#diff-ef4a254a7af06605559474d0cf667c202d9fca178103a7e5299d17ce345aaf6f)
 
-This PR extends the idea of route ownership by exposing the routes to link to the entry point of a package via its public API. 
+    This PR extends the idea of route ownership by exposing the routes to link to the entry point of a package via its public API. 
 
-```ruby
-class Contact::Config
-  ROUTE_FILE_NAME = "contact"
+    * packs/books/app/public/config.rb:
 
-  # Exposes path helper to root of contact page. You can pass in a subject as a param
-  def self.entrypoint_path(subject)
-    Rails.application.routes.url_helpers.contact_index_path(subject: subject)
-  end
-```
+      ```ruby
+      class Contact::Config
+        ROUTE_FILE_NAME = "contact"
+
+        # Exposes path helper to root of contact page. You can pass in a subject as a param
+        def self.entrypoint_path(subject)
+          Rails.application.routes.url_helpers.contact_index_path(subject: subject)
+        end
+      end
+      ```
 
 I am currently enforcing this practice via convention rather than any tools. I will make it the topic for another day to discuss the tradeoff regarding this decision.
 
