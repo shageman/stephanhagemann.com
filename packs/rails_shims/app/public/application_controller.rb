@@ -14,6 +14,7 @@ class ApplicationController < ActionController::Base
       highlight: true, # == for <mark> highlighting
       footnotes: true, # links to footnotes work with [^1]
       lax_spacing: true, # don't require empty lines around HTML, just newlines
+      fenced_code_blocks: true, # blocks delimited with 3 or more ~ or backticks will be considered as code
     }), T.nilable(Redcarpet::Markdown))
   end
 
