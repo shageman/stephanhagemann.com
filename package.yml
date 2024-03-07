@@ -7,11 +7,11 @@ dependencies:
 - packs_userfacing/books
 - packs_userfacing/contact
 - packs_userfacing/posts
-- packs_utility/rails_shims
 - packs_userfacing/root
 - packs_userfacing/services
 - packs_userfacing/speaking
-- packs_utility/taggable
 - packs_userfacing/tags
+- packs_utility/rails_shims
+- packs_utility/taggable
 
 layer: application_harness
