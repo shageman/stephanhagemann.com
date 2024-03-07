@@ -3,7 +3,7 @@ enforce_dependencies: strict
 enforce_privacy: strict
 
 dependencies:
-- packs/backlinks
-- packs/rails_shims
+- packs_utility/backlinks
+- packs_utility/rails_shims
 
 layer: utility

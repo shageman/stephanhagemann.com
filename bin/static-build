@@ -7,7 +7,8 @@ set -x
 bundle exec parklife build "$@"
 
 # Copy all public resources to ./build.
-find packs -type d -name "assets" | xargs -I {} find {} -mindepth 1 -exec cp -R {}/. build/ \;
+find packs_userfacing -type d -name "assets" | xargs -I {} find {} -mindepth 1 -exec cp -R {}/. build/ \;
+find packs_utility -type d -name "assets" | xargs -I {} find {} -mindepth 1 -exec cp -R {}/. build/ \;
 
 # List all files in the build (useful for debugging).
 find build -type f | sort

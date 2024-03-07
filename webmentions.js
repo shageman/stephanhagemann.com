@@ -6,7 +6,7 @@ require('dotenv').config()
 const domain = "https://stephanhagemann.com"
 
 // Define Cache Location and API Endpoint
-const COLD_STORAGE_FILE_PATH = 'packs/posts/app/models/posts/cold_storage/webmentions.json'
+const COLD_STORAGE_FILE_PATH = 'packs_userfacing/posts/app/models/posts/cold_storage/webmentions.json'
 const CACHE_FILE_PATH = '_cache/webmentions.json'
 const API = 'https://webmention.io/api'
 const TOKEN = process.env.WEBMENTION_IO_TOKEN

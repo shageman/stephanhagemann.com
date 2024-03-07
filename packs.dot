@@ -46,12 +46,12 @@ digraph package_diagram {
       style=filled
         label="userfacing"
         cluster=true
-        rank = 1        "packs/agile_landscape" [
+        rank = 1        "packs_userfacing/agile_landscape" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/agile_landscape </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/agile_landscape </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -59,12 +59,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/books" [
+        "packs_userfacing/books" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/books </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/books </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -72,12 +72,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/contact" [
+        "packs_userfacing/contact" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/contact </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/contact </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -85,12 +85,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/posts" [
+        "packs_userfacing/posts" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/posts </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/posts </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -98,12 +98,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/root" [
+        "packs_userfacing/root" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/root </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/root </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -111,12 +111,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/services" [
+        "packs_userfacing/services" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/services </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/services </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -124,12 +124,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/speaking" [
+        "packs_userfacing/speaking" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/speaking </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/speaking </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -137,12 +137,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/tags" [
+        "packs_userfacing/tags" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/tags </td> </tr>
+                    <tr> <td port='private'> packs_userfacing/tags </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -151,14 +151,14 @@ digraph package_diagram {
           ]
         
     }
-              "." -> "packs/agile_landscape" [ style=invis ]
-              "." -> "packs/books" [ style=invis ]
-              "." -> "packs/contact" [ style=invis ]
-              "." -> "packs/posts" [ style=invis ]
-              "." -> "packs/root" [ style=invis ]
-              "." -> "packs/services" [ style=invis ]
-              "." -> "packs/speaking" [ style=invis ]
-              "." -> "packs/tags" [ style=invis ]
+              "." -> "packs_userfacing/agile_landscape" [ style=invis ]
+              "." -> "packs_userfacing/books" [ style=invis ]
+              "." -> "packs_userfacing/contact" [ style=invis ]
+              "." -> "packs_userfacing/posts" [ style=invis ]
+              "." -> "packs_userfacing/root" [ style=invis ]
+              "." -> "packs_userfacing/services" [ style=invis ]
+              "." -> "packs_userfacing/speaking" [ style=invis ]
+              "." -> "packs_userfacing/tags" [ style=invis ]
     subgraph utility {
       shape=box
       color=darkgrey
@@ -166,12 +166,12 @@ digraph package_diagram {
       style=filled
         label="utility"
         cluster=true
-        rank = 2        "packs/backlinks" [
+        rank = 2        "packs_utility/backlinks" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/backlinks </td> </tr>
+                    <tr> <td port='private'> packs_utility/backlinks </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>C: 0, D: 0, R: 0, T: 0</td></tr>
@@ -179,12 +179,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/rails_shims" [
+        "packs_utility/rails_shims" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/rails_shims </td> </tr>
+                    <tr> <td port='private'> packs_utility/rails_shims </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, T: 0</td></tr>
@@ -192,12 +192,12 @@ digraph package_diagram {
               >
           ]
         
-        "packs/taggable" [
+        "packs_utility/taggable" [
             fontsize=12.0
             label= <
                 <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
                   <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/taggable </td> </tr>
+                    <tr> <td port='private'> packs_utility/taggable </td> </tr>
                   </table>
                   </td></tr>
                   <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, R: 0, T: 0</td></tr>
@@ -206,30 +206,30 @@ digraph package_diagram {
           ]
         
     }
-              "packs/agile_landscape" -> "packs/backlinks" [ style=invis ]
-              "packs/books" -> "packs/backlinks" [ style=invis ]
-              "packs/contact" -> "packs/backlinks" [ style=invis ]
-              "packs/posts" -> "packs/backlinks" [ style=invis ]
-              "packs/root" -> "packs/backlinks" [ style=invis ]
-              "packs/services" -> "packs/backlinks" [ style=invis ]
-              "packs/speaking" -> "packs/backlinks" [ style=invis ]
-              "packs/tags" -> "packs/backlinks" [ style=invis ]
-              "packs/agile_landscape" -> "packs/rails_shims" [ style=invis ]
-              "packs/books" -> "packs/rails_shims" [ style=invis ]
-              "packs/contact" -> "packs/rails_shims" [ style=invis ]
-              "packs/posts" -> "packs/rails_shims" [ style=invis ]
-              "packs/root" -> "packs/rails_shims" [ style=invis ]
-              "packs/services" -> "packs/rails_shims" [ style=invis ]
-              "packs/speaking" -> "packs/rails_shims" [ style=invis ]
-              "packs/tags" -> "packs/rails_shims" [ style=invis ]
-              "packs/agile_landscape" -> "packs/taggable" [ style=invis ]
-              "packs/books" -> "packs/taggable" [ style=invis ]
-              "packs/contact" -> "packs/taggable" [ style=invis ]
-              "packs/posts" -> "packs/taggable" [ style=invis ]
-              "packs/root" -> "packs/taggable" [ style=invis ]
-              "packs/services" -> "packs/taggable" [ style=invis ]
-              "packs/speaking" -> "packs/taggable" [ style=invis ]
-              "packs/tags" -> "packs/taggable" [ style=invis ]
+              "packs_userfacing/agile_landscape" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/books" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/contact" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/posts" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/root" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/services" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/speaking" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/tags" -> "packs_utility/backlinks" [ style=invis ]
+              "packs_userfacing/agile_landscape" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/books" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/contact" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/posts" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/root" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/services" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/speaking" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/tags" -> "packs_utility/rails_shims" [ style=invis ]
+              "packs_userfacing/agile_landscape" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/books" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/contact" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/posts" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/root" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/services" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/speaking" -> "packs_utility/taggable" [ style=invis ]
+              "packs_userfacing/tags" -> "packs_utility/taggable" [ style=invis ]
     subgraph NotInLayer {
       shape=box
       color=darkgrey
@@ -237,41 +237,41 @@ digraph package_diagram {
       style=filled
         cluster=false
     }
-          "." -> "packs/agile_landscape" [ color=darkgreen ]
-          "." -> "packs/books" [ color=darkgreen ]
-          "." -> "packs/contact" [ color=darkgreen ]
-          "." -> "packs/posts" [ color=darkgreen ]
-          "." -> "packs/rails_shims" [ color=darkgreen ]
-          "." -> "packs/root" [ color=darkgreen ]
-          "." -> "packs/services" [ color=darkgreen ]
-          "." -> "packs/speaking" [ color=darkgreen ]
-          "." -> "packs/taggable" [ color=darkgreen ]
-          "." -> "packs/tags" [ color=darkgreen ]
-          "packs/agile_landscape" -> "packs/backlinks" [ color=darkgreen ]
-          "packs/agile_landscape" -> "packs/contact" [ color=darkgreen ]
-          "packs/agile_landscape" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/agile_landscape" -> "packs/taggable" [ color=darkgreen ]
-          "packs/books" -> "packs/backlinks" [ color=darkgreen ]
-          "packs/books" -> "packs/contact" [ color=darkgreen ]
-          "packs/books" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/books" -> "packs/taggable" [ color=darkgreen ]
-          "packs/contact" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/posts" -> "packs/backlinks" [ color=darkgreen ]
-          "packs/posts" -> "packs/contact" [ color=darkgreen ]
-          "packs/posts" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/posts" -> "packs/taggable" [ color=darkgreen ]
-          "packs/root" -> "packs/books" [ color=darkgreen ]
-          "packs/root" -> "packs/contact" [ color=darkgreen ]
-          "packs/root" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/services" -> "packs/contact" [ color=darkgreen ]
-          "packs/services" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/speaking" -> "packs/contact" [ color=darkgreen ]
-          "packs/speaking" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/taggable" -> "packs/backlinks" [ color=darkgreen ]
-          "packs/taggable" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/tags" -> "packs/backlinks" [ color=darkgreen ]
-          "packs/tags" -> "packs/rails_shims" [ color=darkgreen ]
-          "packs/tags" -> "packs/taggable" [ color=darkgreen ]
+          "." -> "packs_userfacing/agile_landscape" [ color=darkgreen ]
+          "." -> "packs_userfacing/books" [ color=darkgreen ]
+          "." -> "packs_userfacing/contact" [ color=darkgreen ]
+          "." -> "packs_userfacing/posts" [ color=darkgreen ]
+          "." -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "." -> "packs_userfacing/root" [ color=darkgreen ]
+          "." -> "packs_userfacing/services" [ color=darkgreen ]
+          "." -> "packs_userfacing/speaking" [ color=darkgreen ]
+          "." -> "packs_utility/taggable" [ color=darkgreen ]
+          "." -> "packs_userfacing/tags" [ color=darkgreen ]
+          "packs_userfacing/agile_landscape" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/agile_landscape" -> "packs_utility/backlinks" [ color=darkgreen ]
+          "packs_userfacing/agile_landscape" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/agile_landscape" -> "packs_utility/taggable" [ color=darkgreen ]
+          "packs_userfacing/books" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/books" -> "packs_utility/backlinks" [ color=darkgreen ]
+          "packs_userfacing/books" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/books" -> "packs_utility/taggable" [ color=darkgreen ]
+          "packs_userfacing/contact" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/posts" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/posts" -> "packs_utility/backlinks" [ color=darkgreen ]
+          "packs_userfacing/posts" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/posts" -> "packs_utility/taggable" [ color=darkgreen ]
+          "packs_userfacing/root" -> "packs_userfacing/books" [ color=darkgreen ]
+          "packs_userfacing/root" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/root" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/services" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/services" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/speaking" -> "packs_userfacing/contact" [ color=darkgreen ]
+          "packs_userfacing/speaking" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/tags" -> "packs_utility/backlinks" [ color=darkgreen ]
+          "packs_userfacing/tags" -> "packs_utility/rails_shims" [ color=darkgreen ]
+          "packs_userfacing/tags" -> "packs_utility/taggable" [ color=darkgreen ]
+          "packs_utility/taggable" -> "packs_utility/backlinks" [ color=darkgreen ]
+          "packs_utility/taggable" -> "packs_utility/rails_shims" [ color=darkgreen ]
   subgraph cluster_teams_legend {
     fontsize=16
     label="Team Colors"

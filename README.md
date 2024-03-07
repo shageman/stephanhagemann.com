@@ -37,7 +37,7 @@ dot packs.dot -Tpng -o packs.png && open packs.png
 
 ### Importing new Agile Landscape data
 
-Create a new version of the source data in <https://docs.google.com/spreadsheets/d/10tSoXkNMRWGEDboGZrYasxc8Ak_YIscgTjnP1pmnRLI/edit#gid=0> and use the JSON tab to grab a json representation. Put that in `packs/agile_landscape/lib/tasks/agile_landscape_raw.json`. Then run 
+Create a new version of the source data in <https://docs.google.com/spreadsheets/d/10tSoXkNMRWGEDboGZrYasxc8Ak_YIscgTjnP1pmnRLI/edit#gid=0> and use the JSON tab to grab a json representation. Put that in `packs_userfacing/agile_landscape/lib/tasks/agile_landscape_raw.json`. Then run 
 
 ```
 rake agile_landscape:etl

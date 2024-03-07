@@ -38,16 +38,16 @@ set -e\n\n
 "
 
 {
-  "packs/agile_landscape" => "agile_landscape",
-  "packs/backlinks" => nil,
-  "packs/books" => "books",
-  "packs/contact" => "contact",
-  "packs/posts" => "posts",
-  "packs/rails_shims" => nil,
-  "packs/root" => "",
-  "packs/services" => "services",
-  "packs/speaking" => "speaking",
-  "packs/tags" => "tags",
+  "packs_userfacing/agile_landscape" => "agile_landscape",
+  "packs_utility/backlinks" => nil,
+  "packs_userfacing/books" => "books",
+  "packs_userfacing/contact" => "contact",
+  "packs_userfacing/posts" => "posts",
+  "packs_utility/rails_shims" => nil,
+  "packs_userfacing/root" => "",
+  "packs_userfacing/services" => "services",
+  "packs_userfacing/speaking" => "speaking",
+  "packs_userfacing/tags" => "tags",
 }.each do |pack_name, path|
   packs_to_delete = deps_to_delete_by_name[pack_name] - ["."] - [pack_name]
   result += "\n\n\n"

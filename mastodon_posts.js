@@ -4,7 +4,7 @@ const unionBy = require('lodash/unionBy')
 require('dotenv').config()
 const fsPromises = require("fs/promises");
 
-const COLD_STORAGE_FILE_PATH = 'packs/posts/app/models/posts/cold_storage/mastodon_posts.json'
+const COLD_STORAGE_FILE_PATH = 'packs_userfacing/posts/app/models/posts/cold_storage/mastodon_posts.json'
 const CACHE_FILE_PATH_MINE = '_cache/mastodon_posts.json'
 const API = 'https://ruby.social/api'
 

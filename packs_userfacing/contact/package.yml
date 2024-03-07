@@ -3,6 +3,6 @@ enforce_dependencies: strict
 enforce_privacy: strict
 
 dependencies:
-- packs/rails_shims
+- packs_utility/rails_shims
 
 layer: userfacing

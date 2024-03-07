@@ -9,14 +9,14 @@
     # enforce_privacy: strict
     #
     # dependencies:
-    # - packs/agile_landscape
-    # - packs/books
-    # - packs/contact
-    # - packs/posts
-    # - packs/rails_shims
-    # - packs/root
-    # - packs/services
-    # - packs/speaking
-    # - packs/tags
+    # - packs_userfacing/agile_landscape
+    # - packs_userfacing/books
+    # - packs_userfacing/contact
+    # - packs_userfacing/posts
+    # - packs_utility/rails_shims
+    # - packs_userfacing/root
+    # - packs_userfacing/services
+    # - packs_userfacing/speaking
+    # - packs_userfacing/tags
     #
     # layer: application_harness

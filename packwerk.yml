@@ -12,7 +12,8 @@
 # Patterns to find package configuration files
 package_paths: 
 - .
-- packs/*
+- packs_userfacing/*
+- packs_utility/*
 
 # List of custom associations, if any
 # custom_associations:

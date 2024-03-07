@@ -1,3 +1,4 @@
 pack_paths: 
 - .
-- packs/*
+- packs_userfacing/*
+- packs_utility/*
