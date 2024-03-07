@@ -6,4 +6,4 @@ dependencies:
 - packs/backlinks
 - packs/rails_shims
 
-layer: userfacing
+layer: utility

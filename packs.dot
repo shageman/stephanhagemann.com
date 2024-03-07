@@ -137,19 +137,6 @@ digraph package_diagram {
               >
           ]
         
-        "packs/taggable" [
-            fontsize=12.0
-            label= <
-                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
-                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
-                    <tr> <td port='private'> packs/taggable </td> </tr>
-                  </table>
-                  </td></tr>
-                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, R: 0, T: 0</td></tr>
-                  </table>
-              >
-          ]
-        
         "packs/tags" [
             fontsize=12.0
             label= <
@@ -171,7 +158,6 @@ digraph package_diagram {
               "." -> "packs/root" [ style=invis ]
               "." -> "packs/services" [ style=invis ]
               "." -> "packs/speaking" [ style=invis ]
-              "." -> "packs/taggable" [ style=invis ]
               "." -> "packs/tags" [ style=invis ]
     subgraph utility {
       shape=box
@@ -206,6 +192,19 @@ digraph package_diagram {
               >
           ]
         
+        "packs/taggable" [
+            fontsize=12.0
+            label= <
+                <table border='0' cellborder='1' cellspacing='0' cellpadding='16'><tr><td>
+                  <table border='0' cellborder='1' cellspacing='0' cellpadding='4'>
+                    <tr> <td port='private'> packs/taggable </td> </tr>
+                  </table>
+                  </td></tr>
+                  <tr><td CELLPADDING='1' ALIGN='RIGHT'>D: 0, R: 0, T: 0</td></tr>
+                  </table>
+              >
+          ]
+        
     }
               "packs/agile_landscape" -> "packs/backlinks" [ style=invis ]
               "packs/books" -> "packs/backlinks" [ style=invis ]
@@ -214,7 +213,6 @@ digraph package_diagram {
               "packs/root" -> "packs/backlinks" [ style=invis ]
               "packs/services" -> "packs/backlinks" [ style=invis ]
               "packs/speaking" -> "packs/backlinks" [ style=invis ]
-              "packs/taggable" -> "packs/backlinks" [ style=invis ]
               "packs/tags" -> "packs/backlinks" [ style=invis ]
               "packs/agile_landscape" -> "packs/rails_shims" [ style=invis ]
               "packs/books" -> "packs/rails_shims" [ style=invis ]
@@ -223,8 +221,15 @@ digraph package_diagram {
               "packs/root" -> "packs/rails_shims" [ style=invis ]
               "packs/services" -> "packs/rails_shims" [ style=invis ]
               "packs/speaking" -> "packs/rails_shims" [ style=invis ]
-              "packs/taggable" -> "packs/rails_shims" [ style=invis ]
               "packs/tags" -> "packs/rails_shims" [ style=invis ]
+              "packs/agile_landscape" -> "packs/taggable" [ style=invis ]
+              "packs/books" -> "packs/taggable" [ style=invis ]
+              "packs/contact" -> "packs/taggable" [ style=invis ]
+              "packs/posts" -> "packs/taggable" [ style=invis ]
+              "packs/root" -> "packs/taggable" [ style=invis ]
+              "packs/services" -> "packs/taggable" [ style=invis ]
+              "packs/speaking" -> "packs/taggable" [ style=invis ]
+              "packs/tags" -> "packs/taggable" [ style=invis ]
     subgraph NotInLayer {
       shape=box
       color=darkgrey
