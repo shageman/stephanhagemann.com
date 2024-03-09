@@ -4,5 +4,6 @@ enforce_privacy: strict
 
 dependencies:
 - packs_utility/rails_shims
+- packs_utility/routable
 
 layer: userfacing

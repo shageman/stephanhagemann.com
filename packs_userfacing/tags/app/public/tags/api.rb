@@ -2,8 +2,7 @@
 class Tags::Api
   extend T::Sig
   extend Taggable::Api
-
-  ROUTE_FILE_NAME = "tags"
+  extend Routable
 
   # Entrypoint helper for tags: With tag param, get link to the tag's page. Otherwise, get list of all
   sig { override.params(name: T.nilable(String)).returns(String)}
@@ -36,5 +35,11 @@ class Tags::Api
   def self.chip_for(name)
     canonical_name = Tags::Tag.canonical_tag_name(name)
     ActionController::Base.helpers.link_to "#{canonical_name} (#{::Tags::Tag.tag_tally[canonical_name]})", ::Tags::Api.entrypoint_path(canonical_name)
+  end
+
+  # Return route file name
+  sig { override.returns(String) }
+  def self.route_file_name
+    "tags"
   end
 end

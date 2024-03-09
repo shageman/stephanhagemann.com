@@ -1,16 +1,19 @@
 # typed: strict
+
+require_relative "../packs_utility/routable/app/public/action_dispatch/routing/mapper/resources.rb"
+
 Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
-  draw(NavBar::Api::ROUTE_FILE_NAME) if defined?(NavBar::Api)
-  draw(Contact::Api::ROUTE_FILE_NAME) if defined?(Contact::Api)
-  draw(Tags::Api::ROUTE_FILE_NAME) if defined?(Tags::Api)
+  draw_routes_with_unsurprising_namespacing(-> { NavBar::Api }, ["/more"])
+  draw_routes_with_unsurprising_namespacing(-> { Contact::Api })
+  draw_routes_with_unsurprising_namespacing(-> { Tags::Api })
 
-  draw(Root::Api::ROUTE_FILE_NAME) if defined?(Root::Api)
+  draw_routes_with_unsurprising_namespacing(-> { Root::Api }, ["/"])
 
-  draw(AgileLandscape::Api::ROUTE_FILE_NAME) if defined?(AgileLandscape::Api)
-  draw(Books::Api::ROUTE_FILE_NAME) if defined?(Books::Api)
-  draw(Posts::Api::ROUTE_FILE_NAME) if defined?(Posts::Api)
-  draw(Services::Api::ROUTE_FILE_NAME) if defined?(Services::Api)
-  draw(Speaking::Api::ROUTE_FILE_NAME) if defined?(Speaking::Api)
+  draw_routes_with_unsurprising_namespacing(-> { AgileLandscape::Api })
+  draw_routes_with_unsurprising_namespacing(-> { Books::Api })
+  draw_routes_with_unsurprising_namespacing(-> { Posts::Api })
+  draw_routes_with_unsurprising_namespacing(-> { Services::Api })
+  draw_routes_with_unsurprising_namespacing(-> { Speaking::Api })
 end

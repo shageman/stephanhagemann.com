@@ -1,8 +1,7 @@
 # typed: strict
 class NavBar::Api
   extend T::Sig
-
-  ROUTE_FILE_NAME = "nav_bar"
+  extend Routable
 
   @@max_menu_items_before_more =  T.let(4, Integer)
 
@@ -22,5 +21,11 @@ class NavBar::Api
   sig { returns(Integer) }
   def self.max_menu_items_before_more
     @@max_menu_items_before_more
+  end
+
+  # Return route file name
+  sig { override.returns(String) }
+  def self.route_file_name
+    "nav_bar"
   end
 end

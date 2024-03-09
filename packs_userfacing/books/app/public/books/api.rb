@@ -1,8 +1,7 @@
 # typed: strict
 class Books::Api
   extend T::Sig
-
-  ROUTE_FILE_NAME = "books"
+  extend Routable
 
   # Without a param, exposes path helper to root of books pages. You can pass in the name of a book as a param.
   # If that name is found among the books, the link will be to that book. Otherwise, the link will
@@ -14,5 +13,11 @@ class Books::Api
     else
       Rails.application.routes.url_helpers.books_path
     end
+  end
+
+  # Return route file name
+  sig { override.returns(String) }
+  def self.route_file_name
+    "books"
   end
 end

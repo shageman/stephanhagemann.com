@@ -50,7 +50,7 @@ set -e\n\n
   "packs_utility/rails_shims" => nil,
   "packs_utility/taggable" => nil,
 }.each do |pack_name, path|
-  packs_to_delete = deps_to_delete_by_name[pack_name] - ["."] - [pack_name]
+  packs_to_delete = deps_to_delete_by_name[pack_name] - [".", pack_name, "packs_utility/routable"]
   result += "\n\n\n"
   result += "echo '\n\n>>> Checking isolation of #{pack_name}'\n"
   result += "pkill -f puma || true\n"
