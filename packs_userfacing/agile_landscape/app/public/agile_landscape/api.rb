@@ -2,7 +2,7 @@
 class AgileLandscape::Api
   extend T::Sig
 
-  ROUTE_FILE_NAME = "agile_landscapes"
+  ROUTE_FILE_NAME = "agile_landscape"
 
   # Entrypoint helper for the agile landscape project
   sig { returns(String) }
