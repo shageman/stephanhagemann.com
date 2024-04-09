@@ -14,10 +14,10 @@ pre-commit:
   commands:
     structure-validate-config:
       glob: '*'
-      run: echo {all_files} > /dev/null && pks validate
+      run: echo {all_files} > /dev/null && pks -e validate
     structure-check:
       glob: '*'
-      run: echo {all_files} > /dev/null && pks check
+      run: echo {all_files} > /dev/null && pks -e check
     structure-visualize:
       glob: '*'
       run: echo {all_files} > /dev/null && visualize_packs --no-legend --title="Package Structure"> packs.dot && git diff --exit-code --quiet "packs.dot"
