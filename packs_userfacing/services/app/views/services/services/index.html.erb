@@ -15,7 +15,7 @@
 <h2>Book Clubs for Gradual Modularization for Ruby and Rails</h2>
 
 <p>
-  <a href="/books/gradual-modularization">Let's read the book together, discuss its themes, and their applicability for your organization!</a>
+  <a href="<%= Books::Api.entrypoint_path('gradual-modularization') %>">Let's read the book together, discuss its themes, and their applicability for your organization!</a>
 </p>
 
 <h2>Software Modularization Talks and Consulting</h2>
@@ -27,7 +27,7 @@
   talks</a> on the subject. This can be combined well with consulting specific to the situation you are in right now.
 </p>
 <p>
-  <a href="/contact/?subject=Services+Inquiry">Ask me to talk to your team!</a>
+  <a href="<%= Contact::Api.entrypoint_path('Services Inquiry') %>">Ask me to talk to your team!</a>
 </p>
 
 <h3>Some testimonials</h3>
@@ -55,7 +55,7 @@
   fix this over time. Let’s dig in to the details of your application and find a way forward!
 </p>
 <p>
-  <a href="/contact/?subject=Services+Inquiry">Let's take an honest look at your application together!</a>
+  <a href="<%= Contact::Api.entrypoint_path('Services Inquiry') %>">Let's take an honest look at your application together!</a>
 </p>
 
 </section>

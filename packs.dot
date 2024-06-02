@@ -290,6 +290,7 @@ digraph package_diagram {
           "packs_userfacing/root" -> "packs_userfacing/contact" [ color=darkgreen ]
           "packs_userfacing/root" -> "packs_utility/rails_shims" [ color=darkgreen ]
           "packs_userfacing/root" -> "packs_utility/routable" [ color=darkgreen ]
+          "packs_userfacing/services" -> "packs_userfacing/books" [ color=darkgreen ]
           "packs_userfacing/services" -> "packs_userfacing/contact" [ color=darkgreen ]
           "packs_userfacing/services" -> "packs_utility/rails_shims" [ color=darkgreen ]
           "packs_userfacing/services" -> "packs_utility/routable" [ color=darkgreen ]
