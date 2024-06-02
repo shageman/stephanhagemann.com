@@ -281,6 +281,7 @@ digraph package_diagram {
           "packs_userfacing/books" -> "packs_utility/taggable" [ color=darkgreen ]
           "packs_userfacing/contact" -> "packs_utility/rails_shims" [ color=darkgreen ]
           "packs_userfacing/contact" -> "packs_utility/routable" [ color=darkgreen ]
+          "packs_userfacing/posts" -> "packs_userfacing/books" [ color=darkgreen ]
           "packs_userfacing/posts" -> "packs_userfacing/contact" [ color=darkgreen ]
           "packs_userfacing/posts" -> "packs_utility/backlinks" [ color=darkgreen ]
           "packs_userfacing/posts" -> "packs_utility/rails_shims" [ color=darkgreen ]

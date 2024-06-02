@@ -3,6 +3,7 @@ enforce_dependencies: strict
 enforce_privacy: strict
 
 dependencies:
+- packs_userfacing/books
 - packs_userfacing/contact
 - packs_utility/backlinks
 - packs_utility/rails_shims
