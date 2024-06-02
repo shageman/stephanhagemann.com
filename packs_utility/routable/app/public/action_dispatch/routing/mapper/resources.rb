@@ -15,7 +15,7 @@ module  ActionDispatch::Routing::Mapper::Resources
       return
     end
 
-    Kernel.puts "#{routeable.()} is defined"
+    # Kernel.puts "#{routeable.()} is defined"
     all_defined_routes_before = Rails.application.routes.routes.map { _1.path.spec.to_s }
     original_draw(routeable.().route_file_name)
     all_defined_routes_after = Rails.application.routes.routes.map { _1.path.spec.to_s }
