@@ -29,10 +29,10 @@ dot packs.dot -Tpng -o packs.png && open packs.png
 
 ### Verify structural independence
 
-`pks` can prove quite a bit about the separateness or entanglement of packages (learn more at https://gradualmodularization.com or https://github.com/orgs/rubyatscale/repositories). This codebase has all enforcements set to true (strict where possible) and doesn't allow for exceptions. That said, `pks` can't prove that a package can operate independently from other packages that it does not depend on because their might be relationships that `pks` can't see (metaprogramming!). To verify the structural independence of packages as implied by their dependency graph, run the below command. The first part creates a shell script that will loop over all the packages and *delete* for each package all packages that it doesn't depend on and then execute tests to verify that the remaining app still works.
+`pks` can prove quite a bit about the separateness or entanglement of packages (learn more at https://gradualmodularization.com or https://github.com/orgs/rubyatscale/repositories). This codebase has all enforcements set to true (strict where possible) and doesn't allow for exceptions. That said, `pks` can't prove that a package can operate independently from other packages that it does not depend on because their might be relationships that `pks` can't see (metaprogramming!). To verify the structural independence of packages as implied by their dependency graph, run the below command. The script will loop over all the packages and *delete* for each package all packages that it doesn't depend on and then execute tests to verify that the remaining app still works.
 
 ```
-./isolation_checker_script_creator.sh && chmod +x test_isolation.sh && ./test_isolation.sh
+./isolation_checker.sh
 ```
 
 ### Importing new Agile Landscape data
