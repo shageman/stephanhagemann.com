@@ -2,4 +2,7 @@ enforce_architecture: strict
 enforce_dependencies: strict
 enforce_privacy: strict
 
+dependencies:
+- packs_utility/routable
+
 layer: utility

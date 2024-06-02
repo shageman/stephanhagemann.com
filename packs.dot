@@ -301,6 +301,7 @@ digraph package_diagram {
           "packs_userfacing/tags" -> "packs_utility/rails_shims" [ color=darkgreen ]
           "packs_userfacing/tags" -> "packs_utility/routable" [ color=darkgreen ]
           "packs_userfacing/tags" -> "packs_utility/taggable" [ color=darkgreen ]
+          "packs_utility/backlinks" -> "packs_utility/routable" [ color=darkgreen ]
           "packs_utility/rails_shims" -> "packs_utility/routable" [ color=darkgreen ]
           "packs_utility/taggable" -> "packs_utility/backlinks" [ color=darkgreen ]
           "packs_utility/taggable" -> "packs_utility/rails_shims" [ color=darkgreen ]
