@@ -54,7 +54,6 @@ web_paths_for_deletion_testing = {
   "packs_userfacing/tags" => "tags",
   "packs_utility/backlinks" => false,
   "packs_utility/rails_shims" => false,
-  "packs_utility/routable" => false,
   "packs_utility/taggable" => false,
 }
 packages_to_test = deps_to_delete_by_name.keys

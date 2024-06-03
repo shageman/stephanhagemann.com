@@ -8,6 +8,11 @@ GIT
       rack-test
       thor
 
+PATH
+  remote: gems
+  specs:
+    unsurprisingly_drawable (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -303,6 +308,7 @@ DEPENDENCIES
   rubocop-packs
   sorbet-static-and-runtime
   tapioca
+  unsurprisingly_drawable!
   visualize_packs
   web-console
 

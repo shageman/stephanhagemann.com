@@ -23,3 +23,7 @@ gem "sorbet-static-and-runtime", require: false
 gem "tapioca", require: false
 gem "visualize_packs", require: false
 gem "web-console", require: false
+
+path "gems" do
+  gem "unsurprisingly_drawable"
+end

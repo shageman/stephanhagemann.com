@@ -12,7 +12,6 @@ dependencies:
 - packs_userfacing/speaking
 - packs_userfacing/tags
 - packs_utility/rails_shims
-- packs_utility/routable
 - packs_utility/taggable
 
 layer: application_harness

@@ -1,7 +1,7 @@
 # typed: strict
 class Posts::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Entrypoint helper for posts. Get index of all posts or, wtih param, get post page
   sig { params(post_slug: T.nilable(String)).returns(String) }

@@ -1,7 +1,7 @@
 # typed: strict
 class NavBar::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   @@max_menu_items_before_more =  T.let(4, Integer)
 

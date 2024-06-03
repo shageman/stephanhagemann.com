@@ -1,7 +1,7 @@
 # typed: strict
 class Contact::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Exposes path helper to root of contact page. You can pass in a subject as a param
   sig { params(subject: String).returns(String) }

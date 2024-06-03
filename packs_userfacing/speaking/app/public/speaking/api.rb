@@ -1,7 +1,7 @@
 # typed: strict
 class Speaking::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Entrypoint helper for speaking
   sig { returns(String) }

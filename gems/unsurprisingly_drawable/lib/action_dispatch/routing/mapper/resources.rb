@@ -6,12 +6,12 @@ module  ActionDispatch::Routing::Mapper::Resources
   alias_method :original_draw, :draw
 
   #new access to draw method
-  sig {params(routeable: T.proc.returns(Routable), expected_outside_routes: T::Array[String]).void}
+  sig {params(routeable: T.proc.returns(UnsurprisinglyDrawable::Routable), expected_outside_routes: T::Array[String]).void}
   def draw_routes_with_unsurprising_namespacing(routeable, expected_outside_routes = [])
     begin
       routeable.()
     rescue NameError
-      Kernel.puts "Skipping route creation for #{routeable}. Constant not defined."
+      # Kernel.puts "Skipping route creation for #{routeable}. Constant not defined."
       return
     end
 

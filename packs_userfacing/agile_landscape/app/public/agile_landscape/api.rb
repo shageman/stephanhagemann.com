@@ -1,7 +1,7 @@
 # typed: strict
 class AgileLandscape::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Entrypoint helper for the agile landscape project
   sig { returns(String) }

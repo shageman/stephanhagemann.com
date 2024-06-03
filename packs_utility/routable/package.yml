@@ -1,5 +1,0 @@
-enforce_architecture: strict
-enforce_dependencies: strict
-enforce_privacy: strict
-
-layer: utility

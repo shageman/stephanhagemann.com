@@ -1,6 +1,6 @@
 # typed: strict
 
-require_relative "../packs_utility/routable/app/public/action_dispatch/routing/mapper/resources.rb"
+UnsurprisinglyDrawable::Routable::Api.register!
 
 Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check

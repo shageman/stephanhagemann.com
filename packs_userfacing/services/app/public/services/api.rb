@@ -1,7 +1,7 @@
 # typed: strict
 class Services::Api
   extend T::Sig
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Entrypoint helper
   sig { returns(String) }

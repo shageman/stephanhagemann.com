@@ -6,6 +6,5 @@ dependencies:
 - packs_userfacing/books
 - packs_userfacing/contact
 - packs_utility/rails_shims
-- packs_utility/routable
 
 layer: userfacing

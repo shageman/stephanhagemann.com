@@ -2,7 +2,7 @@
 class Tags::Api
   extend T::Sig
   extend Taggable::Api
-  extend Routable
+  extend UnsurprisinglyDrawable::Routable
 
   # Entrypoint helper for tags: With tag param, get link to the tag's page. Otherwise, get list of all
   sig { override.params(name: T.nilable(String)).returns(String)}
