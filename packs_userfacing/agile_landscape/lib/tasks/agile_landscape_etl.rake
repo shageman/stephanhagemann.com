@@ -1,3 +1,4 @@
+# typed: strict
 require "json"
 
 namespace :agile_landscape do

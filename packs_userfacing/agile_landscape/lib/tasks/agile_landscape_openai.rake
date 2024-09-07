@@ -1,3 +1,4 @@
+# typed: strict
 require "net/http"
 require "json"
 
