@@ -3,8 +3,13 @@ enforce_dependencies: strict
 enforce_privacy: strict
 
 dependencies:
+- packs_userfacing/agile_landscape
 - packs_userfacing/books
 - packs_userfacing/contact
+- packs_userfacing/posts
+- packs_userfacing/services
+- packs_userfacing/speaking
+- packs_userfacing/tags
 - packs_utility/rails_shims
 
 layer: userfacing
